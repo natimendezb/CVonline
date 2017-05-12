@@ -5,12 +5,15 @@
     <title>
         Natalia Méndez | Diseñadora de Imagen y sonido
     </title>
+    <script type="text/javascript" src="js/acciones.js">
+    </script>
     <meta charset="utf-8">
     <meta title="Natalia Méndez">
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700|Titillium+Web:600,700');
     </style>
+    
 </head>
     
 <body>
@@ -19,30 +22,39 @@
             <div>
                 <nav>
                     <ul>
-                        <li class="header">
-                            <a href="#perfil" title="Perfil" href="#Perfil" title="Perfil">
-                                <img src="img/iconoperfil.png" alt="Perfil" title="Perfil">
-                                <p class="titulo_menu">Perfil</p>
-                            </a>
-                        </li>
-                        <li class="header">
-                           <a href="#conocimientos_formacion" title="Conocimientos y formación">
-                                <img src="img/iconoconocimientos.png" alt="Conocimientos y formación" title="Conocimientos y formación">
-                                <p class="titulo_menu">Conocimientos y formación</p>
-                            </a>
-                        </li>
-                        <li class="header">
-                            <a href="#proyectos" title="Proyectos">
-                                <img src="img/iconoproyectos.png" alt="Proyectos" title="Proyectos">
-                                <p class="titulo_menu">Proyectos</p>
-                            </a>
-                        </li>
-                        <li class="header">
-                            <a href="#portfolio" title="Portfolio">
-                                <img src="img/iconoportfolio.png" alt="Portfolio" title="Portfolio">
-                                <p class="titulo_menu">Portfolio</p>
-                            </a>
-                        </li>
+                        <div id="header_izquierda">
+                            <li class="header">
+                                <a href="#perfil" title="Perfil" href="#Perfil" title="Perfil" onclick="cambio_titulo('PERFIL')">
+                                    <img src="img/iconoperfil.png" alt="Perfil" title="Perfil" >
+                                    <p class="titulo_menu">Perfil</p>
+                                </a>
+                            </li>
+                            <li class="header">
+                               <a href="#conocimientos_formacion" title="Conocimientos y formación" onclick="cambio_titulo('CONOCIMIENTOS')">
+                                    <img src="img/iconoconocimientos.png" alt="Conocimientos y formación" title="Conocimientos y formación">
+                                    <p class="titulo_menu">Conocimientos y formación</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div id="contenedor_titulo">
+                            <p id="titulo_seccion">
+                                PERFIL
+                            </p>
+                        </div>
+                        <div id="header_derecha">
+                            <li class="header">
+                                <a href="#proyectos" title="Proyectos" onclick="cambio_titulo('PROYECTOS')">
+                                    <img src="img/iconoproyectos.png" alt="Proyectos" title="Proyectos">
+                                    <p class="titulo_menu">Proyectos</p>
+                                </a>
+                            </li>
+                            <li class="header">
+                                <a href="#portfolio" title="Portfolio" onclick="cambio_titulo('PORTFOLIO')">
+                                    <img src="img/iconoportfolio.png" alt="Portfolio" title="Portfolio">
+                                    <p class="titulo_menu">Portfolio</p>
+                                </a>
+                            </li>
+                        </div>
                     </ul>
                 </nav>
             </div>
