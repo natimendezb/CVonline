@@ -95,6 +95,7 @@ header{
     left: 0;
     top: 0;
     position: fixed;
+    z-index: 2;
 }
 
 header nav{
@@ -248,29 +249,41 @@ ul.conocimientos figcaption{
     margin-top: 1.2em;
 }
 
-#ul_formacion{
-    margin-left: 7em;
-    margin-right: 7em;
-    margin-top: 1em;
-    border-left-style: solid;
+#timeline {
+    position: relative;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    z-index: 1;
 }
 
-#ul_formacion li{
-    font-family: 'robotolight', sans-serif;
-    font-size: 1.1em;
-    text-align: left;
-    padding-left: 1.1em;
+#timeline::before {
+    /* línea vertical */
+    content: '';
+    position: absolute;
+    top: 0em;
+    height: 80%;
+    width: 0.4em;
+    background: rgba(247, 247, 247, 0.42);
 }
 
-#ul_formacion li span{
-    font-family: 'robotomedium', sans-serif;
-    font-size: 1.1em;
+div.circulo_gris{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: #ffffff; 
 }
 
-#ul_formacion p{
-    display: none;
+div.circulo_gris_idiomas{
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    background: #ffffff; 
 }
 
+div.timeline_block_circulo{
+    display: flex;
+    justify-content: center;
+}
 /* MAIN */
 
 
