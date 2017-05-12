@@ -114,7 +114,7 @@ li.header{
     padding-right: 4em;
 }
 
-p.título_menú{
+p.titulo_menu{
     display: none;
 }
 
@@ -131,30 +131,30 @@ li.header img:active {
 
 /* Perfil - Presentación */
 
-#Perfil{
+#perfil{
     padding-top: 6em;
     background-color: #f7f7f7;
     border-bottom: solid;
     border-color: black;
 }
 
-#Presentación{
+#presentacion{
     margin: 2.8em;
 }
 
-#Presentación h1{
+#presentacion h1{
     font-family: 'titillium_webbold', sans-serif;
     font-size: 3em;
     margin: auto;
 }
 
-#Presentación h2{
+#presentacion h2{
     font-family: 'robotolight', sans-serif;
     font-size: 1.5em;
     margin: auto;
 }
 
-#Presentación figure img{
+#presentacion figure img{
     margin: 3em;
     margin-bottom: 1em;
     height: auto;
@@ -162,12 +162,12 @@ li.header img:active {
     border-radius: 1.5em;
 }
 
-#Presentación figcaption p{
+#presentacion figcaption p{
     font-family: 'robotolight', sans-serif;
     font-size: 0.9em;
 }
 
-#Presentación h3{
+#presentacion h3{
     font-family: 'robotolight', sans-serif;
     font-size: 1.3em;
     margin: auto;
@@ -176,7 +176,7 @@ li.header img:active {
 
 /* Perfil - Datos */
 
-#Datos nav{
+#datos nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -185,16 +185,15 @@ li.header img:active {
     padding-right: 5em;
 }
 
-#Datos a{
+#datos a{
     font-family: 'robotolight', sans-serif;
     font-size: 1.9em;
     margin-bottom: 1.5em;
-    
 }
 
 /* Conocimientos */
 
-#Conocimientos_Formación{
+#conocimientos_formacion{
     padding-top: 6em;
     background-color: #343434;
     border-bottom-style: solid;
@@ -202,69 +201,75 @@ li.header img:active {
     border-color: black;
 }
 
-#Conocimientos_Formación h2{
+#conocimientos_formacion h2{
     font-family: 'titillium_webbold', sans-serif;
     font-size: 2em;
     padding: 0.8em;
     padding-bottom: 0em;
 }
 
-ul.Conocimientos{
+ul.conocimientos{
     display: inline-block;
     text-align: left;
     margin-top: 2em;
 }
 
-ul.Conocimientos li figure{
+ul.conocimientos li figure{
     display:inline-flex;  
     align-items: center;
 }
 
-ul.Conocimientos figcaption{
+ul.conocimientos figcaption{
     padding-left: 1em;
     font-family: 'robotoregular', sans-serif;
-    font-size: 2.1em;
+    font-size: 2.5em;
 }
 
-#Conocimientos_Formación h3{
+#conocimientos_formacion h3{
     font-family: 'robotoregular', sans-serif;
     font-size: 1em;
     margin-top: 1em;
 }
 
-#Experiencia{
+#experiencia{
     display: inline-block;
     text-align: left;
 }
 
-#Experiencia li{
-    margin: 0.8em;
+#experiencia li{
+    margin: 0.5em;
     font-family: 'robotolight', sans-serif;
-    font-size: 2.1em;
+    font-size: 2.5em;
 }
 
 /* Formación */
 
-#Formación{
+#formacion{
     margin-top: 1.2em;
 }
 
-#Ul_Formación{
+#ul_formacion{
     margin-left: 7em;
     margin-right: 7em;
+    margin-top: 1em;
+    border-left-style: solid;
 }
 
-#Ul_Formación li{
+#ul_formacion li{
     font-family: 'robotolight', sans-serif;
     font-size: 1.1em;
-    padding:0.8em;
+    text-align: left;
+    padding-left: 1.1em;
 }
 
-#Ul_Formación li span{
+#ul_formacion li span{
     font-family: 'robotomedium', sans-serif;
     font-size: 1.1em;
 }
 
+#ul_formacion p{
+    display: none;
+}
 
 /* MAIN */
 
