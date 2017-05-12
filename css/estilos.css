@@ -251,8 +251,8 @@ ul.conocimientos figcaption{
 
 #timeline {
     position: relative;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: 4em;
+    margin-bottom: 2.5em;
     z-index: 1;
 }
 
@@ -260,24 +260,42 @@ ul.conocimientos figcaption{
     /* línea vertical */
     content: '';
     position: absolute;
-    top: 0em;
-    height: 80%;
-    width: 0.4em;
-    background: rgba(247, 247, 247, 0.42);
+    top: 0.8em;
+    height: 78%;
+    width: 0.5em;
+    transform: translate(-50%);
+    background: #f7f7f7; 
 }
 
-div.circulo_gris{
-    width: 1.5em;
-    height: 1.5em;
+div.circulo_gris_fadu,
+div.circulo_gris_after,
+div.circulo_gris_idiomas,
+div.circulo_gris_ilse{
     border-radius: 50%;
-    background: #ffffff; 
+    background: #fff0f0;
+    z-index: 3;
+    top:0em;
 }
+
+div.circulo_gris_fadu{
+    width: 5em;
+    height: 5em;
+}
+
+div.circulo_gris_after{
+   width: 2.5em;
+    height: 2.5em;
+}
+
 
 div.circulo_gris_idiomas{
-    width: 1.2em;
-    height: 1.2em;
-    border-radius: 50%;
-    background: #ffffff; 
+   width: 1.5em;
+    height: 1.5em;
+}
+
+div.circulo_gris_ilse{
+    width: 4em;
+    height: 4em;
 }
 
 div.timeline_block_circulo{
