@@ -89,7 +89,7 @@ footer{
 
 /* HEADER */
 
-/*AGRANDAR EL ALTO Y LA TIPO ASÍ SE LEE BIEN EN EL TELÉFONO Y FUNCIONA EL TOUCH. VER CÓMO HACER QUE AL SCROLLEAR SE ACTUALICE EL HEADER.*/
+/*VER CÓMO HACER QUE AL SCROLLEAR SE ACTUALICE EL HEADER.*/
 
 header{
     background-color: #000000;
@@ -155,7 +155,7 @@ li.header img:active {
 }
 
 #presentacion{
-    margin: 2.8em;
+    margin: 3em;
 }
 
 #presentacion h1{
@@ -209,25 +209,17 @@ li.header img:active {
 
 /* Conocimientos */
 
-#conocimientos_formacion{
+#conocimientos{
     padding-top: 6em;
     background-color: #343434;
-    border-bottom-style: solid;
     border-top-style: solid;
     border-color: black;
-}
-
-#conocimientos_formacion h2{
-    font-family: 'titillium_webbold', sans-serif;
-    font-size: 2em;
-    padding: 0.8em;
-    padding-bottom: 0em;
 }
 
 ul.conocimientos{
     display: inline-block;
     text-align: left;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 ul.conocimientos li figure{
@@ -241,6 +233,9 @@ ul.conocimientos figcaption{
     font-size: 2.5em;
 }
 
+img.caras{
+    
+}
 #conocimientos_formacion h3{
     font-family: 'robotoregular', sans-serif;
     font-size: 1em;
@@ -261,7 +256,10 @@ ul.conocimientos figcaption{
 /* Formación */
 
 #formacion{
-    margin-top: 1.2em;
+    border-top-style: solid;
+    border-top-color: #343434;
+    margin: 0em;
+    background-color: #343434;
 }
 
 #timeline {
