@@ -92,7 +92,7 @@ footer{
 /*AGRANDAR EL ALTO Y LA TIPO ASÍ SE LEE BIEN EN EL TELÉFONO Y FUNCIONA EL TOUCH. VER CÓMO HACER QUE AL SCROLLEAR SE ACTUALICE EL HEADER. CAMBIAR COLOR CHROME A NEGRO*/
 
 header{
-    background-color: black;
+    background-color: #000000;
     width: 100%;
     left: 0;
     top: 0;
