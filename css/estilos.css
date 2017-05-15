@@ -275,25 +275,17 @@ div.doscaras{
     background-position: -53px;
 }
 
-#conocimientos_formacion h3{
-    font-family: 'robotoregular', sans-serif;
-    font-size: 1em;
-    margin-top: 1em;
+hr.divisor_categoria{
+    width: 80%;
+    margin: 1em 0em 1em 10%;
+    /*border: 2px dashed;*/
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.49), #ffb2b2, rgba(255, 255, 255, 0.49));
 }
-
-#experiencia{
-    display: inline-block;
-    text-align: left;
-}
-
-#experiencia li{
-    margin: 0.5em;
-    font-family: 'robotolight', sans-serif;
-    font-size: 2.5em;
-}
-
+        
+        
 /* Formación */
-
+        
 #formacion{
     border-top-style: solid;
     border-top-color: #343434;
