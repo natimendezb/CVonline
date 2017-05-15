@@ -148,31 +148,34 @@ li.header img:active {
 /* Perfil - Presentación */
 
 #perfil{
-    padding-top: 6em;
+    position: relative;
+    padding-top: 5vh;
     background-color: #f7f7f7;
     border-bottom: solid;
     border-color: black;
+    height: 100vh;
+    width: 100vw;
 }
 
 #presentacion{
-    margin: 3em;
+    margin: 0em 3em 0em 3em;
 }
 
 #presentacion h1{
     font-family: 'titillium_webbold', sans-serif;
-    font-size: 3em;
-    margin: auto;
+    font-size: 4em;
+    margin: 3em 1.5em 0.5em 1.5em;
+    line-height: 1.2em;
 }
 
 #presentacion h2{
     font-family: 'robotolight', sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: auto;
 }
 
 #presentacion figure img{
-    margin: 3em;
-    margin-bottom: 1em;
+    margin: 9em 3em 2em 3em;
     height: auto;
     width: auto;
     border-radius: 1.5em;
@@ -186,11 +189,16 @@ li.header img:active {
 #presentacion h3{
     font-family: 'robotolight', sans-serif;
     font-size: 1.3em;
-    margin: auto;
-    margin-top: 1em;
+    margin: 3em;
 }
 
 /* Perfil - Datos */
+
+#datos{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 #datos nav{
     display: flex;
@@ -208,6 +216,10 @@ li.header img:active {
 }
 
 /* Conocimientos */
+
+#conocimientosyformación{
+    height: 100vh;
+}
 
 #conocimientos{
     padding-top: 6em;
