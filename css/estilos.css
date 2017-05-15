@@ -196,7 +196,7 @@ li.header img:active {
 
 #datos{
     position: absolute;
-    bottom: 0;
+    bottom: 5vh;
     width: 100%;
 }
 
