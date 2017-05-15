@@ -218,14 +218,16 @@ li.header img:active {
 
 ul.conocimientos{
     width: 70%;
+    max-width: 70%;
     display: inline-block;
-    text-align: left;
     margin-top: 3em;
 }
 
 li.fila_conocimiento{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.7em;
 }
 
 ul.conocimientos li figure{
@@ -234,9 +236,26 @@ ul.conocimientos li figure{
 }
 
 ul.conocimientos figcaption{
-    padding-left: 1em;
+    padding-left: 0.6em;
     font-family: 'robotoregular', sans-serif;
     font-size: 2.5em;
+}
+
+div.unacara,
+div.doscaras,
+div.trescaras{
+    width: 149px;
+    height: 43px;
+    background-image: url("../img/3caras.png");
+    background-repeat: no-repeat;
+}
+
+div.unacara{
+    background-position: -105px;
+}
+
+div.doscaras{
+    background-position: -53px;
 }
 
 #conocimientos_formacion h3{
