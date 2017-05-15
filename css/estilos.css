@@ -217,9 +217,15 @@ li.header img:active {
 }
 
 ul.conocimientos{
+    width: 70%;
     display: inline-block;
     text-align: left;
     margin-top: 3em;
+}
+
+li.fila_conocimiento{
+    display: flex;
+    justify-content: space-between;
 }
 
 ul.conocimientos li figure{
@@ -233,9 +239,6 @@ ul.conocimientos figcaption{
     font-size: 2.5em;
 }
 
-img.caras{
-    
-}
 #conocimientos_formacion h3{
     font-family: 'robotoregular', sans-serif;
     font-size: 1em;
