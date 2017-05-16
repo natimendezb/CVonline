@@ -17,7 +17,7 @@
     
 </head>
     
-<body>
+<body onscroll="cambio_titulo_onscroll()">
     <div id="contenedor">
         <header>
             <div>
@@ -25,14 +25,14 @@
                     <ul>
                         <div id="header_izquierda">
                             <li class="header">
-                                <a href="#perfil" title="Perfil" href="#Perfil" title="Perfil" onclick="cambio_titulo('PERFIL')">
-                                    <img src="img/iconoperfil.png" alt="Perfil" title="Perfil" >
+                                <a href="#perfil" title="Perfil" href="#Perfil" title="Perfil" onclick="cambio_titulo_onclick('PERFIL')">
+                                    <img id="boton_perfil" src="img/iconoperfil.png" alt="Perfil" title="Perfil" >
                                     <p class="titulo_menu">Perfil</p>
                                 </a>
                             </li>
                             <li class="header">
-                               <a href="#conocimientos" title="Conocimientos" onclick="cambio_titulo('CONOCIMIENTOS')">
-                                    <img src="img/iconoconocimientos.png" alt="Conocimientos y formación" title="Conocimientos y formación">
+                               <a href="#conocimientos" title="Conocimientos" onclick="cambio_titulo_onclick('CONOCIMIENTOS')">
+                                    <img id="boton_conocimientos" src="img/iconoconocimientos.png" alt="Conocimientos y formación" title="Conocimientos y formación">
                                     <p class="titulo_menu">Conocimientos y formación</p>
                                 </a>
                             </li>
@@ -44,14 +44,14 @@
                         </div>
                         <div id="header_derecha">
                             <li class="header">
-                                <a href="#proyectos" title="Proyectos" onclick="cambio_titulo('PROYECTOS')">
-                                    <img src="img/iconoproyectos.png" alt="Proyectos" title="Proyectos">
+                                <a href="#proyectos" title="Proyectos" onclick="cambio_titulo_onclick('PROYECTOS')">
+                                    <img id="boton_proyectos" src="img/iconoproyectos.png" alt="Proyectos" title="Proyectos">
                                     <p class="titulo_menu">Proyectos</p>
                                 </a>
                             </li>
                             <li class="header">
-                                <a href="#portfolio" title="Portfolio" onclick="cambio_titulo('PORTFOLIO')">
-                                    <img src="img/iconoportfolio.png" alt="Portfolio" title="Portfolio">
+                                <a href="#portfolio" title="Portfolio" onclick="cambio_titulo_onclick('PORTFOLIO')">
+                                    <img id="boton_portfolio" src="img/iconoportfolio.png" alt="Portfolio" title="Portfolio">
                                     <p class="titulo_menu">Portfolio</p>
                                 </a>
                             </li>
@@ -95,7 +95,6 @@
             </section>
             <!--PERFIL-->
             <!--CONOCIMIENTOS-->
-            <div id="conocimientosyformacion">
                 <section id="conocimientos">
                     <nav id="nav_conocimientos">
                         <ul class="conocimientos">
@@ -126,7 +125,7 @@
                                 </figure>
                                 <div class="doscaras"></div>
                             </li>
-                            <hr class="divisor_categoria">
+                            <hr class="color_grosor divisor_categoria">
                             <li class="fila_conocimiento">
                                 <figure>
                                     <img src="img/iconophotoshop.png" title="Photoshop" alt="Photoshop">
@@ -145,7 +144,7 @@
                                 </figure>
                                 <div class="doscaras"></div>
                             </li>
-                            <hr class="divisor_categoria">
+                            <hr class="color_grosor divisor_categoria">
                             <li class="fila_conocimiento">
                                 <figure>
                                     <img src="img/icononuendo.png" title="Nuendo" alt="Nuendo">
@@ -155,7 +154,7 @@
                                 </figure>
                                 <div class="unacara"></div>
                             </li>
-                            <hr class="divisor_categoria">
+                            <hr class="color_grosor divisor_categoria">
                             <li class="fila_conocimiento">
                                 <figure>
                                     <img src="img/iconohtml.png" title="HTML5" alt="HTML5">
@@ -185,10 +184,10 @@
                             </li>
                         </ul>
                     </nav>
-                </section>
+                <hr class="color_grosor separador_subseccion">
                 <!--CONOCIMIENTOS-->
                 <!--FORMACIÓN-->
-                <section id="formacion">
+                <div id="formacion">
                     <div class="contenedor_timeline">
                         <div class="circulo_timeline">
                             <figure id="primera_esfera">
@@ -272,8 +271,8 @@
                             </p>
                         </div> 
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
             <!--FORMACIÓN-->
             <!--PROYECTOS-->
             <section id="proyectos">

@@ -218,15 +218,12 @@ li.header img:active {
 
 /* Conocimientos */
 
-#conocimientosyformacion{
-    height: 100vh;
-}
-
 #conocimientos{
     padding-top: 6em;
     background-color: #343434;
     border-top-style: solid;
     border-color: black;
+    height: 100vh;
 }
 
 ul.conocimientos{
@@ -272,21 +269,25 @@ div.doscaras{
     background-position: -53px;
 }
 
-hr.divisor_categoria{
-    width: 75%;
-    margin: 1em 0em 1em 12.5%;
-    /*border: 2px dashed;*/
+hr.color_grosor{
     height: 3px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.49), #ffb2b2, rgba(255, 255, 255, 0.49));
 }
+
+hr.divisor_categoria{
+    width: 75%;
+    margin: 1em 0em 1em 12.5%;
+    
+}
         
-        
+hr.separador_subseccion{
+    width: 80%;
+    margin-left: 10%;
+}        
 /* Formación */
 
 #formacion{
     position: relative;
-    border-top-style: solid;
-    border-top-color: #343434;
     background-color: #343434;
     z-index: 1;
     padding-bottom: 3em;
@@ -320,7 +321,7 @@ div.circulo_timeline{
 div.circulo_timeline figure{
     display: inline-flex;
     align-items: center;
-    transform: translate(25%);
+    transform: translate(26%);
 }
 
 figcaption.fecha{
@@ -330,20 +331,20 @@ figcaption.fecha{
 }
 
 #primera_esfera{
-    transform: translate(-25%);
+    transform: translate(-27%);
 }
 
 figcaption.fecha_izquierda{
     padding-right: 1.8em;
     font-family: "robotolight", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 div.contenido_timeline{
     position: relative;
     width: 40%;
     border-width: 0.1em;
-    border-color: #fff9eb;
+    border-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), #ffc2c2, rgba(255, 255, 255, 1)) 1 100%;
 }
 
 div.contenido_izquierda{
@@ -362,20 +363,20 @@ div.contenido_derecha{
 
 div.contenido_timeline h2{
     font-family: "robotobold", sans-serif;
-    font-size: 2.1em;
+    font-size: 2.4em;
     padding-bottom: 0.2em;
     line-height: 1.2em;
 }
 
 div.contenido_timeline h3{
     font-family: "robotolight", sans-serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
     padding-bottom: 0.4em;
 }
 
 div.contenido_timeline P{
     font-family: "robotolight", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 
