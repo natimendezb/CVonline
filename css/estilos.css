@@ -369,7 +369,7 @@ div.contenido_timeline P{
 #proyectos{
     background-color: #f7f7f7;
     z-index: 2;
-    padding-top: 6em;
+    padding-top: 11em;
     padding-bottom: 3em;
     border-bottom-style: solid;
     border-bottom-color: black;
@@ -386,6 +386,8 @@ div.contenido_timeline P{
 
 div.contenido_filas{
     display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 div.proyectos_izquierda{
@@ -419,33 +421,37 @@ div.proyectos_arriba{
 }
 
 
+.proyectos_datos_extra{
+    display: none;
+}
+
+
 div.proyectos_grandes{
     background-color: #adadad;
     color: #404040;
     padding-top: 16%;
     padding-bottom: 3%;
-    height: auto;
 }
 
 div.proyectos_grandes h4{
     font-family: "robotobold", sans-serif;
-    font-size: 1.8em;
+    font-size: 2.4em;
 }
 
 div.proyectos_grandes h5{
     font-family: "robotolight", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 
 div.proyectos_grandes h6{
     font-family: "robotolight", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
     margin-top: 5em;
 }
 
 div.proyectos_grandes p{
     font-family: "robotolight", sans-serif;
-    font-size: 1em;
+    font-size: 1.6em;
 }
 
 
@@ -459,25 +465,76 @@ div.proyectos_medianos{
 
 div.proyectos_medianos h4{
     font-family: "robotobold", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.7em;
 }
 
 div.proyectos_medianos h5{
     font-family: "robotolight", sans-serif;
-    font-size: 1em;
+    font-size: 1.6em;
 }
 
 div.proyectos_medianos h6{
     font-family: "robotolight", sans-serif;
-    font-size: 1em;
+    font-size: 1.6em;
     margin-top: 2em;
 }
 
 div.proyectos_medianos p{
     font-family: "robotolight", sans-serif;
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
+
+div.proyectos_chicos{
+    background-color: #cccccc;
+    color: #797979;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    width: 48%;
+}
+
+div.proyectos_chicos_alineados{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.proyectos_chicos h4{
+    font-family: "robotobold", sans-serif;
+    font-size: 1.4em;
+}
+
+div.proyectos_chicos h5{
+    font-family: "robotolight", sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 4.2em;
+}
+
+div.proyectos_chicos h6{
+    font-family: "robotolight", sans-serif;
+    font-size: 1.4em;
+
+}
+
+div.proyectos_chicos p{
+    font-family: "robotolight", sans-serif;
+    font-size: 1.3em;
+    width: 100%;
+    position: absolute;
+    bottom: 0.5em;
+    text-align: center;
+}
+
+#h6_paracaidas,
+#h6_enlalluvia{
+    padding: 0em 0.5em 0em 0.5em;
+    font-size: 1.8em;
+    margin-top: 3.7em;
+}
+
+#p_paracaidas,
+#p_enlalluvia{
+    font-size: 1.4em;
+}
 
 /* MAIN */
 
