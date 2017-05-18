@@ -34,22 +34,6 @@
 }
 
 @font-face {
-    font-family: 'robotomedium';
-    src: url('roboto-medium-webfont.woff2') format('woff2'),
-         url('roboto-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'robotomedium_italic';
-    src: url('roboto-mediumitalic-webfont.woff2') format('woff2'),
-         url('roboto-mediumitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'robotoregular';
     src: url('roboto-regular-webfont.woff2') format('woff2'),
          url('roboto-regular-webfont.woff') format('woff');
@@ -392,10 +376,10 @@ div.contenido_timeline P{
 }
 
 #contenedor_proyectos{
-    margin: 5em 4em 5em 4em;
+    margin-left: 10%;
+    margin-right: 10%;
     border-style: solid;
     border-color: black;
-    position: relative;
     width: 80%;
     height: auto;
 }
@@ -404,42 +388,95 @@ div.contenido_filas{
     display: flex;
 }
 
-div.proyectos_grandes{
-    width: 50%;
-    height: 100%;
-    background-color: azure;
-}
-
-div.proyectos_medianos{
-    width: 50%;
-    height: 50%;
-    background-color: beige;
-}
-
-div.proyectos_chicos{
-    width: 25%;
-    height: 50%;
-    background-color: bisque;
-}
-
 div.proyectos_izquierda{
+    width: 49%;
+    height: auto;
+    margin-right: 1%;
     position: relative;
-    float: left;
 }
 
 div.proyectos_derecha{
+    width: 49%;
+    height: auto;
+    margin-left: 1%;
     position: relative;
-    float: right;
 }
 
 div.proyectos_abajo{
+    height: 48%;
+    width: auto;
     position: absolute;
     bottom: 0;
+    width: 100%;
+}
+
+div.proyectos_arriba{
+    height: 48%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+div.proyectos_grandes{
+    background-color: #adadad;
+    color: #404040;
+    padding-top: 16%;
+    padding-bottom: 3%;
+    height: auto;
+}
+
+div.proyectos_grandes h4{
+    font-family: "robotobold", sans-serif;
+    font-size: 1.8em;
+}
+
+div.proyectos_grandes h5{
+    font-family: "robotolight", sans-serif;
+    font-size: 1.2em;
+}
+
+div.proyectos_grandes h6{
+    font-family: "robotolight", sans-serif;
+    font-size: 1.2em;
+    margin-top: 5em;
+}
+
+div.proyectos_grandes p{
+    font-family: "robotolight", sans-serif;
+    font-size: 1em;
 }
 
 
 
+div.proyectos_medianos{
+    background-color: #cccccc;
+    color: #797979;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
 
+div.proyectos_medianos h4{
+    font-family: "robotobold", sans-serif;
+    font-size: 1.2em;
+}
+
+div.proyectos_medianos h5{
+    font-family: "robotolight", sans-serif;
+    font-size: 1em;
+}
+
+div.proyectos_medianos h6{
+    font-family: "robotolight", sans-serif;
+    font-size: 1em;
+    margin-top: 2em;
+}
+
+div.proyectos_medianos p{
+    font-family: "robotolight", sans-serif;
+    font-size: 1em;
+}
 
 
 /* MAIN */
