@@ -12,6 +12,8 @@ function cambio_titulo_onscroll() {
         botonConocimientos.style.opacity = "1";
     var botonProyectos = document.getElementById("boton_proyectos");
         botonProyectos.style.opacity = "1";
+    var botonPortfolio = document.getElementById("boton_portfolio");
+        botonPortfolio.style.opacity = "1";
     
     if (pixelesScroll <= 1000) {
         cambio_titulo_onclick("PERFIL");
@@ -22,8 +24,13 @@ function cambio_titulo_onscroll() {
         botonConocimientos.style.opacity = "0.5";
         //document.getElementById("conocimientos").scrollIntoView();
     }
-    if (pixelesScroll > 3300) {
+    if (pixelesScroll > 3300 && pixelesScroll <= 5600) {
         cambio_titulo_onclick("PROYECTOS");
         botonProyectos.style.opacity = "0.5";
+    }
+    
+    if (pixelesScroll > 5600) {
+        cambio_titulo_onclick("PORTFOLIO");
+        botonPortfolio.style.opacity = "0.5";
     }
 }

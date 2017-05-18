@@ -267,6 +267,7 @@ hr.separador_subseccion{
 }        
 /* Formación */
 
+
 #formacion{
     position: relative;
     background-color: #343434;
@@ -308,7 +309,7 @@ div.circulo_timeline figure{
 }
 
 figcaption.fecha{
-    padding-left: 1.7em;
+    margin-left: 1.7em;
     font-family: "robotolight", sans-serif;
     font-size: 1.4em;
 }
@@ -318,7 +319,7 @@ figcaption.fecha{
 }
 
 figcaption.fecha_izquierda{
-    padding-right: 1.8em;
+    margin-right: 1.8em;
     font-family: "robotolight", sans-serif;
     font-size: 1.4em;
 }
@@ -338,8 +339,8 @@ div.contenido_izquierda{
 }
 
 div.contenido_derecha{
-    margin-left: 60%;
     border-right-style: solid;
+    margin-left: 60%;
     text-align: right;
     padding-right: 2em;
 }
@@ -488,8 +489,8 @@ div.proyectos_medianos p{
 
 
 div.proyectos_chicos{
-    background-color: #cccccc;
-    color: #797979;
+    background-color: #ebebeb;
+    color: #aaaaaa;
     padding-top: 5%;
     padding-bottom: 3%;
     width: 48%;
