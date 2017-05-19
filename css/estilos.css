@@ -65,7 +65,8 @@ main{
 }
 
 footer{
-    background-color: #e6e6e6;    
+    background-color: #000000; 
+    color:#aaaaaa;
 }
 
 /* GENERAL */
@@ -169,12 +170,6 @@ li.header img:active {
 #presentacion figcaption p{
     font-family: 'robotolight', sans-serif;
     font-size: 2em;
-}
-
-#presentacion h3{
-    font-family: 'robotolight', sans-serif;
-    font-size: 3em;
-    margin: 1em;
 }
 
 /* Perfil - Datos */
@@ -371,7 +366,7 @@ div.contenido_timeline P{
     background-color: #f7f7f7;
     z-index: 2;
     padding-top: 10em;
-    padding-bottom: 3em;
+    padding-bottom: 6em;
     border-bottom-style: solid;
     border-bottom-color: black;
 }
@@ -542,15 +537,57 @@ div.proyectos_chicos p{
     font-size: 1.4em;
 }
 
+
+
+/* Portfolio */
+
+#portfolio{
+    background-color: #343434;
+    z-index: 2;
+    padding-top: 12em;
+    padding-bottom: 6em;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+
+
+
+
+
+
 /* MAIN */
 
 
-
-
-
-
-
-
 /* FOOTER */
+
+#footer{
+    background-color: #000000;
+    border-top-style: solid;
+    border-top-color: black;
+    width: 100%;
+    height: auto;
+}
+
+#footer nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 2.5em 0em;
+}
+
+#footer nav ul li{
+    font-family: "robotolight", sans-serif;
+    font-size: 2em;
+}
+
+#footer nav ul li:first-child{
+    border-right-color: #aaaaaa;
+    border-right-style: solid;
+    padding-right: 0.5em;
+}
+
+#footer nav ul li:last-child{
+    padding-left: 0.5em;  
+}
 
 /* FOOTER */
