@@ -385,7 +385,9 @@ div.contenido_filas{
 }
 
 div.contenido_filas div{
-        border-radius: 1.5em;
+    border-radius: 1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div.proyectos_izquierda{
@@ -536,6 +538,32 @@ div.proyectos_chicos p{
 #p_enlalluvia{
     font-size: 1.4em;
 }
+
+
+#hacerfuego_proyectos{
+    background-image: url(../img/hacerfuego_proyectos.jpg);
+}
+
+#cactusenserie_proyectos{
+    background-image: url(../img/cactusenserie_proyectos.jpg);
+}
+
+#tiempoausente_proyectos{
+    background-image: url(../img/tiempoausente_proyectos.jpg);
+}
+
+#tourette_proyectos{
+    background-image: url(../img/tourette_proyectos.jpg);
+}
+
+#hacefeliz_proyectos{
+    background-image: url(../img/hacefelizaungato_proyectos.jpg);
+}
+
+#virus_proyectos{
+    background-image: url(../img/virus_proyectos.jpg);
+}
+
 
 
 
