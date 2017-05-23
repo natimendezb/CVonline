@@ -34,3 +34,17 @@ function cambio_titulo_onscroll() {
         botonPortfolio.style.opacity = "0.5";
     }
 }
+
+function publicarEdad() {
+    var pDeLaEdad = document.getElementById("edad");
+    var miEdadHoy = calculateAge();
+    
+    pDeLaEdad.innerHTML = miEdadHoy + " años";
+}
+
+function calculateAge() {
+    var birthday = new Date("1993-05-28");
+    var ageDifMs = Date.now() - birthday.getTime();
+    var ageDate = new Date(ageDifMs);
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+}

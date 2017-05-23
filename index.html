@@ -16,7 +16,7 @@
     </style>
 </head>
     
-<body onscroll="cambio_titulo_onscroll()">
+<body onscroll="cambio_titulo_onscroll()" onload="publicarEdad()">
     <div id="contenedor">
         <header>
             <div>
@@ -74,7 +74,7 @@
                     <figure>
                         <img src="img/fotocv.jpg" title="Natalia Méndez" alt="Natalia Méndez">
                         <figcaption>
-                            <p>28 / 05 /1993</p>
+                            <p id="edad"></p>
                         </figcaption>
                      </figure>
                 </div>
@@ -392,7 +392,7 @@
                     <div class="contenido_filas">
                         <div class="proyectos_izquierda">
                             <div class="proyectos_arriba">
-                                <div class="proyectos_medianos">
+                                <div class="proyectos_medianos" id="doblefantasia_proyectos">
                                     <h4>
                                         DOBLE FANTASÍA
                                     </h4>
@@ -413,7 +413,7 @@
                             </div>
                             <div class="proyectos_abajo">
                                 <div class="proyectos_chicos_alineados">
-                                    <div class="proyectos_izquierda proyectos_chicos">
+                                    <div class="proyectos_izquierda proyectos_chicos" id="seminario_proyectos">
                                         <h4>
                                             SEMINARIO ALBANO-LUGLI
                                         </h4>
@@ -427,7 +427,7 @@
                                             Laboral, 2014
                                         </p>
                                     </div>
-                                    <div class="proyectos_derecha proyectos_chicos">
+                                    <div class="proyectos_derecha proyectos_chicos" id="paraiso_proyectos">
                                         <h4>
                                             PARAÍSO
                                         </h4>
@@ -444,7 +444,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="proyectos_derecha proyectos_grandes">
+                        <div class="proyectos_derecha proyectos_grandes" id="paracaidas_proyectos">
                             <h4>
                                 PARACAÍDAS
                             </h4>
@@ -460,7 +460,7 @@
                         </div>
                     </div>
                     <div class="contenido_filas">
-                        <div class="proyectos_izquierda proyectos_grandes">
+                        <div class="proyectos_izquierda proyectos_grandes" id="enlalluvia_proyectos">
                             <h4>
                                 EN LA LLUVIA
                             </h4>
@@ -476,7 +476,7 @@
                         </div>
                         <div class="proyectos_derecha">
                             <div class="proyectos_arriba">
-                                <div class="proyectos_medianos">
+                                <div class="proyectos_medianos" id="suenaluz_proyectos">
                                     <h4>
                                         SUENA LUZ
                                     </h4>
@@ -493,7 +493,7 @@
                             </div>
                             <div class="proyectos_abajo">
                                 <div class="proyectos_chicos_alineados">
-                                    <div class="proyectos_izquierda proyectos_chicos">
+                                    <div class="proyectos_izquierda proyectos_chicos" id="voluntariado_proyectos">
                                         <h4>
                                             VOLUNTARIADO
                                         </h4>
@@ -507,7 +507,7 @@
                                             Personal, 2014-act
                                         </p>
                                     </div>
-                                    <div class="proyectos_derecha proyectos_chicos">
+                                    <div class="proyectos_derecha proyectos_chicos" id="dataentry_proyectos">
                                         <h4>
                                             DATA ENTRY
                                         </h4>
@@ -550,7 +550,18 @@
                                     <img src="img/hacefelizaungato_portfolio.jpg" title="Intro Hacé Feliz a un Gato" alt="Intro Hacé Feliz a un Gato">
                                 </a>
                                 <figcaption>
-                                    <a target="_blank" href=https://www.behance.net/gallery/47514743/Intro-Hac-Feliz-a-un-Gato>Introducción animada para videos online</a>
+                                    <a target="_blank" href=https://www.behance.net/gallery/47514743/Intro-Hac-Feliz-a-un-Gato>
+                                        Hacé Feliz a un Gato
+                                    </a>
+                                    <p>
+                                        Intro animada para videos online
+                                    </p>
+                                    <p>
+                                        Animación 2D
+                                    </p>
+                                    <p>
+                                        2017
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -560,7 +571,18 @@
                                     <img src="img/cactusenserie_portfolio.jpg" title="Cactus en serie" alt="Cactus en serie">
                                 </a>
                                 <figcaption>
-                                    <a target="_blank" href=https://www.behance.net/gallery/47515359/Cactus-en-serie>Cactus en serie</a>
+                                    <a target="_blank" href=https://www.behance.net/gallery/47515359/Cactus-en-serie>
+                                        Cactus en serie
+                                    </a>
+                                    <p>
+                                        Cortometraje animado
+                                    </p>
+                                    <p>
+                                        Animación y modelado 3D
+                                    </p>
+                                    <p>
+                                        2015
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -570,7 +592,18 @@
                                     <img src="img/hacerfuego_portfolio.jpg" title="Relato I: Hacer Fuego" alt="Relato I: Hacer Fuego">
                                 </a>
                                 <figcaption>
-                                    <a target="_blank" href=https://www.behance.net/gallery/47515555/Teaser-Relato-I-Hacer-fuegopara-Salvador-Rivera>Relato I: Hacer Fuego - Salvador Rivera</a>
+                                    <a target="_blank" href=https://www.behance.net/gallery/47515555/Teaser-Relato-I-Hacer-fuegopara-Salvador-Rivera>
+                                        Relato I: Hacer Fuego - Salvador Rivera
+                                    </a>
+                                    <p>
+                                        Teaser
+                                    </p>
+                                    <p>
+                                        Filmación y edición
+                                    </p>
+                                    <p>
+                                        2013
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -580,7 +613,18 @@
                                     <img src="img/paracaidas_portfolio.jpg" title="Paracaídas - Alados" alt="Paracaídas - Alados">
                                 </a>
                                 <figcaption>
-                                    <a target="_blank" href=https://www.behance.net/gallery/47515773/Videoclip-Paracaidas-para-Alados>Paracaídas - Alados</a>
+                                    <a target="_blank" href=https://www.behance.net/gallery/47515773/Videoclip-Paracaidas-para-Alados>
+                                        Paracaídas - Alados
+                                    </a>
+                                    <p>
+                                        Videoclip
+                                    </p>
+                                    <p>
+                                        Producción, filmación y edición
+                                    </p>
+                                    <p>
+                                        2013
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -590,7 +634,18 @@
                                     <img src="img/tourette_portfolio.jpg" title="Tourette" alt="Tourette">
                                 </a>
                                 <figcaption>
-                                    <a target="_blank" href=https://www.behance.net/gallery/47515193/Documental-Tourette>Tourette</a>   
+                                    <a target="_blank" href=https://www.behance.net/gallery/47515193/Documental-Tourette>
+                                        Tourette
+                                    </a>
+                                    <p>
+                                        Documental
+                                    </p>
+                                    <p>
+                                        Montaje y sonido
+                                    </p>
+                                    <p>
+                                        2015
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -600,7 +655,18 @@
                                     <img src="img/tiempoausente_portfolio.jpg" title="Tiempo ausente" alt="Tiempo ausente">
                                 </a>
                                 <figcaption>
-                                    <a target="_blank" href=https://www.behance.net/gallery/51647985/Tiempo-Ausente>Tiempo ausente</a>
+                                    <a target="_blank" href=https://www.behance.net/gallery/51647985/Tiempo-Ausente>
+                                        Tiempo ausente
+                                    </a>
+                                    <p>
+                                        Cortometraje
+                                    </p>
+                                    <p>
+                                        Producción y filmación
+                                    </p>
+                                    <p>
+                                        2014
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -610,7 +676,18 @@
                                     <img src="img/doblefantasia_portfolio.jpg" title="Doble Fantasía" alt="Doble Fantasía">
                                 </a>
                                 <figcaption>
-                                    <a target="_blank" href=https://www.behance.net/gallery/51648553/Doble-Fantasia-cortometraje-2012>Doble fantasía</a>
+                                    <a target="_blank" href=https://www.behance.net/gallery/51648553/Doble-Fantasia-cortometraje-2012>
+                                        Doble fantasía
+                                    </a>
+                                    <p>
+                                        Cortometraje
+                                    </p>
+                                    <p>
+                                        Sonido
+                                    </p>
+                                    <p>
+                                        2012
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -620,7 +697,18 @@
                                     <img src="img/enlalluvia_portfolio.jpg" title="En la lluvia" alt="En la lluvia">
                                 </a>
                                 <figcaption>
-                                    <a target="_blank" href=https://www.behance.net/gallery/52502557/En-la-lluvia>En la lluvia</a>
+                                    <a target="_blank" href=https://www.behance.net/gallery/52502557/En-la-lluvia>
+                                        En la lluvia
+                                    </a>
+                                    <p>
+                                        Cortometraje
+                                    </p>
+                                    <p>
+                                        Producción, filmación y edición
+                                    </p>
+                                    <p>
+                                        2015
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -630,7 +718,18 @@
                                     <img src="img/seminario_portfolio.jpg" title="Seminario Albano-Lugli" alt="Seminario Albano-Lugli">
                                 </a>
                                 <figcaption>
-                                    <a target="_blank" href=https://www.behance.net/gallery/47515977/Seminario-Albano-Lugli>Seminario Albano - Lugli</a>
+                                    <a target="_blank" href=https://www.behance.net/gallery/47515977/Seminario-Albano-Lugli>
+                                        Seminario Albano - Lugli
+                                    </a>
+                                    <p>
+                                        Teaser
+                                    </p>
+                                    <p>
+                                        Filmación y edición
+                                    </p>
+                                    <p>
+                                        2014
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -641,7 +740,17 @@
                                 </a>
                                 <figcaption>
                                     <a target="_blank" href=https://www.behance.net/gallery/47664753/Backstage-Paulo>
-                                    Backstage Paulo</a>
+                                        Backstage Paulo
+                                    </a>
+                                    <p>
+                                        Backstage
+                                    </p>
+                                    <p>
+                                        Filmación y edición
+                                    </p>
+                                    <p>
+                                        2014
+                                    </p>
                                 </figcaption>
                             </figure>
                         </div>

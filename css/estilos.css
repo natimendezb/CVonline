@@ -580,8 +580,37 @@ div.proyectos_chicos p{
     background-image: url(../img/virus_proyectos.jpg);
 }
 
+#doblefantasia_proyectos{
+    background-image: url(../img/doblefantasia_proyectos.jpg);
+}
 
+#seminario_proyectos{
+    background-image: url(../img/seminario_proyectos.jpg);
+}
 
+#paraiso_proyectos{
+    background-image: url(../img/paraiso_proyectos.jpg);
+}
+
+#paracaidas_proyectos{
+    background-image: url(../img/paracaidas_proyectos.jpg);
+}
+
+#enlalluvia_proyectos{
+    background-image: url(../img/enlalluvia_proyectos.jpg);
+}
+
+#suenaluz_proyectos{
+    background-image: url(../img/suenaluz_proyectos.jpg);
+}
+
+#voluntariado_proyectos{
+    background-image: url(../img/voluntariado_proyectos.jpg);
+}
+
+#dataentry_proyectos{
+    background-image: url(../img/dataentry_proyectos.jpg);
+}
 
 /* Portfolio */
 
