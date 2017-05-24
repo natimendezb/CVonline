@@ -132,7 +132,7 @@ li.header img:active {
     padding-top: 5vh;
     background-color: #f7f7f7;
     border-bottom: solid;
-    border-color: #c1ea46;
+    border-color: #b0d932;
     height: 100vh;
 }
 
@@ -176,8 +176,7 @@ li.header img:active {
 /* Perfil - Datos */
 
 #datos{
-    position: absolute;
-    bottom: 10vh;
+    margin-top: 9em;
     width: 100%;
 }
 
@@ -199,7 +198,7 @@ li.header img:active {
 #datos a:first-child{
     border-right-style: solid;
     border-right-width: 0.05em;
-    border-right-color: #c1ea46;
+    border-right-color: #b0d932;
     padding-right: 0.5em;
 }
 
@@ -262,7 +261,7 @@ hr.divisor_categoria{
     margin: 1em 0em 1em 12.5%;
     height: 3px;
     border-style: solid;
-    border-color: #c1ea46;
+    border-color: #b0d932;
 }
         
 hr.separador_subseccion{
@@ -270,7 +269,7 @@ hr.separador_subseccion{
     margin-left: 40%;
     height: 2px;
     border-style: solid;
-    border-color: #c1ea46;
+    border-color: #b0d932;
 }        
 /* Formación */
 
@@ -282,7 +281,7 @@ hr.separador_subseccion{
     padding-bottom: 3em;
     padding-top: 5em;
     border-bottom-style: solid;
-    border-bottom-color: #c1ea46;
+    border-bottom-color: #b0d932;
 }
 
 #formacion::before {
@@ -292,7 +291,7 @@ hr.separador_subseccion{
     top: 9em;
     height: 70%;
     width: 0.2em;
-    background: #c1ea46;
+    background: #b0d932;
     transform: translate(-50%);
 }
 
@@ -335,7 +334,7 @@ div.contenido_timeline{
     position: relative;
     width: 40%;
     border-width: 0.1em;
-    border-color: #c1ea46;
+    border-color: #b0d932;
 }
 
 div.contenido_izquierda{
@@ -380,7 +379,7 @@ div.contenido_timeline P{
     padding-top: 10em;
     padding-bottom: 6em;
     border-bottom-style: solid;
-    border-bottom-color: #c1ea46;
+    border-bottom-color: #b0d932;
 }
 
 #contenedor_proyectos{
@@ -619,12 +618,95 @@ div.proyectos_chicos p{
     z-index: 2;
     padding-top: 12em;
     padding-bottom: 6em;
+    font-family: "robotobold", sans-serif;
+    position: relative;
 }
 
+img.portfolio_imagenes{
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    margin-bottom: 2em;
+}
 
+figure.portfolio_proyectos{
+    display: table;
+    border-color: #b0d932;
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 1.5em;
+    margin: 0% 10% 0% 10%;
+}
 
+.portfolio_proyectos img,
+.portfolio_proyectos figcaption{
+    display: table-row;
+    vertical-align: bottom;
+    text-align: left;
+}
 
+.portfolio_proyectos_texto a,
+.portfolio_proyectos_texto p{
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #b2b2b2; 
+}
 
+a.portfolio_titulos{
+    font-size: 2.7em;
+    text-decoration: none;
+}
+
+p.portfolio_tipo{
+    font-family: "robotoregular", sans-serif;
+    font-size: 2.7em;
+}
+
+p.portfolio_rol,
+p.portfolio_año{
+    font-family: "robotolight", sans-serif;
+}
+
+p.portfolio_rol{
+    font-size: 2.7em;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    border-top-style: solid;
+    border-top-color: #b0d932;
+    border-top-width: 0.05em;
+}
+
+p.portfolio_año{
+    font-size: 2.2em;
+    padding: 0.3em 0.2em 1em 0.2em;
+}
+
+#portfolio_behance{
+    position: relative;
+    height: 7em;
+    width: 100%;
+    padding-left: 60%;
+    margin-top: 4em;
+}
+
+#portfolio_behance figure{
+    position: relative
+}
+
+#portfolio_behance img{
+    display: block;
+    padding-bottom: 1.2em;
+    width: 80%;
+    height: 80%;
+}
+
+#portfolio_behance a{
+    position: absolute;
+    bottom: 0;
+    font-family: "robotolight", sans-serif;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: #1769ff;
+}
 
 
 /* MAIN */
@@ -661,3 +743,11 @@ div.proyectos_chicos p{
 }
 
 /* FOOTER */
+
+/* RESPONSIVE */
+
+ @media screen and (orientation:landscape) {
+     #perfil{
+         height: auto;
+     }
+}
