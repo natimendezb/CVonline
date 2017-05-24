@@ -624,6 +624,7 @@ div.proyectos_chicos p{
     padding-bottom: 6em;
     font-family: "robotobold", sans-serif;
     position: relative;
+    height: 100vh;
 }
 
 img.portfolio_imagenes{
@@ -638,8 +639,7 @@ img.portfolio_imagenes:focus{
     opacity: 0.7;
 }
 
-.portfolio_proyectos_texto a:hover,
-.portfolio_proyectos_texto a:focus{
+.portfolio_proyectos_texto a:hover{
     color: #959595;
 }
 
@@ -746,12 +746,12 @@ a.pdf_descarga{
     color: #74c1d8;
 }
 
-a.pdf_descarga:hover,
-a.pdf_descarga:focus{
+/* AGREGAR A VERSION DE ESCRITORIO
+a.pdf_descarga:hover{
     color: #efefef;
     background-color: #74c1d8;
 }
-
+*/
 
 
 
@@ -795,6 +795,10 @@ a.pdf_descarga:focus{
 
  @media screen and (orientation:landscape) {
      #perfil{
+         height: auto;
+     }
+     
+     #portfolio{
          height: auto;
      }
 }
