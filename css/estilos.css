@@ -695,33 +695,32 @@ p.portfolio_año{
     padding: 0.3em 0.2em 1em 0.2em;
 }
 
-#portfolio_behance{
-    position: relative;
-    height: 7em;
-    width: 100%;
-    padding-left: 60%;
-    margin-top: 3em;
-}
-
-#portfolio_behance figure{
-    position: relative
+#portfolio_behance a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+    border-radius: 1.2em;
+    border-style: solid;
+    border-color: #74c1d8;
+    border-width: 0.3em;
+    text-decoration: none;
+    padding: 1.2em 3.3em;
 }
 
 #portfolio_behance img{
-    display: block;
-    padding-bottom: 1.2em;
-    width: 80%;
-    height: 80%;
+    width: 15%;
+    height: 15%;
 }
 
-#portfolio_behance a{
-    position: absolute;
-    bottom: 0;
-    font-family: "robotolight", sans-serif;
+#portfolio_behance h5{
+    font-family: "robotoregular", sans-serif;
     font-size: 2.5em;
-    text-decoration: none;
-    color: #1769ff;
-}
+    color: #74c1d8;
+    padding-left: 0.2em;
+}   
+
+
 
 /* Portfolio */
 
@@ -734,24 +733,24 @@ p.portfolio_año{
 }
 
 a.pdf_descarga{
-    border-radius: 1.5em;
+    border-radius: 0.5em;
     border-color: #74c1d8;
     border-style: solid;
     border-width: 0.1em;
     margin-top: 2.5em;
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    padding: 0.4em 1.3em 0.4em 1.3em;
     font-family: "robotoregular", sans-serif;
-    font-size: 1.8em;
+    font-size: 1.5em;
     text-decoration: none;
     color: #74c1d8;
 }
 
-/* AGREGAR A VERSION DE ESCRITORIO
-a.pdf_descarga:hover{
+/* AGREGAR A VERSION DE ESCRITORIO */
+/*a.pdf_descarga:hover{
     color: #efefef;
     background-color: #74c1d8;
-}
-*/
+}*/
+
 
 
 

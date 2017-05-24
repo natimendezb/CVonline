@@ -10,8 +10,8 @@
 .carousel-inner > .item {
     display: none;
     position: relative;
-    -webkit-transition: 0.6s ease-in-out;
-    transition: 0.6s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -115,7 +115,7 @@
 }
 .carousel-indicators {
     position: absolute;
-    bottom: 10px;
+    top: 64em;
     left: 50%;
     z-index: 15;
     width: 60%;
@@ -126,21 +126,21 @@
 }
 .carousel-indicators li {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 2em;
+    height: 2em;
     margin: 1px;
     text-indent: -999px;
-    border: 1px solid #fff;
-    border-radius: 10px;
+    border: 1px solid #9ed0cf;
+    border-radius: 2em;
     cursor: pointer;
     background-color: #000 \9;
     background-color: rgba(0, 0, 0, 0);
 }
 .carousel-indicators .active {
     margin: 0;
-    width: 12px;
-    height: 12px;
-    background-color: #ffffff;
+    width: 2.2em;
+    height: 2.2em;
+    background-color: #8ebfbe;
 }/*
 .carousel-caption {
     position: absolute;
