@@ -650,6 +650,7 @@ figure.portfolio_proyectos{
     border-width: 0.1em;
     border-radius: 1.5em;
     margin: 0% 10% 0% 10%;
+    background-color: #f3f3f3;
 }
 
 .portfolio_proyectos img,
@@ -709,8 +710,8 @@ p.portfolio_año{
 }
 
 #portfolio_behance img{
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
 }
 
 #portfolio_behance h5{
