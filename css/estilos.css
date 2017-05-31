@@ -263,7 +263,7 @@ div.doscaras{
 hr.divisor_categoria{
     width: 75%;
     margin: 1em 0em 1em 12.5%;
-    height: 3px;
+    height: 1px;
     border-style: solid;
     border-color: #333399;
 }
@@ -376,7 +376,7 @@ div.contenido_timeline P{
 
 .shake{
     -webkit-animation-name: shake;
-    -webkit-animation-duration: 7s;
+    -webkit-animation-duration: 5s;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
 }
@@ -395,9 +395,13 @@ div.contenido_timeline P{
 
 @-webkit-keyframes shake {
     0% { -webkit-transform: rotate(0deg); } 
-    3% { -webkit-transform: rotate(-7deg); }
-    6% { -webkit-transform: rotate(7deg); }
-    9%, 100% { -webkit-transform: rotate(0deg); }
+    3% { -webkit-transform: rotate(-6deg); }
+    6% { -webkit-transform: rotate(6deg); }
+    9% { -webkit-transform: rotate(-4deg); }
+    12% { -webkit-transform: rotate(4deg); }
+    15% { -webkit-transform: rotate(-2deg); }
+    18% { -webkit-transform: rotate(2deg); }
+    21%, 100% { -webkit-transform: rotate(0deg); }
 }
 
 /* Proyectos */
