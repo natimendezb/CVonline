@@ -681,7 +681,7 @@ img.portfolio_imagenes{
 }
 
 figure.portfolio_proyectos{
-    display: inline-block;
+    display: table;
     border-color: #99CC66;
     border-style: solid;
     border-width: 0.1em;
@@ -689,9 +689,6 @@ figure.portfolio_proyectos{
     margin: 0% 10% 0% 10%;
     background-color: #f8f8f8;
     min-width: 5em;
-    -webkit-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
-    -moz-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
-    box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
 }
 
 .portfolio_proyectos img,
