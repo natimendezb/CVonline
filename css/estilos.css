@@ -83,6 +83,9 @@ header{
     top: 0;
     position: fixed;
     z-index: 5;
+    border-bottom-style: solid;
+    border-bottom-color: #bcbcbc;
+    border-bottom-width: 0.2em;
 }
 
 header nav ul{
@@ -170,6 +173,9 @@ li.header img:active {
     border-style: solid;
     border-width: 0.08em;
     border-color: #99CC33;
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
+    box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
 }
 
 #presentacion figcaption p{
@@ -536,9 +542,9 @@ div.proyectos_medianos p{
 
 
 div.proyectos_chicos{
-    -webkit-box-shadow: 3px 3px 9px 3px rgba(138,138,138,0.73);
-    -moz-box-shadow: 3px 3px 9px 3px rgba(138,138,138,0.73);
-    box-shadow: 3px 3px 9px 3px rgba(138,138,138,0.73);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
+    box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
     color: #efefef;
     background-color: #ebebeb;
     padding-top: 5%;
@@ -675,13 +681,17 @@ img.portfolio_imagenes{
 }
 
 figure.portfolio_proyectos{
-    display: table;
+    display: inline-block;
     border-color: #99CC66;
     border-style: solid;
     border-width: 0.1em;
     border-radius: 1.5em;
     margin: 0% 10% 0% 10%;
-    background-color: #f3f3f3;
+    background-color: #f8f8f8;
+    min-width: 5em;
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
+    box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
 }
 
 .portfolio_proyectos img,
@@ -779,7 +789,8 @@ a.pdf_descarga{
     border-color: #336699;
     border-style: solid;
     border-width: 0.12em;
-    margin-top: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     margin-left: 25.5%;
     padding: 0.5em 1em 0.5em 1em;
     font-family: "robotobold", sans-serif;
@@ -802,12 +813,15 @@ a.pdf_descarga{
     background-color: #fafafa;
     width: 100%;
     height: auto;
+    border-top-style: solid;
+    border-top-color: #bcbcbc;
+    border-top-width: 0.2em;
 }
 
 #footer nav ul{
     display: flex;
     justify-content: center;
-    padding: 2.5em 0em;
+    padding: 2em 0em;
 }
 
 #footer nav ul li{
