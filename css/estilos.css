@@ -690,7 +690,7 @@ figure.portfolio_proyectos{
 .portfolio_proyectos_texto a,
 .portfolio_proyectos_texto p{
     margin-left: 1em;
-    margin-right: 1.2em;
+    margin-right: 1em;
 }
 
 .portfolio_proyectos_texto a{
@@ -698,10 +698,6 @@ figure.portfolio_proyectos{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.portfolio_proyectos_texto a span{
-    font-size: 0.9em;
 }
 
 a.portfolio_titulos{
