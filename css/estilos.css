@@ -690,7 +690,7 @@ figure.portfolio_proyectos{
 .portfolio_proyectos_texto a,
 .portfolio_proyectos_texto p{
     margin-left: 1em;
-    margin-right: 1em;
+    margin-right: 1.2em;
 }
 
 .portfolio_proyectos_texto a{
@@ -698,6 +698,10 @@ figure.portfolio_proyectos{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.portfolio_proyectos_texto a span{
+    font-size: 0.9em;
 }
 
 a.portfolio_titulos{
@@ -775,10 +779,10 @@ a.pdf_descarga{
     border-color: #336699;
     border-style: solid;
     border-width: 0.12em;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
     margin-left: 25.5%;
     padding: 0.5em 1em 0.5em 1em;
-    font-family: "robotoregular", sans-serif;
+    font-family: "robotobold", sans-serif;
     font-size: 2.5em;
     text-decoration: none;
     color: #336699;
@@ -788,7 +792,6 @@ a.pdf_descarga{
 
 /* Pdf */
 
-    padding: 1.2em 0.5em 1.2em 0.5em;
 /* MAIN */
 
 
@@ -808,7 +811,7 @@ a.pdf_descarga{
 }
 
 #footer nav ul li{
-    font-family: "robotolight", sans-serif;
+    font-family: "robotomedium", sans-serif;
     font-size: 2em;
 }
 
