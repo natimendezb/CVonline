@@ -801,6 +801,8 @@
 <!-- jQuery
 Se usa en: Carrusel -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+
 
 <!-- Bootstrap JS
 Se usa en: Carrusel -->
@@ -809,4 +811,14 @@ Se usa en: Carrusel -->
 <!-- Bootstrap Carousel CSS
 Se usa en: Carrusel -->
 <link href="css/bootstrap-carousel.css" rel="stylesheet" type="text/css">
+    
+<script>
+    $(".carousel").swiperight(function() {
+        $(this).carousel('prev');
+    });
+    $(".carousel").swipeleft(function() {  
+        $(this).carousel('next');
+    });
+</script>
+    
 </html>
