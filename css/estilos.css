@@ -670,15 +670,6 @@ img.portfolio_imagenes{
     opacity: 1;
 }
 
-img.portfolio_imagenes:hover,
-img.portfolio_imagenes:focus{
-    opacity: 0.7;
-}
-
-.portfolio_proyectos_texto a:hover{
-    color: #959595;
-}
-
 figure.portfolio_proyectos{
     display: table;
     border-color: #99CC66;
@@ -704,6 +695,9 @@ figure.portfolio_proyectos{
 
 .portfolio_proyectos_texto a{
     color: #FF6633;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 a.portfolio_titulos{
@@ -736,21 +730,23 @@ p.portfolio_año{
 }
 
 #portfolio_behance a{
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10em;
+    margin-left: 27%;
     border-radius: 1.2em;
     border-style: solid;
     border-color: #336699;
     border-width: 0.3em;
     text-decoration: none;
-    padding: 1.2em 3.3em;
+    padding: 1.2em 0.5em 1.2em 0.5em;
+    width: 46%;
 }
 
 #portfolio_behance img{
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: auto;
 }
 
 #portfolio_behance h5{
@@ -773,28 +769,26 @@ p.portfolio_año{
 }
 
 a.pdf_descarga{
+    display: flex;
+    justify-content: center;
     border-radius: 0.5em;
     border-color: #336699;
     border-style: solid;
-    border-width: 0.1em;
+    border-width: 0.12em;
     margin-top: 2.5em;
-    padding: 0.4em 1.3em 0.4em 1.3em;
+    margin-left: 25.5%;
+    padding: 0.5em 1em 0.5em 1em;
     font-family: "robotoregular", sans-serif;
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-decoration: none;
     color: #336699;
+    width: 49%;
 }
 
-/* AGREGAR A VERSION DE ESCRITORIO */
-/*a.pdf_descarga:hover{
-    color: #efefef;
-    background-color: #74c1d8;
-}*/
 
+/* Pdf */
 
-
-
-
+    padding: 1.2em 0.5em 1.2em 0.5em;
 /* MAIN */
 
 
@@ -829,6 +823,23 @@ a.pdf_descarga{
 }
 
 /* FOOTER */
+
+/* AGREGAR A VERSIÓN DE ESCRITORIO 
+img.portfolio_imagenes:hover,
+img.portfolio_imagenes:focus{
+    opacity: 0.7;
+}
+
+.portfolio_proyectos_texto a:hover{
+    color: #959595;
+}
+
+a.pdf_descarga:hover{
+    color: #efefef;
+    background-color: #74c1d8;
+}*/
+
+
 
 /* RESPONSIVE */
 
