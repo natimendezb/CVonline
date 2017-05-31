@@ -422,9 +422,9 @@ div.contenido_timeline P{
 }
 
 #contenedor_proyectos{
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
     height: auto;
 }
 
@@ -441,111 +441,163 @@ div.contenido_filas div{
 }
 
 div.proyectos_izquierda{
-    width: 49%;
+    width: 46%;
     height: auto;
-    margin-right: 1%;
+    margin-right: 4%;
     position: relative;
 }
 
 div.proyectos_derecha{
-    width: 49%;
+    width: 46%;
     height: auto;
-    margin-left: 1%;
+    margin-left: 4%;
     position: relative;
 }
 
-div.proyectos_abajo{
-    height: 48%;
-    width: auto;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
 div.proyectos_arriba{
-    height: 48%;
-    width: auto;
+    height: 46%;
     position: absolute;
     top: 0;
     width: 100%;
 }
 
+div.proyectos_abajo{
+    height: 46%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 .proyectos_datos_extra{
     display: none;
 }
 
 
+/*ETIQUETAS*/
+
+img.etiqueta_izq_grandes{
+    width: 100%;
+    height: 22%;
+    position: absolute;
+    top: 10%;
+    left: -6%;
+}
+
+img.etiqueta_der_grandes{
+    width: 95%;
+    height: 20%;
+    position: absolute;
+    bottom: 5%;
+    right: -5.5%;
+}
+
 div.proyectos_grandes{
-    -webkit-box-shadow: 3px 3px 9px 3px rgba(138,138,138,0.73);
-    -moz-box-shadow: 3px 3px 9px 3px rgba(138,138,138,0.73);
-    box-shadow: 3px 3px 9px 3px rgba(138,138,138,0.73);
-    color: #efefef;
     background-color: #adadad;
     padding-top: 16%;
     padding-bottom: 3%;
+    height: 36em;
 }
 
 div.proyectos_grandes h4{
+    color: #FF6633;
     font-family: "robotobold", sans-serif;
     font-size: 2.4em;
+    position: absolute;
+    top: 12%;
+    left: 4%;
 }
 
 div.proyectos_grandes h5{
+    position: absolute;
+    top: 20%;
+    left: 4%;
     font-family: "robotolight", sans-serif;
     font-size: 1.8em;
 }
 
 div.proyectos_grandes h6{
+    position: absolute;
+    bottom: 17%;
+    right: 4%;
     font-family: "robotolight", sans-serif;
     font-size: 1.8em;
     margin-top: 5em;
 }
 
 div.proyectos_grandes p{
+    position: absolute;
+    bottom: 11%;
+    right: 4%;
     font-family: "robotolight", sans-serif;
     font-size: 1.6em;
 }
 
 
 
+img.etiqueta_izq_medianos{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 10%;
+    left: -6%;
+}
+
+img.etiqueta_der_medianos{
+    width: 95%;
+    height: 36%;
+    position: absolute;
+    bottom: 12%;
+    right: -5.5%;
+}
+
+#etiqueta_der_especial{
+    width: 75%;
+}
+
+
 div.proyectos_medianos{
-    -webkit-box-shadow: 3px 3px 9px 3px rgba(138,138,138,0.73);
-    -moz-box-shadow: 3px 3px 9px 3px rgba(138,138,138,0.73);
-    box-shadow: 3px 3px 9px 3px rgba(138,138,138,0.73);
-    color: #efefef;
     background-color: #cccccc;
     padding-top: 5%;
     padding-bottom: 3%;
+    height: 16.5em;
 }
 
 div.proyectos_medianos h4{
+    color: #FF6633;
     font-family: "robotobold", sans-serif;
     font-size: 1.7em;
+    position: absolute;
+    top: 13%;
+    left: 2%;
 }
 
 div.proyectos_medianos h5{
     font-family: "robotolight", sans-serif;
     font-size: 1.6em;
+    position: absolute;
+    top: 27%;
+    left: 2%;
 }
 
 div.proyectos_medianos h6{
     font-family: "robotolight", sans-serif;
     font-size: 1.6em;
     margin-top: 2em;
+    position: absolute;
+    bottom: 32%;
+    right: 2%; 
 }
 
 div.proyectos_medianos p{
     font-family: "robotolight", sans-serif;
     font-size: 1.4em;
+    position: absolute;
+    bottom: 21%;
+    right: 2%;
 }
 
 
 div.proyectos_chicos{
-    -webkit-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
-    -moz-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
-    box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
-    color: #efefef;
     background-color: #ebebeb;
     padding-top: 5%;
     padding-bottom: 3%;
@@ -558,6 +610,7 @@ div.proyectos_chicos_alineados{
 }
 
 div.proyectos_chicos h4{
+    color: #FF6633;
     font-family: "robotobold", sans-serif;
     font-size: 1.3em;
     padding: 0em 0.5em 0em 0.5em;
@@ -598,7 +651,6 @@ div.proyectos_chicos p{
     font-size: 1.4em;
 }
 
-
 #hacerfuego_proyectos{
     background-image: url(../img/hacerfuego_proyectos.jpg);
 }
@@ -610,7 +662,7 @@ div.proyectos_chicos p{
 #tiempoausente_proyectos{
     background-image: url(../img/tiempoausente_proyectos.jpg);
 }
-
+/*
 #tourette_proyectos{
     background-image: url(../img/tourette_proyectos.jpg);
 }
