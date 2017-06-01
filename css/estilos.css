@@ -478,7 +478,7 @@ div.proyectos_abajo{
 
 img.etiqueta_izq_grandes{
     width: 100%;
-    height: 18%;
+    height: 16%;
     position: absolute;
     top: 10%;
     left: -6%;
@@ -493,7 +493,7 @@ img.etiqueta_der_grandes{
 }
 
 div.proyectos_grandes{
-    background-color: #adadad;
+    background-color: #f7f7f7;
     padding-top: 16%;
     padding-bottom: 3%;
     height: 55em;
@@ -510,7 +510,7 @@ div.proyectos_grandes h4{
 
 div.proyectos_grandes h5{
     position: absolute;
-    top: 17%;
+    top: 16.5%;
     left: 3%;
     font-family: "robotolight", sans-serif;
     font-size: 2em;
@@ -560,7 +560,7 @@ h5.tipo_dosrenglones{
 }
 
 div.proyectos_medianos{
-    background-color: #cccccc;
+    background-color: #f7f7f7;
     height: 26em;
 }
 
@@ -599,6 +599,70 @@ div.proyectos_medianos p{
     right: 3%;
 }
 
+/* proyectos largos */
+img.etiqueta_izq_largos{
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    top: 10%;
+    left: -6%;
+}
+
+img.etiqueta_der_largos{
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    bottom: 5%;
+    right: -5.5%;
+}
+
+div.proyectos_centro{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+div.proyectos_largos{
+    background-color: #f7f7f7;
+    height: 20em;
+}
+
+div.proyectos_largos h4{
+    color: #FF6633;
+    font-family: "robotobold", sans-serif;
+    font-size: 2.3em;
+    position: absolute;
+    top: 11%;
+    left: 3%;
+}
+
+div.proyectos_largos h5{
+    position: absolute;
+    top: 27%;
+    left: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 2em;
+}
+
+div.proyectos_largos h6{
+    position: absolute;
+    bottom: 25%;
+    right: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 2em;
+    margin-top: 5em;
+}
+
+div.proyectos_largos p{
+    position: absolute;
+    bottom: 13%;
+    right: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 1.8em;
+}
+
+
+
 #h6_paracaidas,
 #h6_enlalluvia{
     padding: 0em 0.5em 0em 0.5em;
@@ -616,52 +680,16 @@ div.proyectos_medianos p{
     background-image: url(../img/hacerfuego_proyectos.jpg);
 }
 
-#etiqueta_izq_hacerfuego,
-#etiqueta_izq_hacefeliz{
+#etiqueta_izq_hacerfuego{
     width: 83%;
     height: 44%;
     left: -4.9%;
 }
 
-#etiqueta_der_hacerfuego{
+#etiqueta_der_hacerfuego,
+#etiqueta_der_virus{
     width: 74%;
     right: -4.2%;
-}
-
-#cactusenserie_proyectos{
-    background-image: url(../img/cactusenserie_proyectos.jpg);
-}
-
-#etiqueta_izq_cactus{
-    width: 86%;
-    left: -5%;
-}
-
-#etiqueta_der_cactus{
-    width: 95%;
-}
-
-#tiempoausente_proyectos{
-    background-image: url(../img/tiempoausente_proyectos.jpg);
-}
-
-#tourette_proyectos{
-    background-image: url(../img/tourette_proyectos.jpg);
-}
-
-
-
-#hacefeliz_proyectos{
-    background-image: url(../img/hacefelizaungato_proyectos.jpg);
-    background-size: cover;
-    background-position: bottom;
-}
-
-#etiqueta_der_hacefeliz{
-    width: 55%;
-    height: 15%;
-    bottom: 10%;
-    right: -3.2%;
 }
 
 #virus_proyectos{
@@ -674,9 +702,72 @@ div.proyectos_medianos p{
     left: -4%
 }
 
-#etiqueta_der_virus{
-    width: 75%;
-    right: -4.4%;
+
+#tiempoausente_proyectos{
+    background-image: url(../img/tiempoausente_proyectos.jpg);
+}
+
+
+#hacefeliz_proyectos{
+    background-image: url(../img/hacefelizaungato_proyectos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#etiqueta_izq_hacefeliz{
+    width: 62%;
+    left: -3.6%;
+}
+
+#etiqueta_der_hacefeliz{
+    width: 35%;
+    right: -2%;
+}
+
+
+#tourette_proyectos{
+    background-image: url(../img/tourette_proyectos.jpg);
+}
+
+#etiqueta_izq_tourette{
+    width: 65%;
+    left: -4%;
+}
+
+#etiqueta_der_tourette{
+    width: 80%;
+    right: -4.7%;
+}
+
+
+#paraiso_proyectos{
+    background-image: url(../img/paraiso_proyectos.jpg);
+    background-position: right;
+}
+
+#etiqueta_izq_paraiso{
+    width: 47%;
+    left: -2.9%;
+}
+
+#etiqueta_der_paraiso{
+    width: 85%;
+    right: -5.2%;
+}
+
+#cactusenserie_proyectos{
+    background-image: url(../img/cactusenserie_proyectos.jpg);
+    background-position: top;
+}
+
+#etiqueta_izq_cactus{
+    width: 86%;
+    left: -5%;
+}
+
+#etiqueta_der_cactus{
+    width: 95%;
+    right: -5.7%;
 }
 /*
 #yogui_proyectos{
@@ -690,9 +781,7 @@ div.proyectos_medianos p{
     background-image: url(../img/seminario_proyectos.jpg);
 }
 
-#paraiso_proyectos{
-    background-image: url(../img/paraiso_proyectos.jpg);
-}
+
 
 #paracaidas_proyectos{
     background-image: url(../img/paracaidas_proyectos.jpg);
