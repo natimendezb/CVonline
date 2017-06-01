@@ -662,7 +662,7 @@ div.proyectos_largos p{
 }
 
 
-
+/*
 #h6_paracaidas,
 #h6_enlalluvia{
     padding: 0em 0.5em 0em 0.5em;
@@ -673,7 +673,7 @@ div.proyectos_largos p{
 #p_paracaidas,
 #p_enlalluvia{
     font-size: 1.4em;
-}
+}*/
 
 
 #hacerfuego_proyectos{
@@ -691,6 +691,7 @@ div.proyectos_largos p{
     width: 74%;
     right: -4.2%;
 }
+
 
 #virus_proyectos{
     background-image: url(../img/virus_proyectos.jpg);
@@ -755,52 +756,150 @@ div.proyectos_largos p{
     right: -5.2%;
 }
 
-#cactusenserie_proyectos{
-    background-image: url(../img/cactusenserie_proyectos.jpg);
-    background-position: top;
-}
 
-#etiqueta_izq_cactus{
-    width: 86%;
-    left: -5%;
-}
-
-#etiqueta_der_cactus{
-    width: 95%;
-    right: -5.7%;
-}
-/*
-#yogui_proyectos{
-    background-image: url(../img/yogui_proyectos.jpg);
-}
 #doblefantasia_proyectos{
     background-image: url(../img/doblefantasia_proyectos.jpg);
 }
+
+#etiqueta_izq_doblefantasia{
+    width: 83%;
+    left: -4.5%;
+}
+
+#etiqueta_der_doblefantasia{
+    width: 63%;
+    right: -3.5%;
+}
+
+
+#cactusenserie_proyectos{
+    background-image: url(../img/cactusenserie_proyectos.jpg);
+    background-position: center;
+}
+
+#etiqueta_izq_cactus{
+    width: 53%;
+    left: -3.2%;
+}
+
+#etiqueta_der_cactus{
+    width: 56%;
+    right: -3.3%;
+}
+
 
 #seminario_proyectos{
     background-image: url(../img/seminario_proyectos.jpg);
 }
 
+#etiqueta_izq_seminario{
+    width: 77%;
+    height: 44%;
+    left: -4.7%;
+}
+
+#etiqueta_der_seminario{
+    width: 73%;
+    right: -4.5%;
+}
+
+
+#yogui_proyectos{
+    background-image: url(../img/yogui_proyectos.jpg);
+}
+
+#etiqueta_izq_yogui{
+    width: 105%;
+    height: 18%;
+    left: -6.5%;
+}
+
+#etiqueta_der_yogui{
+    width: 62%;
+    height: 15%;
+    bottom: 10%;
+    right: -3.8%;
+}
 
 
 #paracaidas_proyectos{
     background-image: url(../img/paracaidas_proyectos.jpg);
 }
 
-#enlalluvia_proyectos{
-    background-image: url(../img/enlalluvia_proyectos.jpg);
+#etiqueta_izq_paracaidas{
+    width: 77%;
+    left: -4.2%;
 }
+
+h6.rol_dosrenglones{
+    text-align: right;
+}
+
+#etiqueta_der_paracaidas,
+#etiqueta_der_enlalluvia{
+    height: 22%;
+    bottom: 3%;
+    right: -6%;
+}
+
 
 #suenaluz_proyectos{
     background-image: url(../img/suenaluz_proyectos.jpg);
 }
 
+#etiqueta_izq_suenaluz{
+    width: 37%;
+    left: -2.3%;
+}
+
+#etiqueta_der_suenaluz{
+    width: 58%;
+    right: -3.2%;
+}
+
+
+#enlalluvia_proyectos{
+    background-image: url(../img/enlalluvia_proyectos.jpg);
+}
+
+#etiqueta_izq_enlalluvia{
+    width: 80%;
+    left: -4.5%;
+}
+
+
+
 #voluntariado_proyectos{
     background-image: url(../img/voluntariado_proyectos.jpg);
 }
 
+#etiqueta_izq_voluntariado{
+    width: 92%;
+    left: -5%;
+}
+
+#etiqueta_der_voluntariado{
+    width: 65%;
+    height: 15%;
+    bottom: 10%;
+    right: -4%;
+}
+
+
 #dataentry_proyectos{
     background-image: url(../img/dataentry_proyectos.jpg);
+}
+
+#etiqueta_izq_dataentry{
+    width: 75%;
+    left: -4.3%;
+}
+
+#etiqueta_der_dataentry{
+    width: 67%;
+    height: 15%;
+    bottom: 10%;
+    right: -4%;
 }
 
 /* Portfolio */
