@@ -457,7 +457,7 @@ div.proyectos_derecha{
     position: relative;
 }
 
-div.proyectos_arriba{;
+div.proyectos_arriba{
     position: absolute;
     top: 0;
     width: 100%;
@@ -537,7 +537,7 @@ div.proyectos_grandes p{
 /* proyectos medianos */
 img.etiqueta_izq_medianos{
     width: 100%;
-    height: 28%;
+    height: 30%;
     position: absolute;
     top: 10%;
     left: -6%;
@@ -599,58 +599,6 @@ div.proyectos_medianos p{
     right: 3%;
 }
 
-/* proyectos chicos */
-img.etiqueta_izq_chicos{
-    width: 100%;
-}
-
-img.etiqueta_der_chicos{
-    width: 100%;
-}
-
-div.proyectos_chicos{
-    background-color: #ebebeb;
-    padding-top: 5%;
-    padding-bottom: 3%;
-    width: 48%;
-    height: 26em;
-}
-
-div.proyectos_chicos_alineados{
-    display: flex;
-    justify-content: space-between;
-}
-
-div.proyectos_chicos h4{
-    color: #FF6633;
-    font-family: "robotobold", sans-serif;
-    font-size: 1.7em;
-    padding: 0em 0.5em 0em 0.5em;
-}
-
-div.proyectos_chicos h5{
-    font-family: "robotolight", sans-serif;
-    font-size: 1.4em;
-    margin-bottom: 4.2em;
-    padding: 0em 0.5em 0em 0.5em;
-}
-
-div.proyectos_chicos h6{
-    font-family: "robotolight", sans-serif;
-    font-size: 1.4em;
-
-}
-
-div.proyectos_chicos p{
-    font-family: "robotolight", sans-serif;
-    font-size: 1.3em;
-    width: 100%;
-    position: absolute;
-    bottom: 0.5em;
-    text-align: center;
-    padding: 0em 0.5em 0em 0.5em;
-}
-
 #h6_paracaidas,
 #h6_enlalluvia{
     padding: 0em 0.5em 0em 0.5em;
@@ -668,9 +616,10 @@ div.proyectos_chicos p{
     background-image: url(../img/hacerfuego_proyectos.jpg);
 }
 
-#etiqueta_izq_hacerfuego{
+#etiqueta_izq_hacerfuego,
+#etiqueta_izq_hacefeliz{
     width: 83%;
-    height: 42%;
+    height: 44%;
     left: -4.9%;
 }
 
@@ -700,18 +649,39 @@ div.proyectos_chicos p{
     background-image: url(../img/tourette_proyectos.jpg);
 }
 
-#yogui_proyectos{
-    background-image: url(../img/yogui_proyectos.jpg);
-}
+
 
 #hacefeliz_proyectos{
     background-image: url(../img/hacefelizaungato_proyectos.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#etiqueta_der_hacefeliz{
+    width: 55%;
+    height: 15%;
+    bottom: 10%;
+    right: -3.2%;
 }
 
 #virus_proyectos{
     background-image: url(../img/virus_proyectos.jpg);
+    background-position: left;
+}
+
+#etiqueta_izq_virus{
+    width: 68%;
+    left: -4%
+}
+
+#etiqueta_der_virus{
+    width: 75%;
+    right: -4.4%;
 }
 /*
+#yogui_proyectos{
+    background-image: url(../img/yogui_proyectos.jpg);
+}
 #doblefantasia_proyectos{
     background-image: url(../img/doblefantasia_proyectos.jpg);
 }
