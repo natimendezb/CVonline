@@ -759,6 +759,7 @@ div.proyectos_largos p{
 
 #doblefantasia_proyectos{
     background-image: url(../img/doblefantasia_proyectos.jpg);
+    background-position: left;
 }
 
 #etiqueta_izq_doblefantasia{
@@ -860,6 +861,7 @@ h6.rol_dosrenglones{
 
 #enlalluvia_proyectos{
     background-image: url(../img/enlalluvia_proyectos.jpg);
+    background-position: left;
 }
 
 #etiqueta_izq_enlalluvia{
@@ -871,6 +873,7 @@ h6.rol_dosrenglones{
 
 #voluntariado_proyectos{
     background-image: url(../img/voluntariado_proyectos.jpg);
+    background-position: center;
 }
 
 #etiqueta_izq_voluntariado{
