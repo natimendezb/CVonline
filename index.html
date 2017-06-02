@@ -277,29 +277,28 @@
                     <div class="contenido_filas">
                         <div class="proyectos_izquierda">
                             <div class="proyectos_arriba">
-                                <div class="proyectos_medianos" id="hacerfuego_proyectos">
-                                    <img id="etiqueta_izq_hacerfuego" class="etiqueta_izq_medianos" src="img/etiquetaproyectosizq.png">
-                                    <h4 class="titulo_dosrenglones">
-                                        RELATO I: HACER FUEGO
-                                    </h4>
-                                    <h5 class="tipo_dosrenglones">
-                                        Teaser
-                                    </h5>
+                                <div class="proyectos_medianos" id="hacerfuego_proyectos" onclick="muestra_datos_extra('datosextra_hacerfuego')">
+                                    <div>
+                                        <img id="etiqueta_izq_hacerfuego" class="etiqueta_izq_medianos" src="img/etiquetaproyectosizq.png">
+                                        <h4 class="titulo_dosrenglones">
+                                            RELATO I: HACER FUEGO
+                                        </h4>
+                                        <h5 class="tipo_dosrenglones">
+                                            Teaser
+                                        </h5>
+                                    </div>
+                                    <div id="datosextra_hacerfuego" class="proyectos_datos_extra">
+                                        <h6>
+                                            Filmación y edición
+                                        </h6>
+                                        <p>
+                                            Laboral, 2013
+                                        </p>
+                                    </div>
                                 </div>
-<!--
-                                <div>
-                                    <img id="etiqueta_der_hacerfuego"class="etiqueta_der_medianos" src="img/etiquetaproyectosder.png">
-                                    <h6>
-                                        Filmación y edición
-                                    </h6>
-                                    <p>
-                                        Laboral, 2013
-                                    </p>
-                                </div>
--->
                             </div>
                             <div class="proyectos_abajo">
-                                <div class="proyectos_medianos" id="virus_proyectos">
+                                <div class="proyectos_medianos" id="virus_proyectos" onclick="muestra_datos_extra('datosextra_virus')">
                                     <div>
                                         <img id="etiqueta_izq_virus" class="etiqueta_izq_medianos" src="img/etiquetaproyectosizq.png">
                                         <h4>
@@ -309,9 +308,7 @@
                                             Cobertura recital
                                         </h5>
                                     </div>
-<!--
-                                    <div>
-                                        <img id="etiqueta_der_virus" class="etiqueta_der_medianos" src="img/etiquetaproyectosder.png">
+                                    <div id="datosextra_virus" class="proyectos_datos_extra">
                                         <h6>
                                             Filmación y edición
                                         </h6>
@@ -319,13 +316,12 @@
                                             Laboral, 2013
                                         </p>
                                     </div>
--->
                                 </div>
                             </div>   
                         </div>
                         <div class="proyectos_derecha proyectos_grandes" id="tiempoausente_proyectos">
                             <div>
-                                <img class="etiqueta_izq_grandes" src="img/etiquetaproyectosizq.png">
+                                <img id="etiqueta_izq_tiempoausente" class="etiqueta_izq_grandes" src="img/etiquetaproyectosizq.png">
                                 <h4>
                                     TIEMPO AUSENTE
                                 </h4>
@@ -334,7 +330,7 @@
                                 </h5>
                             </div>
                             <div>
-                                <img class="etiqueta_der_grandes" src="img/etiquetaproyectosder.png">
+                                <img id="etiqueta_der_tiempoausente" class="etiqueta_der_grandes" src="img/etiquetaproyectosder.png">
                                 <h6>
                                     Producción y filmación
                                 </h6>
@@ -369,7 +365,7 @@
                         </div>
                     </div>
                     <div class="contenido_filas">
-                        <div class="proyectos_izquierda proyectos_grandes" id="tourette_proyectos">
+                        <div class="proyectos_izquierda proyectos_grandes" id="tourette_proyectos" onclick="muestra_datos_extra('datosextra_tourette')">
                             <div>
                                 <img id="etiqueta_izq_tourette" class="etiqueta_izq_grandes" src="img/etiquetaproyectosizq.png">
                                 <h4>
@@ -379,6 +375,11 @@
                                     Documental
                                 </h5>
                             </div>
+                            <div id="datosextra_tourette" class="proyectos_datos_extra">
+                                <p>
+                                    Proyectado en "La noche de Imagen y Sonido &#40;UBA&#41; en el Cine Gaumont &#40;2014&#41;
+                                </p>
+                            </div>
                             <div>
                                 <img id="etiqueta_der_tourette" class="etiqueta_der_grandes" src="img/etiquetaproyectosder.png">
                                 <h6>
@@ -386,15 +387,12 @@
                                 </h6>
                                 <p>
                                     Académico, 2015
-                                    <i class="proyectos_datos_extra">
-                                        Proyectado en "La noche de Imagen y Sonido &#40;UBA&#41; en el Cine Gaumont &#40;2014&#41;
-                                    </i>
-                                </p>
+                                </p>    
                             </div>
                         </div>
                         <div class="proyectos_derecha">
                             <div class="proyectos_arriba">
-                                <div class="proyectos_medianos" id="paraiso_proyectos">
+                                <div class="proyectos_medianos" id="paraiso_proyectos" onclick="muestra_datos_extra('datosextra_paraiso')">
                                     <div>
                                         <img id="etiqueta_izq_paraiso" class="etiqueta_izq_medianos" src="img/etiquetaproyectosizq.png">
                                         <h4>
@@ -404,9 +402,7 @@
                                             Videoclip
                                         </h5>
                                     </div>
-<!--
-                                    <div>
-                                        <img id="etiqueta_der_paraiso" class="etiqueta_der_medianos" src="img/etiquetaproyectosder.png">
+                                    <div id="datosextra_paraiso" class="proyectos_datos_extra">
                                         <h6>
                                             Producción y filmación
                                         </h6>
@@ -414,11 +410,10 @@
                                             Personal, 2013
                                         </p>
                                     </div>
--->
                                 </div>
                             </div>
                             <div class="proyectos_abajo">
-                                <div class="proyectos_medianos" id="doblefantasia_proyectos">
+                                <div class="proyectos_medianos" id="doblefantasia_proyectos" onclick="muestra_datos_extra('datosextra_doblefantasia')">
                                     <div>
                                         <img id="etiqueta_izq_doblefantasia" class="etiqueta_izq_medianos" src="img/etiquetaproyectosizq.png">
                                         <h4>
@@ -428,24 +423,21 @@
                                             Cortometraje
                                         </h5>
                                     </div>
-<!--
-                                    <div>
-                                        <img id="etiqueta_der_doblefantasia" class="etiqueta_der_medianos" src="img/etiquetaproyectosder.png">
+                                    <div id="datosextra_doblefantasia" class="proyectos_datos_extra">
                                         <h6>
                                             Sonido
                                         </h6>
                                         <p>
                                             Académico, 2012
-                                            <i class="proyectos_datos_extra">
-                                                Proyectado en el "Rubber Festival Internacional de la Música en el Cine 
-                                                &#40;México - 2014&#41; y en "La Semana Beatle del Cavern Club Paseo La Plaza &#40;2014&#41;.
-                                            </i>
+                                        </p>
+                                        <p>
+                                            Proyectado en el "Rubber Festival Internacional de la Música en el Cine 
+                                            &#40;México - 2014&#41; y en "La Semana Beatle del Cavern Club Paseo La Plaza &#40;2014&#41;.
                                         </p>
                                     </div>
--->
                                 </div>
-                            </div>  
-                        </div>
+                            </div>
+                        </div>  
                     </div>
                     <div class="contenido_filas">
                         <div class="proyectos_centro">
@@ -474,7 +466,7 @@
                     <div class="contenido_filas">
                         <div class="proyectos_izquierda">
                             <div class="proyectos_arriba">
-                                <div class="proyectos_medianos" id="seminario_proyectos">
+                                <div class="proyectos_medianos" id="seminario_proyectos" onclick="muestra_datos_extra('datosextra_seminario')">
                                     <div>
                                         <img id="etiqueta_izq_seminario" class="etiqueta_izq_medianos" src="img/etiquetaproyectosizq.png">
                                         <h4 class="titulo_dosrenglones">
@@ -484,9 +476,7 @@
                                             Teaser
                                         </h5>
                                     </div>
-<!--
-                                    <div>
-                                        <img id="etiqueta_der_seminario" class="etiqueta_der_medianos" src="img/etiquetaproyectosder.png">
+                                    <div id="datosextra_seminario" class="proyectos_datos_extra">
                                         <h6>
                                             Filmación y edición
                                         </h6>
@@ -494,28 +484,24 @@
                                             Laboral, 2014
                                         </p>
                                     </div>
--->
                                 </div>
                             </div> 
                             <div class="proyectos_abajo">
-                                <div class="proyectos_medianos" id="yogui_proyectos">
+                                <div class="proyectos_medianos" id="yogui_proyectos" onclick="muestra_datos_extra('datosextra_yogui')">
                                     <div>
                                         <img id="etiqueta_izq_yogui" class="etiqueta_izq_medianos" src="img/etiquetaproyectosizq.png">
                                         <h4>
-                                            YOGUI PRODUCCIONES
+                                            YOGUI <br>PRODUCCIONES
                                         </h4>
                                     </div>
-<!--
-                                    <div>
-                                        <img id="etiqueta_der_yogui" class="etiqueta_der_medianos" src="img/etiquetaproyectosder.png">
-                                        <h6 class="proyectos_datos_extra">
+                                    <div id="datosextra_yogui" class="proyectos_datos_extra">
+                                        <h6>
                                             Audiovisuales y fotográficas: eventos, recitales, books en estudio.
                                         </h6>
                                         <p class="solo_caracter">
                                             Laboral, 2013-act
                                         </p>
                                     </div>
--->
                                 </div>
                             </div>
                         </div>
@@ -587,7 +573,7 @@
                         </div>
                         <div class="proyectos_derecha">
                             <div class="proyectos_arriba">
-                                <div class="proyectos_medianos" id="voluntariado_proyectos">
+                                <div class="proyectos_medianos" id="voluntariado_proyectos" onclick="muestra_datos_extra('datosextra_voluntariado')">
                                     <div>
                                         <img id="etiqueta_izq_voluntariado" class="etiqueta_izq_medianos" src="img/etiquetaproyectosizq.png">
                                         <h4>
@@ -597,21 +583,18 @@
                                             en Hacé Feliz a un Gato
                                         </h5>
                                     </div>
-<!--
-                                    <div>
-                                        <img id="etiqueta_der_voluntariado" class="etiqueta_der_medianos" src="img/etiquetaproyectosder.png">
-                                        <h6 class="proyectos_datos_extra">
+                                    <div id="datosextra_voluntariado" class="proyectos_datos_extra">
+                                        <h6>
                                             Alimentación y cuidado de la colonia de gatos abandonados en el Jardín Botánico Carlos Thays
                                         </h6>
                                         <p>
                                             Personal, 2014-act
                                         </p>
                                     </div>
--->
                                 </div>
                             </div>
                             <div class="proyectos_abajo">
-                                <div class="proyectos_medianos" id="dataentry_proyectos">
+                                <div class="proyectos_medianos" id="dataentry_proyectos" onclick="muestra_datos_extra('datosextra_dataentry')">
                                     <div>
                                         <img id="etiqueta_izq_dataentry" class="etiqueta_izq_medianos" src="img/etiquetaproyectosizq.png">
                                         <h4>
@@ -621,17 +604,14 @@
                                             en Franquiciar SRL
                                         </h5>
                                     </div>
-<!--
-                                    <div>
-                                        <img id="etiqueta_der_dataentry" class="etiqueta_der_medianos" src="img/etiquetaproyectosder.png">
-                                        <h6 class="proyectos_datos_extra">
+                                    <div id="datosextra_dataentry" class="proyectos_datos_extra">
+                                        <h6>
                                             Carga de datos y confección semanal de planillas.>
                                         </h6>
                                         <p>
                                             Laboral, 2011-2014
                                         </p>
                                     </div>
--->
                                 </div>
                             </div>  
                         </div>

@@ -434,7 +434,7 @@ div.contenido_filas:first-child{
 
 div.contenido_filas{
     display: flex;
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 div.contenido_filas div{
@@ -444,16 +444,16 @@ div.contenido_filas div{
 }
 
 div.proyectos_izquierda{
-    width: 46%;
+    width: 47%;
     height: auto;
-    margin-right: 4%;
+    margin-right: 3%;
     position: relative;
 }
 
 div.proyectos_derecha{
-    width: 46%;
+    width: 47%;
     height: auto;
-    margin-left: 4%;
+    margin-left: 3%;
     position: relative;
 }
 
@@ -470,7 +470,7 @@ div.proyectos_abajo{
 }
 
 .proyectos_datos_extra{
-    display: none;
+    visibility: hidden;
 }
 
 
@@ -478,7 +478,7 @@ div.proyectos_abajo{
 
 img.etiqueta_izq_grandes{
     width: 100%;
-    height: 16%;
+    height: 22%;
     position: absolute;
     top: 10%;
     left: -6%;
@@ -486,7 +486,7 @@ img.etiqueta_izq_grandes{
 
 img.etiqueta_der_grandes{
     width: 100%;
-    height: 15%;
+    height: 18%;
     position: absolute;
     bottom: 5%;
     right: -5.5%;
@@ -496,7 +496,7 @@ div.proyectos_grandes{
     background-color: #f7f7f7;
     padding-top: 16%;
     padding-bottom: 3%;
-    height: 55em;
+    height: 40em;
 }
 
 div.proyectos_grandes h4{
@@ -510,7 +510,7 @@ div.proyectos_grandes h4{
 
 div.proyectos_grandes h5{
     position: absolute;
-    top: 16.5%;
+    top: 19%;
     left: 3%;
     font-family: "robotolight", sans-serif;
     font-size: 2em;
@@ -518,7 +518,7 @@ div.proyectos_grandes h5{
 
 div.proyectos_grandes h6{
     position: absolute;
-    bottom: 14%;
+    bottom: 16%;
     right: 3%;
     font-family: "robotolight", sans-serif;
     font-size: 2em;
@@ -527,7 +527,7 @@ div.proyectos_grandes h6{
 
 div.proyectos_grandes p{
     position: absolute;
-    bottom: 9%;
+    bottom: 10%;
     right: 3%;
     font-family: "robotolight", sans-serif;
     font-size: 1.8em;
@@ -537,18 +537,10 @@ div.proyectos_grandes p{
 /* proyectos medianos */
 img.etiqueta_izq_medianos{
     width: 100%;
-    height: 30%;
+    height: 38%;
     position: absolute;
     top: 10%;
     left: -6%;
-}
-
-img.etiqueta_der_medianos{
-    width: 100%;
-    height: 26%;
-    position: absolute;
-    bottom: 8%;
-    right: -5.5%;
 }
 
 h4.titulo_dosrenglones{
@@ -556,12 +548,12 @@ h4.titulo_dosrenglones{
 }
 
 h5.tipo_dosrenglones{
-    padding-top: 1.7em;
+    padding-top: 1.75em;
 }
 
 div.proyectos_medianos{
     background-color: #f7f7f7;
-    height: 26em;
+    height: 18.5em;
 }
 
 div.proyectos_medianos h4{
@@ -578,7 +570,7 @@ div.proyectos_medianos h5{
     font-family: "robotolight", sans-serif;
     font-size: 1.7em;
     position: absolute;
-    top: 22%;
+    top: 26%;
     left: 3%;
 }
 
@@ -595,14 +587,14 @@ div.proyectos_medianos p{
     font-family: "robotolight", sans-serif;
     font-size: 1.5em;
     position: absolute;
-    bottom: 16%;
+    bottom: 17%;
     right: 3%;
 }
 
 /* proyectos largos */
 img.etiqueta_izq_largos{
     width: 100%;
-    height: 45%;
+    height: 41%;
     position: absolute;
     top: 10%;
     left: -6%;
@@ -632,13 +624,13 @@ div.proyectos_largos h4{
     font-family: "robotobold", sans-serif;
     font-size: 2.3em;
     position: absolute;
-    top: 11%;
+    top: 12%;
     left: 3%;
 }
 
 div.proyectos_largos h5{
     position: absolute;
-    top: 27%;
+    top: 26%;
     left: 3%;
     font-family: "robotolight", sans-serif;
     font-size: 2em;
@@ -662,19 +654,6 @@ div.proyectos_largos p{
 }
 
 
-/*
-#h6_paracaidas,
-#h6_enlalluvia{
-    padding: 0em 0.5em 0em 0.5em;
-    font-size: 1.8em;
-    margin-top: 3.7em;
-}
-
-#p_paracaidas,
-#p_enlalluvia{
-    font-size: 1.4em;
-}*/
-
 
 #hacerfuego_proyectos{
     background-image: url(../img/hacerfuego_proyectos.jpg);
@@ -682,14 +661,8 @@ div.proyectos_largos p{
 
 #etiqueta_izq_hacerfuego{
     width: 83%;
-    height: 44%;
-    left: -4.9%;
-}
-
-#etiqueta_der_hacerfuego,
-#etiqueta_der_virus{
-    width: 74%;
-    right: -4.2%;
+    height: 58%;
+    left: -4.7%;
 }
 
 
@@ -699,7 +672,7 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_virus{
-    width: 68%;
+    width: 67%;
     left: -4%
 }
 
@@ -708,6 +681,15 @@ div.proyectos_largos p{
     background-image: url(../img/tiempoausente_proyectos.jpg);
 }
 
+#etiqueta_izq_tiempoausente{
+    width: 97%;
+    left: -5.5%;
+}
+
+#etiqueta_der_tiempoausente{
+    width: 98%;
+    right: -5.8%;
+}
 
 #hacefeliz_proyectos{
     background-image: url(../img/hacefelizaungato_proyectos.jpg);
@@ -751,11 +733,6 @@ div.proyectos_largos p{
     left: -2.9%;
 }
 
-#etiqueta_der_paraiso{
-    width: 85%;
-    right: -5.2%;
-}
-
 
 #doblefantasia_proyectos{
     background-image: url(../img/doblefantasia_proyectos.jpg);
@@ -767,25 +744,19 @@ div.proyectos_largos p{
     left: -4.5%;
 }
 
-#etiqueta_der_doblefantasia{
-    width: 63%;
-    right: -3.5%;
+
+#suenaluz_proyectos{
+    background-image: url(../img/suenaluz_proyectos.jpg);
 }
 
-
-#cactusenserie_proyectos{
-    background-image: url(../img/cactusenserie_proyectos.jpg);
-    background-position: center;
+#etiqueta_izq_suenaluz{
+    width: 34%;
+    left: -2%;
 }
 
-#etiqueta_izq_cactus{
-    width: 53%;
-    left: -3.2%;
-}
-
-#etiqueta_der_cactus{
+#etiqueta_der_suenaluz{
     width: 56%;
-    right: -3.3%;
+    right: -3.2%;
 }
 
 
@@ -795,14 +766,10 @@ div.proyectos_largos p{
 
 #etiqueta_izq_seminario{
     width: 77%;
-    height: 44%;
-    left: -4.7%;
+    height: 59%;
+    left: -4.5%;
 }
 
-#etiqueta_der_seminario{
-    width: 73%;
-    right: -4.5%;
-}
 
 
 #yogui_proyectos{
@@ -810,16 +777,9 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_yogui{
-    width: 105%;
-    height: 18%;
-    left: -6.5%;
-}
-
-#etiqueta_der_yogui{
-    width: 62%;
-    height: 15%;
-    bottom: 10%;
-    right: -3.8%;
+    width: 80%;
+    height: 43%;
+    left: -4.7%;
 }
 
 
@@ -838,24 +798,25 @@ h6.rol_dosrenglones{
 
 #etiqueta_der_paracaidas,
 #etiqueta_der_enlalluvia{
-    height: 22%;
+    height: 28%;
     bottom: 3%;
     right: -6%;
 }
 
 
-#suenaluz_proyectos{
-    background-image: url(../img/suenaluz_proyectos.jpg);
+#cactusenserie_proyectos{
+    background-image: url(../img/cactusenserie_proyectos.jpg);
+    background-position: center;
 }
 
-#etiqueta_izq_suenaluz{
-    width: 37%;
-    left: -2.3%;
+#etiqueta_izq_cactus{
+    width: 50%;
+    left: -3%;
 }
 
-#etiqueta_der_suenaluz{
-    width: 58%;
-    right: -3.2%;
+#etiqueta_der_cactus{
+    width: 53%;
+    right: -3%;
 }
 
 
@@ -877,15 +838,8 @@ h6.rol_dosrenglones{
 }
 
 #etiqueta_izq_voluntariado{
-    width: 92%;
-    left: -5%;
-}
-
-#etiqueta_der_voluntariado{
-    width: 65%;
-    height: 15%;
-    bottom: 10%;
-    right: -4%;
+    width: 90%;
+    left: -4.8%;
 }
 
 
@@ -898,12 +852,6 @@ h6.rol_dosrenglones{
     left: -4.3%;
 }
 
-#etiqueta_der_dataentry{
-    width: 67%;
-    height: 15%;
-    bottom: 10%;
-    right: -4%;
-}
 
 /* Portfolio */
 
