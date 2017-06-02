@@ -469,10 +469,6 @@ div.proyectos_abajo{
     width: 100%;
 }
 
-.proyectos_datos_extra{
-    visibility: hidden;
-}
-
 
 /* proyectos grandes */
 
@@ -490,6 +486,20 @@ img.etiqueta_der_grandes{
     position: absolute;
     bottom: 5%;
     right: -5.5%;
+}
+
+.etiqueta_izq_grandes_atras{
+    position: absolute;
+    top: 10%;
+    right: -2%;
+    height: 19%;
+}
+
+.etiqueta_der_grandes_atras{
+    position: absolute;
+    bottom: 8%;
+    left: -2%;
+    height: 17%;    
 }
 
 div.proyectos_grandes{
@@ -533,6 +543,15 @@ div.proyectos_grandes p{
     font-size: 1.8em;
 }
 
+#datos_extra_tourette{
+    font-family: "robotoregular", sans-serif;
+    font-size: 1.8em;
+    position: absolute;
+    margin: 1em;
+    left: 10%;
+    top: 30%;
+    text-align: left;
+}
 
 /* proyectos medianos */
 img.etiqueta_izq_medianos{
@@ -541,6 +560,19 @@ img.etiqueta_izq_medianos{
     position: absolute;
     top: 10%;
     left: -6%;
+    z-index: 1;
+}
+
+.etiqueta_izq_medianos_atras{
+    position: absolute;
+    right: -2%;
+    top: 10%;
+    z-index: 3;
+    height: 39%;
+}
+
+.etiqueta_izq_medianos_atras_dosrenglones{
+    height: 48%;
 }
 
 h4.titulo_dosrenglones{
@@ -564,6 +596,7 @@ div.proyectos_medianos h4{
     top: 12%;
     left: 3%;
     text-align: left;
+    z-index: 1;
 }
 
 div.proyectos_medianos h5{
@@ -572,6 +605,7 @@ div.proyectos_medianos h5{
     position: absolute;
     top: 26%;
     left: 3%;
+    z-index: 1;
 }
 
 div.proyectos_medianos h6{
@@ -580,16 +614,37 @@ div.proyectos_medianos h6{
     margin-top: 2em;
     position: absolute;
     bottom: 24%;
-    right: 3%; 
+    right: 8%;
+    z-index: 3;
 }
 
 div.proyectos_medianos p{
     font-family: "robotolight", sans-serif;
     font-size: 1.5em;
     position: absolute;
-    bottom: 17%;
-    right: 3%;
+    bottom: 13%;
+    right: 8%;
+    z-index: 3;
 }
+
+.datos_extra_atras{
+    font-family: "robotoregular", sans-serif;
+    font-size: 2em;
+    text-align: left;
+    left: 8%;
+    top: -8%;
+    width: 75%;
+}
+/*
+#datos_extra_atras_doblefantasia{
+    font-family: "robotoregular", sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    width: 86%;
+    position: absolute;
+    top: -8%;
+    
+}*/
 
 /* proyectos largos */
 img.etiqueta_izq_largos{
@@ -657,6 +712,7 @@ div.proyectos_largos p{
 
 #hacerfuego_proyectos{
     background-image: url(../img/hacerfuego_proyectos.jpg);
+    z-index: 2;
 }
 
 #etiqueta_izq_hacerfuego{
@@ -675,7 +731,6 @@ div.proyectos_largos p{
     width: 67%;
     left: -4%
 }
-
 
 #tiempoausente_proyectos{
     background-image: url(../img/tiempoausente_proyectos.jpg);
@@ -860,14 +915,27 @@ h6.rol_dosrenglones{
 	perspective: 1000px;
 }
 
+.contenedor_flip_grande {
+    perspective: 1000px;
+}
+
 /* flip the pane when hovered */
 .contenedor_flip:hover .flipper, .contenedor_flip.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.contenedor_flip_grande:hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
     transform: rotateY(180deg);
 }
 
 .contenedor_flip, .carta_adelante, .carta_atras {
 	width: 100%;
 	height: 18.5em;
+}
+
+.contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
+    height: 40em;
+    width: 100%;
 }
 
 /* flip speed goes here */
@@ -877,8 +945,17 @@ h6.rol_dosrenglones{
 	position: relative;
 }
 
+.flipper_grande{
+    height: 40em;
+    width: 100%;
+    transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+    top: -27%;
+}
+
 /* hide back of pane during swap */
-.carta_adelante, .carta_atras {
+.carta_adelante, .carta_atras, .carta_adelante_grande, .carta_atras_grande {
 	backface-visibility: hidden;
 	position: absolute;
 	top: 0;
@@ -886,15 +963,16 @@ h6.rol_dosrenglones{
 }
 
 /* front pane, placed above back */
-.carta_adelante {
+.carta_adelante, .carta_adelante_grande {
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
 }
 
 /* back, initially hidden pane */
-.carta_atras {
+.carta_atras, .carta_atras_grande {
 	transform: rotateY(180deg);
+    background-color: rgba(209, 209, 209, 0.75);
 }
 
 

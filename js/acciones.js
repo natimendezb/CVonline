@@ -49,11 +49,11 @@ function calculateAge() {
     return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
-function muestra_datos_extra(idDeInfoOculta){
-    var textoOculto = document.getElementById(idDeInfoOculta);
-    
-    textoOculto.style.visibility = "visible";
-    setTimeout(
-        function () { document.getElementById(idDeInfoOculta).style.visibility = "hidden";}, 5000
-    );
-}
+//function muestra_datos_extra(idDeInfoOculta){
+//    var textoOculto = document.getElementById(idDeInfoOculta);
+//    
+//    textoOculto.style.visibility = "visible";
+//    setTimeout(
+//        function () { document.getElementById(idDeInfoOculta).style.visibility = "hidden";}, 5000
+//    );
+//}
