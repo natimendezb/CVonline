@@ -24,12 +24,12 @@ function cambio_titulo_onscroll() {
         botonConocimientos.style.opacity = "0.5";
         //document.getElementById("conocimientos").scrollIntoView();
     }
-    if (pixelesScroll > 3500 && pixelesScroll <= 6000) {
+    if (pixelesScroll > 3500 && pixelesScroll <= 7700) {
         cambio_titulo_onclick("PROYECTOS");
         botonProyectos.style.opacity = "0.5";
     }
     
-    if (pixelesScroll > 6000) {
+    if (pixelesScroll > 7700) {
         cambio_titulo_onclick("PORTFOLIO");
         botonPortfolio.style.opacity = "0.5";
     }

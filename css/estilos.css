@@ -980,11 +980,11 @@ h6.rol_dosrenglones{
 }
 
 .zoomin_segundos{
-    -webkit-animation-delay: 1s;
+    -webkit-animation-delay: 0.5s;
 }
 
 .zoomin_terceros{
-    -webkit-animation-delay: 3s;
+    -webkit-animation-delay: 1s;
 }
 
 .zoomin:hover{
@@ -993,9 +993,9 @@ h6.rol_dosrenglones{
 
 @-webkit-keyframes zoomin {
     0% { -webkit-transform: scale(1) } 
-    4% { -webkit-transform: scale(1.01); }
+    4% { -webkit-transform: scale(1.02); }
     8% { -webkit-transform: scale(1); }
-    12% { -webkit-transform: scale(1.007); }
+    12% { -webkit-transform: scale(1.01); }
     16%, 100% { -webkit-transform: scale(1); }
 }
 
