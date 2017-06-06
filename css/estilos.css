@@ -507,6 +507,9 @@ div.proyectos_grandes{
     padding-top: 16%;
     padding-bottom: 3%;
     height: 40em;
+    -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
 }
 
 div.proyectos_grandes h4{
@@ -586,6 +589,9 @@ h5.tipo_dosrenglones{
 div.proyectos_medianos{
     background-color: #f7f7f7;
     height: 18.5em;
+    -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
 }
 
 div.proyectos_medianos h4{
@@ -635,16 +641,6 @@ div.proyectos_medianos p{
     top: -8%;
     width: 75%;
 }
-/*
-#datos_extra_atras_doblefantasia{
-    font-family: "robotoregular", sans-serif;
-    font-size: 1.5em;
-    text-align: left;
-    width: 86%;
-    position: absolute;
-    top: -8%;
-    
-}*/
 
 /* proyectos largos */
 img.etiqueta_izq_largos{
@@ -672,6 +668,9 @@ div.proyectos_centro{
 div.proyectos_largos{
     background-color: #f7f7f7;
     height: 20em;
+    -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
 }
 
 div.proyectos_largos h4{
@@ -939,19 +938,10 @@ h6.rol_dosrenglones{
 }
 
 /* flip speed goes here */
-.flipper {
+.flipper, .flipper_grande {
 	transition: 0.6s;
 	transform-style: preserve-3d;
 	position: relative;
-}
-
-.flipper_grande{
-    height: 40em;
-    width: 100%;
-    transition: 0.6s;
-	transform-style: preserve-3d;
-	position: relative;
-    top: -27%;
 }
 
 /* hide back of pane during swap */
@@ -976,7 +966,38 @@ h6.rol_dosrenglones{
 }
 
 
+/* animación cartas clickeables */
 
+.zoomin{
+    -webkit-animation-name: zoomin;
+    -webkit-animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.zoomin_primeros{
+    -webkit-animation-delay: 0s;
+}
+
+.zoomin_segundos{
+    -webkit-animation-delay: 1s;
+}
+
+.zoomin_terceros{
+    -webkit-animation-delay: 3s;
+}
+
+.zoomin:hover{
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes zoomin {
+    0% { -webkit-transform: scale(1) } 
+    4% { -webkit-transform: scale(1.01); }
+    8% { -webkit-transform: scale(1); }
+    12% { -webkit-transform: scale(1.007); }
+    16%, 100% { -webkit-transform: scale(1); }
+}
 
 
 /* Portfolio */
