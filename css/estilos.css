@@ -1380,6 +1380,285 @@ a.pdf_descarga:hover{
      }
      
      
+    /*proyectos*/
+    #proyectos{
+        padding-top: 7em;
+        padding-bottom: 4em;
+        height: auto;
+    }
+
+    #contenedor_proyectos{
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        height: auto;
+    }
+
+    div.contenido_filas{
+        display: block;
+        margin-top: 3em;
+        height: 30em
+    }
+
+    div.proyectos_izquierda{
+        width: 100%;
+        height: 8em;
+    }
+
+    div.proyectos_derecha{
+        width: 100%;
+        height: 8em;
+    }
+
+    div.proyectos_arriba{
+        position: absolute;
+        height: 8em;
+    }
+
+    div.proyectos_abajo{
+        position: absolute;
+        height: 8em;
+    }
+
+    div.proyectos_grandes,
+    div.proyectos_medianos,
+    div.proyectos_largos{
+         margin: 0em;
+         height: 8em;
+     }
+     
+     #hacerfuego_proyectos{
+         position: relative;
+         top: 0em;
+     }
+    
+     #virus_proyectos{
+         position: relative;
+         top: 10em;
+     }
+     
+     #tiempoausente_proyectos{
+         position: relative;
+         top: 12em;
+     }
+     
+       /*proyectos grandes */
+
+    img.etiqueta_izq_grandes{
+        position: absolute;
+        height: 45%;
+        max-width: 33%;
+        top: 10%;
+        margin-left: 3.6%;
+    }
+
+    img.etiqueta_der_grandes{
+        max-width: 29%;
+        height: 38%;
+        bottom: 14%;
+        margin-right: 4%;
+    }
+/*
+    .etiqueta_izq_grandes_atras{
+        position: absolute;
+        top: 10%;
+        right: -2%;
+        height: 19%;
+    }
+
+    .etiqueta_der_grandes_atras{
+        position: absolute;
+        bottom: 8%;
+        left: -2%;
+        height: 17%;    
+    }
+*/
+    div.proyectos_grandes h4{
+        font-size: 1.2em;
+        top: 12%;
+        left: 3%;
+    }
+
+    div.proyectos_grandes h5{
+        top: 29%;
+        left: 3%;
+        font-size: 0.9em;
+    }
+
+    div.proyectos_grandes h6{
+        bottom: 36%;
+        right: 3%;
+        font-size: 0.9em;
+        margin-top: 5em;
+    }
+
+    div.proyectos_grandes p{
+        bottom: 22%;
+        right: 3%;
+        font-size: 0.8em;
+    }
+/*
+    #datos_extra_tourette{
+        font-family: "robotoregular", sans-serif;
+        font-size: 1.8em;
+        position: absolute;
+        margin: 1em;
+        left: 10%;
+        top: 30%;
+        text-align: left;
+    }
+
+    /* proyectos medianos */
+    img.etiqueta_izq_medianos{
+        width: 10%;
+        height: 38%;
+        position: absolute;
+        top: 10%;
+        left: -6%;
+        z-index: 1;
+    }
+/*
+    .etiqueta_izq_medianos_atras{
+        position: absolute;
+        right: -2%;
+        top: 10%;
+        z-index: 3;
+        height: 39%;
+    }
+
+    .etiqueta_izq_medianos_atras_dosrenglones{
+        height: 48%;
+    }
+*/
+    h4.titulo_dosrenglones{
+        width: 75%;
+    }
+
+    h5.tipo_dosrenglones{
+        padding-top: 1.75em;
+    }
+
+    div.proyectos_medianos h4{
+        color: #FF6633;
+        font-family: "robotobold", sans-serif;
+        font-size: 2em;
+        position: absolute;
+        top: 12%;
+        left: 3%;
+        text-align: left;
+        z-index: 1;
+    }
+
+    div.proyectos_medianos h5{
+        font-family: "robotolight", sans-serif;
+        font-size: 1.7em;
+        position: absolute;
+        top: 26%;
+        left: 3%;
+        z-index: 1;
+    }
+
+    div.proyectos_medianos h6{
+        font-family: "robotolight", sans-serif;
+        font-size: 1.7em;
+        margin-top: 2em;
+        position: absolute;
+        bottom: 24%;
+        right: 8%;
+        z-index: 3;
+    }
+
+    div.proyectos_medianos p{
+        font-family: "robotolight", sans-serif;
+        font-size: 1.5em;
+        position: absolute;
+        bottom: 13%;
+        right: 8%;
+        z-index: 3;
+    }
+/*
+    .datos_extra_atras{
+        font-family: "robotoregular", sans-serif;
+        font-size: 2em;
+        text-align: left;
+        left: 8%;
+        top: -8%;
+        width: 75%;
+    }  
+     
+     
+     
+     /* proyectos largos *//*
+img.etiqueta_izq_largos{
+    width: 100%;
+    height: 41%;
+    position: absolute;
+    top: 10%;
+    left: -6%;
+}
+
+img.etiqueta_der_largos{
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    bottom: 5%;
+    right: -5.5%;
+}
+
+div.proyectos_centro{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+div.proyectos_largos h4{
+    color: #FF6633;
+    font-family: "robotobold", sans-serif;
+    font-size: 2.3em;
+    position: absolute;
+    top: 12%;
+    left: 3%;
+}
+
+div.proyectos_largos h5{
+    position: absolute;
+    top: 26%;
+    left: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 2em;
+}
+
+div.proyectos_largos h6{
+    position: absolute;
+    bottom: 25%;
+    right: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 2em;
+    margin-top: 5em;
+}
+
+div.proyectos_largos p{
+    position: absolute;
+    bottom: 13%;
+    right: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 1.8em;
+}
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
      
      
