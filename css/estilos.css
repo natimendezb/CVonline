@@ -1261,8 +1261,8 @@ a.pdf_descarga:hover{
      }
      
      ul.conocimientos{
-        width: 50%;
-        max-width: 50%;
+        width: 55%;
+        max-width: 55%;
      }
 
     li.fila_conocimiento{
@@ -1271,19 +1271,19 @@ a.pdf_descarga:hover{
 
     ul.conocimientos figcaption{
         padding-left: 0.4em;
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
      
     .fila_conocimiento figure img{
-        width: 2em;
+        width: 2.5em;
         height: auto;
      }
 
     div.unacara,
     div.doscaras,
     div.trescaras{
-        width: 74px;
-        height: 22px;
+        width: 78px;
+        height: 23px;
         background-size: contain;
     }
 
