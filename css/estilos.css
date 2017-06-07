@@ -1446,15 +1446,15 @@ a.pdf_descarga:hover{
 
     img.etiqueta_izq_grandes{
         position: absolute;
-        height: 45%;
-        max-width: 33%;
+        height: 50%;
+        max-width: 35%;
         top: 10%;
         margin-left: 3.6%;
     }
 
     img.etiqueta_der_grandes{
-        max-width: 29%;
-        height: 38%;
+        max-width: 32%;
+        height: 42%;
         bottom: 14%;
         margin-right: 4%;
     }
@@ -1474,28 +1474,28 @@ a.pdf_descarga:hover{
     }
 */
     div.proyectos_grandes h4{
-        font-size: 1.2em;
+        font-size: 1.3em;
         top: 12%;
         left: 3%;
     }
 
     div.proyectos_grandes h5{
-        top: 29%;
+        top: 31%;
         left: 3%;
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     div.proyectos_grandes h6{
-        bottom: 36%;
+        bottom: 39%;
         right: 3%;
-        font-size: 0.9em;
+        font-size: 1em;
         margin-top: 5em;
     }
 
     div.proyectos_grandes p{
-        bottom: 22%;
+        bottom: 23%;
         right: 3%;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 /*
     #datos_extra_tourette{
