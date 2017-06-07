@@ -100,6 +100,7 @@ header nav ul{
 #header_derecha{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 25%;
 }
 
@@ -1200,15 +1201,15 @@ a.pdf_descarga:hover{
 
  @media screen and (orientation:landscape) {
      header, header nav ul{
-         height: 4em;
+         height: 3.5em;
      }
      
      .header a img{
-         width: 80%;
+         width: 70%;
      }
      
      #titulo_seccion{
-        font-size: 2.4em;
+        font-size: 2em;
      } 
      
      
@@ -1230,12 +1231,12 @@ a.pdf_descarga:hover{
      }
 
      #presentacion figure img{
-        margin: 5em 3em 2em 3em;
+        margin: 4em 3em 1em 3em;
         width: 40%;
      }
 
      #presentacion figcaption p{
-        font-size: 1.2em;
+        font-size: 0.9em;
      }
 
      #datos{
@@ -1250,8 +1251,10 @@ a.pdf_descarga:hover{
      #datos a{
         font-size: 1.6em;
      }
+
     
-     
+
+
      
      
      
