@@ -1317,7 +1317,7 @@ a.pdf_descarga:hover{
     #formacion::before {
         /* línea vertical */
         top: 8em;
-        height: 67%;
+        height: 65%;
         width: 0.2em;
         transform: translate(-50%);
     }
@@ -1348,7 +1348,7 @@ a.pdf_descarga:hover{
     }
 
     div.contenido_timeline p{
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
      
     #primera_esfera img{
