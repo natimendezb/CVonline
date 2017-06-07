@@ -1227,7 +1227,7 @@ a.pdf_descarga:hover{
      }
 
      #presentacion h2{
-        font-size: 1.7em;
+        font-size: 1.3em;
      }
 
      #presentacion figure img{
@@ -1236,11 +1236,11 @@ a.pdf_descarga:hover{
      }
 
      #presentacion figcaption p{
-        font-size: 0.9em;
+        font-size: 0.7em;
      }
 
      #datos{
-        margin-top: 7em;
+        margin-top: 6em;
      }
 
      #datos nav{
@@ -1250,6 +1250,7 @@ a.pdf_descarga:hover{
 
      #datos a{
         font-size: 1.6em;
+        margin-bottom: 2.5em;
      }
 
     
