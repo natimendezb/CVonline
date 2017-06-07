@@ -1348,7 +1348,7 @@ a.pdf_descarga:hover{
     }
 
     div.contenido_timeline p{
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
      
     #primera_esfera img{
@@ -1364,7 +1364,7 @@ a.pdf_descarga:hover{
     #circulo_ilse{
         top: 0;
         left: 50%;
-        transform: translate(-43%);
+        transform: translate(-43.5%);
         z-index: 3;
     }
      
