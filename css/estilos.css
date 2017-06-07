@@ -1288,11 +1288,11 @@ a.pdf_descarga:hover{
     }
 
     div.unacara{
-        background-position: -52px;
+        background-position: -55px;
     }
 
     div.doscaras{
-        background-position: -26px;
+        background-position: -28px;
     }
 
     hr.divisor_categoria{
@@ -1304,9 +1304,84 @@ a.pdf_descarga:hover{
     hr.separador_subseccion{
         width: 10%;
         margin-left: 45%;
+        margin-top: 2em;
     }        
 
 
+    /*formación*/
+    #formacion{
+        padding-bottom: 3em;
+        padding-top: 3em;
+    }
+
+    #formacion::before {
+        /* línea vertical */
+        top: 8em;
+        height: 70%;
+        width: 0.2em;
+        transform: translate(-50%);
+    }
+
+    div.contenedor_timeline{
+        margin: 2em 8em 2em 8em;
+    }
+
+    figcaption.fecha{
+        font-size: 1.1em;
+    }
+
+    figcaption.fecha_izquierda{
+        font-size: 1.1em;
+    }
+
+    div.contenido_timeline{
+        position: relative;
+        width: 35%;
+    }
+
+    div.contenido_timeline h2{
+        font-size: 1.7em;
+    }
+
+    div.contenido_timeline h3{
+        font-size: 1.1em;
+    }
+
+    div.contenido_timeline p{
+        font-size: 0.7em;
+    }
+     
+    #primera_esfera img{
+        width: 40%;
+        height: auto;
+    }
+     
+    #primera_esfera{
+        transform: translate(-17%);
+    }
+     
+    #circulo_after,
+    #circulo_ilse{
+        top: 0;
+        left: 50%;
+        transform: translate(-46%);
+        z-index: 3;
+    }
+     
+     #circulo_after img,
+     #circulo_ilse img{
+        width: 40%;
+        height: auto;
+     }
+     
+     .circulo_chico{
+         transform: translate(-76%);
+     }
+     
+     .circulo_chico img{
+         width: 50%;
+         height: auto;
+     }
      
      
      
