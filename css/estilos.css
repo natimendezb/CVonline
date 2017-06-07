@@ -1259,6 +1259,11 @@ a.pdf_descarga:hover{
      #conocimientos{
         padding-top: 4em;
      }
+     
+     ul.conocimientos{
+        width: 50%;
+        max-width: 50%;
+     }
 
     li.fila_conocimiento{
         padding-bottom: 0.5em;
@@ -1266,39 +1271,39 @@ a.pdf_descarga:hover{
 
     ul.conocimientos figcaption{
         padding-left: 0.4em;
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
+     
+    .fila_conocimiento figure img{
+        width: 2em;
+        height: auto;
+     }
 
     div.unacara,
     div.doscaras,
     div.trescaras{
-        width: 99px;
-        height: 29px;
+        width: 74px;
+        height: 22px;
         background-size: contain;
     }
 
     div.unacara{
-        background-position: -68px;
+        background-position: -52px;
     }
 
     div.doscaras{
-        background-position: -34px;
+        background-position: -26px;
     }
 
     hr.divisor_categoria{
-        width: 75%;
-        margin: 1em 0em 1em 12.5%;
-        height: 1px;
-        border-style: solid;
-        border-color: #333399;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 
     hr.separador_subseccion{
-        width: 20%;
-        margin-left: 40%;
-        height: 2px;
-        border-style: solid;
-        border-color: #333399;
+        width: 10%;
+        margin-left: 45%;
     }        
 
 
