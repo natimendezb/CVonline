@@ -1200,6 +1200,7 @@ a.pdf_descarga:hover{
 /* RESPONSIVE LANDSCAPE */
 
  @media screen and (orientation:landscape) {
+     /*header*/ 
      header, header nav ul{
          height: 3.5em;
      }
@@ -1212,8 +1213,8 @@ a.pdf_descarga:hover{
         font-size: 2em;
      } 
      
-     
-     
+
+     /*perfil*/
      #perfil{
         padding-top: 1.5vh;
         height: auto;
@@ -1253,12 +1254,60 @@ a.pdf_descarga:hover{
         margin-bottom: 2.5em;
      }
 
-    
+     
+     /*conocimientos*/
+     #conocimientos{
+        padding-top: 4em;
+     }
+
+    li.fila_conocimiento{
+        padding-bottom: 0.5em;
+    }
+
+    ul.conocimientos figcaption{
+        padding-left: 0.4em;
+        font-size: 1.5em;
+    }
+
+    div.unacara,
+    div.doscaras,
+    div.trescaras{
+        width: 99px;
+        height: 29px;
+        background-size: contain;
+    }
+
+    div.unacara{
+        background-position: -68px;
+    }
+
+    div.doscaras{
+        background-position: -34px;
+    }
+
+    hr.divisor_categoria{
+        width: 75%;
+        margin: 1em 0em 1em 12.5%;
+        height: 1px;
+        border-style: solid;
+        border-color: #333399;
+    }
+
+    hr.separador_subseccion{
+        width: 20%;
+        margin-left: 40%;
+        height: 2px;
+        border-style: solid;
+        border-color: #333399;
+    }        
 
 
      
      
      
+     
+     
+     /*portfolio*/
      #portfolio{
          height: auto;
      }
