@@ -1196,14 +1196,72 @@ a.pdf_descarga:hover{
 
 
 
-/* RESPONSIVE */
+/* RESPONSIVE LANDSCAPE */
 
  @media screen and (orientation:landscape) {
-     #perfil{
-         height: auto;
+     header, header nav ul{
+         height: 5em;
      }
+     
+     .header a img{
+         width: 90%;
+     }
+     
+     #titulo_seccion{
+        font-size: 2.7em;
+     } 
+     
+     
+     
+     #perfil{
+        padding-top: 2vh;
+        height: auto;
+     }
+
+     #presentacion h1 {
+        font-size: 4em;
+     }
+
+     #presentacion h2{
+        font-size: 2.5em;
+     }
+
+     #presentacion figure img{
+        margin: 5em 3em 2em 3em;
+        width: 53%;
+     }
+
+     #presentacion figcaption p{
+        font-size: 1.7em;
+     }
+
+     #datos{
+        margin-top: 7em;
+     }
+
+     #datos nav{
+        padding-left: 5.5em;
+        padding-right: 5.5em;
+     }
+
+     #datos a{
+        font-size: 2.1em;
+     }
+    
+     
+     
+     
      
      #portfolio{
          height: auto;
      }
 }
+
+
+
+/* RESPONSIVE DESKTOP */
+
+@media screen and (min-width:72em) {
+    #perfil{
+        height: auto;
+    }
