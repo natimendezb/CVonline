@@ -1382,7 +1382,7 @@ a.pdf_descarga:hover{
     /*proyectos*/
     #proyectos{
         padding-top: 7em;
-        padding-bottom: 4em;
+        padding-bottom: 7em;
         height: auto;
     }
 
@@ -1847,10 +1847,159 @@ a.pdf_descarga:hover{
      
      
      /*portfolio*/
-     #portfolio{
-         height: auto;
+    #portfolio{
+        padding-top: 7em;
+        padding-bottom: 7em;
+        height: auto;
+    }
+
+    img.portfolio_imagenes{
+        width: 100%;
+    }
+
+    figure.portfolio_proyectos{
+        margin: 0% 15% 0% 15%;
+        max-width: 75%;
+        height: 5%;
+    }
+
+    .portfolio_proyectos_texto a,
+    .portfolio_proyectos_texto p{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    a.portfolio_titulos{
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    p.portfolio_tipo{
+        font-size: 1.4em;
+        width: 75%;
+    }
+
+    p.portfolio_rol{
+        font-size: 1.3em;
+        margin-top: 2em;
+    }
+
+    p.portfolio_año{
+        font-size: 1.2em;
+        padding: 0.3em 0em 1em 0.2em;
+    }
+     
+     a.portfolio_titulos img{
+         width: 7%;
      }
-}
+
+     p.portfolio_rol_dosrenglones{
+         margin-top: 0.5em;
+     }
+     
+     
+
+    #portfolio_behance a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10em;
+        margin-left: 27%;
+        border-radius: 1.2em;
+        border-style: solid;
+        border-color: #336699;
+        border-width: 0.3em;
+        text-decoration: none;
+        padding: 1.2em 0.5em 1.2em 0.5em;
+        width: 46%;
+    }
+
+    #portfolio_behance img{
+        width: 15%;
+        height: auto;
+    }
+
+    #portfolio_behance h5{
+        font-family: "robotoregular", sans-serif;
+        font-size: 2.5em;
+        color: #336699;
+        padding-left: 0.2em;
+    }   
+
+
+
+    /* Portfolio */
+
+    /* Pdf */
+
+    #pdf{
+        background-color: #f7f7f7;
+        z-index: 2;
+        padding: 2em;
+    }
+
+    a.pdf_descarga{
+        display: flex;
+        justify-content: center;
+        border-radius: 0.5em;
+        border-color: #336699;
+        border-style: solid;
+        border-width: 0.12em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 25.5%;
+        padding: 0.5em 1em 0.5em 1em;
+        font-family: "robotobold", sans-serif;
+        font-size: 2.5em;
+        text-decoration: none;
+        color: #336699;
+        width: 49%;
+    }
+
+
+    /* Pdf */
+
+    /* MAIN */
+
+
+    /* FOOTER */
+
+    #footer{
+        color: #336699;
+        background-color: #fafafa;
+        width: 100%;
+        height: auto;
+        border-top-style: solid;
+        border-top-color: #bcbcbc;
+        border-top-width: 0.2em;
+    }
+
+    #footer nav ul{
+        display: flex;
+        justify-content: center;
+        padding: 2em 0em;
+    }
+
+    #footer nav ul li{
+        font-family: "robotomedium", sans-serif;
+        font-size: 2em;
+    }
+
+    #footer nav ul li:first-child{
+        border-right-color: #333399;
+        border-right-style: solid;
+        padding-right: 0.5em;
+    }
+
+    #footer nav ul li:last-child{
+        padding-left: 0.5em;  
+    }
+
+
+
+
+
+
 
 
 
