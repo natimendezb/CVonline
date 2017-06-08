@@ -549,11 +549,11 @@ div.proyectos_grandes p{
 
 #datos_extra_tourette{
     font-family: "robotoregular", sans-serif;
-    font-size: 1.8em;
+    font-size: 2.2em;
     position: absolute;
     margin: 1em;
     left: 10%;
-    top: 30%;
+    top: 25%;
     text-align: left;
 }
 
@@ -634,12 +634,13 @@ div.proyectos_medianos p{
     z-index: 3;
 }
 
-.datos_extra_atras{
+div.proyectos_medianos h7{
+    position: absolute;
     font-family: "robotoregular", sans-serif;
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: left;
-    left: 8%;
-    top: -8%;
+    left: 10%;
+    top: 10%;
     width: 75%;
 }
 
@@ -917,7 +918,8 @@ h6.rol_dosrenglones{
 }
 
 /* flip the pane when hovered */
-.contenedor_flip:hover .flipper, .contenedor_flip.hover .flipper {
+.contenedor_flip:hover .flipper,
+.contenedor_flip.hover .flipper {
     transform: rotateY(180deg);
 }
 
@@ -1393,12 +1395,17 @@ a.pdf_descarga:hover{
 
     div.contenido_filas{
         display: block;
-        margin-top: 2em;
-        height: 41em;
+        position: relative;
+        height: 39em;
+        margin-bottom: 0em;
+        margin-top: 0em;
     }
      
     div.contenido_filas_largos{
-         height: 16em;
+        display: block;
+        height: 15em;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 
     div.proyectos_izquierda{
@@ -1406,27 +1413,24 @@ a.pdf_descarga:hover{
         height: 11em;
         margin-left: 0em;
     }
-
-    div.proyectos_izquierda_landscape{
-        height: 15em;
-        width: 100%;
-        margin-left: 0em;
-    }
+     
+     div.proyectos_landscape_grandes{
+         height: 15em;
+     }
      
     div.proyectos_derecha{
         width: 100%;
         height: 11em;
         margin-left: 0em;
     }
-
+     
     div.proyectos_arriba{
-        position: absolute;
         height: 11em;
         margin-left: 0em;
+        margin-bottom: 1em;
     }
 
     div.proyectos_abajo{
-        position: absolute;
         height: 11em;
         margin-left: 0em;
     }
@@ -1441,171 +1445,125 @@ a.pdf_descarga:hover{
          height: 11em;
          margin-left: 0em;
      }
-     
-     div.proyectos_grandes_landscape{
+    
+     div.proyectos_grandes,
+     div.proyectos_largos{
          height: 15em;
          margin-left: 0em;
      }
      
-     #hacerfuego_proyectos{
+    div.proyectos_landscape_top{
+        position: absolute;
+        top: 0em;
+    }
+     
+     div.proyectos_landscape_tourette{
          position: relative;
-         top: 0em;
-     }
-    
-     #virus_proyectos{
-         position: relative;
-         top: 13em;
      }
      
-     #tiempoausente_proyectos{
-         position: relative;
-         top: 15em;
-     }
+    div.proyectos_landscape_center{
+        position: absolute;
+        top: 12em;
+    }
      
-     #hacefeliz_proyectos{
-         position: relative;
-         top: 1em;
-     }
+    div.proyectos_landscape_bottom{
+        position: absolute;
+        bottom: 0em;
+    }
      
-     #tourette_proyectos{
-         position: relative;
-         top: 1em;
-     }
-     
-     #paraiso_proyectos{
-         position: relative;
-         top: 3em;
-     }
-     
-     #doblefantasia_proyectos{
-         position: relative;
+     div.proyectos_landscape_center_medianos{
+         position: absolute;
          top: 16em;
      }
      
-     #suenaluz_proyectos{
-         position: relative;
-         top: 2em;
+     #proyectos_landscape_center_medianos_paraiso{
+         position: absolute;
+         top: 1em;
      }
      
-     #yogui_proyectos{
-         position: relative;
-         top: 2em;
+     div.proyectos_landscape_bottom_medianos{
+         position: absolute;
+         top: 28em;
      }
      
-     #seminario_proyectos{
-         position: relative;
-         top: 15em;
+     #proyectos_landscape_bottom_medianos_doblefantasia{
+         position: absolute;
+         top: 13em;
      }
-     
-     #paracaidas_proyectos{
-         position: relative;
-         top: 17em;
-     }
-     
-     #cactusenserie_proyectos{
-         position: relative;
-         top: 3em;
-     }
-     
-     #enlalluvia_proyectos{
-         position: relative;
-         top: 3em;
-     }
-     
-     #voluntariado_proyectos{
-         position: relative;
-         top: 5em;
-     }
-     
-     #dataentry_proyectos{
-         position: relative;
-         top: 18em;
-     }
-     
      
        /*proyectos grandes */
 
     img.etiqueta_izq_grandes{
         position: absolute;
-        height: 39%;
-        max-width: 40%;
+        height: 35%;
+        max-width: 100%;
         top: 10%;
-        margin-left: 3.2%;
+        margin-left: 2.5%;
     }
 
     img.etiqueta_der_grandes{
-        max-width: 38%;
-        height: 34%;
-        bottom: 14%;
-        margin-right: 3.8%;
+        max-width: 100%;
+        height: 32%;
+        bottom: 12%;
+        margin-right: 2.8%;
     }
-/*
+
     .etiqueta_izq_grandes_atras{
-        position: absolute;
-        top: 10%;
-        right: -2%;
-        height: 19%;
+        height: 27%;
     }
 
     .etiqueta_der_grandes_atras{
-        position: absolute;
-        bottom: 8%;
-        left: -2%;
-        height: 17%;    
+        height: 30%;    
     }
-*/
+
     div.proyectos_grandes h4{
         font-size: 1.6em;
-        top: 12%;
+        top: 11%;
     }
 
     div.proyectos_grandes h5{
-        top: 27%;
+        top: 24%;
         font-size: 1.3em;
     }
 
     div.proyectos_grandes h6{
-        bottom: 34%;
+        bottom: 31%;
         font-size: 1.3em;
     }
 
     div.proyectos_grandes p{
-        bottom: 23%;
+        bottom: 20%;
         font-size: 1.2em;
     }
      
     #datos_extra_tourette{
-        font-size: 1.2em;
-        width: 50%;
-        margin-left: 18%;
+        font-size: 1.6em;
+        width: 70%;
+        left: 15%;
         top: 20%;
     }
 
     /* proyectos medianos */
     img.etiqueta_izq_medianos{
-        max-width: 48%;
-        max-height: 30%;
-        margin-left: 1.8%;
+        max-width: 100%;
+        height: 44%;
+        margin-left: 1.3%;
     }
 
-/*    .etiqueta_izq_medianos_atras{
-        position: absolute;
-        right: -2%;
-        top: 10%;
-        z-index: 3;
-        height: 39%;
+    .etiqueta_izq_medianos_atras{
+        height: 34%;
     }
 
     .etiqueta_izq_medianos_atras_dosrenglones{
-        height: 48%;
+        height: auto%;
     }
-*/
+
     h4.titulo_dosrenglones{
-        max-width: 100%;
+        width: auto;
     }
 
     h5.tipo_dosrenglones{
-        padding-top: 0em;
+        padding: 0em;
     }
 
     div.proyectos_medianos h4{
@@ -1615,267 +1573,207 @@ a.pdf_descarga:hover{
 
     div.proyectos_medianos h5{
         font-size: 1.1em;
-        top: 23%;
+        top: 28%;
     }
 
     div.proyectos_medianos h6{
-        font-size: 1.1em;
-        margin-top: 2em;
-        bottom: 24%;
+        font-size: 1.5em;
+        bottom: 30%;
     }
 
     div.proyectos_medianos p{
-        font-size: 0.9em;
-        bottom: 13%;
+        font-size: 1.3em;
+        bottom: 12%;
     }
-/*
-    .datos_extra_atras{
-        font-family: "robotoregular", sans-serif;
-        font-size: 2em;
-        text-align: left;
-        left: 8%;
-        top: -8%;
-        width: 75%;
-    }  
+
+    div.proyectos_medianos h7{
+        font-size: 1.5em;
+        top: 14%;
+    }
      
      /* proyectos largos */
     img.etiqueta_izq_largos{
-        max-width: 50%;
-        height: 39%;
+        max-width: 100%;
+        height: 35%;
     }
 
     img.etiqueta_der_largos{
-        max-width: 28%;
-        height: 34%;
-        right: -5.5%;
+        max-width: 100%;
+        height: 32%;
+        bottom: 12%;
     }     
      
     div.proyectos_largos h4{
         font-size: 1.6em;
-        top: 12%;
+        top: 11%;
     }
 
     div.proyectos_largos h5{
-        top: 27%;
+        top: 24%;
         font-size: 1.3em;
     }
 
     div.proyectos_largos h6{
-        bottom: 25%;
+        bottom: 31%;
         font-size: 1.3em;
     }
 
     div.proyectos_largos p{
-        bottom: 14%;
+        bottom: 20%;
         font-size: 1.2em;
     }
 
     
      
-     
     #etiqueta_izq_hacerfuego{
-        width: 83%;
-        height: 58%;
-        left: -4.7%;
-    }
-
-
+        width: 46%;
+        height: 44%;
+        left: -3.9%;
+     } 
+     
     #virus_proyectos{
-        background-image: url(../img/virus_proyectos.jpg);
-        background-position: left;
+        background-position: top;
     }
 
     #etiqueta_izq_virus{
-        width: 67%;
-        left: -4%
+        width: 28%;
+        left: -2.9%
     }
 
     #tiempoausente_proyectos{
-        background-image: url(../img/tiempoausente_proyectos.jpg);
+        background-position: bottom;
     }
 
     #etiqueta_izq_tiempoausente{
-        width: 97%;
-        left: -5.5%;
+        width: 40%;
+        left: -4.8%;
     }
 
     #etiqueta_der_tiempoausente{
-        width: 98%;
-        right: -5.8%;
-    }
-
-    #hacefeliz_proyectos{
-        background-image: url(../img/hacefelizaungato_proyectos.jpg);
-        background-size: cover;
-        background-position: center;
+        width: 40%;
+        right: -5.2%;
     }
 
     #etiqueta_izq_hacefeliz{
-        width: 62%;
-        left: -3.6%;
+        width: 51%;
+        left: -3%;
     }
 
     #etiqueta_der_hacefeliz{
-        width: 35%;
-        right: -2%;
+        width: 27%;
+        right: -1.6%;
     }
-
-
+     
     #tourette_proyectos{
-        background-image: url(../img/tourette_proyectos.jpg);
+        background-position: center;
     }
 
     #etiqueta_izq_tourette{
-        width: 65%;
-        left: -4%;
-    }
-
-    #etiqueta_der_tourette{
-        width: 80%;
-        right: -4.7%;
-    }
-
-
-    #paraiso_proyectos{
-        background-image: url(../img/paraiso_proyectos.jpg);
-        background-position: right;
-    }
-
-    #etiqueta_izq_paraiso{
-        width: 47%;
-        left: -2.9%;
-    }
-
-
-    #doblefantasia_proyectos{
-        background-image: url(../img/doblefantasia_proyectos.jpg);
-        background-position: left;
-    }
-
-    #etiqueta_izq_doblefantasia{
-        width: 83%;
-        left: -4.5%;
-    }
-
-
-    #suenaluz_proyectos{
-        background-image: url(../img/suenaluz_proyectos.jpg);
-    }
-
-    #etiqueta_izq_suenaluz{
-        width: 34%;
-        left: -2%;
-    }
-
-    #etiqueta_der_suenaluz{
-        width: 56%;
-        right: -3.2%;
-    }
-
-
-    #seminario_proyectos{
-        background-image: url(../img/seminario_proyectos.jpg);
-    }
-
-    #etiqueta_izq_seminario{
-        width: 77%;
-        height: 59%;
-        left: -4.5%;
-    }
-
-
-
-    #yogui_proyectos{
-        background-image: url(../img/yogui_proyectos.jpg);
-    }
-
-    #etiqueta_izq_yogui{
-        width: 80%;
-        height: 43%;
-        left: -4.7%;
-    }
-
-
-    #paracaidas_proyectos{
-        background-image: url(../img/paracaidas_proyectos.jpg);
-    }
-
-    #etiqueta_izq_paracaidas{
-        width: 77%;
+        width: 28%;
         left: -4.2%;
     }
 
-    h6.rol_dosrenglones{
-        text-align: right;
+    #etiqueta_der_tourette{
+        width: 32%;
+        right: -4.7%;
+    }
+
+    #etiqueta_izq_paraiso{
+        width: 22%;
+        left: -2.6%;
+    }
+     
+    #etiqueta_izq_doblefantasia{
+        width: 36%;
+        left: -3.5%;
+    }
+
+    #etiqueta_izq_suenaluz{
+        width: 29%;
+        left: -1.8%;
+    }
+
+    #etiqueta_der_suenaluz{
+        width: 47%;
+        right: -2.8%;
+    }
+
+    #seminario_proyectos{
+        background-position: left;
+    }
+
+    #etiqueta_izq_seminario{
+        width: 52%;
+        height: 44%;
+        left: -4.3%;
+    }
+
+    #etiqueta_izq_yogui{
+        width: 35%;
+        height: 44%;
+        left: -3.3%;
+    }
+     
+    #yogui_h4{
+         line-height: 1.2em;
+     }
+
+    #paracaidas_proyectos{
+        background-position: center;
+    }
+
+    #etiqueta_izq_paracaidas{
+        width: 32%;
+        left: -4.7%;
     }
 
     #etiqueta_der_paracaidas,
     #etiqueta_der_enlalluvia{
-        height: 28%;
-        bottom: 3%;
-        right: -6%;
-    }
-
-
-    #cactusenserie_proyectos{
-        background-image: url(../img/cactusenserie_proyectos.jpg);
-        background-position: center;
+        width: 51%;
+        height: 32%;
+        bottom: 12%;
+        right: -5.8%;
     }
 
     #etiqueta_izq_cactus{
-        width: 50%;
-        left: -3%;
+        width: 41%;
+        left: -2.4%;
     }
 
     #etiqueta_der_cactus{
-        width: 53%;
-        right: -3%;
+        width: 44%;
+        right: -2.7%;
     }
 
-
     #enlalluvia_proyectos{
-        background-image: url(../img/enlalluvia_proyectos.jpg);
         background-position: left;
     }
 
     #etiqueta_izq_enlalluvia{
-        width: 80%;
+        width: 33%;
         left: -4.5%;
     }
 
-
-
     #voluntariado_proyectos{
-        background-image: url(../img/voluntariado_proyectos.jpg);
-        background-position: bottom;
+        background-position: center;
     }
 
     #etiqueta_izq_voluntariado{
-        width: 90%;
-        left: -4.8%;
-    }
-
-
-    #dataentry_proyectos{
-        background-image: url(../img/dataentry_proyectos.jpg);
+        width: 37%;
+        left: -3.7%;
     }
 
     #etiqueta_izq_dataentry{
-        width: 75%;
-        left: -4.3%;
+        width: 32%;
+        left: -3.3%;
     }
     
      
      /* Giro de cartas */
 
-    /* entire container, keeps perspective */
-    .contenedor_flip,
-    .contenedos_flip_grande{
-        perspective: 1000px;
-    }
-
     /* flip the pane when hovered */
-    .contenedor_flip:hover .flipper, .contenedor_flip.hover .flipper {
+    .contenedor_flip:hover .flipper,
+    .contenedor_flip.hover .flipper {
         transform: rotateX(180deg);
     }
 
@@ -1889,10 +1787,10 @@ a.pdf_descarga:hover{
     }
 
     .contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
-        height: 15em;
         width: 100%;
+        height: 15em;
     }
-
+     
     /* front pane, placed above back */
     .carta_adelante, .carta_adelante_grande {
         /* for firefox 31 */
@@ -1901,15 +1799,51 @@ a.pdf_descarga:hover{
 
     /* back, initially hidden pane */
     .carta_atras, .carta_atras_grande {
-        transform: rotateX(180deg);
+        transform: rotateX(180deg); 
     }
-
      
+     .carta_atras_hacerfuego{
+         background-image: url(../img/hacerfuego_proyectos_landscape.jpg);
+         background-position: left;
+     }
      
+     .carta_atras_virus{
+         background-image: url(../img/virus_proyectos_landscape.jpg);
+         background-position: bottom;
+     }
      
+     .carta_atras_tourette{
+         background-image: url(../img/tourette_proyectos_landscape.jpg);
+     }
      
+     .carta_atras_paraiso{
+         background-image: url(../img/paraiso_proyectos_landscape.jpg);
+     }
      
+     .carta_atras_doblefantasia{
+         background-image: url(../img/doblefantasia_proyectos_landscape.jpg);
+         background-position: top;
+     }
      
+     .carta_atras_seminario{
+         background-image: url(../img/seminario_proyectos_landscape.jpg);
+         background-position: bottom;
+     }
+     
+     .carta_atras_yogui{
+         background-image: url(../img/yogui_proyectos_landscape.jpg);
+         background-position: bottom;
+     }
+     
+     .carta_atras_voluntariado{
+         background-image: url(../img/voluntariado_proyectos_landscape.jpg);
+         background-position: bottom;
+     }
+     
+     .carta_atras_dataentry{
+         background-image: url(../img/dataentry_proyectos_landscape.jpg);
+         background-position: bottom;
+     }
      
      
      /*portfolio*/
