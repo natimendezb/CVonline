@@ -4,8 +4,11 @@ function cambio_titulo_onclick(nuevo_texto) {
     pDelHeader.innerHTML = nuevo_texto; 
 }
 
+var posicionActual;
+
 function cambio_titulo_onscroll() {
     var pixelesScroll = document.body.scrollTop;
+    posicionActual = pixelesScroll;
     var botonPerfil = document.getElementById("boton_perfil");
         botonPerfil.style.opacity = "1";
     var botonConocimientos = document.getElementById("boton_conocimientos");
@@ -15,25 +18,39 @@ function cambio_titulo_onscroll() {
     var botonPortfolio = document.getElementById("boton_portfolio");
         botonPortfolio.style.opacity = "1";
     
-    if (pixelesScroll <= 1000) {
-        cambio_titulo_onclick("PERFIL");
-        botonPerfil.style.opacity = "0.5";
+    var pixelesPerfil, pixelesConocimientos, pixelesProyectos
+    
+    if (esPortrait()) {
+        pixelesPerfil = 1000;
+        pixelesConocimientos = 3500;
+        pixelesProyectos = 7700;
     }
-    if (pixelesScroll > 1000 && pixelesScroll <= 3500) {
-        cambio_titulo_onclick("CONOCIMIENTOS");
-        botonConocimientos.style.opacity = "0.5";
-        //document.getElementById("conocimientos").scrollIntoView();
-    }
-    if (pixelesScroll > 3500 && pixelesScroll <= 7700) {
-        cambio_titulo_onclick("PROYECTOS");
-        botonProyectos.style.opacity = "0.5";
+    else {
+        pixelesPerfil = 600;
+        pixelesConocimientos = 2000;
+        pixelesProyectos = 5500;
     }
     
-    if (pixelesScroll > 7700) {
-        cambio_titulo_onclick("PORTFOLIO");
-        botonPortfolio.style.opacity = "0.5";
-    }
+    if (pixelesScroll <= pixelesPerfil) {
+            cambio_titulo_onclick("PERFIL");
+            botonPerfil.style.opacity = "0.5";
+        }
+        if (pixelesScroll > pixelesPerfil && pixelesScroll <= pixelesConocimientos) {
+            cambio_titulo_onclick("CONOCIMIENTOS");
+            botonConocimientos.style.opacity = "0.5";
+        }
+        if (pixelesScroll > pixelesConocimientos && pixelesScroll <= pixelesProyectos) {
+            cambio_titulo_onclick("PROYECTOS");
+            botonProyectos.style.opacity = "0.5";
+        }
+
+        if (pixelesScroll > pixelesProyectos) {
+            cambio_titulo_onclick("PORTFOLIO");
+            botonPortfolio.style.opacity = "0.5";
+        }
+    
 }
+
 
 function publicarEdad() {
     var pDeLaEdad = document.getElementById("edad");
@@ -50,32 +67,48 @@ function calculateAge() {
 }
 
 
+// Carrusel Slick
+function configurarCarruselParaPortrait(){
+    $('.carrusel').slick("slickSetOption", "slidesToShow", 1, "refresh", true);
+}
+
+function configurarCarruselParaLandscape(){
+    $('.carrusel').slick("slickSetOption", "slidesToShow", 2, "refresh", true);
+}
+
+function esPortrait(){
+    return screen.orientation.angle == 0;
+}
+
+var alturaTotal;
+
 $(document).ready(function(){
-    if(screen.orientation.angle == 0) {
-        $('.carrusel').slick({
-            autoplay: true,
-            autoplaySpeed: 3000,
-            dots: true,
-            arrows: false
-        });
+    $('.carrusel').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        arrows: false
+    });
+    
+    if(!esPortrait()) {
+        configurarCarruselParaLandscape();
     }
-    else {
-        $('.carrusel').slick({
-            autoplay: true,
-            autoplaySpeed: 3000,
-            dots: true,
-            arrows: false,
-            slidesToShow: 2,
-            slidesToScroll: 1
-        });
-    }
+    
+    alturaTotal = document.getElementById("contenedor").scrollHeight;
 });
 
 $(window).on("orientationchange",function(){
-    if(screen.orientation.angle == 0) {
-        $('.carrusel').slick("slickSetOption", "slidesToShow", 1, "refresh", true);
+    if(esPortrait()) {
+        configurarCarruselParaPortrait();
+    } else {
+        configurarCarruselParaLandscape();
     }
-    else {
-        $('.carrusel').slick("slickSetOption", "slidesToShow", 2, "refresh", true);
-    }
+    
+    var posicionPorcentualActual = posicionActual/alturaTotal;
+    alturaTotal = document.getElementById("contenedor").scrollHeight;
+    var nuevaPosicion = (posicionPorcentualActual-0.1)*alturaTotal;
+    scrollTo(0, nuevaPosicion);
 });
+
+
+
