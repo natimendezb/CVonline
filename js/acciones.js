@@ -50,9 +50,9 @@ function calculateAge() {
 }
 
 $(document).ready(function(){
-    $('.carrusel').slick({
+    $('.carrusel_portrait').slick({
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         dots: true,
     });
 });
