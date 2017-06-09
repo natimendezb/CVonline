@@ -49,8 +49,9 @@ function calculateAge() {
     return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
+
 $(document).ready(function(){
-    $('.carrusel_portrait').slick({
+    $('.carrusel').slick({
         autoplay: true,
         autoplaySpeed: 3000,
         dots: true,
