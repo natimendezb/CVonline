@@ -62,55 +62,20 @@ $(document).ready(function(){
     else {
         $('.carrusel').slick({
             autoplay: true,
-            autoplaySpeed: 6000,
+            autoplaySpeed: 3000,
             dots: true,
-            arrows: true,
+            arrows: false,
             slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToScroll: 1
         });
     }
 });
-  
-
 
 $(window).on("orientationchange",function(){
     if(screen.orientation.angle == 0) {
         $('.carrusel').slick("slickSetOption", "slidesToShow", 1, "refresh", true);
-        $('.carrusel').slick("slickSetOption", "slidesToScroll", 1, "refresh", true);
-        $('.carrusel').slick("slickSetOption", "arrows", false, "refresh", true);
-        $('.carrusel').slick("slickSetOption", "autoplaySpeed", 3000, "refresh", true);
     }
     else {
         $('.carrusel').slick("slickSetOption", "slidesToShow", 2, "refresh", true);
-        $('.carrusel').slick("slickSetOption", "slidesToScroll", 2, "refresh", true);
-        $('.carrusel').slick("slickSetOption", "arrows", true, "refresh", true);
-        $('.carrusel').slick("slickSetOption", "autoplaySpeed", 6000, "refresh", true);
     }
 });
-
-
-
-
-
-
-//$(window).on("orientationchange",function(){
-//    if(screen.orientation.angle == 0) {
-//          $('.carrusel').slick({
-//            autoplay: true,
-//            autoplaySpeed: 3000,
-//            dots: true,
-//            arrows: false,
-//            slidesToShow: 1,
-//            slidesToScroll: 1
-//          });
-//    }
-//    else {
-//        $('.carrusel').slick({
-//            autoplay: false,
-//            arrows: true,
-//            slidesToShow: 2,
-//            slidesToScroll: 2
-//          });
-//    }
-//});
-            
