@@ -51,28 +51,66 @@ function calculateAge() {
 
 
 $(document).ready(function(){
-    // Portrait
-    if(window.innerHeight > window.innerWidth){
+    if(screen.orientation.angle == 0) {
         $('.carrusel').slick({
             autoplay: true,
             autoplaySpeed: 3000,
             dots: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
             arrows: false
         });
-    } 
+    }
     else {
-    // Landscape
         $('.carrusel').slick({
-            autoplay: false,
-            autoplaySpeed: 3000,
+            autoplay: true,
+            autoplaySpeed: 6000,
             dots: true,
+            arrows: true,
             slidesToShow: 2,
-            slidesToScroll: 2,
-            infinite: true,
-            arrows: true
+            slidesToScroll: 2
         });
     }
 });
+  
+
+
+$(window).on("orientationchange",function(){
+    if(screen.orientation.angle == 0) {
+        $('.carrusel').slick("slickSetOption", "slidesToShow", 1, "refresh", true);
+        $('.carrusel').slick("slickSetOption", "slidesToScroll", 1, "refresh", true);
+        $('.carrusel').slick("slickSetOption", "arrows", false, "refresh", true);
+        $('.carrusel').slick("slickSetOption", "autoplaySpeed", 3000, "refresh", true);
+    }
+    else {
+        $('.carrusel').slick("slickSetOption", "slidesToShow", 2, "refresh", true);
+        $('.carrusel').slick("slickSetOption", "slidesToScroll", 2, "refresh", true);
+        $('.carrusel').slick("slickSetOption", "arrows", true, "refresh", true);
+        $('.carrusel').slick("slickSetOption", "autoplaySpeed", 6000, "refresh", true);
+    }
+});
+
+
+
+
+
+
+//$(window).on("orientationchange",function(){
+//    if(screen.orientation.angle == 0) {
+//          $('.carrusel').slick({
+//            autoplay: true,
+//            autoplaySpeed: 3000,
+//            dots: true,
+//            arrows: false,
+//            slidesToShow: 1,
+//            slidesToScroll: 1
+//          });
+//    }
+//    else {
+//        $('.carrusel').slick({
+//            autoplay: false,
+//            arrows: true,
+//            slidesToShow: 2,
+//            slidesToScroll: 2
+//          });
+//    }
+//});
+            
