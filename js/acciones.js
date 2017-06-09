@@ -51,9 +51,28 @@ function calculateAge() {
 
 
 $(document).ready(function(){
-    $('.carrusel').slick({
-        autoplay: true,
-        autoplaySpeed: 3000,
-        dots: true,
-    });
+    // Portrait
+    if(window.innerHeight > window.innerWidth){
+        $('.carrusel').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            arrows: false
+        });
+    } 
+    else {
+    // Landscape
+        $('.carrusel').slick({
+            autoplay: false,
+            autoplaySpeed: 3000,
+            dots: true,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            arrows: true
+        });
+    }
 });
