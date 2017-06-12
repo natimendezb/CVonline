@@ -4,6 +4,7 @@ function cambio_titulo_onclick(nuevo_texto) {
     pDelHeader.innerHTML = nuevo_texto; 
 }
 
+
 var posicionActual;
 
 function cambio_titulo_onscroll() {
@@ -67,7 +68,7 @@ function calculateAge() {
 }
 
 
-// Carrusel Slick
+// Carrusel Slick Portrait / Landscape
 function configurarCarruselParaPortrait(){
     $('.carrusel').slick("slickSetOption", "slidesToShow", 1, "refresh", true);
 }
@@ -80,7 +81,41 @@ function esPortrait(){
     return screen.orientation.angle == 0;
 }
 
-var alturaTotal;
+// Reponsive
+function esMobile(){
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+function configurarCssParaMobile(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'css/estilos_mobile.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
+
+function configurarCssParaDesktop(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'css/estilos_desktop.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
+
+
+//if(esMobile()) {
+//    configurarCssParaMobile();
+//}
+//else {
+//    configurarCssParaDesktop();
+//}
+
+
+//var alturaTotal;
 
 $(document).ready(function(){
     $('.carrusel').slick({
@@ -94,43 +129,23 @@ $(document).ready(function(){
         configurarCarruselParaLandscape();
     }
     
-    alturaTotal = document.getElementById("contenedor").scrollHeight;
+//    alturaTotal = document.getElementById("contenedor").scrollHeight;
 });
+
 
 $(window).on("orientationchange",function(){
     if(esPortrait()) {
         configurarCarruselParaPortrait();
-        configurarCssParaMobile();
     } else {
         configurarCarruselParaLandscape();
     }
     
-    var posicionPorcentualActual = posicionActual/alturaTotal;
-    alturaTotal = document.getElementById("contenedor").scrollHeight;
-    var nuevaPosicion = (posicionPorcentualActual-0.1)*alturaTotal;
-    scrollTo(0, nuevaPosicion);
+//    var posicionPorcentualActual = posicionActual/alturaTotal;
+//    alturaTotal = document.getElementById("contenedor").scrollHeight;
+//    var nuevaPosicion = (posicionPorcentualActual-0.1)*alturaTotal;
+//    scrollTo(0, nuevaPosicion);
 });
 
 
-
-function configurarCssParaMobile(){
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.id   = cssMobile;
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'css/estilos_mobile.css';
-    link.media = 'all';
-    head.appendChild(link);
-}
-
-function esMobile(){
-    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
-var cssMobile = 'css/estilos_desktop.css';
-if(esMobile()) {
-    configurarCssParaMobile();
-}
 
 

@@ -43,3 +43,1127 @@
 /* FIN TIPOGRAFÍAS */
 
 
+/* GENERAL */
+
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+    list-style: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+body{
+    color: #3A3A3A;
+    margin: auto;
+    margin-top: 5.2em;
+}
+
+main{
+    text-align: center;
+    margin: auto;
+    margin-top: -6em;
+}
+
+footer{
+    background-color: #f8f8f8; 
+    color: #8ebfbe;
+}
+
+/* GENERAL */
+
+/* HEADER */
+header{
+    color: #336699;
+    background-color: #fafafa;
+    width: 100%;
+    height: 3.5em;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 5;
+    border-bottom-style: solid;
+    border-bottom-color: #bcbcbc;
+    border-bottom-width: 0.1em;
+}
+
+header nav ul{
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header_izquierda,
+#header_derecha{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+#header_izquierda{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#header_derecha{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.header img{
+    width: 1.4em;
+}
+
+#contenedor_titulo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    padding-bottom: 0.2em;
+}
+
+#titulo_seccion{
+    font-family: 'titillium_webbold';
+    font-size: 1.2em;
+}
+
+p.titulo_menu{
+    display: none;
+}
+
+li.header img:hover,
+li.header img:active {
+    opacity: 0.5;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+/* Perfil - Presentación */
+
+#perfil{
+    position: relative;
+    padding-top: 2%;
+    background-color: #f7f7f7;
+    border-bottom: solid;
+    border-bottom-width: 0.1em;
+    border-color: #333399;
+    height: 100vh;
+}
+
+#presentacion{
+    margin: 0em 2em 0em 2em;
+}
+
+#presentacion h1 {
+    color: #FF6633;
+    font-family: 'titillium_webbold', sans-serif;
+    font-size: 1.8em;
+    margin-top: 4em;
+    margin-bottom: 0.2em;
+    line-height: 1.2em;
+    width: 100%;
+}
+
+#presentacion h1 span{
+    font-family: 'titillium_websemibold', sans-serif;
+    color: #FF9966;
+}
+
+#presentacion h2{
+    font-family: 'robotolight', sans-serif;
+    font-size: 1.1em;
+    margin: auto;
+    color: #FF6633;
+}
+
+#presentacion figure img{
+    margin-top: 5em;
+    margin-bottom: 1em;
+    height: auto;
+    width: 75%;
+    border-radius: 1.5em;
+    border-style: solid;
+    border-width: 0.08em;
+    border-color: #99CC33;
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
+    box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
+}
+
+#presentacion figcaption p{
+    font-family: 'robotolight', sans-serif;
+    font-size: 0.8em;
+}
+
+/* Perfil - Datos */
+
+#datos{
+    margin-top: 5.5em;
+    width: 100%;
+}
+
+#datos nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#datos a{
+    font-family: 'robotolight', sans-serif;
+    font-size: 0.9em;
+}
+
+#datos a:first-child{
+    border-right-style: solid;
+    border-right-width: 0.08em;
+    border-right-color: #333399;
+    padding-right: 0.7em;
+}
+
+#datos a:last-child{
+    padding-left: 0.7em;
+}
+
+
+/* Conocimientos */
+
+#conocimientos{
+    padding-top: 6em;
+    background-color: #f0f0f0;
+}
+
+ul.conocimientos{
+    width: 75%;
+    max-width: 75%;
+    display: inline-block;
+    margin-bottom: 15%;
+}
+
+li.fila_conocimiento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.2em;
+}
+
+ul.conocimientos li figure{
+    display:inline-flex;  
+    align-items: center;
+}
+
+ul.conocimientos figcaption{
+    padding-left: 0.4em;
+    font-family: 'robotoregular', sans-serif;
+    font-size: 1em;
+}
+
+li.fila_conocimiento figure img{
+    width: 1.7em;
+}
+
+div.unacara,
+div.doscaras,
+div.trescaras{
+    width: 56px;
+    height: 16px;
+    background-image: url("../img/3caras.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.unacara{
+    background-position: -40px;
+}
+
+div.doscaras{
+    background-position: -20px;
+}
+
+hr.divisor_categoria{
+    width: 60%;
+    margin: 1em 0em 1em 20%;
+    height: 0.1em;
+    border-style: solid;
+    border-color: #333399;
+}
+        
+hr.separador_subseccion{
+    width: 20%;
+    margin-left: 40%;
+    height: 1px;
+    border-style: solid;
+    border-color: #333399;
+}
+
+/* Formación */
+
+
+#formacion{
+    position: relative;
+    background-color: #f0f0f0;
+    z-index: 3;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    border-bottom-style: solid;
+    border-bottom-color: #333399;
+    border-bottom-width: 0.1em;
+}
+
+#formacion::before {
+    /* línea vertical */
+    content: '';
+    position: absolute;
+    top: 3.5em;
+    height: 70%;
+    width: 0.15em;
+    background: #99CC66;
+    transform: translate(-50%);
+}
+
+div.contenedor_timeline{
+    position: relative;
+    margin: 1em;
+}
+
+div.circulo_timeline{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 3;
+}
+
+div.circulo_timeline figure{
+    display: inline-flex;
+    align-items: center;
+    transform: translate(26%);
+}
+
+div.circulo_timeline figure img{
+    width: 2.5em;
+}
+
+#primera_esfera img{
+    width: 2.5em;
+}
+
+.circulo_chico img{
+    width: 2.5em;
+}
+
+figcaption.fecha{
+    margin-left: 1.7em;
+    font-family: "robotolight", sans-serif;
+    font-size: 0.7em;
+}
+
+#primera_esfera{
+    transform: translate(-25%);
+}
+
+figcaption.fecha_izquierda{
+    margin-right: 1.8em;
+    font-family: "robotolight", sans-serif;
+    font-size: 0.7em;
+}
+
+div.contenido_timeline{
+    position: relative;
+    width: 42%;
+    border-width: 0.09em;
+    border-color: #333399;
+}
+
+div.contenido_izquierda{
+    border-left-style: solid;
+    margin-left: 0.2em;
+    text-align: left;
+    padding-left: 0.5em;
+}
+
+div.contenido_derecha{
+    border-right-style: solid;
+    margin-left: 60%;
+    text-align: right;
+    padding-right: 0.5em;
+}
+
+div.contenido_timeline h2{
+    color: #FF6633;
+    font-family: "robotobold", sans-serif;
+    font-size: 1em;
+    padding-bottom: 0.2em;
+    line-height: 1.2em;
+}
+
+div.contenido_timeline h3{
+    font-family: "robotolight", sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 0.4em;
+}
+
+div.contenido_timeline P{
+    font-family: "robotolight", sans-serif;
+    font-size: 0.7em;
+}
+
+.shake{
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 5s;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.shake:nth-child(2){
+    -webkit-animation-delay: 2s;
+}
+
+.shake:nth-child(5){
+    -webkit-animation-delay: 3s;
+}
+
+.shake:nth-child(4){
+    -webkit-animation-delay: 4s;
+}
+
+@-webkit-keyframes shake {
+    0% { -webkit-transform: rotate(0deg); } 
+    3% { -webkit-transform: rotate(-6deg); }
+    6% { -webkit-transform: rotate(6deg); }
+    9% { -webkit-transform: rotate(-4deg); }
+    12% { -webkit-transform: rotate(4deg); }
+    15% { -webkit-transform: rotate(-2deg); }
+    18% { -webkit-transform: rotate(2deg); }
+    21%, 100% { -webkit-transform: rotate(0deg); }
+}
+
+
+/* Proyectos */
+
+#proyectos{
+    background-color: #f7f7f7;
+    z-index: 2;
+    padding-top: 6em;
+    padding-bottom: 4em;
+    border-bottom-style: solid;
+    border-bottom-color: #333399;
+}
+
+#contenedor_proyectos{
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+    height: auto;
+}
+
+div.contenido_filas{
+    display: block;
+    position: relative;
+    height: 39em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+div.contenido_filas_largos{
+    display: block;
+    height: 15em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div.proyectos_izquierda{
+    width: 100%;
+    height: 11em;
+    margin-left: 0em;
+    position: relative;
+}
+
+div.proyectos_landscape_grandes{
+    height: 15em;
+}
+    
+div.proyectos_derecha{
+    width: 100%;
+    height: 11em;
+    margin-left: 0%;
+    position: relative;
+}
+
+div.proyectos_arriba{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 11em;
+    margin-left: 0em;
+    margin-bottom: 1em;
+}
+
+div.proyectos_abajo{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 11em;
+    margin-left: 0em;
+}
+
+div.proyectos_centro{
+        height: 15em;
+        margin-left: 0em;
+}
+
+div.proyectos_medianos{
+    margin: 0em;
+    height: 11em;
+    margin-left: 0em;
+}
+
+div.proyectos_grandes,
+div.proyectos_largos{
+    height: 15em;
+    margin-left: 0em;
+}
+
+div.proyectos_landscape_top{
+    position: absolute;
+    top: 0em;
+}
+
+div.proyectos_landscape_tourette{
+    position: relative;
+}
+
+div.proyectos_landscape_center{
+    position: absolute;
+    top: 12em;
+}
+
+div.proyectos_landscape_bottom{
+    position: absolute;
+    bottom: 0em;
+}
+
+div.proyectos_landscape_center_medianos{
+    position: absolute;
+    top: 16em;
+}
+
+#proyectos_landscape_center_medianos_paraiso{
+    position: absolute;
+    top: 1em;
+}
+
+div.proyectos_landscape_bottom_medianos{
+    position: absolute;
+    top: 28em;
+}
+
+#proyectos_landscape_bottom_medianos_doblefantasia{
+    position: absolute;
+    top: 13em;
+}
+
+/* proyectos grandes */
+
+img.etiqueta_izq_grandes{
+    width: 100%;
+    max-width: 100%;
+    height: 35%;
+    position: absolute;
+    top: 10%;
+    left: -6%;
+    margin-left: 2.5%;
+}
+
+img.etiqueta_der_grandes{
+    width: 100%;
+    max-width: 100%;
+    height: 32%;
+    position: absolute;
+    bottom: 12%;
+    right: -5.5%;
+    margin-right: 2.8%;
+}
+
+.etiqueta_izq_grandes_atras{
+    position: absolute;
+    top: 10%;
+    right: -2%;
+    height: 27%;
+}
+
+.etiqueta_der_grandes_atras{
+    position: absolute;
+    bottom: 8%;
+    left: -2%;
+    height: 30%;    
+}
+
+div.proyectos_grandes{
+    background-color: #f7f7f7;
+    padding-top: 16%;
+    padding-bottom: 3%;
+    height: 40em;
+    -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+}
+
+div.proyectos_grandes h4{
+    color: #FF6633;
+    font-family: "robotobold", sans-serif;
+    font-size: 2.3em;
+    position: absolute;
+    top: 11%;
+    left: 3%;
+}
+
+div.proyectos_grandes h5{
+    position: absolute;
+    top: 19%;
+    left: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 2em;
+}
+
+div.proyectos_grandes h6{
+    position: absolute;
+    bottom: 16%;
+    right: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 2em;
+    margin-top: 5em;
+}
+
+div.proyectos_grandes p{
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 1.8em;
+}
+
+#datos_extra_tourette{
+    font-family: "robotoregular", sans-serif;
+    font-size: 2.2em;
+    position: absolute;
+    margin: 1em;
+    left: 10%;
+    top: 25%;
+    text-align: left;
+}
+
+/* proyectos medianos */
+img.etiqueta_izq_medianos{
+    width: 100%;
+    height: 44%;
+    position: absolute;
+    top: 10%;
+    left: -6%;
+    z-index: 1;
+    margin-left: 1.3%;
+}
+
+.etiqueta_izq_medianos_atras{
+    position: absolute;
+    right: -2%;
+    top: 10%;
+    z-index: 3;
+    height: 39%;
+}
+
+.etiqueta_izq_medianos_atras{
+        height: 34%;
+    }
+
+h5.tipo_dosrenglones{
+    padding: 0em;
+}
+
+div.proyectos_medianos{
+    background-color: #f7f7f7;
+    height: 18.5em;
+    -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+}
+
+div.proyectos_medianos h4{
+    color: #FF6633;
+    font-family: "robotobold", sans-serif;
+    font-size: 2em;
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    text-align: left;
+    z-index: 1;
+}
+
+div.proyectos_medianos h5{
+    font-family: "robotolight", sans-serif;
+    font-size: 1.7em;
+    position: absolute;
+    top: 26%;
+    left: 3%;
+    z-index: 1;
+}
+
+div.proyectos_medianos h6{
+    font-family: "robotolight", sans-serif;
+    font-size: 1.7em;
+    margin-top: 2em;
+    position: absolute;
+    bottom: 24%;
+    right: 8%;
+    z-index: 3;
+}
+
+div.proyectos_medianos p{
+    font-family: "robotolight", sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 13%;
+    right: 8%;
+    z-index: 3;
+}
+
+div.proyectos_medianos h7{
+    position: absolute;
+    font-family: "robotoregular", sans-serif;
+    font-size: 1.7em;
+    text-align: left;
+    left: 10%;
+    top: 10%;
+    width: 75%;
+}
+
+/* proyectos largos */
+img.etiqueta_izq_largos{
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    top: 10%;
+    left: -6%;
+}
+
+img.etiqueta_der_largos{
+    width: 100%;
+    height: 32%;
+    position: absolute;
+    bottom: 12%;
+    right: -5.5%;
+}
+
+div.proyectos_centro{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+div.proyectos_largos{
+    background-color: #f7f7f7;
+    height: 20em;
+    -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
+}
+
+div.proyectos_largos h4{
+    color: #FF6633;
+    font-family: "robotobold", sans-serif;
+    font-size: 2.3em;
+    position: absolute;
+    top: 12%;
+    left: 3%;
+}
+
+div.proyectos_largos h5{
+    position: absolute;
+    top: 26%;
+    left: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 2em;
+}
+
+div.proyectos_largos h6{
+    position: absolute;
+    bottom: 25%;
+    right: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 2em;
+    margin-top: 5em;
+}
+
+div.proyectos_largos p{
+    position: absolute;
+    bottom: 13%;
+    right: 3%;
+    font-family: "robotolight", sans-serif;
+    font-size: 1.8em;
+}
+
+
+
+#hacerfuego_proyectos{
+    background-image: url(../img/hacerfuego_proyectos.jpg);
+    z-index: 2;
+}
+
+#etiqueta_izq_hacerfuego{
+    width: 83%;
+    height: 58%;
+    left: -4.7%;
+}
+
+
+#virus_proyectos{
+    background-image: url(../img/virus_proyectos.jpg);
+    background-position: top;
+}
+
+#etiqueta_izq_virus{
+    width: 67%;
+    left: -4%
+}
+
+#tiempoausente_proyectos{
+    background-image: url(../img/tiempoausente_proyectos.jpg);
+    background-position: bottom;
+}
+
+#etiqueta_izq_tiempoausente{
+    width: 97%;
+    left: -5.5%;
+}
+
+#etiqueta_der_tiempoausente{
+    width: 98%;
+    right: -5.8%;
+}
+
+#hacefeliz_proyectos{
+    background-image: url(../img/hacefelizaungato_proyectos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#etiqueta_izq_hacefeliz{
+    width: 62%;
+    left: -3.6%;
+}
+
+#etiqueta_der_hacefeliz{
+    width: 35%;
+    right: -2%;
+}
+
+
+#tourette_proyectos{
+    background-image: url(../img/tourette_proyectos.jpg);
+    background-position: center;
+}
+
+#etiqueta_izq_tourette{
+    width: 65%;
+    left: -4%;
+}
+
+#etiqueta_der_tourette{
+    width: 80%;
+    right: -4.7%;
+}
+
+
+#paraiso_proyectos{
+    background-image: url(../img/paraiso_proyectos.jpg);
+    background-position: right;
+}
+
+#etiqueta_izq_paraiso{
+    width: 47%;
+    left: -2.9%;
+}
+
+
+#doblefantasia_proyectos{
+    background-image: url(../img/doblefantasia_proyectos.jpg);
+    background-position: left;
+}
+
+#etiqueta_izq_doblefantasia{
+    width: 83%;
+    left: -4.5%;
+}
+
+
+#suenaluz_proyectos{
+    background-image: url(../img/suenaluz_proyectos.jpg);
+}
+
+#etiqueta_izq_suenaluz{
+    width: 34%;
+    left: -2%;
+}
+
+#etiqueta_der_suenaluz{
+    width: 56%;
+    right: -3.2%;
+}
+
+
+#seminario_proyectos{
+    background-image: url(../img/seminario_proyectos.jpg);
+    background-position: left;
+}
+
+#etiqueta_izq_seminario{
+    width: 77%;
+    height: 59%;
+    left: -4.5%;
+}
+
+
+
+#yogui_proyectos{
+    background-image: url(../img/yogui_proyectos.jpg);
+}
+
+#etiqueta_izq_yogui{
+    width: 80%;
+    height: 43%;
+    left: -4.7%;
+}
+
+
+#paracaidas_proyectos{
+    background-image: url(../img/paracaidas_proyectos.jpg);
+    background-position: center;
+}
+
+#etiqueta_izq_paracaidas{
+    width: 77%;
+    left: -4.2%;
+}
+
+h6.rol_dosrenglones{
+    text-align: right;
+}
+
+#etiqueta_der_paracaidas,
+#etiqueta_der_enlalluvia{
+    height: 28%;
+    bottom: 3%;
+    right: -6%;
+}
+
+
+#cactusenserie_proyectos{
+    background-image: url(../img/cactusenserie_proyectos.jpg);
+    background-position: center;
+}
+
+#etiqueta_izq_cactus{
+    width: 50%;
+    left: -3%;
+}
+
+#etiqueta_der_cactus{
+    width: 53%;
+    right: -3%;
+}
+
+
+#enlalluvia_proyectos{
+    background-image: url(../img/enlalluvia_proyectos.jpg);
+    background-position: left;
+}
+
+#etiqueta_izq_enlalluvia{
+    width: 80%;
+    left: -4.5%;
+}
+
+
+
+#voluntariado_proyectos{
+    background-image: url(../img/voluntariado_proyectos.jpg);
+    background-position: center;
+}
+
+#etiqueta_izq_voluntariado{
+    width: 90%;
+    left: -4.8%;
+}
+
+
+#dataentry_proyectos{
+    background-image: url(../img/dataentry_proyectos.jpg);
+    background-position: center;
+}
+
+#etiqueta_izq_dataentry{
+    width: 75%;
+    left: -4.3%;
+}
+
+
+/* Giro de cartas */
+
+/* entire container, keeps perspective */
+.contenedor_flip,
+.contenedor_flip_grande{
+	perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+.contenedor_flip:hover .flipper,
+.contenedor_flip.hover .flipper {
+    transform: rotateX(180deg);
+}
+
+.contenedor_flip_grande:hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
+    transform: rotateX(180deg);
+}
+
+.contenedor_flip, .carta_adelante, .carta_atras {
+	width: 100%;
+	height: 11em;
+}
+
+.contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
+    height: 15em;
+    width: 100%;
+}
+
+/* flip speed goes here */
+.flipper, .flipper_grande {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.carta_adelante, .carta_atras, .carta_adelante_grande, .carta_atras_grande {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.carta_adelante, .carta_adelante_grande {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateX(0deg);
+}
+
+/* back, initially hidden pane */
+.carta_atras, .carta_atras_grande {
+	transform: rotateX(180deg);
+    background-color: rgba(209, 209, 209, 0.75);
+}
+
+.carta_atras_hacerfuego{
+    background-image: url(../img/hacerfuego_proyectos_landscape.jpg);
+    background-position: left;
+}
+
+.carta_atras_virus{
+    background-image: url(../img/virus_proyectos_landscape.jpg);
+    background-position: bottom;
+}
+
+.carta_atras_tourette{
+    background-image: url(../img/tourette_proyectos_landscape.jpg);
+}
+
+.carta_atras_paraiso{
+    background-image: url(../img/paraiso_proyectos_landscape.jpg);
+}
+
+.carta_atras_doblefantasia{
+    background-image: url(../img/doblefantasia_proyectos_landscape.jpg);
+    background-position: top;
+}
+
+.carta_atras_seminario{
+    background-image: url(../img/seminario_proyectos_landscape.jpg);
+    background-position: bottom;
+}
+
+.carta_atras_yogui{
+    background-image: url(../img/yogui_proyectos_landscape.jpg);
+    background-position: bottom;
+}
+
+.carta_atras_voluntariado{
+    background-image: url(../img/voluntariado_proyectos_landscape.jpg);
+    background-position: bottom;
+}
+
+.carta_atras_dataentry{
+    background-image: url(../img/dataentry_proyectos_landscape.jpg);
+    background-position: bottom;
+}
+
+
+/* animación cartas clickeables */
+
+.zoomin{
+    -webkit-animation-name: zoomin;
+    -webkit-animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.zoomin_primeros{
+    -webkit-animation-delay: 0s;
+}
+
+.zoomin_segundos{
+    -webkit-animation-delay: 0.5s;
+}
+
+.zoomin_terceros{
+    -webkit-animation-delay: 1s;
+}
+
+.zoomin:hover{
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes zoomin {
+    0% { -webkit-transform: scale(1) } 
+    4% { -webkit-transform: scale(1.02); }
+    8% { -webkit-transform: scale(1); }
+    12% { -webkit-transform: scale(1.01); }
+    16%, 100% { -webkit-transform: scale(1); }
+}
+
+
+
+
+
+
+/* AGREGAR A VERSIÓN DE ESCRITORIO 
+img.portfolio_imagenes:hover,
+img.portfolio_imagenes:focus{
+    opacity: 0.7;
+}
+
+.portfolio_proyectos_texto a:hover{
+    color: #959595;
+}
+
+a.pdf_descarga:hover{
+    color: #efefef;
+    background-color: #74c1d8;
+}*/
