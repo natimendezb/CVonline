@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* TIPOGRAFÍAS */
+@font-face {
+    font-family: 'titillium_webbold';
+    src: url('titilliumweb-bold-webfont.woff2') format('woff2'),
+         url('titilliumweb-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'titillium_websemibold';
+    src: url('titilliumweb-semibold-webfont.woff2') format('woff2'),
+         url('titilliumweb-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('roboto-light-webfont.woff2') format('woff2'),
+         url('roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* FIN TIPOGRAFÍAS */
+
+

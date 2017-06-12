@@ -100,6 +100,7 @@ $(document).ready(function(){
 $(window).on("orientationchange",function(){
     if(esPortrait()) {
         configurarCarruselParaPortrait();
+        configurarCssParaMobile();
     } else {
         configurarCarruselParaLandscape();
     }
@@ -110,5 +111,26 @@ $(window).on("orientationchange",function(){
     scrollTo(0, nuevaPosicion);
 });
 
+
+
+function configurarCssParaMobile(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.id   = cssMobile;
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'css/estilos_mobile.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
+
+function esMobile(){
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+var cssMobile = 'css/estilos_desktop.css';
+if(esMobile()) {
+    configurarCssParaMobile();
+}
 
 
