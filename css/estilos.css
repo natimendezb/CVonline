@@ -1854,6 +1854,7 @@ a.pdf_descarga:hover{
     img.portfolio_imagenes{
         width: 100%;
         max-width: 100%;
+        margin-bottom: 1.2em;
     }
 
     figure.portfolio_proyectos{
