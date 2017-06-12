@@ -1847,7 +1847,7 @@ a.pdf_descarga:hover{
 /*portfolio*/
     #portfolio{
         padding-top: 7em;
-        padding-bottom: 7em;
+        padding-bottom: 4em;
         height: auto;
     }
 
@@ -1899,7 +1899,7 @@ a.pdf_descarga:hover{
     }
      
     #portfolio_behance a{
-        margin-top: 10em;
+        margin-top: 6em;
         margin-left: 33%;
         padding: 1.2em 0.2em 1.2em 0.2em;
         width: 36%;
@@ -1916,7 +1916,7 @@ a.pdf_descarga:hover{
     }   
 
 /*pdf*/
-        #pdf{
+    #pdf{
         padding: 1.5em;
     }
 
