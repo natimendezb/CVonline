@@ -1197,70 +1197,70 @@ a.pdf_descarga:hover{
 /* RESPONSIVE LANDSCAPE */
 
  @media screen and (orientation:landscape) {
-     /*header*/ 
-     header, header nav ul{
-         height: 3.5em;
-     }
-     
-     .header a img{
-         width: 70%;
-     }
-     
-     #titulo_seccion{
-        font-size: 2em;
-     } 
-     
+/*header*/ 
+    header, header nav ul{
+        height: 3.5em;
+    }
 
-     /*perfil*/
-     #perfil{
+    .header a img{
+        width: 70%;
+    }
+
+    #titulo_seccion{
+        font-size: 2em;
+    } 
+
+
+/*perfil*/
+    #perfil{
         padding-top: 1.5vh;
         height: auto;
-     }
+    }
 
-     #presentacion h1 {
+    #presentacion h1 {
         width: 50%;
         margin-left: 25%;
         margin-right: 25%;
         font-size: 3em;
-     }
+    }
 
-     #presentacion h2{
+    #presentacion h2{
         font-size: 1.3em;
-     }
+    }
 
-     #presentacion figure img{
+    #presentacion figure img{
         margin: 4em 3em 1em 3em;
         width: 40%;
-     }
+    }
 
-     #presentacion figcaption p{
+    #presentacion figcaption p{
         font-size: 0.7em;
-     }
+    }
 
-     #datos{
+    #datos{
         margin-top: 6em;
-     }
+    }
 
-     #datos nav{
+    #datos nav{
         padding-left: 5.5em;
         padding-right: 5.5em;
-     }
+    }
 
-     #datos a{
+    #datos a{
         font-size: 1.4em;
         margin-bottom: 2.5em;
-     }
+    }
 
-     
-     /*conocimientos*/
-     #conocimientos{
+
+ /*conocimientos*/
+    #conocimientos{
         padding-top: 4em;
-     }
-     
-     ul.conocimientos{
+    }
+
+    ul.conocimientos{
         width: 55%;
         max-width: 55%;
-     }
+    }
 
     li.fila_conocimiento{
         padding-bottom: 0.3em;
@@ -1270,11 +1270,11 @@ a.pdf_descarga:hover{
         padding-left: 0.4em;
         font-size: 1.4em;
     }
-     
+
     .fila_conocimiento figure img{
         width: 2.5em;
         height: auto;
-     }
+    }
 
     div.unacara,
     div.doscaras,
@@ -1305,18 +1305,18 @@ a.pdf_descarga:hover{
     }        
 
 
-    /*formación*/
+/*formación*/
     #formacion{
         padding-bottom: 3em;
         padding-top: 3em;
     }
 
     #formacion::before {
-        /* línea vertical */
-        top: 8em;
-        height: 65%;
-        width: 0.2em;
-        transform: translate(-50%);
+    /* línea vertical */
+    top: 8em;
+    height: 65%;
+    width: 0.2em;
+    transform: translate(-50%);
     }
 
     div.contenedor_timeline{
@@ -1347,16 +1347,16 @@ a.pdf_descarga:hover{
     div.contenido_timeline p{
         font-size: 0.7em;
     }
-     
+
     #primera_esfera img{
         width: 35%;
         height: auto;
     }
-     
+
     #primera_esfera{
         transform: translate(-12%);
     }
-     
+
     #circulo_after,
     #circulo_ilse{
         top: 0;
@@ -1364,20 +1364,20 @@ a.pdf_descarga:hover{
         transform: translate(-43.5%);
         z-index: 3;
     }
-     
-     #circulo_after img,
-     #circulo_ilse img{
+
+    #circulo_after img,
+    #circulo_ilse img{
         width: 35%;
         height: auto;
-     }
-     
-     .circulo_chico img{
-         width: 55%;
-         height: auto;
-     }
-     
-     
-    /*proyectos*/
+    }
+
+    .circulo_chico img{
+        width: 55%;
+        height: auto;
+    }
+
+
+ /*proyectos*/
     #proyectos{
         padding-top: 7em;
         padding-bottom: 7em;
@@ -1398,7 +1398,7 @@ a.pdf_descarga:hover{
         margin-bottom: 0em;
         margin-top: 0em;
     }
-     
+
     div.contenido_filas_largos{
         display: block;
         height: 15em;
@@ -1411,17 +1411,17 @@ a.pdf_descarga:hover{
         height: 11em;
         margin-left: 0em;
     }
-     
-     div.proyectos_landscape_grandes{
-         height: 15em;
-     }
-     
+
+    div.proyectos_landscape_grandes{
+        height: 15em;
+    }
+
     div.proyectos_derecha{
         width: 100%;
         height: 11em;
         margin-left: 0em;
     }
-     
+
     div.proyectos_arriba{
         height: 11em;
         margin-left: 0em;
@@ -1432,64 +1432,64 @@ a.pdf_descarga:hover{
         height: 11em;
         margin-left: 0em;
     }
-     
+
     div.proyectos_centro{
         height: 15em;
         margin-left: 0em;
-     }
+    }
 
-     div.proyectos_medianos{
-         margin: 0em;
-         height: 11em;
-         margin-left: 0em;
-     }
-    
-     div.proyectos_grandes,
-     div.proyectos_largos{
-         height: 15em;
-         margin-left: 0em;
-     }
-     
+    div.proyectos_medianos{
+        margin: 0em;
+        height: 11em;
+        margin-left: 0em;
+    }
+
+    div.proyectos_grandes,
+    div.proyectos_largos{
+        height: 15em;
+        margin-left: 0em;
+    }
+
     div.proyectos_landscape_top{
         position: absolute;
         top: 0em;
     }
-     
-     div.proyectos_landscape_tourette{
-         position: relative;
-     }
-     
+
+    div.proyectos_landscape_tourette{
+        position: relative;
+    }
+
     div.proyectos_landscape_center{
         position: absolute;
         top: 12em;
     }
-     
+
     div.proyectos_landscape_bottom{
         position: absolute;
         bottom: 0em;
     }
-     
-     div.proyectos_landscape_center_medianos{
-         position: absolute;
-         top: 16em;
-     }
-     
-     #proyectos_landscape_center_medianos_paraiso{
-         position: absolute;
-         top: 1em;
-     }
-     
-     div.proyectos_landscape_bottom_medianos{
-         position: absolute;
-         top: 28em;
-     }
-     
-     #proyectos_landscape_bottom_medianos_doblefantasia{
-         position: absolute;
-         top: 13em;
-     }
-     
-       /*proyectos grandes */
+
+    div.proyectos_landscape_center_medianos{
+        position: absolute;
+        top: 16em;
+    }
+
+    #proyectos_landscape_center_medianos_paraiso{
+        position: absolute;
+        top: 1em;
+    }
+
+    div.proyectos_landscape_bottom_medianos{
+        position: absolute;
+        top: 28em;
+    }
+
+    #proyectos_landscape_bottom_medianos_doblefantasia{
+        position: absolute;
+        top: 13em;
+    }
+
+/*proyectos grandes */
 
     img.etiqueta_izq_grandes{
         position: absolute;
@@ -1533,7 +1533,7 @@ a.pdf_descarga:hover{
         bottom: 20%;
         font-size: 1.2em;
     }
-     
+
     #datos_extra_tourette{
         font-size: 1.6em;
         width: 70%;
@@ -1541,7 +1541,7 @@ a.pdf_descarga:hover{
         top: 20%;
     }
 
-    /* proyectos medianos */
+/* proyectos medianos */
     img.etiqueta_izq_medianos{
         max-width: 100%;
         height: 44%;
@@ -1588,8 +1588,8 @@ a.pdf_descarga:hover{
         font-size: 1.5em;
         top: 14%;
     }
-     
-     /* proyectos largos */
+
+/* proyectos largos */
     img.etiqueta_izq_largos{
         max-width: 100%;
         height: 35%;
@@ -1600,7 +1600,7 @@ a.pdf_descarga:hover{
         height: 32%;
         bottom: 12%;
     }     
-     
+
     div.proyectos_largos h4{
         font-size: 1.6em;
         top: 11%;
@@ -1621,14 +1621,14 @@ a.pdf_descarga:hover{
         font-size: 1.2em;
     }
 
-    
-     
+
+
     #etiqueta_izq_hacerfuego{
         width: 46%;
         height: 44%;
         left: -3.9%;
-     } 
-     
+    } 
+
     #virus_proyectos{
         background-position: top;
     }
@@ -1661,7 +1661,7 @@ a.pdf_descarga:hover{
         width: 27%;
         right: -1.6%;
     }
-     
+
     #tourette_proyectos{
         background-position: center;
     }
@@ -1680,7 +1680,7 @@ a.pdf_descarga:hover{
         width: 22%;
         left: -2.6%;
     }
-     
+
     #etiqueta_izq_doblefantasia{
         width: 36%;
         left: -3.5%;
@@ -1711,10 +1711,10 @@ a.pdf_descarga:hover{
         height: 44%;
         left: -3.3%;
     }
-     
+
     #yogui_h4{
-         line-height: 1.2em;
-     }
+        line-height: 1.2em;
+    }
 
     #paracaidas_proyectos{
         background-position: center;
@@ -1765,11 +1765,11 @@ a.pdf_descarga:hover{
         width: 32%;
         left: -3.3%;
     }
-    
-     
-     /* Giro de cartas */
 
-    /* flip the pane when hovered */
+
+/* Giro de cartas */
+
+/* flip the pane when hovered */
     .contenedor_flip:hover .flipper,
     .contenedor_flip.hover .flipper {
         transform: rotateX(180deg);
@@ -1788,63 +1788,63 @@ a.pdf_descarga:hover{
         width: 100%;
         height: 15em;
     }
-     
-    /* front pane, placed above back */
+
+/* front pane, placed above back */
     .carta_adelante, .carta_adelante_grande {
-        /* for firefox 31 */
+/* for firefox 31 */
         transform: rotateX(0deg);
     }
 
-    /* back, initially hidden pane */
+/* back, initially hidden pane */
     .carta_atras, .carta_atras_grande {
         transform: rotateX(180deg); 
     }
-     
-     .carta_atras_hacerfuego{
-         background-image: url(../img/hacerfuego_proyectos_landscape.jpg);
-         background-position: left;
-     }
-     
-     .carta_atras_virus{
-         background-image: url(../img/virus_proyectos_landscape.jpg);
-         background-position: bottom;
-     }
-     
-     .carta_atras_tourette{
-         background-image: url(../img/tourette_proyectos_landscape.jpg);
-     }
-     
-     .carta_atras_paraiso{
-         background-image: url(../img/paraiso_proyectos_landscape.jpg);
-     }
-     
-     .carta_atras_doblefantasia{
-         background-image: url(../img/doblefantasia_proyectos_landscape.jpg);
-         background-position: top;
-     }
-     
-     .carta_atras_seminario{
-         background-image: url(../img/seminario_proyectos_landscape.jpg);
-         background-position: bottom;
-     }
-     
-     .carta_atras_yogui{
-         background-image: url(../img/yogui_proyectos_landscape.jpg);
-         background-position: bottom;
-     }
-     
-     .carta_atras_voluntariado{
-         background-image: url(../img/voluntariado_proyectos_landscape.jpg);
-         background-position: bottom;
-     }
-     
-     .carta_atras_dataentry{
-         background-image: url(../img/dataentry_proyectos_landscape.jpg);
-         background-position: bottom;
-     }
-     
-     
-     /*portfolio*/
+
+    .carta_atras_hacerfuego{
+        background-image: url(../img/hacerfuego_proyectos_landscape.jpg);
+        background-position: left;
+    }
+
+    .carta_atras_virus{
+        background-image: url(../img/virus_proyectos_landscape.jpg);
+        background-position: bottom;
+    }
+
+    .carta_atras_tourette{
+        background-image: url(../img/tourette_proyectos_landscape.jpg);
+    }
+
+    .carta_atras_paraiso{
+        background-image: url(../img/paraiso_proyectos_landscape.jpg);
+    }
+
+    .carta_atras_doblefantasia{
+        background-image: url(../img/doblefantasia_proyectos_landscape.jpg);
+        background-position: top;
+    }
+
+    .carta_atras_seminario{
+        background-image: url(../img/seminario_proyectos_landscape.jpg);
+        background-position: bottom;
+    }
+
+    .carta_atras_yogui{
+        background-image: url(../img/yogui_proyectos_landscape.jpg);
+        background-position: bottom;
+    }
+
+    .carta_atras_voluntariado{
+        background-image: url(../img/voluntariado_proyectos_landscape.jpg);
+        background-position: bottom;
+    }
+
+    .carta_atras_dataentry{
+        background-image: url(../img/dataentry_proyectos_landscape.jpg);
+        background-position: bottom;
+    }
+
+
+/*portfolio*/
     #portfolio{
         padding-top: 7em;
         padding-bottom: 7em;
@@ -1853,146 +1853,100 @@ a.pdf_descarga:hover{
 
     img.portfolio_imagenes{
         width: 100%;
+        max-width: 100%;
     }
 
     figure.portfolio_proyectos{
-        margin: 0% 15% 0% 15%;
-        max-width: 75%;
-        height: 5%;
+        margin: 0% 11% 0% 11%;
+        min-width: 80%;
     }
 
     .portfolio_proyectos_texto a,
     .portfolio_proyectos_texto p{
-        margin-left: 1em;
-        margin-right: 1em;
+        margin-left: 0.8em;
+        margin-right: 0.8em;
     }
 
     a.portfolio_titulos{
-        font-size: 1.5em;
-        text-decoration: none;
+        font-size: 1.7em;
+    }
+
+    a.portfolio_titulos img{
+        width: 8%;
+        max-width: 8%;
     }
 
     p.portfolio_tipo{
-        font-size: 1.4em;
-        width: 75%;
+        font-size: 1.7em;
     }
-
-    p.portfolio_rol{
-        font-size: 1.3em;
-        margin-top: 2em;
-    }
-
-    p.portfolio_año{
-        font-size: 1.2em;
-        padding: 0.3em 0em 1em 0.2em;
-    }
-     
-     a.portfolio_titulos img{
-         width: 7%;
-     }
 
      p.portfolio_rol_dosrenglones{
          margin-top: 0.5em;
      }
-     
-     
 
+    p.portfolio_rol{
+        font-size: 1.6em;
+    }
+
+    p.portfolio_año{
+        font-size: 1.4em;
+    }
+
+    #portfolio_titulo_seminario{
+        font-size: 1.5em;
+        padding-bottom: 0.2em;
+    }
+     
     #portfolio_behance a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         margin-top: 10em;
-        margin-left: 27%;
-        border-radius: 1.2em;
-        border-style: solid;
-        border-color: #336699;
-        border-width: 0.3em;
-        text-decoration: none;
-        padding: 1.2em 0.5em 1.2em 0.5em;
-        width: 46%;
+        margin-left: 33%;
+        padding: 1.2em 0.2em 1.2em 0.2em;
+        width: 36%;
     }
 
     #portfolio_behance img{
-        width: 15%;
+        width: 11%;
         height: auto;
     }
 
     #portfolio_behance h5{
-        font-family: "robotoregular", sans-serif;
-        font-size: 2.5em;
-        color: #336699;
+        font-size: 1.6em;
         padding-left: 0.2em;
     }   
 
-
-
-    /* Portfolio */
-
-    /* Pdf */
-
-    #pdf{
-        background-color: #f7f7f7;
-        z-index: 2;
-        padding: 2em;
+/*pdf*/
+        #pdf{
+        padding: 1.5em;
     }
 
     a.pdf_descarga{
-        display: flex;
-        justify-content: center;
-        border-radius: 0.5em;
-        border-color: #336699;
-        border-style: solid;
-        border-width: 0.12em;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        margin-left: 25.5%;
-        padding: 0.5em 1em 0.5em 1em;
-        font-family: "robotobold", sans-serif;
-        font-size: 2.5em;
-        text-decoration: none;
-        color: #336699;
-        width: 49%;
+        border-radius: 0.6em;
+        border-width: 0.17em;
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+        margin-left: 32%;
+        padding: 0.6em 1em 0.6em 1em;
+        font-size: 1.7em;
+        width: 38%;
     }
 
 
-    /* Pdf */
-
-    /* MAIN */
-
-
-    /* FOOTER */
-
-    #footer{
-        color: #336699;
-        background-color: #fafafa;
-        width: 100%;
-        height: auto;
-        border-top-style: solid;
-        border-top-color: #bcbcbc;
-        border-top-width: 0.2em;
-    }
-
+/*footer*/
     #footer nav ul{
-        display: flex;
-        justify-content: center;
-        padding: 2em 0em;
+        padding: 1.5em 0em;
     }
 
     #footer nav ul li{
-        font-family: "robotomedium", sans-serif;
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     #footer nav ul li:first-child{
-        border-right-color: #333399;
-        border-right-style: solid;
-        padding-right: 0.5em;
+        padding-right: 1.7em;
     }
 
     #footer nav ul li:last-child{
-        padding-left: 0.5em;  
+        padding-left: 1.7em;  
     }
-
 
 
 

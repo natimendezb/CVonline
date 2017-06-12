@@ -202,3 +202,21 @@
     width: 45px;
     height: 45px;
 }
+
+
+/* RESPONSIVE LANDSCAPE */
+
+ @media screen and (orientation:landscape) {
+/* Dots */
+    .slick-dots{
+        bottom: -50px;
+    }
+    .slick-dots li{
+        margin: 0 10px;
+    }     
+    .slick-dots li button:before{
+        font-size: 25px;
+     }
+
+     
+}
