@@ -73,7 +73,6 @@ footer{
 /* GENERAL */
 
 /* HEADER */
-
 header{
     color: #336699;
     background-color: #fafafa;
@@ -1174,6 +1173,8 @@ a.pdf_descarga{
 #footer nav ul li:last-child{
     padding-left: 0.5em;  
 }
+    
+
 
 /* FOOTER */
 
@@ -1931,7 +1932,6 @@ a.pdf_descarga:hover{
         width: 38%;
     }
 
-
 /*footer*/
     #footer nav ul{
         padding: 1.5em 0em;
@@ -1949,15 +1949,7 @@ a.pdf_descarga:hover{
         padding-left: 1.7em;  
     }
 
-
-
-
-
+}
 
 
 /* RESPONSIVE DESKTOP */
-
-@media screen and (min-width:960px) {
-    #perfil{
-        height: auto;
-    }
