@@ -1885,11 +1885,11 @@ a.pdf_descarga:hover{
      }
 
     p.portfolio_rol{
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     p.portfolio_año{
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 
     #portfolio_titulo_seminario{
@@ -1954,10 +1954,9 @@ a.pdf_descarga:hover{
 
 
 
-
 /* RESPONSIVE DESKTOP */
 
-@media screen and (min-width:72em) {
+@media screen and (min-width:960px) {
     #perfil{
         height: auto;
     }
