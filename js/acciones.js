@@ -107,12 +107,12 @@ function configurarCssParaDesktop(){
 }
 
 
-//if(esMobile()) {
-//    configurarCssParaMobile();
-//}
-//else {
-//    configurarCssParaDesktop();
-//}
+if(esMobile()) {
+   configurarCssParaMobile();
+}
+else {
+   configurarCssParaDesktop();
+}
 
 
 //var alturaTotal;
