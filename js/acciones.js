@@ -22,9 +22,9 @@ function cambio_titulo_onscroll() {
     var pixelesPerfil, pixelesConocimientos, pixelesProyectos
     
     if (esPortrait()) {
-        pixelesPerfil = 475;
-        pixelesConocimientos = 1800;
-        pixelesProyectos = 3500;
+        pixelesPerfil = 1000;
+        pixelesConocimientos = 3500;
+        pixelesProyectos = 7700;
     }
     else {
         pixelesPerfil = 600;
@@ -107,13 +107,15 @@ function configurarCssParaDesktop(){
 }
 
 
-if(esMobile()) {
-   configurarCssParaMobile();
-}
-else {
-   configurarCssParaDesktop();
-}
+//if(esMobile()) {
+//    configurarCssParaMobile();
+//}
+//else {
+//    configurarCssParaDesktop();
+//}
 
+
+//var alturaTotal;
 
 $(document).ready(function(){
     $('.carrusel').slick({
@@ -127,6 +129,7 @@ $(document).ready(function(){
         configurarCarruselParaLandscape();
     }
     
+//    alturaTotal = document.getElementById("contenedor").scrollHeight;
 });
 
 
@@ -136,6 +139,11 @@ $(window).on("orientationchange",function(){
     } else {
         configurarCarruselParaLandscape();
     }
+    
+//    var posicionPorcentualActual = posicionActual/alturaTotal;
+//    alturaTotal = document.getElementById("contenedor").scrollHeight;
+//    var nuevaPosicion = (posicionPorcentualActual-0.1)*alturaTotal;
+//    scrollTo(0, nuevaPosicion);
 });
 
 
