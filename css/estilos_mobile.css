@@ -229,7 +229,7 @@ li.header img:active {
 /* Conocimientos */
 
 #conocimientos{
-    padding-top: 50px;
+    padding-top: 65px;
     background-color: #f0f0f0;
 }
 
@@ -448,11 +448,11 @@ div.contenido_timeline P{
 #proyectos{
     background-color: #f7f7f7;
     z-index: 2;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 5.5em;
+    padding-bottom: 4em;
     border-bottom-style: solid;
     border-bottom-color: #333399;
-    border-bottom-width: 1.4px;
+    border-bottom-width: 0.08em;
 }
 
 #contenedor_proyectos{
@@ -463,16 +463,16 @@ div.contenido_timeline P{
 }
 
 div.contenido_filas:first-child{
-    margin-top: 0px;
+    margin-top: 0em;
 }
 
 div.contenido_filas{
     display: flex;
-    margin-top: 20px;
+    margin-top: 1.5em;
 }
 
 div.contenido_filas div{
-    border-radius: 15px;
+    border-radius: 1.1em;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -540,7 +540,7 @@ div.proyectos_grandes{
     background-color: #f7f7f7;
     padding-top: 16%;
     padding-bottom: 3%;
-    height: 288px;
+    height: 18em;
     -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
@@ -549,7 +549,7 @@ div.proyectos_grandes{
 div.proyectos_grandes h4{
     color: #FF6633;
     font-family: "robotobold", sans-serif;
-    font-size: 14px;
+    font-size: 1em;
     position: absolute;
     top: 9%;
     left: 4%;
@@ -560,7 +560,7 @@ div.proyectos_grandes h5{
     top: 16%;
     left: 4%;
     font-family: "robotolight", sans-serif;
-    font-size: 13px;
+    font-size: 0.9em;
 }
 
 div.proyectos_grandes h6{
@@ -568,7 +568,8 @@ div.proyectos_grandes h6{
     bottom: 19%;
     right: 4%;
     font-family: "robotolight", sans-serif;
-    font-size: 12px;
+    font-size: 0.8em;
+    margin-top: 5em;
 }
 
 div.proyectos_grandes p{
@@ -576,12 +577,12 @@ div.proyectos_grandes p{
     bottom: 13%;
     right: 4%;
     font-family: "robotolight", sans-serif;
-    font-size: 11px;
+    font-size: 0.7em;
 }
 
 #datos_extra_tourette{
     font-family: "robotoregular", sans-serif;
-    font-size: 14px;
+    font-size: 0.9em;
     position: absolute;
     margin: 1em;
     left: 5%;
@@ -616,12 +617,12 @@ h4.titulo_dosrenglones{
 }
 
 h5.tipo_dosrenglones{
-    padding-top: 22px;
+    padding-top: 1.5em;
 }
 
 div.proyectos_medianos{
     background-color: #f7f7f7;
-    height: 133px;
+    height: 8.3em;
     -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
@@ -630,7 +631,7 @@ div.proyectos_medianos{
 div.proyectos_medianos h4{
     color: #FF6633;
     font-family: "robotobold", sans-serif;
-    font-size: 14px;
+    font-size: 0.95em;
     position: absolute;
     top: 8%;
     left: 4%;
@@ -640,7 +641,7 @@ div.proyectos_medianos h4{
 
 div.proyectos_medianos h5{
     font-family: "robotolight", sans-serif;
-    font-size: 12px;
+    font-size: 0.8em;
     position: absolute;
     top: 23%;
     left: 4%;
@@ -649,7 +650,8 @@ div.proyectos_medianos h5{
 
 div.proyectos_medianos h6{
     font-family: "robotolight", sans-serif;
-    font-size: 12px;
+    font-size: 0.8em;
+    margin-top: 2em;
     position: absolute;
     bottom: 24%;
     right: 8%;
@@ -658,9 +660,9 @@ div.proyectos_medianos h6{
 
 div.proyectos_medianos p{
     font-family: "robotolight", sans-serif;
-    font-size: 11px;
+    font-size: 0.7em;
     position: absolute;
-    bottom: 11%;
+    bottom: 13%;
     right: 8%;
     z-index: 3;
 }
@@ -668,7 +670,7 @@ div.proyectos_medianos p{
 div.proyectos_medianos h7{
     position: absolute;
     font-family: "robotoregular", sans-serif;
-    font-size: 10px;
+    font-size: 0.72em;
     text-align: left;
     left: 10%;
     top: 10%;
@@ -700,7 +702,7 @@ div.proyectos_centro{
 
 div.proyectos_largos{
     background-color: #f7f7f7;
-    height: 133px;
+    height: 8.3em;
     -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
@@ -709,7 +711,7 @@ div.proyectos_largos{
 div.proyectos_largos h4{
     color: #FF6633;
     font-family: "robotobold", sans-serif;
-    font-size: 14px;
+    font-size: 1em;
     position: absolute;
     top: 12%;
     left: 4%;
@@ -720,15 +722,16 @@ div.proyectos_largos h5{
     top: 26%;
     left: 4%;
     font-family: "robotolight", sans-serif;
-    font-size: 13px;
+    font-size: 0.9em;
 }
 
 div.proyectos_largos h6{
     position: absolute;
-    bottom: 26%;
+    bottom: 25%;
     right: 4%;
     font-family: "robotolight", sans-serif;
-    font-size: 12px;
+    font-size: 0.8em;
+    margin-top: 5em;
 }
 
 div.proyectos_largos p{
@@ -736,7 +739,7 @@ div.proyectos_largos p{
     bottom: 13%;
     right: 4%;
     font-family: "robotolight", sans-serif;
-    font-size: 11px;
+    font-size: 0.7em;
 }
 
 
@@ -747,9 +750,9 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_hacerfuego{
-    width: 95%;
-    height: 60%;
-    left: -5.2%;
+    width: 90%;
+    height: 58%;
+    left: -4.7%;
 }
 
 
@@ -759,8 +762,8 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_virus{
-    width: 82%;
-    left: -4.5%
+    width: 72%;
+    left: -4%
 }
 
 #tiempoausente_proyectos{
@@ -826,8 +829,8 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_doblefantasia{
-    width: 95%;
-    left: -5.8%;
+    width: 90%;
+    left: -5.5%;
 }
 
 
@@ -841,7 +844,7 @@ div.proyectos_largos p{
 }
 
 #etiqueta_der_suenaluz{
-    width: 58%;
+    width: 56%;
     right: -3.2%;
 }
 
@@ -851,7 +854,7 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_seminario{
-    width: 86%;
+    width: 82%;
     height: 59%;
     left: -5%;
 }
@@ -882,7 +885,7 @@ div.proyectos_largos p{
 #etiqueta_der_enlalluvia{
     height: 26%;
     bottom: 6%;
-    right: -6.1%;
+    right: -6.5%;
 }
 
 h6.rol_dosrenglones{
@@ -895,12 +898,12 @@ h6.rol_dosrenglones{
 }
 
 #etiqueta_izq_cactus{
-    width: 53%;
-    left: -3.3%;
+    width: 50%;
+    left: -3%;
 }
 
 #etiqueta_der_cactus{
-    width: 57%;
+    width: 53%;
     right: -3%;
 }
 
@@ -923,7 +926,7 @@ h6.rol_dosrenglones{
 }
 
 #etiqueta_izq_voluntariado{
-    width: 100%;
+    width: 95%;
     left: -5.8%;
 }
 
@@ -933,8 +936,8 @@ h6.rol_dosrenglones{
 }
 
 #etiqueta_izq_dataentry{
-    width: 85%;
-    left: -5.7%;
+    width: 80%;
+    left: -5.3%;
 }
 
 
@@ -958,11 +961,11 @@ h6.rol_dosrenglones{
 
 .contenedor_flip, .carta_adelante, .carta_atras {
 	width: 100%;
-	height: 133px;
+	height: 8.3em;
 }
 
 .contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
-    height: 288px;
+    height: 18em;
     width: 100%;
 }
 
