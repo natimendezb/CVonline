@@ -149,7 +149,7 @@ li.header img:active {
     border-bottom: solid;
     border-color: #333399;
     border-bottom-width: 0.08em;
-    height: 100vh;
+    height: auto;
 }
 
 #presentacion{
