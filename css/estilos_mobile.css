@@ -78,19 +78,19 @@ header{
     color: #336699;
     background-color: #fafafa;
     width: 100%;
-    height: 3em;
+    height: 45px;
     left: 0;
     top: 0;
     position: fixed;
     z-index: 5;
     border-bottom-style: solid;
     border-bottom-color: #bcbcbc;
-    border-bottom-width: 0.08em;
+    border-bottom-width: 1.4px;
 }
 
 header nav ul{
     width: 100%;
-    height: 3em;
+    height: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,7 +106,7 @@ header nav ul{
 }
 
 .header img{
-    width: 1.6em;
+    width: 26px;
 }
 
 #contenedor_titulo{
@@ -118,7 +118,7 @@ header nav ul{
 
 #titulo_seccion{
     font-family: 'titillium_webbold';
-    font-size: 1.3em;
+    font-size: 20px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -148,21 +148,21 @@ li.header img:active {
     background-color: #f7f7f7;
     border-bottom: solid;
     border-color: #333399;
-    border-bottom-width: 0.08em;
-    height: auto;
+    border-bottom-width: 1.4px;
+    height: 100vh;
 }
 
 #presentacion{
-    margin: 5em 2em 0em 2em;
+    margin: 80px 53px 0px 53px;
 }
 
 #presentacion h1 {
     color: #FF6633;
     font-family: 'titillium_webbold', sans-serif;
-    font-size: 2.2em;
-    line-height: 1.2em;
+    font-size: 30px;
+    line-height: 38px;
     width: 100%;
-    margin-bottom: 0.2em;
+    margin-bottom: 5px;
 }
 
 #presentacion h1 span{
@@ -172,19 +172,19 @@ li.header img:active {
 
 #presentacion h2{
     font-family: 'robotolight', sans-serif;
-    font-size: 1.3em;
+    font-size: 18px;
     margin: auto;
     color: #FF6633;
 }
 
 #presentacion figure img{
-    margin-top: 2.8em;
-    margin-bottom: 0.7em;
+    margin-top: 50px;
+    margin-bottom: 15px;
     height: auto;
     width: 77%;
-    border-radius: 0.8em;
+    border-radius: 18px;
     border-style: solid;
-    border-width: 0.08em;
+    border-width: 1.8px;
     border-color: #99CC33;
     -webkit-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
     -moz-box-shadow: 2px 2px 11px 0px rgba(84,84,84,0.55);
@@ -193,13 +193,13 @@ li.header img:active {
 
 #presentacion figcaption p{
     font-family: 'robotolight', sans-serif;
-    font-size: 0.9em;
+    font-size: 14px;
 }
 
 /* Perfil - Datos */
 
 #datos{
-    margin-top: 3.8em;
+    margin-top: 70px;
     width: 100%;
 }
 
@@ -208,31 +208,28 @@ li.header img:active {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding-left: 2em;
-    padding-right: 2em;
 }
 
 #datos a{
     font-family: 'robotolight', sans-serif;
-    font-size: 1.05em;
-    margin-bottom: 1.5em;
+    font-size: 14px;
 }
 
 #datos a:first-child{
     border-right-style: solid;
-    border-right-width: 0.05em;
+    border-right-width: 1.1px;
     border-right-color: #333399;
-    padding-right: 0.7em;
+    padding-right: 10px;
 }
 
 #datos a:last-child{
-    padding-left: 0.7em;
+    padding-left: 10px;
 }
 
 /* Conocimientos */
 
 #conocimientos{
-    padding-top: 4em;
+    padding-top: 65px;
     background-color: #f0f0f0;
 }
 
@@ -248,11 +245,12 @@ li.fila_conocimiento{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 0.6em;
+    padding-bottom: 4px;
+    padding-top: 4px;
 }
 
 li.fila_conocimiento figure img{
-    width: 2.3em;
+    width: 32px;
 }
 
 ul.conocimientos li figure{
@@ -261,9 +259,9 @@ ul.conocimientos li figure{
 }
 
 ul.conocimientos figcaption{
-    padding-left: 0.6em;
+    padding-left: 9px;
     font-family: 'robotoregular', sans-serif;
-    font-size: 1.1em;
+    font-size: 16px;
 }
 
 div.unacara,
@@ -286,7 +284,7 @@ div.doscaras{
 
 hr.divisor_categoria{
     width: 70%;
-    margin: 0.7em 0em 0.7em 12.5%;
+    margin: 10px 0px 10px 12.5%;
     height: 1px;
     border-style: solid;
     border-color: #333399;
@@ -306,20 +304,20 @@ hr.separador_subseccion{
     position: relative;
     background-color: #f0f0f0;
     z-index: 3;
-    padding-bottom: 3em;
-    padding-top: 4em;
+    padding-bottom: 40px;
+    padding-top: 60px;
     border-bottom-style: solid;
     border-bottom-color: #333399;
-    border-bottom-width: 0.08em;
+    border-bottom-width: 1.4px;
 }
 
 #formacion::before {
     /* línea vertical */
     content: '';
     position: absolute;
-    top: 5em;
+    top: 75px;
     height: 70%;
-    width: 0.12em;
+    width: 1.5px;
     background: #99CC66;
     transform: translate(-50%);
 }
@@ -344,19 +342,19 @@ div.circulo_timeline figure{
 }
 
 div.circulo_timeline figure img{
-    width: 2.5em;
+    width: 40px;
 }
 
 figcaption.fecha{
-    margin-left: 1.7em;
+    margin-left: 17px;
     font-family: "robotolight", sans-serif;
-    font-size: 0.75em;
+    font-size: 12px;
 }
 
 figcaption.fecha_izquierda{
-    margin-right: 1.8em;
+    margin-right: 19px;
     font-family: "robotolight", sans-serif;
-    font-size: 0.75em;
+    font-size: 12px;
 }
 
 #primera_esfera{
@@ -364,57 +362,55 @@ figcaption.fecha_izquierda{
 }
 
 #primera_esfera img{
-    width: 2.5em;
+    width: 40px;
 }
 
 div.circulo_chico img{
-    width: 2.5em;
+    width: 40px;
 }
 
 div.contenido_timeline{
     position: relative;
     width: 40%;
-    border-width: 0.1em;
+    border-width: 1.4px;
     border-color: #333399;
 }
 
 div.contenido_izquierda{
     border-left-style: solid;
-    margin-left: 1.7em;
-    border-left-width: 0.08em;
+    margin-left: 21px;
     text-align: left;
-    padding-left: 0.8em;
-    margin-bottom: 1.5em;
+    padding-left: 10px;
+    margin-bottom: 15px;
     width: 40%;
 }
 
 div.contenido_derecha{
     border-right-style: solid;
-    border-right-width: 0.08em;
     margin-left: 58%;
     text-align: right;
-    padding-right: 0.8em;
-    margin-bottom: 1.5em;
+    padding-right: 10px;
+    margin-bottom: 15px;
     width: 36%;
 }
 
 div.contenido_timeline h2{
     color: #FF6633;
     font-family: "robotobold", sans-serif;
-    font-size: 1.05em;
-    padding-bottom: 0.2em;
-    line-height: 1.2em;
+    font-size: 15px;
+    padding-bottom: 6px;
+    line-height: 20px;
 }
 
 div.contenido_timeline h3{
     font-family: "robotolight", sans-serif;
-    font-size: 0.85em;
-    padding-bottom: 0.4em;
+    font-size: 13px;
+    padding-bottom: 6px;
 }
 
 div.contenido_timeline P{
     font-family: "robotolight", sans-serif;
-    font-size: 0.65em;
+    font-size: 11px;
 }
 
 .shake{
