@@ -143,7 +143,7 @@ li.header img:active {
     background-color: #f7f7f7;
     border-bottom: solid;
     border-color: #333399;
-    height: 100vh;
+    height: auto;
 }
 
 #presentacion{
@@ -192,6 +192,7 @@ li.header img:active {
 
 #datos{
     margin-top: 9em;
+    margin-bottom: 10em;
     width: 100%;
 }
 

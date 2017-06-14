@@ -22,9 +22,9 @@ function cambio_titulo_onscroll() {
     var pixelesPerfil, pixelesConocimientos, pixelesProyectos
     
     if (esPortrait()) {
-        pixelesPerfil = 1000;
-        pixelesConocimientos = 3500;
-        pixelesProyectos = 7700;
+        pixelesPerfil = 1200;
+        pixelesConocimientos = 3800;
+        pixelesProyectos = 8000;
     }
     else {
         pixelesPerfil = 600;
