@@ -1,7 +1,25 @@
-function cambio_titulo_onclick(nuevo_texto) {
-    var pDelHeader = document.getElementById("titulo_seccion");
-    
-    pDelHeader.innerHTML = nuevo_texto; 
+// Reponsive
+configurarCss();
+configurarSlick();
+
+function configurarCss(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'css/estilos_mobile.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
+
+function configurarSlick(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'libs/slick/slick-theme-mobile.css';
+    link.media = 'all';
+    head.appendChild(link);
 }
 
 
@@ -52,22 +70,6 @@ function cambio_titulo_onscroll() {
     
 }
 
-
-function publicarEdad() {
-    var pDeLaEdad = document.getElementById("edad");
-    var miEdadHoy = calculateAge();
-    
-    pDeLaEdad.innerHTML = miEdadHoy + " años";
-}
-
-function calculateAge() {
-    var birthday = new Date("1993-05-28");
-    var ageDifMs = Date.now() - birthday.getTime();
-    var ageDate = new Date(ageDifMs);
-    return Math.abs(ageDate.getUTCFullYear() - 1970);
-}
-
-
 // Carrusel Slick Portrait / Landscape
 function configurarCarruselParaPortrait(){
     $('.carrusel').slick("slickSetOption", "slidesToShow", 1, "refresh", true);
@@ -79,60 +81,6 @@ function configurarCarruselParaLandscape(){
 
 function esPortrait(){
     return screen.orientation.angle == 0;
-}
-
-// Reponsive
-function esMobile(){
-    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
-function configurarCssParaMobile(){
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'css/estilos_mobile.css';
-    link.media = 'all';
-    head.appendChild(link);
-}
-
-function configurarSlickParaMobile(){
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'libs/slick/slick-theme-mobile.css';
-    link.media = 'all';
-    head.appendChild(link);
-}
-
-function configurarCssParaDesktop(){
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'css/estilos_desktop.css';
-    link.media = 'all';
-    head.appendChild(link);
-}
-
-function configurarSlickParaDesktop(){
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'libs/slick/slick-theme-desktop.css';
-    link.media = 'all';
-    head.appendChild(link);
-}
-
-if(esMobile()) {
-   configurarCssParaMobile();
-   configurarSlickParaMobile();
-}
-else {
-   configurarCssParaDesktop();
-   configurarSlickParaDesktop();
 }
 
 
@@ -150,6 +98,17 @@ $(document).ready(function(){
         configurarCarruselParaLandscape();
     }
     
+    var figuresPortfolio = document.getElementsByClassName("portfolio_proyectos");
+
+    Array.prototype.forEach.call(figuresPortfolio,
+        function(element) {
+          element.addEventListener('click',
+            function() {
+                window.open(element.children[0].href);
+            }
+          );
+        }
+    );
 //    alturaTotal = document.getElementById("contenedor").scrollHeight;
 });
 
@@ -166,7 +125,4 @@ $(window).on("orientationchange",function(){
 //    var nuevaPosicion = (posicionPorcentualActual-0.1)*alturaTotal;
 //    scrollTo(0, nuevaPosicion);
 });
-
-
-
 
