@@ -96,6 +96,16 @@ function configurarCssParaMobile(){
     head.appendChild(link);
 }
 
+function configurarSlickParaMobile(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'libs/slick/slick-theme-mobile.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
+
 function configurarCssParaDesktop(){
     var head  = document.getElementsByTagName('head')[0];
     var link  = document.createElement('link');
@@ -106,12 +116,23 @@ function configurarCssParaDesktop(){
     head.appendChild(link);
 }
 
+function configurarSlickParaDesktop(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'libs/slick/slick-theme-desktop.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
 
 if(esMobile()) {
    configurarCssParaMobile();
+   configurarSlickParaMobile();
 }
 else {
    configurarCssParaDesktop();
+   configurarSlickParaDesktop();
 }
 
 

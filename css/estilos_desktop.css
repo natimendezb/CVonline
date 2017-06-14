@@ -85,7 +85,7 @@ header{
     z-index: 5;
     border-bottom-style: solid;
     border-bottom-color: #bcbcbc;
-    border-bottom-width: 0.1em;
+    border-bottom-width: 0.09em;
 }
 
 header nav ul{
@@ -101,20 +101,12 @@ header nav ul{
     display: flex;
     justify-content: space-between;
     width: 25%;
-}
-
-#header_izquierda{
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-#header_derecha{
-    margin-right: 1em;
-    margin-left: 1em;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
 }
 
 .header img{
-    width: 1.4em;
+    width: 1.2em;
 }
 
 #contenedor_titulo{
@@ -128,7 +120,7 @@ header nav ul{
 
 #titulo_seccion{
     font-family: 'titillium_webbold';
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 p.titulo_menu{
@@ -151,7 +143,7 @@ li.header img:active {
     padding-top: 2%;
     background-color: #f7f7f7;
     border-bottom: solid;
-    border-bottom-width: 0.1em;
+    border-bottom-width: 0.09em;
     border-color: #333399;
     height: 100vh;
 }
@@ -163,8 +155,8 @@ li.header img:active {
 #presentacion h1 {
     color: #FF6633;
     font-family: 'titillium_webbold', sans-serif;
-    font-size: 1.8em;
-    margin-top: 4em;
+    font-size: 1.6em;
+    margin-top: 5em;
     margin-bottom: 0.2em;
     line-height: 1.2em;
     width: 100%;
@@ -177,17 +169,17 @@ li.header img:active {
 
 #presentacion h2{
     font-family: 'robotolight', sans-serif;
-    font-size: 1.1em;
+    font-size: 0.95em;
     margin: auto;
     color: #FF6633;
 }
 
 #presentacion figure img{
-    margin-top: 5em;
-    margin-bottom: 1em;
+    margin-top: 3em;
+    margin-bottom: 0.7em;
     height: auto;
-    width: 75%;
-    border-radius: 1.5em;
+    width: 85%;
+    border-radius: 0.8em;
     border-style: solid;
     border-width: 0.08em;
     border-color: #99CC33;
@@ -198,13 +190,13 @@ li.header img:active {
 
 #presentacion figcaption p{
     font-family: 'robotolight', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 /* Perfil - Datos */
 
 #datos{
-    margin-top: 5.5em;
+    margin-top: 4.5em;
     width: 100%;
 }
 
@@ -213,13 +205,11 @@ li.header img:active {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
 }
 
 #datos a{
     font-family: 'robotolight', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.75em;
 }
 
 #datos a:first-child{
@@ -237,7 +227,7 @@ li.header img:active {
 /* Conocimientos */
 
 #conocimientos{
-    padding-top: 6em;
+    padding-top: 5.5em;
     background-color: #f0f0f0;
 }
 
@@ -252,7 +242,7 @@ li.fila_conocimiento{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 0.2em;
+    padding-bottom: 0.25em;
 }
 
 ul.conocimientos li figure{
@@ -261,36 +251,36 @@ ul.conocimientos li figure{
 }
 
 ul.conocimientos figcaption{
-    padding-left: 0.4em;
+    padding-left: 0.5em;
     font-family: 'robotoregular', sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 li.fila_conocimiento figure img{
-    width: 1.7em;
+    width: 1.4em;
 }
 
 div.unacara,
 div.doscaras,
 div.trescaras{
-    width: 56px;
-    height: 16px;
+    width: 42px;
+    height: 12px;
     background-image: url("../img/3caras.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 div.unacara{
-    background-position: -40px;
+    background-position: -29px;
 }
 
 div.doscaras{
-    background-position: -20px;
+    background-position: -14.5px;
 }
 
 hr.divisor_categoria{
     width: 60%;
-    margin: 1em 0em 1em 20%;
+    margin: 0.7em 0em 0.7em 20%;
     height: 0.1em;
     border-style: solid;
     border-color: #333399;
@@ -311,19 +301,19 @@ hr.separador_subseccion{
     position: relative;
     background-color: #f0f0f0;
     z-index: 3;
-    padding-top: 2em;
+    padding-top: 3em;
     padding-bottom: 3em;
     border-bottom-style: solid;
     border-bottom-color: #333399;
-    border-bottom-width: 0.1em;
+    
 }
 
 #formacion::before {
     /* línea vertical */
     content: '';
     position: absolute;
-    top: 3.5em;
-    height: 70%;
+    top: 4.5em;
+    height: 68%;
     width: 0.15em;
     background: #99CC66;
     transform: translate(-50%);
@@ -345,54 +335,48 @@ div.circulo_timeline{
 div.circulo_timeline figure{
     display: inline-flex;
     align-items: center;
-    transform: translate(26%);
+    transform: translate(29%);
 }
 
-div.circulo_timeline figure img{
-    width: 2.5em;
-}
-
-#primera_esfera img{
-    width: 2.5em;
-}
-
+div.circulo_timeline figure img,
+#primera_esfera img,
 .circulo_chico img{
-    width: 2.5em;
+    width: 1.8em;
 }
 
 figcaption.fecha{
     margin-left: 1.7em;
     font-family: "robotolight", sans-serif;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 #primera_esfera{
-    transform: translate(-25%);
+    transform: translate(-29%);
 }
 
 figcaption.fecha_izquierda{
     margin-right: 1.8em;
     font-family: "robotolight", sans-serif;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 div.contenido_timeline{
     position: relative;
-    width: 42%;
+    width: 44%;
     border-width: 0.09em;
     border-color: #333399;
 }
 
 div.contenido_izquierda{
     border-left-style: solid;
-    margin-left: 0.2em;
+    margin-left: 0.15em;
     text-align: left;
     padding-left: 0.5em;
 }
 
 div.contenido_derecha{
     border-right-style: solid;
-    margin-left: 60%;
+    margin-left: 57%;
     text-align: right;
     padding-right: 0.5em;
 }
@@ -400,20 +384,20 @@ div.contenido_derecha{
 div.contenido_timeline h2{
     color: #FF6633;
     font-family: "robotobold", sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     padding-bottom: 0.2em;
     line-height: 1.2em;
 }
 
 div.contenido_timeline h3{
     font-family: "robotolight", sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding-bottom: 0.4em;
 }
 
 div.contenido_timeline P{
     font-family: "robotolight", sans-serif;
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 .shake{
@@ -456,44 +440,50 @@ div.contenido_timeline P{
     padding-bottom: 4em;
     border-bottom-style: solid;
     border-bottom-color: #333399;
+    border-bottom-width: 0.09em;
 }
 
 #contenedor_proyectos{
-    margin-left: 8%;
-    margin-right: 8%;
-    width: 84%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
     height: auto;
 }
 
 div.contenido_filas{
     display: block;
     position: relative;
-    height: 39em;
+    height: 26em;
     margin-bottom: 0em;
     margin-top: 0em;
 }
 
+div.contenido_filas div{
+    border-radius: 0.8em;
+    background-size: cover;
+}
+
 div.contenido_filas_largos{
     display: block;
-    height: 15em;
+    height: 8em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 div.proyectos_izquierda{
     width: 100%;
-    height: 11em;
+    height: 8em;
     margin-left: 0em;
     position: relative;
 }
 
 div.proyectos_landscape_grandes{
-    height: 15em;
+    height: 8em;
 }
     
 div.proyectos_derecha{
     width: 100%;
-    height: 11em;
+    height: 8em;
     margin-left: 0%;
     position: relative;
 }
@@ -502,7 +492,7 @@ div.proyectos_arriba{
     position: absolute;
     top: 0;
     width: 100%;
-    height: 11em;
+    height: 8em;
     margin-left: 0em;
     margin-bottom: 1em;
 }
@@ -511,24 +501,24 @@ div.proyectos_abajo{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 11em;
+    height: 8em;
     margin-left: 0em;
 }
 
 div.proyectos_centro{
-        height: 15em;
-        margin-left: 0em;
+    height: 8em;
+    margin-left: 0em;
 }
 
 div.proyectos_medianos{
     margin: 0em;
-    height: 11em;
+    height: 8em;
     margin-left: 0em;
 }
 
 div.proyectos_grandes,
 div.proyectos_largos{
-    height: 15em;
+    height: 8em;
     margin-left: 0em;
 }
 
@@ -543,7 +533,7 @@ div.proyectos_landscape_tourette{
 
 div.proyectos_landscape_center{
     position: absolute;
-    top: 12em;
+    top: 9em;
 }
 
 div.proyectos_landscape_bottom{
@@ -553,7 +543,7 @@ div.proyectos_landscape_bottom{
 
 div.proyectos_landscape_center_medianos{
     position: absolute;
-    top: 16em;
+    top: 9em;
 }
 
 #proyectos_landscape_center_medianos_paraiso{
@@ -563,162 +553,130 @@ div.proyectos_landscape_center_medianos{
 
 div.proyectos_landscape_bottom_medianos{
     position: absolute;
-    top: 28em;
+    top: 18em;
 }
 
 #proyectos_landscape_bottom_medianos_doblefantasia{
     position: absolute;
-    top: 13em;
+    top: 10em;
 }
 
 /* proyectos grandes */
 
-img.etiqueta_izq_grandes{
+img.etiqueta_izq_grandes,
+img.etiqueta_izq_medianos,
+img.etiqueta_izq_largos{
     width: 100%;
     max-width: 100%;
-    height: 35%;
+    height: 43%;
     position: absolute;
     top: 10%;
     left: -6%;
-    margin-left: 2.5%;
 }
 
-img.etiqueta_der_grandes{
+img.etiqueta_der_grandes,
+img.etiqueta_der_largos{
     width: 100%;
     max-width: 100%;
-    height: 32%;
+    height: 34%;
     position: absolute;
     bottom: 12%;
     right: -5.5%;
-    margin-right: 2.8%;
 }
 
-.etiqueta_izq_grandes_atras{
+.etiqueta_izq_grandes_atras,
+.etiqueta_izq_medianos_atras{
     position: absolute;
     top: 10%;
     right: -2%;
-    height: 27%;
+    height: 32%;
 }
 
 .etiqueta_der_grandes_atras{
     position: absolute;
     bottom: 8%;
     left: -2%;
-    height: 30%;    
+    height: 27%;    
 }
 
 div.proyectos_grandes{
     background-color: #f7f7f7;
     padding-top: 16%;
     padding-bottom: 3%;
-    height: 40em;
+    height: 8em;
     -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
 }
 
-div.proyectos_grandes h4{
+div.proyectos_grandes h4,
+div.proyectos_medianos h4,
+div.proyectos_largos h4{
     color: #FF6633;
     font-family: "robotobold", sans-serif;
-    font-size: 2.3em;
+    font-size: 0.9em;
     position: absolute;
     top: 11%;
     left: 3%;
+    z-index: 1;
 }
 
-div.proyectos_grandes h5{
+div.proyectos_grandes h5,
+div.proyectos_medianos h5,
+div.proyectos_largos h5{
     position: absolute;
-    top: 19%;
+    top: 25%;
     left: 3%;
     font-family: "robotolight", sans-serif;
-    font-size: 2em;
+    font-size: 0.8em;
+    z-index: 1;
 }
 
-div.proyectos_grandes h6{
+div.proyectos_grandes h6,
+div.proyectos_largos h6{
     position: absolute;
-    bottom: 16%;
+    bottom: 32%;
     right: 3%;
     font-family: "robotolight", sans-serif;
-    font-size: 2em;
+    font-size: 0.7em;
     margin-top: 5em;
 }
 
-div.proyectos_grandes p{
+div.proyectos_grandes p,
+div.proyectos_largos p{
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     right: 3%;
     font-family: "robotolight", sans-serif;
-    font-size: 1.8em;
+    font-size: 0.6em;
 }
 
 #datos_extra_tourette{
     font-family: "robotoregular", sans-serif;
-    font-size: 2.2em;
+    font-size: 0.75em;
     position: absolute;
     margin: 1em;
     left: 10%;
-    top: 25%;
+    top: 18%;
     text-align: left;
 }
 
 /* proyectos medianos */
-img.etiqueta_izq_medianos{
-    width: 100%;
-    height: 44%;
-    position: absolute;
-    top: 10%;
-    left: -6%;
-    z-index: 1;
-    margin-left: 1.3%;
-}
-
-.etiqueta_izq_medianos_atras{
-    position: absolute;
-    right: -2%;
-    top: 10%;
-    z-index: 3;
-    height: 39%;
-}
-
-.etiqueta_izq_medianos_atras{
-        height: 34%;
-    }
-
 h5.tipo_dosrenglones{
     padding: 0em;
 }
 
 div.proyectos_medianos{
     background-color: #f7f7f7;
-    height: 18.5em;
+    height: 8em;
     -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
 }
 
-div.proyectos_medianos h4{
-    color: #FF6633;
-    font-family: "robotobold", sans-serif;
-    font-size: 2em;
-    position: absolute;
-    top: 12%;
-    left: 3%;
-    text-align: left;
-    z-index: 1;
-}
-
-div.proyectos_medianos h5{
-    font-family: "robotolight", sans-serif;
-    font-size: 1.7em;
-    position: absolute;
-    top: 26%;
-    left: 3%;
-    z-index: 1;
-}
-
 div.proyectos_medianos h6{
     font-family: "robotolight", sans-serif;
-    font-size: 1.7em;
+    font-size: 0.8em;
     margin-top: 2em;
     position: absolute;
     bottom: 24%;
@@ -728,7 +686,7 @@ div.proyectos_medianos h6{
 
 div.proyectos_medianos p{
     font-family: "robotolight", sans-serif;
-    font-size: 1.5em;
+    font-size: 0.7em;
     position: absolute;
     bottom: 13%;
     right: 8%;
@@ -738,7 +696,7 @@ div.proyectos_medianos p{
 div.proyectos_medianos h7{
     position: absolute;
     font-family: "robotoregular", sans-serif;
-    font-size: 1.7em;
+    font-size: 0.8em;
     text-align: left;
     left: 10%;
     top: 10%;
@@ -746,22 +704,6 @@ div.proyectos_medianos h7{
 }
 
 /* proyectos largos */
-img.etiqueta_izq_largos{
-    width: 100%;
-    height: 35%;
-    position: absolute;
-    top: 10%;
-    left: -6%;
-}
-
-img.etiqueta_der_largos{
-    width: 100%;
-    height: 32%;
-    position: absolute;
-    bottom: 12%;
-    right: -5.5%;
-}
-
 div.proyectos_centro{
     width: 100%;
     height: auto;
@@ -770,68 +712,32 @@ div.proyectos_centro{
 
 div.proyectos_largos{
     background-color: #f7f7f7;
-    height: 20em;
+    height: 8em;
     -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
 }
 
-div.proyectos_largos h4{
-    color: #FF6633;
-    font-family: "robotobold", sans-serif;
-    font-size: 2.3em;
-    position: absolute;
-    top: 12%;
-    left: 3%;
-}
-
-div.proyectos_largos h5{
-    position: absolute;
-    top: 26%;
-    left: 3%;
-    font-family: "robotolight", sans-serif;
-    font-size: 2em;
-}
-
-div.proyectos_largos h6{
-    position: absolute;
-    bottom: 25%;
-    right: 3%;
-    font-family: "robotolight", sans-serif;
-    font-size: 2em;
-    margin-top: 5em;
-}
-
-div.proyectos_largos p{
-    position: absolute;
-    bottom: 13%;
-    right: 3%;
-    font-family: "robotolight", sans-serif;
-    font-size: 1.8em;
-}
 
 
 
 #hacerfuego_proyectos{
     background-image: url(../img/hacerfuego_proyectos.jpg);
-    z-index: 2;
 }
 
 #etiqueta_izq_hacerfuego{
-    width: 83%;
-    height: 58%;
+    width: 89%;
     left: -4.7%;
 }
 
 
 #virus_proyectos{
     background-image: url(../img/virus_proyectos.jpg);
-    background-position: top;
 }
 
 #etiqueta_izq_virus{
-    width: 67%;
-    left: -4%
+    width: 56%;
+    left: -3%
 }
 
 #tiempoausente_proyectos{
@@ -840,45 +746,44 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_tiempoausente{
-    width: 97%;
-    left: -5.5%;
+    width: 68%;
+    left: -3.3%;
 }
 
 #etiqueta_der_tiempoausente{
-    width: 98%;
-    right: -5.8%;
+    width: 64%;
+    right: -3.7%;
 }
 
 #hacefeliz_proyectos{
     background-image: url(../img/hacefelizaungato_proyectos.jpg);
-    background-size: cover;
     background-position: center;
 }
 
 #etiqueta_izq_hacefeliz{
-    width: 62%;
-    left: -3.6%;
+    width: 82%;
+    left: -4.5%;
 }
 
 #etiqueta_der_hacefeliz{
-    width: 35%;
+    width: 40%;
     right: -2%;
 }
 
 
 #tourette_proyectos{
     background-image: url(../img/tourette_proyectos.jpg);
-    background-position: center;
+    background-position: top;
 }
 
 #etiqueta_izq_tourette{
-    width: 65%;
-    left: -4%;
+    width: 45%;
+    left: -2.5%;
 }
 
 #etiqueta_der_tourette{
-    width: 80%;
-    right: -4.7%;
+    width: 50%;
+    right: -2.8%;
 }
 
 
@@ -888,19 +793,19 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_paraiso{
-    width: 47%;
-    left: -2.9%;
+    width: 39%;
+    left: -2%;
 }
 
 
 #doblefantasia_proyectos{
     background-image: url(../img/doblefantasia_proyectos.jpg);
-    background-position: left;
+    background-position: top;
 }
 
 #etiqueta_izq_doblefantasia{
-    width: 83%;
-    left: -4.5%;
+    width: 65%;
+    left: -3.5%;
 }
 
 
@@ -909,37 +814,40 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_suenaluz{
-    width: 34%;
-    left: -2%;
+    width: 45%;
+    left: -2.5%;
 }
 
 #etiqueta_der_suenaluz{
-    width: 56%;
-    right: -3.2%;
+    width: 70%;
+    right: -3.6%;
 }
 
 
 #seminario_proyectos{
     background-image: url(../img/seminario_proyectos.jpg);
-    background-position: left;
+    background-position: top;
 }
 
 #etiqueta_izq_seminario{
-    width: 77%;
-    height: 59%;
-    left: -4.5%;
+    width: 95%;
+    left: -5.5%;
 }
 
 
 
 #yogui_proyectos{
     background-image: url(../img/yogui_proyectos.jpg);
+    background-position: bottom;
 }
 
 #etiqueta_izq_yogui{
-    width: 80%;
-    height: 43%;
-    left: -4.7%;
+    width: 62%;
+    left: -3.4%;
+}
+
+#yogui_h4{
+    text-align: left;
 }
 
 
@@ -949,8 +857,8 @@ div.proyectos_largos p{
 }
 
 #etiqueta_izq_paracaidas{
-    width: 77%;
-    left: -4.2%;
+    width: 52%;
+    left: -2.5%;
 }
 
 h6.rol_dosrenglones{
@@ -959,9 +867,8 @@ h6.rol_dosrenglones{
 
 #etiqueta_der_paracaidas,
 #etiqueta_der_enlalluvia{
-    height: 28%;
-    bottom: 3%;
-    right: -6%;
+    width: 80%;
+    right: -4.5%;
 }
 
 
@@ -971,15 +878,14 @@ h6.rol_dosrenglones{
 }
 
 #etiqueta_izq_cactus{
-    width: 50%;
-    left: -3%;
+    width: 70%;
+    left: -4%;
 }
 
 #etiqueta_der_cactus{
-    width: 53%;
-    right: -3%;
+    width: 70%;
+    right: -3.8%;
 }
-
 
 #enlalluvia_proyectos{
     background-image: url(../img/enlalluvia_proyectos.jpg);
@@ -987,8 +893,8 @@ h6.rol_dosrenglones{
 }
 
 #etiqueta_izq_enlalluvia{
-    width: 80%;
-    left: -4.5%;
+    width: 54%;
+    left: -3%;
 }
 
 
@@ -999,8 +905,8 @@ h6.rol_dosrenglones{
 }
 
 #etiqueta_izq_voluntariado{
-    width: 90%;
-    left: -4.8%;
+    width: 72%;
+    left: -4%;
 }
 
 
@@ -1010,8 +916,8 @@ h6.rol_dosrenglones{
 }
 
 #etiqueta_izq_dataentry{
-    width: 75%;
-    left: -4.3%;
+    width: 60%;
+    left: -3.3%;
 }
 
 
@@ -1035,11 +941,11 @@ h6.rol_dosrenglones{
 
 .contenedor_flip, .carta_adelante, .carta_atras {
 	width: 100%;
-	height: 11em;
+	height: 8em;
 }
 
 .contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
-    height: 15em;
+    height: 8em;
     width: 100%;
 }
 
@@ -1068,12 +974,12 @@ h6.rol_dosrenglones{
 /* back, initially hidden pane */
 .carta_atras, .carta_atras_grande {
 	transform: rotateX(180deg);
-    background-color: rgba(209, 209, 209, 0.75);
 }
+
 
 .carta_atras_hacerfuego{
     background-image: url(../img/hacerfuego_proyectos_landscape.jpg);
-    background-position: left;
+    background-position: bottom;
 }
 
 .carta_atras_virus{
@@ -1083,25 +989,27 @@ h6.rol_dosrenglones{
 
 .carta_atras_tourette{
     background-image: url(../img/tourette_proyectos_landscape.jpg);
+    background-position: bottom;
 }
 
 .carta_atras_paraiso{
     background-image: url(../img/paraiso_proyectos_landscape.jpg);
+    background-position: top;
 }
 
 .carta_atras_doblefantasia{
     background-image: url(../img/doblefantasia_proyectos_landscape.jpg);
-    background-position: top;
+    background-position: bottom;
 }
 
 .carta_atras_seminario{
     background-image: url(../img/seminario_proyectos_landscape.jpg);
-    background-position: bottom;
+    background-position: top;
 }
 
 .carta_atras_yogui{
     background-image: url(../img/yogui_proyectos_landscape.jpg);
-    background-position: bottom;
+    background-position: top;
 }
 
 .carta_atras_voluntariado{
@@ -1149,21 +1057,214 @@ h6.rol_dosrenglones{
 }
 
 
+/*PORTFOLIO*/
+#portfolio{
+    background-color: #f0f0f0;
+    z-index: 2;
+    border-bottom-style: solid;
+    border-bottom-color: #333399;
+    border-bottom-width: 0.09em;
+    padding-top: 6em;
+    padding-bottom: 4em;
+    font-family: "robotobold", sans-serif;
+    position: relative;
+    height: auto;
+}
 
-
-
-
-/* AGREGAR A VERSIÓN DE ESCRITORIO 
 img.portfolio_imagenes:hover,
 img.portfolio_imagenes:focus{
-    opacity: 0.7;
+    cursor: pointer;
 }
 
 .portfolio_proyectos_texto a:hover{
-    color: #959595;
+    cursor: pointer;
 }
 
+img.portfolio_imagenes{
+    border-top-left-radius: 0.8em;
+    border-top-right-radius: 0.8em;
+    margin-bottom: 0.8em;
+    opacity: 1;
+    width: 100%;
+    max-width: 100%;
+}
+
+figure.portfolio_proyectos{
+    display: table;
+    border-color: #99CC66;
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 0.8em;
+    margin: 0% 11% 0% 11%;
+    background-color: #f8f8f8;
+    min-width: 80%;
+}
+
+.portfolio_proyectos img,
+.portfolio_proyectos figcaption{
+    display: table-row;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.portfolio_proyectos_texto a,
+.portfolio_proyectos_texto p{
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+}
+
+.portfolio_proyectos_texto a{
+    color: #FF6633;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.portfolio_titulos{
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+a.portfolio_titulos img{
+    width: 7%;
+    max-width: 7%;
+}
+
+p.portfolio_tipo{
+    font-family: "robotoregular", sans-serif;
+    font-size: 0.9em;
+}
+
+p.portfolio_rol,
+p.portfolio_año{
+    font-family: "robotolight", sans-serif;
+}
+
+p.portfolio_rol{
+    font-size: 0.8em;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    border-top-style: solid;
+    border-top-color: #99CC66;
+    border-top-width: 0.05em;
+}
+
+p.portfolio_rol_dosrenglones{
+    margin-top: 0.5em;
+}
+
+p.portfolio_año{
+    font-size: 0.7em;
+    padding: 0.3em 0.2em 1em 0.2em;
+}
+
+#portfolio_titulo_seminario{
+        font-size: 0.8em;
+        padding-bottom: 0.2em;
+    }
+
+#portfolio_behance a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+    margin-left: 25%;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: #336699;
+    border-width: 0.15em;
+    text-decoration: none;
+    padding: 0.3em 0.2em 0.3em 0.2em;
+    width: 50%;
+}
+
+#portfolio_behance img{
+    width: 12%;
+    height: auto;
+}
+
+#portfolio_behance h5{
+    font-family: "robotoregular", sans-serif;
+    font-size: 0.9em;
+    color: #336699;
+    padding-left: 0.2em;
+    padding-bottom: 0.1em;
+}   
+
+/* Portfolio */
+
+#portfolio_behance:hover,
 a.pdf_descarga:hover{
-    color: #efefef;
-    background-color: #74c1d8;
-}*/
+    opacity: 0.6;
+}
+
+
+/* Pdf */
+
+#pdf{
+    background-color: #f7f7f7;
+    z-index: 2;
+    padding: 1.5em;
+}
+
+a.pdf_descarga{
+    display: flex;
+    justify-content: center;
+    border-radius: 0.6em;
+    border-color: #336699;
+    border-style: solid;
+    border-width: 0.17em;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 20%;
+    padding: 0.5em 1.2em;
+    font-family: "robotobold", sans-serif;
+    font-size: 0.85em;
+    text-decoration: none;
+    color: #336699;
+    width: 60%;
+}
+
+/* Pdf */
+
+/* MAIN */
+
+
+/* FOOTER */
+
+#footer{
+    color: #336699;
+    background-color: #fafafa;
+    width: 100%;
+    height: auto;
+    border-top-style: solid;
+    border-top-color: #bcbcbc;
+    border-top-width: 0.09em;
+}
+
+#footer nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0.7em 0.2em;
+}
+
+#footer nav ul li{
+    font-family: "robotomedium", sans-serif;
+    font-size: 0.6em;
+}
+
+#footer nav ul li:first-child{
+    border-right-color: #333399;
+    border-right-style: solid;
+    border-right-width: 0.08em;
+    padding-right: 0.5em;
+}
+
+#footer nav ul li:last-child{
+    padding-left: 0.5em;  
+}
+
+
+
+
+

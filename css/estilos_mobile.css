@@ -165,7 +165,7 @@ li.header img:active {
 
 #presentacion h2{
     font-family: 'robotolight', sans-serif;
-    font-size: 3em;
+    font-size: 2.1em;
     margin: auto;
     color: #FF6633;
 }
@@ -185,7 +185,7 @@ li.header img:active {
 
 #presentacion figcaption p{
     font-family: 'robotolight', sans-serif;
-    font-size: 2em;
+    font-size: 0.9em;
 }
 
 /* Perfil - Datos */
@@ -1180,9 +1180,7 @@ a.pdf_descarga{
     padding-left: 0.5em;  
 }
     
-/* FOOTER */
-    
-    
+/* FOOTER */ 
     
     
 /* RESPONSIVE LANDSCAPE */
@@ -1872,7 +1870,7 @@ a.pdf_descarga{
         font-size: 1.7em;
     }
 
-     p.portfolio_rol_dosrenglones{
+    p.portfolio_rol_dosrenglones{
          margin-top: 0.5em;
      }
 
@@ -1938,5 +1936,4 @@ a.pdf_descarga{
     #footer nav ul li:last-child{
         padding-left: 1.7em;  
     }
-
 }
