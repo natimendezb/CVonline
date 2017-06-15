@@ -145,7 +145,7 @@ li.header img:active {
     border-bottom: solid;
     border-bottom-width: 0.09em;
     border-color: #333399;
-    height: 100vh;
+    height: auto;
 }
 
 #presentacion{
@@ -197,6 +197,7 @@ li.header img:active {
 
 #datos{
     margin-top: 4.5em;
+    margin-bottom: 3em;
     width: 100%;
 }
 
@@ -471,20 +472,16 @@ div.contenido_filas_largos{
 }
 
 div.proyectos_izquierda{
-    width: 100%;
-    height: 8em;
-    margin-left: 0em;
+    width: 14em;
+    max-height: 8em;
+    margin: auto;
     position: relative;
 }
-
-div.proyectos_landscape_grandes{
-    height: 8em;
-}
-    
+  
 div.proyectos_derecha{
-    width: 100%;
-    height: 8em;
-    margin-left: 0%;
+    width: 14em;
+    max-height: 8em;
+    margin: auto;
     position: relative;
 }
 
@@ -506,24 +503,18 @@ div.proyectos_abajo{
 }
 
 div.proyectos_centro{
+    width: 14em;
     height: 8em;
-    margin-left: 0em;
+    margin: auto;
 }
 
 div.proyectos_medianos{
     margin: 0em;
     height: 8em;
-    margin-left: 0em;
-}
-
-div.proyectos_grandes,
-div.proyectos_largos{
-    height: 8em;
-    margin-left: 0em;
 }
 
 div.proyectos_landscape_top{
-    position: absolute;
+    position: relative;
     top: 0em;
 }
 
@@ -532,33 +523,23 @@ div.proyectos_landscape_tourette{
 }
 
 div.proyectos_landscape_center{
-    position: absolute;
-    top: 9em;
+    position: relative;
+    top: 0em;
 }
 
 div.proyectos_landscape_bottom{
-    position: absolute;
-    bottom: 0em;
+    position: relative;
+    top: 10em;
 }
 
 div.proyectos_landscape_center_medianos{
-    position: absolute;
-    top: 9em;
-}
-
-#proyectos_landscape_center_medianos_paraiso{
-    position: absolute;
+    position: relative;
     top: 1em;
 }
 
 div.proyectos_landscape_bottom_medianos{
-    position: absolute;
-    top: 18em;
-}
-
-#proyectos_landscape_bottom_medianos_doblefantasia{
-    position: absolute;
-    top: 10em;
+    position: relative;
+    top: 1em;
 }
 
 /* proyectos grandes */
@@ -704,12 +685,6 @@ div.proyectos_medianos h7{
 }
 
 /* proyectos largos */
-div.proyectos_centro{
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
 div.proyectos_largos{
     background-color: #f7f7f7;
     height: 8em;
@@ -1268,3 +1243,84 @@ a.pdf_descarga{
 
 
 
+
+/* RESPONSIVE */
+/* ACÁ VA LO QUE ES ENTRE 1/4 Y 2/4 DE LA PÁGINA */
+@media screen and (min-width: 460px) {
+/*header*/
+    #header_izquierda,
+    #header_derecha{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .header img{
+        width: 2em;
+    }
+
+    #titulo_seccion{
+        font-size: 1.5em;
+    }
+
+
+/*perfil-presentación*/
+
+    #perfil{
+        padding-top: 2%;
+    }
+
+    #presentacion h1 {
+        font-size: 2.3em;
+        margin-top: 2.8em;
+        margin-bottom: 0.2em;
+    }
+
+    #presentacion h2{
+        font-size: 1.4em;
+    }
+
+    #presentacion figure img{
+        margin-top: 2.5em;
+        margin-bottom: 0.7em;
+        width: 40%;
+    }
+
+    #presentacion figcaption p{
+        font-size: 0.9em;
+    }
+
+    /* Perfil - Datos */
+
+    #datos{
+        margin-top: 4.5em;
+        margin-bottom: 3em;
+    }
+
+    #datos a{
+        font-size: 1.2em;
+    }
+
+    #datos a:first-child{
+        border-right-style: solid;
+        border-right-width: 0.08em;
+        border-right-color: #333399;
+        padding-right: 0.7em;
+    }
+
+    #datos a:last-child{
+        padding-left: 0.7em;
+    }
+
+
+}
+
+
+
+
+
+/* ACÁ VA LO QUE ES ENTRE 2/4 Y 4/4 DE LA PÁGINA */
+@media screen and (min-width:750px) {
+    header{
+        height: 15em;
+    }
+}
