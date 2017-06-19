@@ -12,8 +12,8 @@ function cambio_titulo_onscroll() {
     var pixelesPerfil, pixelesConocimientos, pixelesProyectos
     
     pixelesPerfil = 450;
-    pixelesConocimientos = 1500;
-    pixelesProyectos = 3800;
+    pixelesConocimientos = 1400;
+    pixelesProyectos = 3700;
     
     if (pixelesScroll <= pixelesPerfil) {
         cambio_titulo_onclick("PERFIL");
