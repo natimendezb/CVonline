@@ -179,7 +179,7 @@ li.header img:active {
     margin-bottom: 0.7em;
     height: auto;
     width: 85%;
-    max-width: 200px;
+    max-width: 180px;
     border-radius: 0.8em;
     border-style: solid;
     border-width: 0.08em;
@@ -1283,72 +1283,262 @@ a.pdf_descarga{
 /*header*/
     #header_izquierda,
     #header_derecha{
-        margin-left: 2em;
-        margin-right: 2em;
+        margin-left: 1.3em;
+        margin-right: 1.3em;
     }
 
     .header img{
-        width: 2em;
+        width: 1.5em;
+    }
+
+    #contenedor_titulo{
+        width: 60%;
+        padding-bottom: 0.1em;
     }
 
     #titulo_seccion{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
-
 /*perfil-presentación*/
-
     #perfil{
         padding-top: 2%;
     }
 
     #presentacion h1 {
-        font-size: 2.3em;
-        margin-top: 2.8em;
+        font-size: 2em;
+        margin-top: 3em;
         margin-bottom: 0.2em;
     }
 
     #presentacion h2{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     #presentacion figure img{
         margin-top: 2.5em;
         margin-bottom: 0.7em;
-        width: 40%;
+        width: 60%;
+        max-width: 250px;
     }
 
     #presentacion figcaption p{
         font-size: 0.9em;
     }
 
-    /* Perfil - Datos */
-
+/*perfil-datos*/
     #datos{
         margin-top: 4.5em;
         margin-bottom: 3em;
     }
 
     #datos a{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     #datos a:first-child{
-        border-right-style: solid;
-        border-right-width: 0.08em;
-        border-right-color: #333399;
-        padding-right: 0.7em;
+        padding-right: 1em;
     }
 
     #datos a:last-child{
-        padding-left: 0.7em;
+        padding-left: 1em;
+    }
+
+/*conocimientos*/
+    ul.conocimientos{
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 4.5em;
+    }
+
+    li.fila_conocimiento{
+        padding-bottom: 0.4em;
+    }
+
+    ul.conocimientos figcaption{
+        padding-left: 0.9em;
+        font-size: 1em;
+    }
+
+    li.fila_conocimiento figure img{
+        width: 1.8em;
+    }
+
+    div.unacara,
+    div.doscaras,
+    div.trescaras{
+        width: 60px;
+        height: 18px;
+    }
+
+    div.unacara{
+        background-position: -42px;
+    }
+
+    div.doscaras{
+        background-position: -21px;
+    }
+
+    hr.divisor_categoria{
+        width: 60%;
+        margin: 0.7em auto 0.7em auto;
+    }
+            
+    hr.separador_subseccion{
+        width: 15%;
+        margin-left: 42.5%;
+    }
+
+    /* Formación */
+
+
+    #formacion{
+        position: relative;
+        background-color: #f0f0f0;
+        z-index: 3;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        border-bottom-style: solid;
+        border-bottom-color: #333399;
+        
+    }
+
+    #formacion::before {
+        /* línea vertical */
+        content: '';
+        position: absolute;
+        top: 4.5em;
+        height: 65%;
+        width: 0.15em;
+        background: #99CC66;
+        transform: translate(-50%);
+    }
+
+    div.contenedor_timeline{
+        position: relative;
+        margin: auto;
+        width: 95%;
+        max-width: 320px;
+        margin-bottom: 0.8em;
+    }
+
+    div.circulo_timeline{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 3;
+    }
+
+    div.circulo_timeline figure{
+        display: inline-flex;
+        align-items: center;
+        transform: translate(-21%);
+    }
+
+    #primera_esfera{
+        transform: translate(-78%);
+    }
+
+    .circulo_chico{
+        transform: translate(-49%);
+    }
+
+    div.circulo_timeline figure img,
+    #primera_esfera img,
+    .circulo_chico img{
+        width: 1.8em;
+    }
+
+    figcaption.fecha{
+        margin-left: 1.7em;
+        font-family: "robotolight", sans-serif;
+        font-size: 0.6em;
+    }
+
+    figcaption.fecha_izquierda{
+        margin-right: 1.8em;
+        font-family: "robotolight", sans-serif;
+        font-size: 0.6em;
+    }
+
+    div.contenido_timeline{
+        position: relative;
+        width: 44%;
+        border-width: 0.09em;
+        border-color: #333399;
+    }
+
+    div.contenido_izquierda{
+        border-left-style: solid;
+        margin-left: 0.15em;
+        text-align: left;
+        padding-left: 0.5em;
+    }
+
+    div.contenido_derecha{
+        border-right-style: solid;
+        margin-left: 57%;
+        text-align: right;
+        padding-right: 0.5em;
+    }
+
+    div.contenido_timeline h2{
+        color: #FF6633;
+        font-family: "robotobold", sans-serif;
+        font-size: 0.9em;
+        padding-bottom: 0.2em;
+        line-height: 1.2em;
+    }
+
+    div.contenido_timeline h3{
+        font-family: "robotolight", sans-serif;
+        font-size: 0.7em;
+        padding-bottom: 0.4em;
+    }
+
+    div.contenido_timeline p{
+        font-family: "robotolight", sans-serif;
+        font-size: 0.6em;
+    }
+
+    .shake{
+        -webkit-animation-name: shake;
+        -webkit-animation-duration: 5s;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    .shake:nth-child(2){
+        -webkit-animation-delay: 2s;
+    }
+
+    .shake:nth-child(5){
+        -webkit-animation-delay: 3s;
+    }
+
+    .shake:nth-child(4){
+        -webkit-animation-delay: 4s;
+    }
+
+    @-webkit-keyframes shake {
+        0% { -webkit-transform: rotate(0deg); } 
+        3% { -webkit-transform: rotate(-6deg); }
+        6% { -webkit-transform: rotate(6deg); }
+        9% { -webkit-transform: rotate(-4deg); }
+        12% { -webkit-transform: rotate(4deg); }
+        15% { -webkit-transform: rotate(-2deg); }
+        18% { -webkit-transform: rotate(2deg); }
+        21%, 100% { -webkit-transform: rotate(0deg); }
     }
 
 
+
+
+
+
+
+
 }
-
-
-
 
 
 /* ACÁ VA LO QUE ES ENTRE 2/4 Y 4/4 DE LA PÁGINA */

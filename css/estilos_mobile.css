@@ -156,8 +156,6 @@ li.header img:active {
     font-size: 5em;
     margin: 2.2em auto 0.2em auto;
     line-height: 1.2em;
-    width: 100%;
-    height: auto;
 }
 
 #presentacion h1 span{
@@ -167,10 +165,8 @@ li.header img:active {
 
 #presentacion h2{
     font-family: 'robotolight', sans-serif;
-    font-size: 3.1em;
-    margin: auto;
+    font-size: 2em;
     color: #FF6633;
-    width: 80%;
 }
 
 #presentacion figure img{
@@ -188,9 +184,7 @@ li.header img:active {
 
 #presentacion figcaption p{
     font-family: 'robotolight', sans-serif;
-    font-size: 2.3em;
-    width: 80%;
-    margin: auto;
+    font-size: 0.9em;
 }
 
 /* Perfil - Datos */
@@ -1215,12 +1209,10 @@ a.pdf_descarga{
         width: 100%;
         margin-left: auto;
         font-size: 2.8em;
-        line-height: 1.2em;
     }
 
     #presentacion h2{
-        font-size: 1.4em;
-        width: auto;
+        font-size: 1.5em;
     }
 
     #presentacion figure img{
@@ -1229,8 +1221,7 @@ a.pdf_descarga{
     }
 
     #presentacion figcaption p{
-        font-size: 0.7em;
-        width: auto;
+        font-size: 0.8em;
     }
 
     #datos{
