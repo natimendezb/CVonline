@@ -139,7 +139,7 @@ li.header img:active {
 
 #perfil{
     position: relative;
-    padding-top: 5vh;
+    padding-top: 5em;
     background-color: #f7f7f7;
     border-bottom: solid;
     border-color: #333399;
@@ -1201,7 +1201,7 @@ a.pdf_descarga{
 
 /*perfil*/
     #perfil{
-        padding-top: 1.5vh;
+        padding-top: 3em;
         height: auto;
     }
 
@@ -1209,6 +1209,7 @@ a.pdf_descarga{
         width: 100%;
         margin-left: auto;
         font-size: 2.8em;
+        line-height: 1.1em;
     }
 
     #presentacion h2{
