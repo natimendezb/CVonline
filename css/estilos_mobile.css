@@ -154,8 +154,8 @@ li.header img:active {
     color: #FF6633;
     font-family: 'titillium_webbold', sans-serif;
     font-size: 5em;
-    margin: 2.2em auto 0.2em auto;
-    line-height: 1.2em;
+    margin: 2.2em auto 0.3em auto;
+    line-height: 105px;
 }
 
 #presentacion h1 span{
@@ -165,8 +165,10 @@ li.header img:active {
 
 #presentacion h2{
     font-family: 'robotolight', sans-serif;
-    font-size: 2em;
+    font-size: 3.1em;
     color: #FF6633;
+    margin: auto;
+    width: 80%;
 }
 
 #presentacion figure img{
@@ -184,7 +186,9 @@ li.header img:active {
 
 #presentacion figcaption p{
     font-family: 'robotolight', sans-serif;
-    font-size: 0.9em;
+    font-size: 1.9em;
+    width: 50%;
+    margin: auto;
 }
 
 /* Perfil - Datos */
@@ -1206,14 +1210,13 @@ a.pdf_descarga{
     }
 
     #presentacion h1 {
-        width: 100%;
-        margin-left: auto;
         font-size: 2.8em;
-        line-height: 1.1em;
+        line-height: 60px;
     }
 
     #presentacion h2{
         font-size: 1.5em;
+        width: 100%;
     }
 
     #presentacion figure img{
@@ -1222,7 +1225,8 @@ a.pdf_descarga{
     }
 
     #presentacion figcaption p{
-        font-size: 0.8em;
+        font-size: 1em;
+        width: 100%;
     }
 
     #datos{
