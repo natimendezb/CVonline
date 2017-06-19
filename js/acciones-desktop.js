@@ -1,13 +1,22 @@
-function cambio_titulo_onscroll() {
+function onScroll() {
     var pixelesScroll = document.body.scrollTop;
     var botonPerfil = document.getElementById("boton_perfil");
-        botonPerfil.style.opacity = "1";
+    botonPerfil.style.opacity = "1";
     var botonConocimientos = document.getElementById("boton_conocimientos");
-        botonConocimientos.style.opacity = "1";
+    botonConocimientos.style.opacity = "1";
     var botonProyectos = document.getElementById("boton_proyectos");
-        botonProyectos.style.opacity = "1";
+    botonProyectos.style.opacity = "1";
     var botonPortfolio = document.getElementById("boton_portfolio");
-        botonPortfolio.style.opacity = "1";
+    botonPortfolio.style.opacity = "1";
+    
+    $(".botones_header").hover(
+        function() {
+            $(this).css("opacity","0.5");
+        },
+        function() {
+            $(this).css("opacity","1");
+        }
+    );
     
     var pixelesPerfil, pixelesConocimientos, pixelesProyectos
     
@@ -16,20 +25,24 @@ function cambio_titulo_onscroll() {
     pixelesProyectos = 3700;
     
     if (pixelesScroll <= pixelesPerfil) {
-        cambio_titulo_onclick("PERFIL");
+        $("#boton_perfil").unbind('mouseenter mouseleave');
+        cambiarTitulo("PERFIL");
         botonPerfil.style.opacity = "0.5";
     }
     if (pixelesScroll > pixelesPerfil && pixelesScroll <= pixelesConocimientos) {
-        cambio_titulo_onclick("CONOCIMIENTOS");
+        $("#boton_conocimientos").unbind('mouseenter mouseleave');
+        cambiarTitulo("CONOCIMIENTOS");
         botonConocimientos.style.opacity = "0.5";
     }
     if (pixelesScroll > pixelesConocimientos && pixelesScroll <= pixelesProyectos) {
-        cambio_titulo_onclick("PROYECTOS");
+        $("#boton_proyectos").unbind('mouseenter mouseleave');
+        cambiarTitulo("PROYECTOS");
         botonProyectos.style.opacity = "0.5";
     }
 
     if (pixelesScroll > pixelesProyectos) {
-        cambio_titulo_onclick("PORTFOLIO");
+        $("#boton_portfolio").unbind('mouseenter mouseleave');
+        cambiarTitulo("PORTFOLIO");
         botonPortfolio.style.opacity = "0.5";
     }
     

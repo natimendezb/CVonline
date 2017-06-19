@@ -23,9 +23,12 @@ function configurarSlick(){
 }
 
 
-var posicionActual;
+function onScroll(){
+    actualizarHeader();
+    actualizarEstadoSeccion();
+}
 
-function cambio_titulo_onscroll() {
+function actualizarHeader() {
     var pixelesScroll = document.body.scrollTop;
     posicionActual = pixelesScroll;
     var botonPerfil = document.getElementById("boton_perfil");
@@ -51,23 +54,40 @@ function cambio_titulo_onscroll() {
     }
     
     if (pixelesScroll <= pixelesPerfil) {
-            cambio_titulo_onclick("PERFIL");
+            cambiarTitulo("PERFIL");
             botonPerfil.style.opacity = "0.5";
         }
         if (pixelesScroll > pixelesPerfil && pixelesScroll <= pixelesConocimientos) {
-            cambio_titulo_onclick("CONOCIMIENTOS");
+            cambiarTitulo("CONOCIMIENTOS");
             botonConocimientos.style.opacity = "0.5";
         }
         if (pixelesScroll > pixelesConocimientos && pixelesScroll <= pixelesProyectos) {
-            cambio_titulo_onclick("PROYECTOS");
+            cambiarTitulo("PROYECTOS");
             botonProyectos.style.opacity = "0.5";
         }
 
         if (pixelesScroll > pixelesProyectos) {
-            cambio_titulo_onclick("PORTFOLIO");
+            cambiarTitulo("PORTFOLIO");
             botonPortfolio.style.opacity = "0.5";
-        }
-    
+        }    
+}
+
+var estadoSeccion = "no";
+function actualizarEstadoSeccion(){
+    if(isScrolledIntoView("#conocimientos")){
+        estadoSeccion = "conocimientos";
+    }
+}
+
+function isScrolledIntoView(elem){
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) ||
+            ((elemBottom > docViewBottom) && (elemTop < docViewTop));
 }
 
 // Carrusel Slick Portrait / Landscape
@@ -119,6 +139,10 @@ $(window).on("orientationchange",function(){
     } else {
         configurarCarruselParaLandscape();
     }
+    
+/*    if(estadoSeccion != "no"){
+        window.location.hash = estadoSeccion;
+    }*/
     
 //    var posicionPorcentualActual = posicionActual/alturaTotal;
 //    alturaTotal = document.getElementById("contenedor").scrollHeight;

@@ -11,12 +11,24 @@ else {
 }
 
 
-function cambio_titulo_onclick(nuevo_texto) {
-    var pDelHeader = document.getElementById("titulo_seccion");
-    
-    pDelHeader.innerHTML = nuevo_texto; 
+function adaptarANuevaSeccion(seccion){
+    goToByScroll(seccion.toLowerCase());
 }
 
+function cambiarTitulo(nuevo_texto) {
+    var pDelHeader = document.getElementById("titulo_seccion");
+    
+    pDelHeader.innerHTML = nuevo_texto;
+}
+
+function goToByScroll(id){
+      // Reove "link" from the ID
+    id = id.replace("link", "");
+      // Scroll
+    $('html,body').animate({
+        scrollTop: $("#"+id).offset().top},
+        'slow');
+}
 
 function publicarEdad() {
     var pDeLaEdad = document.getElementById("edad");
