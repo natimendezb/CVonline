@@ -1215,6 +1215,7 @@ a.pdf_descarga{
         width: 100%;
         margin-left: auto;
         font-size: 2.8em;
+        line-height: 1.2em;
     }
 
     #presentacion h2{
@@ -1228,7 +1229,7 @@ a.pdf_descarga{
     }
 
     #presentacion figcaption p{
-        font-size: 0.8em;
+        font-size: 0.7em;
         width: auto;
     }
 
