@@ -44,7 +44,6 @@
 
 
 /* GENERAL */
-
 *{
     margin: 0em;
     padding: 0em;
@@ -130,13 +129,10 @@ p.titulo_menu{
 li.header img:hover{
     opacity: 0.5;
 }
-
 /* HEADER */
 
 /* MAIN */
-
 /* Perfil - Presentación */
-
 #perfil{
     position: relative;
     padding-top: 2%;
@@ -194,7 +190,6 @@ li.header img:hover{
 }
 
 /* Perfil - Datos */
-
 #datos{
     margin-top: 4.5em;
     margin-bottom: 3em;
@@ -226,7 +221,6 @@ li.header img:hover{
 
 
 /* Conocimientos */
-
 #conocimientos{
     padding-top: 5.5em;
     background-color: #f0f0f0;
@@ -296,8 +290,6 @@ hr.separador_subseccion{
 }
 
 /* Formación */
-
-
 #formacion{
     position: relative;
     background-color: #f0f0f0;
@@ -437,9 +429,7 @@ div.contenido_timeline p{
     21%, 100% { -webkit-transform: rotate(0deg); }
 }
 
-
 /* Proyectos */
-
 #proyectos{
     background-color: #f7f7f7;
     z-index: 2;
@@ -549,7 +539,6 @@ div.proyectos_landscape_bottom_medianos{
 }
 
 /* proyectos grandes */
-
 img.etiqueta_izq_grandes,
 img.etiqueta_izq_medianos,
 img.etiqueta_izq_largos{
@@ -700,8 +689,6 @@ div.proyectos_largos{
 }
 
 
-
-
 #hacerfuego_proyectos{
     background-image: url(../img/hacerfuego_proyectos.jpg);
 }
@@ -750,7 +737,6 @@ div.proyectos_largos{
     right: -2%;
 }
 
-
 #tourette_proyectos{
     background-image: url(../img/tourette_proyectos.jpg);
     background-position: top;
@@ -766,7 +752,6 @@ div.proyectos_largos{
     right: -2.8%;
 }
 
-
 #paraiso_proyectos{
     background-image: url(../img/paraiso_proyectos.jpg);
     background-position: right;
@@ -777,7 +762,6 @@ div.proyectos_largos{
     left: -2.4%;
 }
 
-
 #doblefantasia_proyectos{
     background-image: url(../img/doblefantasia_proyectos.jpg);
     background-position: top;
@@ -787,7 +771,6 @@ div.proyectos_largos{
     width: 65%;
     left: -3.5%;
 }
-
 
 #suenaluz_proyectos{
     background-image: url(../img/suenaluz_proyectos.jpg);
@@ -803,7 +786,6 @@ div.proyectos_largos{
     right: -3.8%;
 }
 
-
 #seminario_proyectos{
     background-image: url(../img/seminario_proyectos.jpg);
     background-position: top;
@@ -813,8 +795,6 @@ div.proyectos_largos{
     width: 95%;
     left: -5.5%;
 }
-
-
 
 #yogui_proyectos{
     background-image: url(../img/yogui_proyectos.jpg);
@@ -829,7 +809,6 @@ div.proyectos_largos{
 #yogui_h4{
     text-align: left;
 }
-
 
 #paracaidas_proyectos{
     background-image: url(../img/paracaidas_proyectos.jpg);
@@ -850,7 +829,6 @@ h6.rol_dosrenglones{
     width: 80%;
     right: -4.5%;
 }
-
 
 #cactusenserie_proyectos{
     background-image: url(../img/cactusenserie_proyectos.jpg);
@@ -877,8 +855,6 @@ h6.rol_dosrenglones{
     left: -3%;
 }
 
-
-
 #voluntariado_proyectos{
     background-image: url(../img/voluntariado_proyectos.jpg);
     background-position: center;
@@ -888,7 +864,6 @@ h6.rol_dosrenglones{
     width: 72%;
     left: -4%;
 }
-
 
 #dataentry_proyectos{
     background-image: url(../img/dataentry_proyectos.jpg);
@@ -902,7 +877,6 @@ h6.rol_dosrenglones{
 
 
 /* Giro de cartas */
-
 /* entire container, keeps perspective */
 .contenedor_flip,
 .contenedor_flip_grande{
@@ -1004,7 +978,6 @@ h6.rol_dosrenglones{
 
 
 /* animación cartas clickeables */
-
 .zoomin{
     -webkit-animation-name: zoomin;
     -webkit-animation-duration: 4s;
@@ -1139,9 +1112,9 @@ p.portfolio_año{
 }
 
 #portfolio_titulo_seminario{
-        font-size: 0.8em;
-        padding-bottom: 0.2em;
-    }
+    font-size: 0.8em;
+    padding-bottom: 0.2em;
+}
 
 #portfolio_behance a{
     display: flex;
@@ -1171,8 +1144,6 @@ p.portfolio_año{
     padding-bottom: 0.1em;
 }   
 
-/* Portfolio */
-
 #portfolio_behance:hover,
 a.pdf_descarga:hover{
     opacity: 0.6;
@@ -1180,7 +1151,6 @@ a.pdf_descarga:hover{
 
 
 /* Pdf */
-
 #pdf{
     background-color: #f7f7f7;
     z-index: 2;
@@ -1205,12 +1175,10 @@ a.pdf_descarga{
 }
 
 /* Pdf */
-
 /* MAIN */
 
 
 /* FOOTER */
-
 #footer{
     color: #336699;
     background-color: #fafafa;
@@ -1242,9 +1210,6 @@ a.pdf_descarga{
 #footer nav ul li:last-child{
     padding-left: 0.5em;  
 }
-
-
-
 
 
 
@@ -1388,9 +1353,7 @@ a.pdf_descarga{
         margin-left: 42.5%;
     }
 
-    /* Formación */
-
-
+/*formación*/
     #formacion{
         padding-top: 4em;
         padding-bottom: 3em;  
@@ -1456,6 +1419,697 @@ a.pdf_descarga{
         font-size: 0.8em;
     }
 
+/*proyectos*/
+    #contenedor_proyectos{
+        margin: auto;
+        width: 84%;
+        max-width: 430px;
+        height: auto;
+    }
+
+    div.contenido_filas:first-child{
+        margin-top: 0em;
+    }
+
+    div.contenido_filas{
+        display: flex;
+        position: static;
+        margin-top: 1em;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+    div.contenido_filas div{
+        border-radius: 1.5em;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div.contenido_filas_largos{
+        display: block;
+        height: 8em;
+        margin-top: 0;
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    div.proyectos_izquierda{
+        width: 47%;
+        height: 17em;
+        max-height: 17em;
+        margin-right: 3%;
+        position: relative;
+    }
+      
+    div.proyectos_derecha{
+        width: 47%;
+        height: 17em;
+        max-height: 17em;
+        margin-left: 3%;
+        position: relative;
+    }
+
+    div.proyectos_arriba{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 8em;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+
+    div.proyectos_abajo{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 8em;
+        margin-left: 0;
+    }
+
+    div.proyectos_centro{
+        width: 100%;
+        height: 8em;
+        margin: 0;
+        margin-top: 1em;
+        position: relative;
+    }
+
+    div.proyectos_medianos{
+        background-color: #f7f7f7;
+        margin: 0;
+    }
+
+    div.proyectos_grandes{
+        height: 17em;
+    }
+
+    div.proyectos_landscape_top,
+    div.proyectos_landscape_tourette,
+    div.proyectos_landscape_center,
+    div.proyectos_landscape_bottom,
+    div.proyectos_landscape_center_medianos,
+    div.proyectos_landscape_bottom_medianos{
+        position: static;
+        top: auto;
+    }
+
+    div.proyectos_landscape_grandes{
+        position: relative;
+    }
+
+/* proyectos grandes */
+    img.etiqueta_izq_grandes{
+        width: 100%;
+        max-width: 100%;
+        height: 22%;
+        position: absolute;
+        top: 10%;
+        left: -4%;
+    }
+
+    img.etiqueta_der_grandes{
+        width: 100%;
+        max-width: 100%;
+        height: 19%;
+        position: absolute;
+        bottom: 9%;
+        right: -5.5%;
+    }
+
+    .etiqueta_izq_grandes_atras{
+        position: absolute;
+        top: 10%;
+        right: -2%;
+        height: 20%;
+    }
+
+    .etiqueta_der_grandes_atras{
+        position: absolute;
+        bottom: 9%;
+        left: -2%;
+        height: 17%;    
+    }
+
+    div.proyectos_grandes h4{
+        font-size: 1.1em;
+        position: absolute;
+        top: 11%;
+        left: 3%;
+    }
+
+    div.proyectos_grandes h5{
+        position: absolute;
+        top: 19%;
+        left: 3%;
+        font-size: 0.9em;
+    }
+
+    div.proyectos_grandes h6{
+        position: absolute;
+        bottom: 20%;
+        right: 3%;
+        font-size: 0.8em;
+        margin-top: 5em;
+    }
+
+    div.proyectos_grandes p{
+        position: absolute;
+        bottom: 14%;
+        right: 3%;
+        font-size: 0.7em;
+    }
+
+    #datos_extra_tourette{
+        font-size: 0.85em;
+        position: absolute;
+        margin: 1em;
+        left: 12%;
+        top: 25%;
+    }
+
+/* proyectos medianos */
+    img.etiqueta_izq_medianos{
+        width: 100%;
+        max-width: none;
+        height: 40%;
+        position: absolute;
+        top: 10%;
+        left: -6%;
+        z-index: 1;
+    }
+
+    .etiqueta_izq_medianos_atras{
+        position: absolute;
+        right: -2%;
+        top: 10%;
+        z-index: 3;
+        height: 36%;
+    }
+
+    .etiqueta_izq_medianos_atras_dosrenglones{
+        height: 50%;
+    }
+
+    h4.titulo_dosrenglones{
+        width: 70%;
+        max-width: 150px;
+    }
+
+    h5.tipo_dosrenglones{
+        padding-top: 1.7em;
+    }
+
+    div.proyectos_medianos{
+        height: 8em;
+    }
+
+    div.proyectos_medianos h4{
+        font-size: 0.9em;
+        position: absolute;
+        top: 12%;
+        left: 3%;
+        text-align: left;
+        z-index: 1;
+    }
+
+    div.proyectos_medianos h5{
+        font-size: 0.8em;
+        position: absolute;
+        top: 26%;
+        left: 3%;
+        z-index: 1;
+    }
+
+    div.proyectos_medianos h6{
+        font-size: 0.8em;
+        margin-top: 2em;
+        position: absolute;
+        bottom: 24%;
+        right: 8%;
+        z-index: 3;
+    }
+
+    div.proyectos_medianos p{
+        font-size: 0.7em;
+        position: absolute;
+        bottom: 13%;
+        right: 8%;
+        z-index: 3;
+    }
+
+    div.proyectos_medianos h7{
+        position: absolute;
+        font-size: 0.75em;
+        text-align: left;
+        left: 10%;
+        top: 10%;
+        width: 75%;
+    }
+
+/* proyectos largos */
+    img.etiqueta_izq_largos{
+        width: 100%;
+        max-width: none;
+        height: 46%;
+        position: absolute;
+        top: 10%;
+        left: -6%;
+    }
+
+    img.etiqueta_der_largos{
+        width: 100%;
+        max-width: none;
+        height: 36%;
+        position: absolute;
+        bottom: 12%;
+        right: -5.5%;
+    }
+
+    div.proyectos_largos{
+        height: 8em;
+    }
+
+    div.proyectos_largos h4{
+        font-size: 1.1em;
+        position: absolute;
+        top: 12%;
+        left: 3%;
+    }
+
+    div.proyectos_largos h5{
+        position: absolute;
+        top: 30%;
+        left: 3%;
+        font-size: 0.9em;
+    }
+
+    div.proyectos_largos h6{
+        position: absolute;
+        bottom: 33%;
+        right: 3%;
+        font-size: 0.8em;
+        margin-top: 5em;
+    }
+
+    div.proyectos_largos p{
+        position: absolute;
+        bottom: 21%;
+        right: 3%;
+        font-size: 0.7em;
+    }
+
+    #hacerfuego_proyectos{
+        background-image: url(../img/hacerfuego_proyectos.jpg);
+    }
+
+    #etiqueta_izq_hacerfuego{
+        width: 78%;
+        height: 61%;
+        left: -4.8%;
+    }
+
+    #virus_proyectos{
+        background-image: url(../img/virus_proyectos.jpg);
+    }
+
+    #etiqueta_izq_virus{
+        width: 64%;
+        left: -3.8%
+    }
+
+    #tiempoausente_proyectos{
+        background-image: url(../img/tiempoausente_proyectos.jpg);
+        background-position: bottom;
+    }
+
+    #etiqueta_izq_tiempoausente{
+        width: 96%;
+        left: -5.9%;
+    }
+
+    #etiqueta_der_tiempoausente{
+        width: 83%;
+        right: -4.9%;
+    }
+
+    #hacefeliz_proyectos{
+        background-image: url(../img/hacefelizaungato_proyectos.jpg);
+        background-position: center;
+    }
+
+    #etiqueta_izq_hacefeliz{
+        width: 60%;
+        left: -3.5%;
+    }
+
+    #etiqueta_der_hacefeliz{
+        width: 28%;
+        right: -1%;
+    }
+
+    #tourette_proyectos{
+        background-image: url(../img/tourette_proyectos.jpg);
+        background-position: top;
+    }
+
+    #etiqueta_izq_tourette{
+        width: 61%;
+        left: -3.4%;
+    }
+
+    #etiqueta_der_tourette{
+        width: 64%;
+        right: -3.9%;
+    }
+
+    #paraiso_proyectos{
+        background-image: url(../img/paraiso_proyectos.jpg);
+        background-position: right;
+    }
+
+    #etiqueta_izq_paraiso{
+        width: 43%;
+        left: -2.2%;
+    }
+
+    #doblefantasia_proyectos{
+        background-image: url(../img/doblefantasia_proyectos.jpg);
+        background-position: top;
+    }
+
+    #etiqueta_izq_doblefantasia{
+        width: 77%;
+        left: -4.5%;
+    }
+
+    #suenaluz_proyectos{
+        background-image: url(../img/suenaluz_proyectos.jpg);
+    }
+
+    #etiqueta_izq_suenaluz{
+        width: 33%;
+        left: -1.9%;
+    }
+
+    #etiqueta_der_suenaluz{
+        width: 48%;
+        right: -2.1%;
+    }
+
+    #seminario_proyectos{
+        background-image: url(../img/seminario_proyectos.jpg);
+        background-position: top;
+    }
+
+    #etiqueta_izq_seminario{
+        width: 71%;
+        height: 61%;
+        left: -4%;
+    }
+
+    #yogui_proyectos{
+        background-image: url(../img/yogui_proyectos.jpg);
+        background-position: bottom;
+    }
+
+    #etiqueta_izq_yogui{
+        width: 72%;
+        height: 43%;
+        left: -4%;
+    }
+
+    #yogui_h4{
+        text-align: left;
+    }
+
+    #paracaidas_proyectos{
+        background-image: url(../img/paracaidas_proyectos.jpg);
+        background-position: center;
+    }
+
+    #etiqueta_izq_paracaidas{
+        width: 70%;
+        left: -3.9%;
+    }
+
+    h6.rol_dosrenglones{
+        text-align: right;
+        width: 70%;
+    }
+
+    #etiqueta_der_paracaidas,
+    #etiqueta_der_enlalluvia{
+        width: 86%;
+        height: 27%;
+        right: -5.2%;
+        bottom: 7%;
+    }
+
+    #cactusenserie_proyectos{
+        background-image: url(../img/cactusenserie_proyectos.jpg);
+        background-position: center;
+    }
+
+    #etiqueta_izq_cactus{
+        width: 48%;
+        left: -2.8%;
+    }
+
+    #etiqueta_der_cactus{
+        width: 46%;
+        right: -2%;
+    }
+
+    #enlalluvia_proyectos{
+        background-image: url(../img/enlalluvia_proyectos.jpg);
+        background-position: left;
+    }
+
+    #etiqueta_izq_enlalluvia{
+        width: 75%;
+        left: -4.2%;
+    }
+
+    #voluntariado_proyectos{
+        background-image: url(../img/voluntariado_proyectos.jpg);
+        background-position: center;
+    }
+
+    #etiqueta_izq_voluntariado{
+        width: 88%;
+        left: -4.8%;
+    }
+
+    #dataentry_proyectos{
+        background-image: url(../img/dataentry_proyectos.jpg);
+        background-position: center;
+    }
+
+    #etiqueta_izq_dataentry{
+        width: 71%;
+        left: -4%;
+    }
+
+/* Giro de cartas */
+/* entire container, keeps perspective */
+    .contenedor_flip,
+    .contenedor_flip_grande{
+        perspective: 1000px;
+    }
+
+/* flip the pane when hovered */
+    .contenedor_flip:hover .flipper,
+    .contenedor_flip.hover .flipper {
+        transform: rotateY(180deg);
+    }
+
+    .contenedor_flip_grande:hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
+        transform: rotateY(180deg);
+    }
+
+    .contenedor_flip, .carta_adelante, .carta_atras {
+        width: 100%;
+        height: 8em;
+    }
+
+    .contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
+        height: 17em;
+        width: 100%;
+    }
+
+/* flip speed goes here */
+    .flipper, .flipper_grande {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+
+/* hide back of pane during swap */
+    .carta_adelante, .carta_atras, .carta_adelante_grande, .carta_atras_grande {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+/* front pane, placed above back */
+    .carta_adelante, .carta_adelante_grande {
+        z-index: 2;
+        /* for firefox 31 */
+        transform: rotateY(0deg);
+    }
+
+/* back, initially hidden pane */
+    .carta_atras, .carta_atras_grande {
+        transform: rotateY(180deg);
+    }
+
+/*portfolio*/
+    figure.portfolio_proyectos{
+        width: 82%;
+        max-width: 230px;
+    }
+
+    .portfolio_proyectos_texto a,
+    .portfolio_proyectos_texto p{
+        margin-left: 0.7em;
+        margin-right: 0.7em;
+    }
+
+    a.portfolio_titulos{
+        font-size: 0.92em;
+    }
+
+    p.portfolio_tipo{
+        font-size: 0.9em;
+    }
+
+    p.portfolio_rol{
+        font-size: 0.85em;
+    }
+
+    p.portfolio_rol_dosrenglones{
+        margin-top: 0.5em;
+    }
+
+    p.portfolio_año{
+        font-size: 0.8em;
+        padding: 0.3em 0.2em 1em 0.1em;
+    }
+
+    #portfolio_titulo_seminario{
+        font-size: 0.8em;
+        padding-bottom: 0.2em;
+    }
+
+/*pdf*/
+    #pdf{
+        background-color: #f7f7f7;
+        z-index: 2;
+        padding: 1.5em;
+    }
+
+    a.pdf_descarga{
+        display: flex;
+        justify-content: center;
+        border-radius: 0.6em;
+        border-color: #336699;
+        border-style: solid;
+        border-width: 0.17em;
+        margin: 0em auto 0.5em auto;
+        padding: 0.5em 1.2em;
+        font-family: "robotobold", sans-serif;
+        font-size: 0.85em;
+        text-decoration: none;
+        color: #336699;
+        width: 60%;
+        max-width: 150px;
+    }
+
+/*footer*/
+    #footer nav ul li{
+        font-size: 0.9em;
+    }
+
+    #footer nav ul li:first-child{
+        padding-right: 0.9em;
+    }
+
+    #footer nav ul li:last-child{
+        padding-left: 0.9em;  
+    }
+}
+
+
+/* ACÁ VA LO QUE ES ENTRE 2/4 Y 4/4 DE LA PÁGINA */
+@media screen and (min-width:750px) {
+/*header*/
+    #header_izquierda,
+    #header_derecha{
+        justify-content: center;
+        width: 30%;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    #header_izquierda li,
+    #header_derecha li{
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+/*conocimientos*/
+    ul.conocimientos{
+        width: 100%;
+        max-width: 500px;
+    }
+
+/*formación */
+    #formacion{
+        padding-top: 6em;
+        padding-bottom: 3em;  
+    }
+
+    #formacion::before {
+        /* línea vertical */
+        top: 6.5em;
+        height: 64%;
+    }
+
+    div.contenedor_timeline{
+        max-width: 700px;
+    }
+
+    div.circulo_timeline figure{
+        transform: translate(-18%);
+    }
+
+    #primera_esfera{
+        transform: translate(-82%);
+    }
+
+    .circulo_chico{
+        transform: translate(-50%);
+    }
+
+    figcaption.fecha{
+        margin-left: 3em;
+    }
+
+    figcaption.fecha_izquierda{
+        margin-right: 3em;
+    }
+
+    div.contenido_izquierda{
+        margin-left: 1em;
+        padding-left: 1em;
+        width: 40%;
+    }
+
+    div.contenido_derecha{
+        padding-right: 1em;
+        width: 40%;
+    }
 
 /*proyectos*/
     #contenedor_proyectos{
@@ -2005,91 +2659,4 @@ a.pdf_descarga{
         transform: rotateY(180deg);
     }
 
-
-/*portfolio*/
-    figure.portfolio_proyectos{
-        width: 82%;
-        max-width: 230px;
-    }
-
-    .portfolio_proyectos_texto a,
-    .portfolio_proyectos_texto p{
-        margin-left: 0.7em;
-        margin-right: 0.7em;
-    }
-
-    a.portfolio_titulos{
-        font-size: 0.92em;
-    }
-
-    p.portfolio_tipo{
-        font-size: 0.9em;
-    }
-
-    p.portfolio_rol{
-        font-size: 0.85em;
-    }
-
-    p.portfolio_rol_dosrenglones{
-        margin-top: 0.5em;
-    }
-
-    p.portfolio_año{
-        font-size: 0.8em;
-        padding: 0.3em 0.2em 1em 0.1em;
-    }
-
-    #portfolio_titulo_seminario{
-        font-size: 0.8em;
-        padding-bottom: 0.2em;
-    }
-
-/*pdf*/
-    #pdf{
-        background-color: #f7f7f7;
-        z-index: 2;
-        padding: 1.5em;
-    }
-
-    a.pdf_descarga{
-        display: flex;
-        justify-content: center;
-        border-radius: 0.6em;
-        border-color: #336699;
-        border-style: solid;
-        border-width: 0.17em;
-        margin: 0em auto 0.5em auto;
-        padding: 0.5em 1.2em;
-        font-family: "robotobold", sans-serif;
-        font-size: 0.85em;
-        text-decoration: none;
-        color: #336699;
-        width: 60%;
-        max-width: 150px;
-    }
-
-/*footer*/
-    #footer nav ul li{
-        font-size: 0.9em;
-    }
-
-    #footer nav ul li:first-child{
-        padding-right: 0.9em;
-    }
-
-    #footer nav ul li:last-child{
-        padding-left: 0.9em;  
-    }
-
-
-
-
-}
-
-
-/* ACÁ VA LO QUE ES ENTRE 2/4 Y 4/4 DE LA PÁGINA */
-@media screen and (min-width:750px) {
-    header{
-        height: 15em;
-    }
 }
