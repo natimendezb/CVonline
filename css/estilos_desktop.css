@@ -136,7 +136,11 @@ li.header img:hover{
 #perfil{
     position: relative;
     padding-top: 2%;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-bottom: solid;
     border-bottom-width: 0.09em;
     border-color: #333399;
