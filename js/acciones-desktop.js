@@ -72,15 +72,46 @@ function configurarSlick(){
     head.appendChild(link);
 }
 
+function corregirFuncionamientoFlechasSlick(){
+    $(".slick-list").css("margin", "auto");
+    $(".slick-list").css("width", "90%");
+    $(".slick-list").css("max-width", "700px");
+};
+
+$(window).resize(function() {
+    if ($(window).width()>=580-17){
+        corregirFuncionamientoFlechasSlick();
+    }
+});
 
 $(document).ready(function(){
     $('.carrusel').slick({
         autoplay: true,
         autoplaySpeed: 3000,
         dots: true,
-        arrows: false
+        arrows: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        responsive: [
+            {
+                breakpoint: 750,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 580,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false
+                }
+            }
+        ]
     });
-    
+
+    corregirFuncionamientoFlechasSlick();
+
     var figuresPortfolio = document.getElementsByClassName("portfolio_proyectos");
 
     Array.prototype.forEach.call(figuresPortfolio,
