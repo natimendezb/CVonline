@@ -136,8 +136,8 @@ li.header img:hover{
 #perfil{
     position: relative;
     padding-top: 2%;
-    /*background-color: #f7f7f7;*/
-    background-image: url(../img/fondo.png);
+    background-color: #f7f7f7;
+    background-image: url(../img/fondo_perfil_desktop.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,6 +228,10 @@ li.header img:hover{
 #conocimientos{
     padding-top: 5.5em;
     background-color: #f0f0f0;
+    background-image: url(../img/fondo_conocimientos_desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 ul.conocimientos{
@@ -297,6 +301,10 @@ hr.separador_subseccion{
 #formacion{
     position: relative;
     background-color: #f0f0f0;
+    background-image: url(../img/fondo_formacion_desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     z-index: 3;
     padding-top: 3em;
     padding-bottom: 3em;
