@@ -75,7 +75,7 @@ function configurarSlick(){
 function corregirFuncionamientoFlechasSlick(){
     $(".slick-list").css("margin", "auto");
     $(".slick-list").css("width", "90%");
-    $(".slick-list").css("max-width", "700px");
+    $(".slick-list").css("max-width", "800px");
 };
 
 $(window).resize(function() {
@@ -95,7 +95,7 @@ $(document).ready(function(){
         infinite: true,
         responsive: [
             {
-                breakpoint: 750,
+                breakpoint: 850,
                 settings: {
                     slidesToShow: 2,
                 }
