@@ -128,6 +128,7 @@ p.titulo_menu{
 
 li.header img:hover{
     opacity: 0.5;
+    cursor: pointer;
 }
 /* HEADER */
 
@@ -1171,7 +1172,7 @@ p.portfolio_año{
     padding-bottom: 0.1em;
 }   
 
-#portfolio_behance:hover,
+#portfolio_behance a:hover,
 a.pdf_descarga:hover{
     opacity: 0.6;
 }
@@ -2177,14 +2178,14 @@ a.pdf_descarga{
         /*margin-top: 0em;*/
         /*margin-bottom: 0;*/
         /*height: auto;*/
-        width: 28em;
+        width: 29em;
         margin-left: auto;
         margin-right: auto;
     }
 
     div.contenido_filas_largos{
         /*display: block;*/
-        width: 17em;
+        width: 18em;
         /*height: 19em;*/
         /*margin-top: 0;*/
         /*margin-bottom: 0;*/
@@ -2265,40 +2266,44 @@ a.pdf_descarga{
         position: relative;
     }
 
+    div.proyectos_landscape_tourette{
+        margin-left: 0.5em;
+    }
+
 /* proyectos grandes */
     img.etiqueta_izq_grandes{
-        width: 100%;
-        max-width: 100%;
+        /*width: 100%;
+        max-width: 100%;*/
         height: 22%;
-        position: absolute;
-        top: 10%;
-        left: -4%;
+        /*position: absolute;*/
+        /*top: 10%;*/
+        /*left: -4%;*/
     }
 
     img.etiqueta_der_grandes{
-        width: 100%;
-        max-width: 100%;
-        height: 19%;
-        position: absolute;
+        /*width: 100%;
+        max-width: 100%;*/
+        height: 17%;
+        /*position: absolute;
         bottom: 9%;
-        right: -5.5%;
+        right: -5.5%;*/
     }
 
     .etiqueta_izq_grandes_atras{
-        position: absolute;
-        top: 10%;
-        right: -2%;
+        /*position: absolute;*/
+        /*top: 10%;*/
+        /*right: -2%;*/
         height: 20%;
     }
 
     .etiqueta_der_grandes_atras{
-        position: absolute;
+        /*position: absolute;
         bottom: 9%;
-        left: -2%;
-        height: 17%;    
+        left: -2%;*/
+        height: 15%;    
     }
 
-    div.proyectos_grandes h4{
+    /*div.proyectos_grandes h4{
         font-size: 1.1em;
         position: absolute;
         top: 11%;
@@ -2310,64 +2315,64 @@ a.pdf_descarga{
         top: 19%;
         left: 3%;
         font-size: 0.9em;
-    }
+    }*/
 
     div.proyectos_grandes h6{
-        position: absolute;
-        bottom: 20%;
-        right: 3%;
+        /*position: absolute;*/
+        bottom: 19%;
+        /*right: 3%;
         font-size: 0.8em;
-        margin-top: 5em;
+        margin-top: 5em;*/
     }
 
     div.proyectos_grandes p{
-        position: absolute;
+        /*position: absolute;
         bottom: 14%;
-        right: 3%;
-        font-size: 0.7em;
+        right: 3%;*/
+        font-size: 0.75em;
     }
 
     #datos_extra_tourette{
-        font-size: 0.85em;
-        position: absolute;
+        font-size: 0.95em;
+        /*position: absolute;
         margin: 1em;
-        left: 12%;
-        top: 25%;
+        left: 12%;*/
+        top: 30%;
     }
 
 /* proyectos medianos */
     img.etiqueta_izq_medianos{
-        width: 100%;
-        max-width: none;
-        height: 40%;
-        position: absolute;
+        /*width: 100%;
+        max-width: none;*/
+        height: 41%;
+        /*position: absolute;
         top: 10%;
         left: -6%;
-        z-index: 1;
+        z-index: 1;*/
     }
 
     .etiqueta_izq_medianos_atras{
-        position: absolute;
+        /*position: absolute;
         right: -2%;
         top: 10%;
-        z-index: 3;
-        height: 36%;
+        z-index: 3;*/
+        height: 37%;
     }
 
     .etiqueta_izq_medianos_atras_dosrenglones{
-        height: 50%;
+        height: 37%;
     }
 
     h4.titulo_dosrenglones{
-        width: 70%;
-        max-width: 150px;
+        width: 100%;
+        max-width: 200px;
     }
 
     h5.tipo_dosrenglones{
-        padding-top: 1.7em;
+        padding-top: 0.1em;
     }
 
-    div.proyectos_medianos h4{
+    /*div.proyectos_medianos h4{
         font-size: 0.9em;
         position: absolute;
         top: 12%;
@@ -2382,326 +2387,326 @@ a.pdf_descarga{
         top: 26%;
         left: 3%;
         z-index: 1;
-    }
+    }*/
 
     div.proyectos_medianos h6{
-        font-size: 0.8em;
-        margin-top: 2em;
-        position: absolute;
-        bottom: 24%;
-        right: 8%;
-        z-index: 3;
+        font-size: 0.85em;
+        /*margin-top: 2em;
+        position: absolute;*/
+        bottom: 25%;
+        /*right: 8%;
+        z-index: 3;*/
     }
 
     div.proyectos_medianos p{
-        font-size: 0.7em;
-        position: absolute;
-        bottom: 13%;
-        right: 8%;
-        z-index: 3;
+        font-size: 0.75em;
+        /*position: absolute;*/
+        bottom: 12%;
+        /*right: 8%;
+        z-index: 3;*/
     }
 
     div.proyectos_medianos h7{
-        position: absolute;
-        font-size: 0.75em;
-        text-align: left;
+        /*position: absolute;*/
+        font-size: 0.85em;
+        /*text-align: left;
         left: 10%;
         top: 10%;
-        width: 75%;
+        width: 75%;*/
     }
 
 /* proyectos largos */
     img.etiqueta_izq_largos{
-        width: 100%;
-        max-width: none;
-        height: 46%;
-        position: absolute;
+        /*width: 100%;
+        max-width: none;*/
+        height: 22%;
+        /*position: absolute;
         top: 10%;
-        left: -6%;
+        left: -4%;*/
     }
 
     img.etiqueta_der_largos{
-        width: 100%;
-        max-width: none;
-        height: 36%;
-        position: absolute;
-        bottom: 12%;
-        right: -5.5%;
+        /*width: 100%;
+        max-width: none;*/
+        height: 17%;
+        /*position: absolute;*/
+        bottom: 9%;
+        /*right: -5.5%;*/
     }
 
     div.proyectos_largos h4{
-        font-size: 1.1em;
-        position: absolute;
-        top: 12%;
-        left: 3%;
+        /*font-size: 1.1em;
+        position: absolute;*/
+        top: 11%;
+        /*left: 3%;*/
     }
 
     div.proyectos_largos h5{
-        position: absolute;
-        top: 30%;
-        left: 3%;
-        font-size: 0.9em;
+        /*position: absolute;*/
+        top: 19%;
+        /*left: 3%;
+        font-size: 0.9em;*/
     }
 
     div.proyectos_largos h6{
-        position: absolute;
-        bottom: 33%;
-        right: 3%;
-        font-size: 0.8em;
-        margin-top: 5em;
+        /*position: absolute;*/
+        bottom: 19%;
+        /*right: 3%;*/
+        font-size: 0.85em;
+        /*margin-top: 5em;*/
     }
 
     div.proyectos_largos p{
-        position: absolute;
-        bottom: 21%;
-        right: 3%;
-        font-size: 0.7em;
+        /*position: absolute;*/
+        bottom: 14%;
+        /*right: 3%;*/
+        font-size: 0.75em;
     }
 
-    #hacerfuego_proyectos{
+    /*#hacerfuego_proyectos{
         background-image: url(../img/hacerfuego_proyectos.jpg);
-    }
+    }*/
 
     #etiqueta_izq_hacerfuego{
-        width: 78%;
-        height: 61%;
-        left: -4.8%;
+        width: 90%;
+        height: 41%;
+        /*left: -4.8%;*/
     }
 
-    #virus_proyectos{
+    /*#virus_proyectos{
         background-image: url(../img/virus_proyectos.jpg);
-    }
+    }*/
 
     #etiqueta_izq_virus{
-        width: 64%;
-        left: -3.8%
+        width: 56%;
+        left: -3%
     }
 
-    #tiempoausente_proyectos{
+    /*#tiempoausente_proyectos{
         background-image: url(../img/tiempoausente_proyectos.jpg);
         background-position: bottom;
-    }
+    }*/
 
     #etiqueta_izq_tiempoausente{
-        width: 96%;
-        left: -5.9%;
+        width: 86%;
+        left: -5%;
     }
 
     #etiqueta_der_tiempoausente{
-        width: 83%;
-        right: -4.9%;
+        width: 76%;
+        right: -4%;
     }
 
     #hacefeliz_proyectos{
-        background-image: url(../img/hacefelizaungato_proyectos.jpg);
-        background-position: center;
-    }
-
-    #etiqueta_izq_hacefeliz{
-        width: 60%;
-        left: 0%;
-    }
-
-    #etiqueta_der_hacefeliz{
-        width: 28%;
-        right: -1.6%;
-    }
-
-    #tourette_proyectos{
-        background-image: url(../img/tourette_proyectos.jpg);
-        background-position: top;
-    }
-
-    #etiqueta_izq_tourette{
-        width: 61%;
-        left: -3.4%;
-    }
-
-    #etiqueta_der_tourette{
-        width: 64%;
-        right: -3.9%;
-    }
-
-    #paraiso_proyectos{
-        background-image: url(../img/paraiso_proyectos.jpg);
+        /*background-image: url(../img/hacefelizaungato_proyectos.jpg);*/
         background-position: right;
     }
 
-    #etiqueta_izq_paraiso{
-        width: 43%;
-        left: -2.2%;
+    #etiqueta_izq_hacefeliz{
+        width: 77%;
+        left: -4.3%;
     }
 
-    #doblefantasia_proyectos{
+    #etiqueta_der_hacefeliz{
+        width: 38%;
+        right: -2.2%;
+    }
+
+    /*#tourette_proyectos{
+        background-image: url(../img/tourette_proyectos.jpg);
+        background-position: top;
+    }*/
+
+    #etiqueta_izq_tourette{
+        width: 57%;
+        left: -3.2%;
+    }
+
+    #etiqueta_der_tourette{
+        width: 61%;
+        right: -3.5%;
+    }
+
+    /*#paraiso_proyectos{
+        background-image: url(../img/paraiso_proyectos.jpg);
+        background-position: right;
+    }*/
+
+    #etiqueta_izq_paraiso{
+        width: 38%;
+        left: -2.7%;
+    }
+
+    /*#doblefantasia_proyectos{
         background-image: url(../img/doblefantasia_proyectos.jpg);
         background-position: top;
-    }
+    }*/
 
     #etiqueta_izq_doblefantasia{
-        width: 77%;
-        left: -4.5%;
+        width: 67%;
+        left: -4.3%;
     }
 
-    #suenaluz_proyectos{
+    /*#suenaluz_proyectos{
         background-image: url(../img/suenaluz_proyectos.jpg);
-    }
+    }*/
 
     #etiqueta_izq_suenaluz{
-        width: 33%;
-        left: -1.9%;
+        width: 43%;
+        left: -2.3%;
     }
 
     #etiqueta_der_suenaluz{
-        width: 48%;
-        right: -2.1%;
+        width: 66%;
+        right: -4.1%;
     }
 
-    #seminario_proyectos{
+    /*#seminario_proyectos{
         background-image: url(../img/seminario_proyectos.jpg);
         background-position: top;
-    }
+    }*/
 
     #etiqueta_izq_seminario{
-        width: 71%;
-        height: 61%;
-        left: -4%;
+        width: 97%;
+        height: 41%;
+        left: -5.5%;
     }
 
-    #yogui_proyectos{
+   /* #yogui_proyectos{
         background-image: url(../img/yogui_proyectos.jpg);
         background-position: bottom;
-    }
+    }*/
 
     #etiqueta_izq_yogui{
-        width: 72%;
+        width: 62%;
         height: 43%;
-        left: -4%;
+        left: -3.5%;
     }
 
-    #yogui_h4{
+    /*#yogui_h4{
         text-align: left;
     }
 
     #paracaidas_proyectos{
         background-image: url(../img/paracaidas_proyectos.jpg);
         background-position: center;
-    }
+    }*/
 
     #etiqueta_izq_paracaidas{
-        width: 70%;
-        left: -3.9%;
+        width: 65%;
+        left: -3.7%;
     }
 
-    h6.rol_dosrenglones{
+    /*h6.rol_dosrenglones{
         text-align: right;
         width: 70%;
-    }
+    }*/
 
     #etiqueta_der_paracaidas,
     #etiqueta_der_enlalluvia{
-        width: 86%;
-        height: 27%;
-        right: -5.2%;
+        width: 77%;
+        height: 25%;
+        right: -4.4%;
         bottom: 7%;
     }
 
-    #cactusenserie_proyectos{
+    /*#cactusenserie_proyectos{
         background-image: url(../img/cactusenserie_proyectos.jpg);
         background-position: center;
-    }
+    }*/
 
     #etiqueta_izq_cactus{
-        width: 48%;
-        left: -2.8%;
+        width: 63%;
+        left: -3.4%;
     }
 
     #etiqueta_der_cactus{
-        width: 46%;
-        right: -2%;
+        width: 65%;
+        right: -4%;
     }
 
-    #enlalluvia_proyectos{
+    /*#enlalluvia_proyectos{
         background-image: url(../img/enlalluvia_proyectos.jpg);
         background-position: left;
-    }
+    }*/
 
     #etiqueta_izq_enlalluvia{
-        width: 75%;
-        left: -4.2%;
+        width: 70%;
+        left: -3.8%;
     }
 
     #voluntariado_proyectos{
-        background-image: url(../img/voluntariado_proyectos.jpg);
-        background-position: center;
+        /*background-image: url(../img/voluntariado_proyectos.jpg);*/
+        background-position: top;
     }
 
     #etiqueta_izq_voluntariado{
-        width: 88%;
-        left: -4.8%;
+        width: 74%;
+        left: -4.4%;
     }
 
-    #dataentry_proyectos{
+    /*#dataentry_proyectos{
         background-image: url(../img/dataentry_proyectos.jpg);
         background-position: center;
-    }
+    }*/
 
     #etiqueta_izq_dataentry{
-        width: 71%;
-        left: -4%;
+        width: 61%;
+        left: -3.5%;
     }
 
 /* Giro de cartas */
 /* entire container, keeps perspective */
-    .contenedor_flip,
+    /*.contenedor_flip,
     .contenedor_flip_grande{
         perspective: 1000px;
-    }
+    }*/
 
 /* flip the pane when hovered */
-    .contenedor_flip:hover .flipper,
+    /*.contenedor_flip:hover .flipper,
     .contenedor_flip.hover .flipper {
         transform: rotateY(180deg);
     }
 
     .contenedor_flip_grande:hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
         transform: rotateY(180deg);
-    }
+    }*/
 
     .contenedor_flip, .carta_adelante, .carta_atras {
-        width: 100%;
-        height: 8em;
+        /*width: 100%;*/
+        height: 8.5em;
     }
 
     .contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
-        height: 17em;
-        width: 100%;
+        height: 19em;
+        /*width: 100%;*/
     }
 
 /* flip speed goes here */
-    .flipper, .flipper_grande {
+    /*.flipper, .flipper_grande {
         transition: 0.6s;
         transform-style: preserve-3d;
         position: relative;
-    }
+    }*/
 
 /* hide back of pane during swap */
-    .carta_adelante, .carta_atras, .carta_adelante_grande, .carta_atras_grande {
+    /*.carta_adelante, .carta_atras, .carta_adelante_grande, .carta_atras_grande {
         backface-visibility: hidden;
         position: absolute;
         top: 0;
         left: 0;
-    }
+    }*/
 
 /* front pane, placed above back */
-    .carta_adelante, .carta_adelante_grande {
-        z-index: 2;
+    /*.carta_adelante, .carta_adelante_grande {
+        z-index: 2;*/
         /* for firefox 31 */
-        transform: rotateY(0deg);
-    }
+        /*transform: rotateY(0deg);
+    }*/
 
 /* back, initially hidden pane */
-    .carta_atras, .carta_atras_grande {
+    /*.carta_atras, .carta_atras_grande {
         transform: rotateY(180deg);
-    }
+    }*/
 
 }
