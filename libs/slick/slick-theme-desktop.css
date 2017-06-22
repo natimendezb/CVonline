@@ -129,7 +129,6 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    margin-left: -2%;
 
     list-style: none;
 
@@ -143,7 +142,7 @@
 
     width: 12px;
     height: 12px;
-    margin: 0 4px;
+    margin: 0 3px;
     padding: 5px;
 
     cursor: pointer;
@@ -202,4 +201,13 @@
     color: #99CC66;
     width: 14px;
     height: 14px;
+}
+
+
+/* RESPONSIVE */
+@media screen and (min-width:850px) {
+    .slick-prev:before,
+    .slick-next:before{
+        font-size: 23px;
+    }
 }

@@ -75,12 +75,20 @@ function configurarSlick(){
 function corregirFuncionamientoFlechasSlick(){
     $(".slick-list").css("margin", "auto");
     $(".slick-list").css("width", "90%");
-    $(".slick-list").css("max-width", "800px");
-};
+    $(".slick-list").css("max-width", "700px");
+}
+
+function corregirFuncionamientoFlechasSlickGrande(){
+    $(".slick-list").css("max-width", "900px");
+    $(".slick-prev:before").css("font-size", "25px");
+}
 
 $(window).resize(function() {
     if ($(window).width()>=580-17){
         corregirFuncionamientoFlechasSlick();
+    }
+    if ($(window).width()>=850-17){
+        corregirFuncionamientoFlechasSlickGrande();
     }
 });
 
@@ -111,6 +119,7 @@ $(document).ready(function(){
     });
 
     corregirFuncionamientoFlechasSlick();
+    corregirFuncionamientoFlechasSlickGrande();
 
     var figuresPortfolio = document.getElementsByClassName("portfolio_proyectos");
 
