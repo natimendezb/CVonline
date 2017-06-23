@@ -434,6 +434,10 @@ div.contenido_timeline P{
     height: auto;
 }
 
+div.filas_desktop_proyectos{
+    margin-bottom: 3em;
+}
+
 div.contenido_filas:first-child{
     margin-top: 0em;
 }
@@ -843,27 +847,25 @@ div.proyectos_largos p{
     left: -4.7%;
 }
 
-
-#paracaidas_proyectos{
-    background-image: url(../img/paracaidas_proyectos.jpg);
+#enlalluvia_proyectos{
+    background-image: url(../img/enlalluvia_proyectos.jpg);
+    background-position: left;
 }
 
-#etiqueta_izq_paracaidas{
-    width: 77%;
-    left: -4.2%;
+#etiqueta_izq_enlalluvia{
+    width: 80%;
+    left: -4.5%;
 }
 
-h6.rol_dosrenglones{
-    text-align: right;
-}
-
-#etiqueta_der_paracaidas,
 #etiqueta_der_enlalluvia{
     height: 28%;
     bottom: 3%;
     right: -6%;
 }
 
+h6.rol_dosrenglones{
+    text-align: right;
+}
 
 #cactusenserie_proyectos{
     background-image: url(../img/cactusenserie_proyectos.jpg);
@@ -880,18 +882,20 @@ h6.rol_dosrenglones{
     right: -3%;
 }
 
-
-#enlalluvia_proyectos{
-    background-image: url(../img/enlalluvia_proyectos.jpg);
-    background-position: left;
+#cvonline_proyectos{
+    background-image: url(../img/cvonline_proyectos.jpg);
+    background-position: right;
 }
 
-#etiqueta_izq_enlalluvia{
-    width: 80%;
-    left: -4.5%;
+#etiqueta_izq_cvonline{
+    width: 68%;
+    left: -4%;
 }
 
-
+#etiqueta_der_cvonline{
+    width: 87%;
+    right: -5.2%;
+}
 
 #voluntariado_proyectos{
     background-image: url(../img/voluntariado_proyectos.jpg);
@@ -903,7 +907,6 @@ h6.rol_dosrenglones{
     left: -4.8%;
 }
 
-
 #dataentry_proyectos{
     background-image: url(../img/dataentry_proyectos.jpg);
 }
@@ -913,6 +916,19 @@ h6.rol_dosrenglones{
     left: -4.3%;
 }
 
+#paracaidas_proyectos{
+    background-image: url(../img/paracaidas_proyectos.jpg);
+}
+
+#etiqueta_izq_paracaidas{
+    width: 38%;
+    left: -2.2%;
+}
+
+#etiqueta_der_paracaidas{
+    width: 63%;
+    right: -3.8%;
+}
 
 /* Giro de cartas */
 
@@ -1030,8 +1046,8 @@ figure.portfolio_proyectos{
     display: table;
     border-color: #99CC66;
     border-style: solid;
-    border-width: 0.1em;
-    border-radius: 1.5em;
+    border-width: 0.4em;
+    border-radius: 1.7em;
     margin: 0% 10% 0% 10%;
     background-color: #f8f8f8;
     min-width: 5em;
@@ -1301,15 +1317,15 @@ a.pdf_descarga{
     }
 
     #formacion::before {
-    /* línea vertical */
-    top: 8em;
-    height: 65%;
-    width: 0.2em;
-    transform: translate(-50%);
+        /* línea vertical */
+        top: 8em;
+        height: 65%;
+        width: 0.2em;
+        transform: translate(-50%);
     }
 
     div.contenedor_timeline{
-        max-width: 55%;
+        max-width: 80%;
         margin: auto;
         margin-top: 3em;
         margin-bottom: 3em;
@@ -1374,6 +1390,10 @@ a.pdf_descarga{
         padding-top: 7em;
         padding-bottom: 7em;
         height: auto;
+    }
+
+    div.filas_desktop_proyectos{
+        margin-bottom: 2em;
     }
 
     #contenedor_proyectos{
@@ -1508,21 +1528,19 @@ a.pdf_descarga{
     }
 
     div.proyectos_grandes h6,
-    div.proyectos_medianos h6,
     div.proyectos_largos h6{
         font-size: 1.1em;
         bottom: 32%;
     }
 
     div.proyectos_grandes p,
-    div.proyectos_medianos p,
     div.proyectos_largos p{
         font-size: 0.9em;
         bottom: 20%;
     }
 
     #datos_extra_tourette{
-        font-size: 1.3em;
+        font-size: 1.5em;
         width: 70%;
         left: 15%;
         top: 15%;
@@ -1541,8 +1559,17 @@ a.pdf_descarga{
         padding: 0em;
     }
 
+    div.proyectos_medianos h6{
+        font-size: 1.6em;
+        bottom: 30%;
+    }
+
+    div.proyectos_medianos p{
+        font-size: 1.4em;
+    }
+
     div.proyectos_medianos h7{
-        font-size: 1.2em;
+        font-size: 1.5em;
         top: 14%;
     }
 
@@ -1641,21 +1668,30 @@ a.pdf_descarga{
         line-height: 1.2em;
     }
 
-    #paracaidas_proyectos{
-        background-position: center;
+    #enlalluvia_proyectos{
+        background-position: left;
     }
 
-    #etiqueta_izq_paracaidas{
-        width: 28%;
+    #etiqueta_izq_enlalluvia{
+        width: 29%;
         left: -2.9%;
     }
 
-    #etiqueta_der_paracaidas,
     #etiqueta_der_enlalluvia{
         width: 41%;
         height: 35%;
         bottom: 12%;
         right: -5.4%;
+    }
+
+    #etiqueta_izq_cvonline{
+        width: 25%;
+        left: -2.8%;
+    }
+
+    #etiqueta_der_cvonline{
+        width: 28%;
+        right: -4.5%;
     }
 
     #etiqueta_izq_cactus{
@@ -1666,15 +1702,6 @@ a.pdf_descarga{
     #etiqueta_der_cactus{
         width: 35%;
         right: -4.8%;
-    }
-
-    #enlalluvia_proyectos{
-        background-position: left;
-    }
-
-    #etiqueta_izq_enlalluvia{
-        width: 29%;
-        left: -2.9%;
     }
 
     #voluntariado_proyectos{
@@ -1689,6 +1716,20 @@ a.pdf_descarga{
     #etiqueta_izq_dataentry{
         width: 28%;
         left: -3.3%;
+    }
+
+    #paracaidas_proyectos{
+        background-position: center;
+    }
+
+    #etiqueta_izq_paracaidas{
+        width: 28%;
+        left: -2.9%;
+    }
+
+    #etiqueta_der_paracaidas{
+        width: 41%;
+        right: -5.4%;
     }
 
 
@@ -1781,6 +1822,7 @@ a.pdf_descarga{
     figure.portfolio_proyectos{
         margin: 0% 10% 0% 10%;
         max-width: 80%;
+        border-width: 0.2em;
         height: 20em;
     }
 

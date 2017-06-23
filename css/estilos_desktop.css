@@ -819,24 +819,23 @@ div.proyectos_medianos h7{
     text-align: left;
 }
 
-#paracaidas_proyectos{
-    background-image: url(../img/paracaidas_proyectos.jpg);
-    background-position: center;
+#enlalluvia_proyectos{
+    background-image: url(../img/enlalluvia_proyectos.jpg);
+    background-position: left;
 }
 
-#etiqueta_izq_paracaidas{
-    width: 52%;
-    left: -2.9%;
+#etiqueta_izq_enlalluvia{
+    width: 54%;
+    left: -3%;
 }
 
-/*h6.rol_dosrenglones{
-    text-align: right;
-}
-*/
-#etiqueta_der_paracaidas,
 #etiqueta_der_enlalluvia{
     width: 80%;
     right: -4.5%;
+}
+
+h6.rol_dosrenglones{
+    text-align: right;
 }
 
 #cactusenserie_proyectos{
@@ -854,14 +853,19 @@ div.proyectos_medianos h7{
     right: -3.8%;
 }
 
-#enlalluvia_proyectos{
-    background-image: url(../img/enlalluvia_proyectos.jpg);
+#cvonline_proyectos{
+    background-image: url(../img/cvonline_proyectos.jpg);
     background-position: left;
 }
 
-#etiqueta_izq_enlalluvia{
-    width: 54%;
-    left: -3%;
+#etiqueta_izq_cvonline{
+    width: 43%;
+    left: -2.2%;
+}
+
+#etiqueta_der_cvonline{
+    width: 55%;
+    right: -3.3%;
 }
 
 #voluntariado_proyectos{
@@ -882,6 +886,21 @@ div.proyectos_medianos h7{
 #etiqueta_izq_dataentry{
     width: 60%;
     left: -3.3%;
+}
+
+#paracaidas_proyectos{
+    background-image: url(../img/paracaidas_proyectos.jpg);
+    background-position: center;
+}
+
+#etiqueta_izq_paracaidas{
+    width: 52%;
+    left: -2.9%;
+}
+
+#etiqueta_der_paracaidas{
+    width: 80%;
+    right: -4.5%;
 }
 
 
@@ -1044,6 +1063,7 @@ img.portfolio_imagenes{
     margin-bottom: 0.8em;
     opacity: 1;
     max-width: 100%;
+    height: auto;
 }
 
 figure.portfolio_proyectos{
@@ -1736,7 +1756,7 @@ a.pdf_descarga{
     #etiqueta_izq_hacerfuego{
         width: 78%;
         height: 61%;
-        left: -4.8%;
+        left: -4.4%;
     }
 
     /*#virus_proyectos{
@@ -1755,7 +1775,7 @@ a.pdf_descarga{
 
     #etiqueta_izq_tiempoausente{
         width: 96%;
-        left: -5.9%;
+        left: -5.3%;
     }
 
     #etiqueta_der_tiempoausente{
@@ -1790,7 +1810,7 @@ a.pdf_descarga{
 
     #etiqueta_der_tourette{
         width: 64%;
-        right: -3.9%;
+        right: -3.5%;
     }
 
     /*#paraiso_proyectos{
@@ -1824,7 +1844,7 @@ a.pdf_descarga{
 
     #etiqueta_der_suenaluz{
         width: 48%;
-        right: -2.1%;
+        right: -2.7%;
     }
 
     /*#seminario_proyectos{
@@ -1851,29 +1871,28 @@ a.pdf_descarga{
 
     /*#yogui_h4{
         text-align: left;
-    }
-
-    #paracaidas_proyectos{
-        background-image: url(../img/paracaidas_proyectos.jpg);
-        background-position: center;
     }*/
 
-    #etiqueta_izq_paracaidas{
-        width: 70%;
-        left: -3.9%;
+    /*#enlalluvia_proyectos{
+        background-image: url(../img/enlalluvia_proyectos.jpg);
+        background-position: left;
+    }*/
+
+    #etiqueta_izq_enlalluvia{
+        width: 75%;
+        left: -4.2%;
     }
 
-    h6.rol_dosrenglones{
-        /*text-align: right;*/
-        width: 70%;
-    }
-
-    #etiqueta_der_paracaidas,
     #etiqueta_der_enlalluvia{
         width: 86%;
         height: 27%;
         right: -5.2%;
         bottom: 7%;
+    }
+
+    h6.rol_dosrenglones{
+        /*text-align: right;*/
+        width: 70%;
     }
 
     /*#cactusenserie_proyectos{
@@ -1888,17 +1907,22 @@ a.pdf_descarga{
 
     #etiqueta_der_cactus{
         width: 46%;
-        right: -2%;
+        right: -2.5%;
     }
 
-    /*#enlalluvia_proyectos{
-        background-image: url(../img/enlalluvia_proyectos.jpg);
-        background-position: left;
-    }*/
+    #cvonline_proyectos{
+        /*background-image: url(../img/cvonline_proyectos.jpg);*/
+        background-position: right;
+    }
 
-    #etiqueta_izq_enlalluvia{
-        width: 75%;
-        left: -4.2%;
+    #etiqueta_izq_cvonline{
+        width: 63%;
+        left: -3.4%;
+    }
+
+    #etiqueta_der_cvonline{
+        width: 70%;
+        right: -4%;
     }
 
     /*#voluntariado_proyectos{
@@ -1919,6 +1943,21 @@ a.pdf_descarga{
     #etiqueta_izq_dataentry{
         width: 71%;
         left: -4%;
+    }
+
+    /*#paracaidas_proyectos{
+        background-image: url(../img/paracaidas_proyectos.jpg);
+        background-position: center;
+    }*/
+
+    #etiqueta_izq_paracaidas{
+        width: 35%;
+        left: -2%;
+    }
+
+    #etiqueta_der_paracaidas{
+        width: 55%;
+        right: -3.2%;
     }
 
 /* Giro de cartas */
@@ -2411,7 +2450,7 @@ a.pdf_descarga{
     #etiqueta_izq_hacerfuego{
         width: 90%;
         height: 41%;
-        /*left: -4.8%;*/
+        left: -5.2%;
     }
 
     /*#virus_proyectos{
@@ -2420,7 +2459,7 @@ a.pdf_descarga{
 
     #etiqueta_izq_virus{
         width: 56%;
-        left: -3%
+        left: -3.3%
     }
 
     /*#tiempoausente_proyectos{
@@ -2499,7 +2538,7 @@ a.pdf_descarga{
 
     #etiqueta_der_suenaluz{
         width: 66%;
-        right: -4.1%;
+        right: -3.3%;
     }
 
     /*#seminario_proyectos{
@@ -2526,30 +2565,29 @@ a.pdf_descarga{
 
     /*#yogui_h4{
         text-align: left;
-    }
-
-    #paracaidas_proyectos{
-        background-image: url(../img/paracaidas_proyectos.jpg);
-        background-position: center;
     }*/
 
-    #etiqueta_izq_paracaidas{
-        width: 65%;
-        left: -3.7%;
-    }
+    /*#enlalluvia_proyectos{
+        background-image: url(../img/enlalluvia_proyectos.jpg);
+        background-position: left;
+    }*/
 
-    /*h6.rol_dosrenglones{
-        text-align: right;
+    #etiqueta_izq_enlalluvia{
         width: 70%;
-    }*/
+        left: -3.8%;
+    }
 
-    #etiqueta_der_paracaidas,
     #etiqueta_der_enlalluvia{
         width: 77%;
         height: 25%;
         right: -4.4%;
         bottom: 7%;
     }
+
+    /*h6.rol_dosrenglones{
+        text-align: right;
+        width: 70%;
+    }*/
 
     /*#cactusenserie_proyectos{
         background-image: url(../img/cactusenserie_proyectos.jpg);
@@ -2563,17 +2601,22 @@ a.pdf_descarga{
 
     #etiqueta_der_cactus{
         width: 65%;
-        right: -4%;
+        right: -3.5%;
     }
 
-    /*#enlalluvia_proyectos{
-        background-image: url(../img/enlalluvia_proyectos.jpg);
-        background-position: left;
-    }*/
+    #cvonline_proyectos{
+        /*background-image: url(../img/cvonline_proyectos.jpg);*/
+        background-position: right;
+    }
 
-    #etiqueta_izq_enlalluvia{
+    #etiqueta_izq_cvonline{
+        width: 63%;
+        left: -3.4%;
+    }
+
+    #etiqueta_der_cvonline{
         width: 70%;
-        left: -3.8%;
+        right: -4%;
     }
 
     #voluntariado_proyectos{
@@ -2583,7 +2626,7 @@ a.pdf_descarga{
 
     #etiqueta_izq_voluntariado{
         width: 74%;
-        left: -4.4%;
+        left: -4.2%;
     }
 
     /*#dataentry_proyectos{
@@ -2593,7 +2636,22 @@ a.pdf_descarga{
 
     #etiqueta_izq_dataentry{
         width: 61%;
-        left: -3.5%;
+        left: -3.1%;
+    }
+
+    /*#paracaidas_proyectos{
+        background-image: url(../img/paracaidas_proyectos.jpg);
+        background-position: center;
+    }*/
+
+    #etiqueta_izq_paracaidas{
+        width: 65%;
+        left: -3.7%;
+    }
+
+    #etiqueta_der_paracaidas{
+        width: 77%;
+        right: -4.4%;
     }
 
 /* Giro de cartas */
@@ -2652,6 +2710,11 @@ a.pdf_descarga{
 
 
 /*portfolio*/
+    #portfolio_imagenes img{
+        width: 100%;
+        max-width: 100%;
+    }
+
     #portfolio_behance a{
         padding: 0.4em 0.3em 0.4em 0.3em;
         max-width: 200px;

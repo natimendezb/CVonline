@@ -30,9 +30,9 @@
     width: 20px;
     height: 20px;
     padding: 0;
-    -webkit-transform: translate(0, -50%);
+/*    -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    transform: translate(0, -50%);*/
 
     cursor: pointer;
 
@@ -41,6 +41,7 @@
     outline: none;
     background: transparent;
 }
+
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
@@ -126,9 +127,10 @@
 
     display: block;
 
-    width: 100%;
+    width: 70%;
     padding: 0;
     margin: 0;
+    margin-left: 15%;
 
     list-style: none;
 
@@ -140,10 +142,10 @@
 
     display: inline-block;
 
-    width: 12px;
-    height: 12px;
-    margin: 0 3px;
-    padding: 5px;
+    width: 11px;
+    height: 11px;
+    margin: 0 4px;
+    padding: 0px;
 
     cursor: pointer;
 }
@@ -154,9 +156,9 @@
 
     display: block;
 
-    width: 12px;
-    height: 12px;
-    padding: 5px;
+    width: 11px;
+    height: 11px;
+    padding: 0px;
 
     cursor: pointer;
 
@@ -169,8 +171,8 @@
 .slick-dots li button:focus
 {
     outline: none;
-    width: 12px;
-    height: 12px;
+    width: 11px;
+    height: 11px;
 }
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before
@@ -183,8 +185,8 @@
     font-size: 11px;
     line-height: 30px;
     
-    width: 12px;
-    height: 12px;
+    width: 11px;
+    height: 11px;
 
     content: '•';
     text-align: center;
