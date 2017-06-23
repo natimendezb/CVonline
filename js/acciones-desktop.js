@@ -103,7 +103,7 @@ $(document).ready(function(){
         infinite: true,
         responsive: [
             {
-                breakpoint: 850,
+                breakpoint: 900,
                 settings: {
                     slidesToShow: 2,
                 }
