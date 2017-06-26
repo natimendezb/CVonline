@@ -13,8 +13,10 @@ function configurarSlick(){
 
 
 function onScroll(){
-    actualizarEstadoSeccion();
-    actualizarHeader();
+    setTimeout(function(){
+        actualizarEstadoSeccion();
+        actualizarHeader();
+    }, 100);
 }
 
 function seccionActual(){
@@ -102,8 +104,6 @@ function esPortrait(){
 }
 
 
-//var alturaTotal;
-
 $(document).ready(function(){
     $('.carrusel').slick({
         autoplay: true,
@@ -127,9 +127,7 @@ $(document).ready(function(){
           );
         }
     );
-//    alturaTotal = document.getElementById("contenedor").scrollHeight;
 });
-
 
 $(window).on("orientationchange",function(){
     if(esPortrait()) {
