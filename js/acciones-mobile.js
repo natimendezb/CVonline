@@ -7,7 +7,7 @@ function configurarCss(){
     var link  = document.createElement('link');
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'css/estilos_mobile.css';
+    link.href = 'css/estilos_mobile_min.css';
     link.media = 'all';
     head.appendChild(link);
 }
@@ -17,7 +17,7 @@ function configurarSlick(){
     var link  = document.createElement('link');
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'libs/slick/slick-theme-mobile.css';
+    link.href = 'libs/slick/slick-theme-mobile_min.css';
     link.media = 'all';
     head.appendChild(link);
 }
@@ -149,4 +149,3 @@ $(window).on("orientationchange",function(){
 //    var nuevaPosicion = (posicionPorcentualActual-0.1)*alturaTotal;
 //    scrollTo(0, nuevaPosicion);
 });
-

@@ -3,11 +3,11 @@ function esMobile(){
 }
 
 if (esMobile()){
-	document.write("<script language=\"javascript\" src=\"js/acciones-mobile.js\"></script>");
+	document.write("<script language=\"javascript\" src=\"js/acciones-mobile_min.js\"></script>");
 }
 
 else {
-	document.write("<script language=\"javascript\" src=\"js/acciones-desktop.js\"></script>");
+	document.write("<script language=\"javascript\" src=\"js/acciones-desktop_min.js\"></script>");
 }
 
 
