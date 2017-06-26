@@ -13,10 +13,10 @@ function configurarSlick(){
 
 
 function onScroll(){
-    setTimeout(function(){
-        actualizarEstadoSeccion();
-        actualizarHeader();
-    }, 100);
+    // setTimeout(function(){
+    actualizarEstadoSeccion();
+    actualizarHeader();
+    // }, 100);
 }
 
 function seccionActual(){
