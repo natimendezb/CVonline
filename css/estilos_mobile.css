@@ -77,8 +77,6 @@ header{
     color: #336699;
     background-color: #fafafa;
     width: 100%;
-    /*height: 7em;*/
-    /*left: 0;*/
     top: 0;
     position: fixed;
     z-index: 5;
@@ -88,7 +86,6 @@ header{
 }
 
 header nav ul{
-    /*width: 100%;*/
     height: 7em;
     display: flex;
     justify-content: space-between;
@@ -127,7 +124,6 @@ li.header img:hover,
 li.header img:active {
     opacity: 0.5;
 }
-
 /* HEADER */
 
 /* MAIN */
@@ -142,7 +138,6 @@ li.header img:active {
     background-repeat: no-repeat;
     border-bottom: solid;
     border-color: #333399;
-    /*height: auto;*/
 }
 
 #presentacion{
@@ -232,7 +227,6 @@ li.header img:active {
 
 ul.conocimientos{
     width: 70%;
-    /*max-width: 70%;*/
     display: inline-block;
     margin-top: 9%;
     margin-bottom: 12%;
@@ -276,7 +270,6 @@ div.doscaras{
 hr.divisor_categoria{
     width: 75%;
     margin: 1em 0em 1em 12.5%;
-    /*height: 1px;*/
     border-style: solid;
     border-color: #333399;
 }
@@ -284,7 +277,6 @@ hr.divisor_categoria{
 hr.separador_subseccion{
     width: 20%;
     margin-left: 40%;
-    /*height: 2px;*/
     border-style: solid;
     border-color: #333399;
 }
@@ -464,14 +456,12 @@ div.contenido_filas div{
 
 div.proyectos_izquierda{
     width: 47%;
-    /*height: auto;*/
     margin-right: 3%;
     position: relative;
 }
 
 div.proyectos_derecha{
     width: 47%;
-    /*height: auto;*/
     margin-left: 3%;
     position: relative;
 }
@@ -490,7 +480,6 @@ div.proyectos_abajo{
 
 /* proyectos grandes */
 img.etiqueta_izq_grandes{
-    /*width: 100%;*/
     height: 22%;
     position: absolute;
     top: 10%;
@@ -498,7 +487,6 @@ img.etiqueta_izq_grandes{
 }
 
 img.etiqueta_der_grandes{
-    /*width: 100%;*/
     height: 18%;
     position: absolute;
     bottom: 5%;
@@ -521,8 +509,6 @@ img.etiqueta_der_grandes{
 
 div.proyectos_grandes{
     background-color: #f7f7f7;
-    /*padding-top: 16%;*/
-    /*padding-bottom: 3%;*/
     height: 40em;
     -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
@@ -575,7 +561,6 @@ div.proyectos_grandes p{
 
 /* proyectos medianos */
 img.etiqueta_izq_medianos{
-    /*width: 100%;*/
     height: 38%;
     position: absolute;
     top: 10%;
@@ -662,7 +647,6 @@ div.proyectos_medianos h7{
 
 /* proyectos largos */
 img.etiqueta_izq_largos{
-    /*width: 100%;*/
     height: 41%;
     position: absolute;
     top: 10%;
@@ -670,7 +654,6 @@ img.etiqueta_izq_largos{
 }
 
 img.etiqueta_der_largos{
-    /*width: 100%;*/
     height: 35%;
     position: absolute;
     bottom: 5%;
@@ -1208,7 +1191,6 @@ a.pdf_descarga{
 /*perfil*/
     #perfil{
         padding-top: 3%;
-        /*height: auto;*/
     }
 
     #presentacion h1{
@@ -1307,8 +1289,6 @@ a.pdf_descarga{
         /* línea vertical */
         top: 8em;
         height: 65%;
-        /*width: 0.2em;*/
-        /*transform: translate(-50%);*/
     }
 
     div.contenedor_timeline{
@@ -1322,7 +1302,6 @@ a.pdf_descarga{
     }
 
     div.contenido_timeline{
-        /*position: relative;*/
         width: 35%;
     }
 
@@ -1457,14 +1436,12 @@ a.pdf_descarga{
     img.etiqueta_izq_largos{
         position: absolute;
         top: 10%;
-        /*max-width: 100%;*/
         height: 44%;
         margin-left: 1.3%;
     }
 
     img.etiqueta_der_grandes,
     img.etiqueta_der_largos{
-        /*max-width: 100%;*/
         height: 35%;
         bottom: 12%;
         margin-right: 2.8%;
@@ -1715,7 +1692,7 @@ a.pdf_descarga{
 
 /* front pane, placed above back */
     .carta_adelante, .carta_adelante_grande {
-/* for firefox 31 */
+    /* for firefox 31 */
         transform: rotateX(0deg);
     }
 
