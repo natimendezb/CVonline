@@ -277,10 +277,6 @@ hr.separador_subseccion{
 #formacion{
     position: relative;
     background-color: #f0f0f0;
-    background-image: url(../img/fondo_formacion_desktop.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     z-index: 3;
     padding-bottom: 3em;
     padding-top: 5em;
