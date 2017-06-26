@@ -6,7 +6,7 @@ function configurarCss(){
     var link  = document.createElement('link');
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'css/estilos_desktop_min.css';
+    link.href = 'css/estilos_desktop.css';
     link.media = 'all';
     head.appendChild(link);
 }
@@ -16,7 +16,7 @@ function configurarSlick(){
     var link  = document.createElement('link');
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'libs/slick/slick-theme-desktop_min.css';
+    link.href = 'libs/slick/slick-theme-desktop.css';
     link.media = 'all';
     head.appendChild(link);
 }

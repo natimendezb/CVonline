@@ -7,7 +7,7 @@ function configurarCss(){
     var link  = document.createElement('link');
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'css/estilos_mobile_min.css';
+    link.href = 'css/estilos_mobil.css';
     link.media = 'all';
     head.appendChild(link);
 }
@@ -17,7 +17,7 @@ function configurarSlick(){
     var link  = document.createElement('link');
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'libs/slick/slick-theme-mobile_min.css';
+    link.href = 'libs/slick/slick-theme-mobile.css';
     link.media = 'all';
     head.appendChild(link);
 }
