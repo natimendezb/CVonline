@@ -417,10 +417,6 @@ div.contenido_timeline p{
 /* Proyectos */
 #proyectos{
     background-color: #f7f7f7;
-    background-image: url(../img/fondo_proyectos_desktop.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     z-index: 2;
     padding-top: 11em;
     padding-bottom: 6em;
@@ -1003,10 +999,6 @@ h6.rol_dosrenglones{
 /* Portfolio */
 #portfolio{
     background-color: #f0f0f0;
-    background-image: url(../img/fondo_portfolio_desktop.png);
-    background-size: cover;
-    background-position: right;
-    background-repeat: no-repeat;
     z-index: 2;
     border-bottom-style: solid;
     border-bottom-color: #333399;
