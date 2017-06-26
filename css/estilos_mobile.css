@@ -903,7 +903,7 @@ h6.rol_dosrenglones{
 }
 
 /* flip the pane when hovered */
-.contenedor_flip.hover .flipper,
+.contenedor_flip:hover .flipper,
 .contenedor_flip.hover .flipper {
     transform: rotateY(180deg);
 }
