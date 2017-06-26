@@ -43,7 +43,6 @@
 /* FIN TIPOGRAFÍAS */
 
 /* GENERAL */
-
 *{
     margin: 0em;
     padding: 0em;
@@ -72,14 +71,14 @@ footer{
 
 /* GENERAL */
 
-/* RESPONSIVE PORTRAIT */
+/* PORTRAIT */
 /* HEADER */
 header{
     color: #336699;
     background-color: #fafafa;
     width: 100%;
-    height: 7em;
-    left: 0;
+    /*height: 7em;*/
+    /*left: 0;*/
     top: 0;
     position: fixed;
     z-index: 5;
@@ -89,7 +88,7 @@ header{
 }
 
 header nav ul{
-    width: 100%;
+    /*width: 100%;*/
     height: 7em;
     display: flex;
     justify-content: space-between;
@@ -131,15 +130,11 @@ li.header img:active {
 
 /* HEADER */
 
-
-
 /* MAIN */
-
 /* Perfil - Presentación */
-
 #perfil{
     position: relative;
-    padding-top: 5vh;
+    padding-top: 9%;
     background-color: #f7f7f7;
     background-image: url(../img/fondo_perfil_desktop.png);
     background-size: cover;
@@ -147,14 +142,14 @@ li.header img:active {
     background-repeat: no-repeat;
     border-bottom: solid;
     border-color: #333399;
-    height: auto;
+    /*height: auto;*/
 }
 
 #presentacion{
     margin: 0em 3em 0em 3em;
 }
 
-#presentacion h1 {
+#presentacion h1{
     color: #FF6633;
     font-family: 'titillium_webbold', sans-serif;
     font-size: 5em;
@@ -193,7 +188,6 @@ li.header img:active {
 }
 
 /* Perfil - Datos */
-
 #datos{
     margin-top: 9em;
     margin-bottom: 10em;
@@ -227,7 +221,6 @@ li.header img:active {
 }
 
 /* Conocimientos */
-
 #conocimientos{
     padding-top: 6em;
     background-color: #f0f0f0;
@@ -239,10 +232,10 @@ li.header img:active {
 
 ul.conocimientos{
     width: 70%;
-    max-width: 70%;
+    /*max-width: 70%;*/
     display: inline-block;
-    margin-top: 5vh;
-    margin-bottom: 8vh;
+    margin-top: 9%;
+    margin-bottom: 12%;
 }
 
 li.fila_conocimiento{
@@ -283,7 +276,7 @@ div.doscaras{
 hr.divisor_categoria{
     width: 75%;
     margin: 1em 0em 1em 12.5%;
-    height: 1px;
+    /*height: 1px;*/
     border-style: solid;
     border-color: #333399;
 }
@@ -291,13 +284,12 @@ hr.divisor_categoria{
 hr.separador_subseccion{
     width: 20%;
     margin-left: 40%;
-    height: 2px;
+    /*height: 2px;*/
     border-style: solid;
     border-color: #333399;
-}        
+}
+
 /* Formación */
-
-
 #formacion{
     position: relative;
     background-color: #f0f0f0;
@@ -342,20 +334,22 @@ div.circulo_timeline figure{
     transform: translate(26%);
 }
 
-figcaption.fecha{
-    margin-left: 1.7em;
+figcaption.fecha,
+figcaption.fecha_izquierda{
     font-family: "robotolight", sans-serif;
     font-size: 1.4em;
 }
 
-#primera_esfera{
-    transform: translate(-27%);
+figcaption.fecha{
+    margin-left: 1.7em;
 }
 
 figcaption.fecha_izquierda{
     margin-right: 1.8em;
-    font-family: "robotolight", sans-serif;
-    font-size: 1.4em;
+}
+
+#primera_esfera{
+    transform: translate(-27%);
 }
 
 div.contenido_timeline{
@@ -393,7 +387,7 @@ div.contenido_timeline h3{
     padding-bottom: 0.4em;
 }
 
-div.contenido_timeline P{
+div.contenido_timeline p{
     font-family: "robotolight", sans-serif;
     font-size: 1.4em;
 }
@@ -429,7 +423,6 @@ div.contenido_timeline P{
 }
 
 /* Proyectos */
-
 #proyectos{
     background-color: #f7f7f7;
     background-image: url(../img/fondo_proyectos_desktop.png);
@@ -450,10 +443,6 @@ div.contenido_timeline P{
     height: auto;
 }
 
-div.filas_desktop_proyectos{
-    margin-bottom: 3em;
-}
-
 div.contenido_filas:first-child{
     margin-top: 0em;
 }
@@ -461,6 +450,10 @@ div.contenido_filas:first-child{
 div.contenido_filas{
     display: flex;
     margin-top: 3em;
+}
+
+div.filas_desktop_proyectos{
+    margin-bottom: 3em;
 }
 
 div.contenido_filas div{
@@ -471,14 +464,14 @@ div.contenido_filas div{
 
 div.proyectos_izquierda{
     width: 47%;
-    height: auto;
+    /*height: auto;*/
     margin-right: 3%;
     position: relative;
 }
 
 div.proyectos_derecha{
     width: 47%;
-    height: auto;
+    /*height: auto;*/
     margin-left: 3%;
     position: relative;
 }
@@ -495,11 +488,9 @@ div.proyectos_abajo{
     width: 100%;
 }
 
-
 /* proyectos grandes */
-
 img.etiqueta_izq_grandes{
-    width: 100%;
+    /*width: 100%;*/
     height: 22%;
     position: absolute;
     top: 10%;
@@ -507,7 +498,7 @@ img.etiqueta_izq_grandes{
 }
 
 img.etiqueta_der_grandes{
-    width: 100%;
+    /*width: 100%;*/
     height: 18%;
     position: absolute;
     bottom: 5%;
@@ -530,8 +521,8 @@ img.etiqueta_der_grandes{
 
 div.proyectos_grandes{
     background-color: #f7f7f7;
-    padding-top: 16%;
-    padding-bottom: 3%;
+    /*padding-top: 16%;*/
+    /*padding-bottom: 3%;*/
     height: 40em;
     -webkit-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 22px 0px rgba(0,0,0,0.5);
@@ -584,7 +575,7 @@ div.proyectos_grandes p{
 
 /* proyectos medianos */
 img.etiqueta_izq_medianos{
-    width: 100%;
+    /*width: 100%;*/
     height: 38%;
     position: absolute;
     top: 10%;
@@ -671,7 +662,7 @@ div.proyectos_medianos h7{
 
 /* proyectos largos */
 img.etiqueta_izq_largos{
-    width: 100%;
+    /*width: 100%;*/
     height: 41%;
     position: absolute;
     top: 10%;
@@ -679,7 +670,7 @@ img.etiqueta_izq_largos{
 }
 
 img.etiqueta_der_largos{
-    width: 100%;
+    /*width: 100%;*/
     height: 35%;
     position: absolute;
     bottom: 5%;
@@ -734,8 +725,6 @@ div.proyectos_largos p{
     font-size: 1.8em;
 }
 
-
-
 #hacerfuego_proyectos{
     background-image: url(../img/hacerfuego_proyectos.jpg);
     z-index: 2;
@@ -746,7 +735,6 @@ div.proyectos_largos p{
     height: 58%;
     left: -4.7%;
 }
-
 
 #virus_proyectos{
     background-image: url(../img/virus_proyectos.jpg);
@@ -788,7 +776,6 @@ div.proyectos_largos p{
     right: -2%;
 }
 
-
 #tourette_proyectos{
     background-image: url(../img/tourette_proyectos.jpg);
 }
@@ -803,7 +790,6 @@ div.proyectos_largos p{
     right: -4.7%;
 }
 
-
 #paraiso_proyectos{
     background-image: url(../img/paraiso_proyectos.jpg);
     background-position: right;
@@ -814,7 +800,6 @@ div.proyectos_largos p{
     left: -2.9%;
 }
 
-
 #doblefantasia_proyectos{
     background-image: url(../img/doblefantasia_proyectos.jpg);
     background-position: left;
@@ -824,7 +809,6 @@ div.proyectos_largos p{
     width: 83%;
     left: -4.5%;
 }
-
 
 #suenaluz_proyectos{
     background-image: url(../img/suenaluz_proyectos.jpg);
@@ -840,7 +824,6 @@ div.proyectos_largos p{
     right: -3.2%;
 }
 
-
 #seminario_proyectos{
     background-image: url(../img/seminario_proyectos.jpg);
 }
@@ -850,8 +833,6 @@ div.proyectos_largos p{
     height: 59%;
     left: -4.5%;
 }
-
-
 
 #yogui_proyectos{
     background-image: url(../img/yogui_proyectos.jpg);
@@ -947,7 +928,6 @@ h6.rol_dosrenglones{
 }
 
 /* Giro de cartas */
-
 /* entire container, keeps perspective */
 .contenedor_flip,
 .contenedor_flip_grande{
@@ -955,7 +935,7 @@ h6.rol_dosrenglones{
 }
 
 /* flip the pane when hovered */
-.contenedor_flip:hover .flipper,
+.contenedor_flip.hover .flipper,
 .contenedor_flip.hover .flipper {
     transform: rotateY(180deg);
 }
@@ -1004,7 +984,6 @@ h6.rol_dosrenglones{
 
 
 /* animación cartas clickeables */
-
 .zoomin{
     -webkit-animation-name: zoomin;
     -webkit-animation-duration: 4s;
@@ -1038,7 +1017,6 @@ h6.rol_dosrenglones{
 
 
 /* Portfolio */
-
 #portfolio{
     background-color: #f0f0f0;
     background-image: url(../img/fondo_portfolio_desktop.png);
@@ -1148,11 +1126,9 @@ p.portfolio_año{
     color: #336699;
     padding-left: 0.2em;
 }   
+/* PORTFOLIO */
 
-/* Portfolio */
-
-/* Pdf */
-
+/* PDF */
 #pdf{
     background-color: #f7f7f7;
     z-index: 2;
@@ -1176,15 +1152,10 @@ a.pdf_descarga{
     color: #336699;
     width: 49%;
 }
-
-
-/* Pdf */
-
+/* PDF */
 /* MAIN */
 
-
 /* FOOTER */
-
 #footer{
     color: #336699;
     background-color: #fafafa;
@@ -1216,34 +1187,33 @@ a.pdf_descarga{
     padding-left: 0.5em;  
 }
     
-/* FOOTER */ 
-    
+/* FOOTER */  
     
 /* RESPONSIVE LANDSCAPE */
 
- @media screen and (orientation:landscape) {
+@media screen and (orientation:landscape) {
 /*header*/ 
-    header, header nav ul{
+    header nav ul{
         height: 3.5em;
     }
 
     .header a img{
-        width: 70%;
+        width: 2.4em;
     }
 
     #titulo_seccion{
         font-size: 2em;
     } 
 
-
 /*perfil*/
     #perfil{
-        padding-top: 3vh;
-        height: auto;
+        padding-top: 3%;
+        /*height: auto;*/
     }
 
-    #presentacion h1 {
+    #presentacion h1{
         width: 50%;
+        height: auto;
         margin-left: 25%;
         margin-right: 25%;
         font-size: 3em;
@@ -1275,7 +1245,6 @@ a.pdf_descarga{
         font-size: 1.4em;
         margin-bottom: 2.5em;
     }
-
 
  /*conocimientos*/
     #conocimientos{
@@ -1329,10 +1298,8 @@ a.pdf_descarga{
         margin-top: 2em;
     }        
 
-
 /*formación*/
     #formacion{
-        padding-bottom: 3em;
         padding-top: 3em;
     }
 
@@ -1340,27 +1307,22 @@ a.pdf_descarga{
         /* línea vertical */
         top: 8em;
         height: 65%;
-        width: 0.2em;
-        transform: translate(-50%);
+        /*width: 0.2em;*/
+        /*transform: translate(-50%);*/
     }
 
     div.contenedor_timeline{
         max-width: 80%;
-        margin: auto;
-        margin-top: 3em;
-        margin-bottom: 3em;
+        margin: 3em auto;
     }
 
-    figcaption.fecha{
-        font-size: 1em;
-    }
-
+    figcaption.fecha,
     figcaption.fecha_izquierda{
         font-size: 1em;
     }
 
     div.contenido_timeline{
-        position: relative;
+        /*position: relative;*/
         width: 35%;
     }
 
@@ -1404,7 +1366,6 @@ a.pdf_descarga{
         height: auto;
     }
 
-
  /*proyectos*/
     #proyectos{
         padding-top: 7em;
@@ -1438,13 +1399,9 @@ a.pdf_descarga{
         margin-bottom: 2em;
     }
 
-    div.proyectos_izquierda{
-        width: 45em;
-        height: 11em;
-        margin: auto;
-    }
-
-    div.proyectos_derecha{
+    div.proyectos_izquierda,
+    div.proyectos_derecha,
+    div.proyectos_centro{
         width: 45em;
         height: 11em;
         margin: auto;
@@ -1461,12 +1418,6 @@ a.pdf_descarga{
         margin-left: 0em;
     }
 
-    div.proyectos_centro{
-        width: 45em;
-        height: 11em;
-        margin: auto;
-    }
-
     div.proyectos_grandes,
     div.proyectos_medianos,
     div.proyectos_largos{
@@ -1474,11 +1425,7 @@ a.pdf_descarga{
         margin: auto;
     }
 
-    div.proyectos_landscape_top{
-        position: relative;
-        top: 0em;
-    }
-
+    div.proyectos_landscape_top,
     div.proyectos_landscape_tourette{
         position: relative;
         top: 0em;
@@ -1505,20 +1452,19 @@ a.pdf_descarga{
     }
 
 /*proyectos grandes */
-
     img.etiqueta_izq_grandes,
     img.etiqueta_izq_medianos,
     img.etiqueta_izq_largos{
         position: absolute;
         top: 10%;
-        max-width: 100%;
+        /*max-width: 100%;*/
         height: 44%;
         margin-left: 1.3%;
     }
 
     img.etiqueta_der_grandes,
     img.etiqueta_der_largos{
-        max-width: 100%;
+        /*max-width: 100%;*/
         height: 35%;
         bottom: 12%;
         margin-right: 2.8%;
@@ -1592,8 +1538,6 @@ a.pdf_descarga{
         font-size: 1.5em;
         top: 14%;
     }
-
-
 
     #etiqueta_izq_hacerfuego{
         width: 44%;
@@ -1752,16 +1696,14 @@ a.pdf_descarga{
         right: -5.4%;
     }
 
-
 /* Giro de cartas */
-
 /* flip the pane when hovered */
-    .contenedor_flip:hover .flipper,
+    .contenedor_flip.hover .flipper,
     .contenedor_flip.hover .flipper {
         transform: rotateX(180deg);
     }
 
-    .contenedor_flip_grande:hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
+    .contenedor_flip_grande.hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
         transform: rotateX(180deg);
     }
 
@@ -1824,7 +1766,6 @@ a.pdf_descarga{
         background-image: url(../img/dataentry_proyectos_landscape.jpg);
         background-position: bottom;
     }
-
 
 /*portfolio*/
     #portfolio{
