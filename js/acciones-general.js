@@ -2,11 +2,33 @@ function esMobile(){
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
+function configurarCssMobile(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'css/estilos_mobile.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
+
+function configurarCssDesktop(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'css/estilos_desktop.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
+
 if (esMobile()){
+    configurarCssMobile();
 	document.write("<script language=\"javascript\" src=\"js/acciones-mobile.js\"></script>");
 }
 
 else {
+    configurarCssDesktop();
 	document.write("<script language=\"javascript\" src=\"js/acciones-desktop.js\"></script>");
 }
 
