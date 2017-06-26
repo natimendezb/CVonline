@@ -7,7 +7,7 @@ function configurarCss(){
     var link  = document.createElement('link');
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'css/estilos_mobil.css';
+    link.href = 'css/estilos_mobile.css';
     link.media = 'all';
     head.appendChild(link);
 }
