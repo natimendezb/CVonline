@@ -132,10 +132,6 @@ li.header img:active {
     position: relative;
     padding-top: 9%;
     background-color: #f7f7f7;
-    background-image: url(../img/fondo_perfil_desktop.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     border-bottom: solid;
     border-color: #333399;
 }
@@ -219,10 +215,6 @@ li.header img:active {
 #conocimientos{
     padding-top: 6em;
     background-color: #f0f0f0;
-    background-image: url(../img/fondo_conocimientos_desktop.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 ul.conocimientos{
