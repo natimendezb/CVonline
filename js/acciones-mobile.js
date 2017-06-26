@@ -13,13 +13,43 @@ function configurarSlick(){
 
 
 function onScroll(){
-    actualizarHeader();
     actualizarEstadoSeccion();
+    actualizarHeader();
+}
+
+function seccionActual(){
+    var nombreSeccion = "";
+    var pixelesScroll = document.body.scrollTop;
+    var pixelesFinPerfil, pixelesFinConocimientos, pixelesFinProyectos
+    
+    if (esPortrait()) {
+        pixelesFinPerfil = 1200;
+        pixelesFinConocimientos = 3800;
+        pixelesFinProyectos = 8400;
+    }
+    else {
+        pixelesFinPerfil = 600;
+        pixelesFinConocimientos = 2400;
+        pixelesFinProyectos = 5900;
+    }
+    
+    if (pixelesScroll <= pixelesFinPerfil) {
+        nombreSeccion = "perfil";
+    }
+    if (pixelesScroll > pixelesFinPerfil && pixelesScroll <= pixelesFinConocimientos) {
+        nombreSeccion = "conocimientos";
+    }
+    if (pixelesScroll > pixelesFinConocimientos && pixelesScroll <= pixelesFinProyectos) {
+        nombreSeccion = "proyectos";
+    }
+    if (pixelesScroll > pixelesFinProyectos) {
+        nombreSeccion = "portfolio";
+    }
+
+    return nombreSeccion;
 }
 
 function actualizarHeader() {
-    var pixelesScroll = document.body.scrollTop;
-    posicionActual = pixelesScroll;
     var botonPerfil = document.getElementById("boton_perfil");
         botonPerfil.style.opacity = "1";
     var botonConocimientos = document.getElementById("boton_conocimientos");
@@ -29,54 +59,33 @@ function actualizarHeader() {
     var botonPortfolio = document.getElementById("boton_portfolio");
         botonPortfolio.style.opacity = "1";
     
-    var pixelesPerfil, pixelesConocimientos, pixelesProyectos
-    
-    if (esPortrait()) {
-        pixelesPerfil = 1200;
-        pixelesConocimientos = 3800;
-        pixelesProyectos = 8000;
+    var nombreSeccionActual = seccionActual();
+    if (nombreSeccionActual == "perfil") {
+        cambiarTitulo("PERFIL");
+        botonPerfil.style.opacity = "0.5";
     }
-    else {
-        pixelesPerfil = 600;
-        pixelesConocimientos = 2000;
-        pixelesProyectos = 5500;
+    if (nombreSeccionActual == "conocimientos") {
+        cambiarTitulo("CONOCIMIENTOS");
+        botonConocimientos.style.opacity = "0.5";
     }
-    
-    if (pixelesScroll <= pixelesPerfil) {
-            cambiarTitulo("PERFIL");
-            botonPerfil.style.opacity = "0.5";
-        }
-        if (pixelesScroll > pixelesPerfil && pixelesScroll <= pixelesConocimientos) {
-            cambiarTitulo("CONOCIMIENTOS");
-            botonConocimientos.style.opacity = "0.5";
-        }
-        if (pixelesScroll > pixelesConocimientos && pixelesScroll <= pixelesProyectos) {
-            cambiarTitulo("PROYECTOS");
-            botonProyectos.style.opacity = "0.5";
-        }
-
-        if (pixelesScroll > pixelesProyectos) {
-            cambiarTitulo("PORTFOLIO");
-            botonPortfolio.style.opacity = "0.5";
-        }    
+    if (nombreSeccionActual == "proyectos") {
+        cambiarTitulo("PROYECTOS");
+        botonProyectos.style.opacity = "0.5";
+    }
+    if (nombreSeccionActual == "portfolio") {
+        cambiarTitulo("PORTFOLIO");
+        botonPortfolio.style.opacity = "0.5";
+    }
 }
 
-var estadoSeccion = "no";
+var estadoSeccion = null;
 function actualizarEstadoSeccion(){
-    if(isScrolledIntoView("#conocimientos")){
-        estadoSeccion = "conocimientos";
-    }
+    estadoSeccion = seccionActual();
 }
 
-function isScrolledIntoView(elem){
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) ||
-            ((elemBottom > docViewBottom) && (elemTop < docViewTop));
+function scrollearASeccion(idSeccion){
+    var positionY = $("#"+idSeccion).offset().top;
+    window.scrollTo(0, positionY);
 }
 
 // Carrusel Slick Portrait / Landscape
@@ -128,13 +137,12 @@ $(window).on("orientationchange",function(){
     } else {
         configurarCarruselParaLandscape();
     }
-    
-/*    if(estadoSeccion != "no"){
-        window.location.hash = estadoSeccion;
-    }*/
-    
-//    var posicionPorcentualActual = posicionActual/alturaTotal;
-//    alturaTotal = document.getElementById("contenedor").scrollHeight;
-//    var nuevaPosicion = (posicionPorcentualActual-0.1)*alturaTotal;
-//    scrollTo(0, nuevaPosicion);
+
+    mantenerEnSeccionAlRotar();
 });
+
+function mantenerEnSeccionAlRotar() {
+    if(estadoSeccion){
+        scrollearASeccion(estadoSeccion);
+    }
+}
