@@ -144,8 +144,14 @@ li.header img:active {
     color: #FF6633;
     font-family: 'titillium_webbold', sans-serif;
     font-size: 5em;
-    margin: 2.2em 1.5em 0.2em 1.5em;
-    line-height: 1.2em;
+}
+
+#nombres{
+    margin: 2em 1.5em 0em 1.5em;
+}
+
+#apellidos{
+    margin: -0.1em 1.5em 0.1em 1.5em;
 }
 
 #presentacion h1 span{

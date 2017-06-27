@@ -156,10 +156,15 @@ li.header img:hover{
     color: #FF6633;
     font-family: 'titillium_webbold', sans-serif;
     font-size: 1.6em;
-    margin-top: 4.5em;
-    margin-bottom: 0.2em;
-    line-height: 1.2em;
     width: 100%;
+}
+
+#nombres{
+    margin: 4.5em auto 0em;
+}
+
+#apellidos{
+    margin: -0.1em auto 0.1em;
 }
 
 #presentacion h1 span{
@@ -1247,7 +1252,10 @@ a.pdf_descarga{
 /*perfil-presentación*/
     #presentacion h1 {
         font-size: 2em;
-        margin-top: 3em;
+    }
+
+     #nombres{
+        margin: 3.5em auto 0em;
     }
 
     #presentacion h2{
