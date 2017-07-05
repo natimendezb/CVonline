@@ -36,10 +36,11 @@ function onScroll() {
         pixelesFinConocimientos = 1550;
         pixelesFinProyectos = 3900;
     }
+
     else {
         pixelesFinPerfil = 450;
         pixelesFinConocimientos = 1550;
-        pixelesFinProyectos = 3500;
+        pixelesFinProyectos = 3100;
     }
     
     if (pixelesScroll <= pixelesFinPerfil) {
@@ -66,7 +67,11 @@ function onScroll() {
 }
 
 function esResponsiveChico(){
-    return $(window).width() < 460-23;
+    return $(window).width() < 460;
+}
+
+function esReponsiveGrande(){
+    return $(window).width() >= 850;
 }
 
 function corregirFuncionamientoFlechasSlick(){
