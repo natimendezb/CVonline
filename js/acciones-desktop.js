@@ -29,33 +29,44 @@ function onScroll() {
         }
     );
     
-    var pixelesPerfil, pixelesConocimientos, pixelesProyectos
+    var pixelesFinPerfil, pixelesFinConocimientos, pixelesFinProyectos
     
-    pixelesPerfil = 450;
-    pixelesConocimientos = 1400;
-    pixelesProyectos = 3700;
+    if (esResponsiveChico()) {
+        pixelesFinPerfil = 450;
+        pixelesFinConocimientos = 1550;
+        pixelesFinProyectos = 3900;
+    }
+    else {
+        pixelesFinPerfil = 450;
+        pixelesFinConocimientos = 1550;
+        pixelesFinProyectos = 3500;
+    }
     
-    if (pixelesScroll <= pixelesPerfil) {
+    if (pixelesScroll <= pixelesFinPerfil) {
         $("#boton_perfil").unbind('mouseenter mouseleave');
         cambiarTitulo("PERFIL");
         botonPerfil.style.opacity = "0.5";
     }
-    if (pixelesScroll > pixelesPerfil && pixelesScroll <= pixelesConocimientos) {
+    if (pixelesScroll > pixelesFinPerfil && pixelesScroll <= pixelesFinConocimientos) {
         $("#boton_conocimientos").unbind('mouseenter mouseleave');
         cambiarTitulo("CONOCIMIENTOS");
         botonConocimientos.style.opacity = "0.5";
     }
-    if (pixelesScroll > pixelesConocimientos && pixelesScroll <= pixelesProyectos) {
+    if (pixelesScroll > pixelesFinConocimientos && pixelesScroll <= pixelesFinProyectos) {
         $("#boton_proyectos").unbind('mouseenter mouseleave');
         cambiarTitulo("PROYECTOS");
         botonProyectos.style.opacity = "0.5";
     }
 
-    if (pixelesScroll > pixelesProyectos) {
+    if (pixelesScroll > pixelesFinProyectos) {
         $("#boton_portfolio").unbind('mouseenter mouseleave');
         cambiarTitulo("PORTFOLIO");
         botonPortfolio.style.opacity = "0.5";
     }
+}
+
+function esResponsiveChico(){
+    return $(window).width() < 460-23;
 }
 
 function corregirFuncionamientoFlechasSlick(){
