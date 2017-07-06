@@ -137,7 +137,7 @@ header nav ul{
 }
 
 #titulo_seccion{
-    font-family: 'TitilliumWeb-Bold';
+    font-family: 'TitilliumWeb-Bold', sans-serif;
     font-size: 0.9em;
 }
 
