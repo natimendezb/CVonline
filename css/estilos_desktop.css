@@ -384,13 +384,13 @@ div.circulo_timeline figure img,
 
 figcaption.fecha{
     margin-left: 1.7em;
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 0.6em;
 }
 
 figcaption.fecha_izquierda{
     margin-right: 1.8em;
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 0.6em;
 }
 
@@ -417,20 +417,20 @@ div.contenido_derecha{
 
 div.contenido_timeline h2{
     color: #FF6633;
-    font-family: "Roboto-Bold", sans-serif;
+    font-family: 'Roboto-Bold', sans-serif;
     font-size: 0.9em;
     padding-bottom: 0.2em;
     line-height: 1.2em;
 }
 
 div.contenido_timeline h3{
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 0.7em;
     padding-bottom: 0.4em;
 }
 
 div.contenido_timeline p{
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 0.6em;
 }
 
@@ -485,7 +485,7 @@ div.contenido_timeline p{
 
 #proximos_proyectos h4{
     color: #D1D1D1;
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     left: 15%;
     top: 40%;
 }
@@ -603,7 +603,7 @@ div.proyectos_grandes h4,
 div.proyectos_medianos h4,
 div.proyectos_largos h4{
     color: #FF6633;
-    font-family: "Roboto-Bold", sans-serif;
+    font-family: 'Roboto-Bold', sans-serif;
     font-size: 0.9em;
     position: absolute;
     top: 11%;
@@ -617,7 +617,7 @@ div.proyectos_largos h5{
     position: absolute;
     top: 25%;
     left: 3%;
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 0.8em;
     z-index: 1;
 }
@@ -627,7 +627,7 @@ div.proyectos_largos h6{
     position: absolute;
     bottom: 32%;
     right: 3%;
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 0.7em;
     margin-top: 5em;
 }
@@ -637,12 +637,12 @@ div.proyectos_largos p{
     position: absolute;
     bottom: 20%;
     right: 3%;
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 0.6em;
 }
 
 #datos_extra_tourette{
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     font-size: 0.75em;
     position: absolute;
     margin: 1em;
@@ -653,7 +653,7 @@ div.proyectos_largos p{
 
 /* proyectos medianos */
 div.proyectos_medianos h6{
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 0.8em;
     margin-top: 2em;
     position: absolute;
@@ -663,7 +663,7 @@ div.proyectos_medianos h6{
 }
 
 div.proyectos_medianos p{
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 0.7em;
     position: absolute;
     bottom: 13%;
@@ -673,7 +673,7 @@ div.proyectos_medianos p{
 
 div.proyectos_medianos h7{
     position: absolute;
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     font-size: 0.8em;
     text-align: left;
     left: 10%;
@@ -1027,7 +1027,7 @@ h6.rol_dosrenglones{
     border-bottom-width: 0.09em;
     padding-top: 10em;
     padding-bottom: 10em;
-    font-family: "Roboto-Bold", sans-serif;
+    font-family: 'Roboto-Bold', sans-serif;
     position: relative;
     height: 45em;
 }
@@ -1094,13 +1094,13 @@ a.portfolio_titulos img{
 }
 
 p.portfolio_tipo{
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     font-size: 0.9em;
 }
 
 p.portfolio_rol,
 p.portfolio_año{
-    font-family: "Roboto-Light", sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
 }
 
 p.portfolio_rol{
@@ -1147,7 +1147,7 @@ p.portfolio_año{
 }
 
 #portfolio_behance h5{
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     font-size: 0.9em;
     color: #336699;
     padding-left: 0.2em;
@@ -1176,7 +1176,7 @@ a.pdf_descarga{
     border-width: 0.17em;
     margin: 3em auto 3em auto;
     padding: 0.5em 1.2em;
-    font-family: "Roboto-Bold", sans-serif;
+    font-family: 'Roboto-Bold', sans-serif;
     font-size: 0.85em;
     text-decoration: none;
     color: #336699;
@@ -1205,7 +1205,7 @@ a.pdf_descarga{
 }
 
 #footer nav ul li{
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     font-size: 0.6em;
 }
 
