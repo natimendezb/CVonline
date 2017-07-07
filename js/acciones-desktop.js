@@ -1,5 +1,6 @@
 configurarSlick();
-function configurarSlick(){
+configurarSlickTheme();
+function configurarSlickTheme(){
     var head  = document.getElementsByTagName('head')[0];
     var link  = document.createElement('link');
     link.rel  = 'stylesheet';
@@ -9,8 +10,18 @@ function configurarSlick(){
     head.appendChild(link);
 }
 
+function configurarSlick(){
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'libs/slick/slick-desktop.css';
+    link.media = 'all';
+    head.appendChild(link);
+}
+
 function onScroll() {
-    var pixelesScroll = document.body.scrollTop;
+    var pixelesScroll = window.pageYOffset || document.body.scrollTop;
     var botonPerfil = document.getElementById("boton_perfil");
     botonPerfil.style.opacity = "1";
     var botonConocimientos = document.getElementById("boton_conocimientos");

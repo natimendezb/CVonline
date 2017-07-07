@@ -1076,10 +1076,10 @@ p.portfolio_año{
     justify-content: center;
     margin-top: 10em;
     margin-left: 27%;
-    border-radius: 1.2em;
+    border-radius: 1.1em;
     border-style: solid;
     border-color: #336699;
-    border-width: 0.3em;
+    border-width: 0.25em;
     text-decoration: none;
     padding: 1.2em 0.5em 1.2em 0.5em;
     width: 46%;
@@ -1203,6 +1203,7 @@ a.pdf_descarga{
 
     #datos{
         margin-top: 6em;
+        margin-bottom: 2em;
     }
 
     #datos nav{
@@ -1217,7 +1218,7 @@ a.pdf_descarga{
 
  /*conocimientos*/
     #conocimientos{
-        padding-top: 4em;
+        padding-top: 2em;
     }
 
     ul.conocimientos{
@@ -1264,7 +1265,7 @@ a.pdf_descarga{
     hr.separador_subseccion{
         width: 10%;
         margin-left: 45%;
-        margin-top: 2em;
+        margin-top: 0em;
     }        
 
 /*formación*/
@@ -1297,11 +1298,11 @@ a.pdf_descarga{
     }
 
     div.contenido_timeline h3{
-        font-size: 0.9em;
+        font-size: 1.1em;
     }
 
     div.contenido_timeline p{
-        font-size: 0.7em;
+        font-size: 1em;
     }
 
     #primera_esfera img{
@@ -1660,32 +1661,50 @@ a.pdf_descarga{
         right: -5.4%;
     }
 
-/* Giro de cartas */
-/* flip the pane when hovered */
-    .contenedor_flip.hover .flipper,
+    /* Giro de cartas */
+    /* flip the pane when hovered */
+    .contenedor_flip:hover .flipper,
     .contenedor_flip.hover .flipper {
         transform: rotateX(180deg);
     }
 
-    .contenedor_flip_grande.hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
+    .contenedor_flip_grande:hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
         transform: rotateX(180deg);
     }
 
-    .contenedor_flip, .carta_adelante, .carta_atras,
-    .contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
-        width: 100%;
-        height: 11em;
+        .contenedor_flip, .carta_adelante, .carta_atras,
+        .contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
+            width: 100%;
+            height: 11em;
+        }
+
+
+    /* flip speed goes here */
+    .flipper, .flipper_grande {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
     }
 
-/* front pane, placed above back */
+    /* hide back of pane during swap */
+    .carta_adelante, .carta_atras, .carta_adelante_grande, .carta_atras_grande {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* front pane, placed above back */
     .carta_adelante, .carta_adelante_grande {
-    /* for firefox 31 */
-        transform: rotateX(0deg);
+        z-index: 2;
+        /* for firefox 31 */
+        transform: rotateY(0deg);
     }
 
-/* back, initially hidden pane */
+    /* back, initially hidden pane */
     .carta_atras, .carta_atras_grande {
-        transform: rotateX(180deg); 
+        transform: rotateX(180deg);
+        background-color: rgba(209, 209, 209, 0.75);
     }
 
     .carta_atras_hacerfuego{
@@ -1786,9 +1805,9 @@ a.pdf_descarga{
      
     #portfolio_behance a{
         margin-top: 6em;
-        margin-left: 33%;
-        padding: 1.2em 0.2em 1.2em 0.2em;
-        width: 36%;
+        margin-left: 36%;
+        padding: 0.7em 0.7em 0.7em 0.7em;
+        width: 28%;
     }
 
     #portfolio_behance img{
@@ -1797,7 +1816,7 @@ a.pdf_descarga{
     }
 
     #portfolio_behance h5{
-        font-size: 1.6em;
+        font-size: 1.5em;
         padding-left: 0.2em;
     }   
 
@@ -1811,10 +1830,10 @@ a.pdf_descarga{
         border-width: 0.17em;
         margin-top: 1.2em;
         margin-bottom: 1.2em;
-        margin-left: 32%;
-        padding: 0.6em 1em 0.6em 1em;
-        font-size: 1.7em;
-        width: 38%;
+        margin-left: 35%;
+        padding: 0.4em 0.2em 0.4em 0.2em;
+        font-size: 1.5em;
+        width: 30%;
     }
 
 /*footer*/
@@ -1823,7 +1842,7 @@ a.pdf_descarga{
     }
 
     #footer nav ul li{
-        font-size: 1.7em;
+        font-size: 1.4em;
     }
 
     #footer nav ul li:first-child{

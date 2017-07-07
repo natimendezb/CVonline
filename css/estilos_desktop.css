@@ -135,7 +135,7 @@ li.header img:hover{
 #presentacion h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 0.95em;
+    font-size: 0.94em;
     margin: auto;
     color: #FF6633;
 }
@@ -529,7 +529,7 @@ img.etiqueta_izq_largos{
 
 img.etiqueta_der_grandes,
 img.etiqueta_der_largos{
-    height: 34%;
+    height: 35%;
     position: absolute;
     bottom: 12%;
     right: -5.5%;
@@ -558,7 +558,7 @@ div.proyectos_largos h4{
     font-weight: 700;
     font-size: 0.9em;
     position: absolute;
-    top: 11%;
+    top: 13%;
     left: 3%;
     z-index: 1;
 }
@@ -567,7 +567,7 @@ div.proyectos_grandes h5,
 div.proyectos_medianos h5,
 div.proyectos_largos h5{
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 3%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -578,7 +578,7 @@ div.proyectos_largos h5{
 div.proyectos_grandes h6,
 div.proyectos_largos h6{
     position: absolute;
-    bottom: 32%;
+    bottom: 33%;
     right: 3%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -589,7 +589,7 @@ div.proyectos_largos h6{
 div.proyectos_grandes p,
 div.proyectos_largos p{
     position: absolute;
-    bottom: 20%;
+    bottom: 22%;
     right: 3%;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -599,7 +599,7 @@ div.proyectos_largos p{
 #datos_extra_tourette{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 0.75em;
+    font-size: 0.8em;
     position: absolute;
     margin: 1em;
     left: 10%;
@@ -614,7 +614,7 @@ div.proyectos_medianos h6{
     font-size: 0.8em;
     margin-top: 2em;
     position: absolute;
-    bottom: 24%;
+    bottom: 26%;
     right: 8%;
     z-index: 3;
 }
@@ -622,7 +622,7 @@ div.proyectos_medianos h6{
 div.proyectos_medianos p{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 0.7em;
+    font-size: 0.75em;
     position: absolute;
     bottom: 13%;
     right: 8%;
@@ -633,7 +633,7 @@ div.proyectos_medianos h7{
     position: absolute;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 0.85em;
     text-align: left;
     left: 10%;
     top: 10%;
@@ -710,7 +710,7 @@ div.proyectos_medianos h7{
 
 #etiqueta_izq_paraiso{
     width: 39%;
-    left: -2.4%;
+    left: -2.3%;
 }
 
 #doblefantasia_proyectos{
@@ -744,7 +744,7 @@ div.proyectos_medianos h7{
 
 #etiqueta_izq_seminario{
     width: 95%;
-    left: -5.5%;
+    left: -5.4%;
 }
 
 #yogui_proyectos{
@@ -773,7 +773,7 @@ div.proyectos_medianos h7{
 
 #etiqueta_der_enlalluvia{
     width: 80%;
-    right: -4.5%;
+    right: -4.4%;
 }
 
 h6.rol_dosrenglones{
@@ -802,7 +802,7 @@ h6.rol_dosrenglones{
 
 #etiqueta_izq_cvonline{
     width: 43%;
-    left: -2.2%;
+    left: -2.3%;
 }
 
 #etiqueta_der_cvonline{
@@ -1171,7 +1171,7 @@ a.pdf_descarga{
 #footer nav ul li{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 0.6em;
+    font-size: 0.59em;
 }
 
 #footer nav ul li:first-child{
@@ -1193,14 +1193,17 @@ a.pdf_descarga{
         display: inline-flex;
         align-items: center;
         transform: translate(-22%);
+        -moz-transform: translate(-20%);
     }
 
     #primera_esfera{
         transform: translate(-79%);
+        -moz-transform: translate(-78%);
     }
 
     .circulo_chico{
-        transform: translate(-50%);
+        transform: translate(-49%);
+        -moz-transform: translate(-47%);
     }
 
     div.contenido_izquierda{
@@ -1324,14 +1327,17 @@ a.pdf_descarga{
 
     div.circulo_timeline figure{
         transform: translate(-20%);
+        -moz-transform: translate(-21%);
     }
 
     #primera_esfera{
         transform: translate(-79%);
+        -moz-transform: translate(-80%);
     }
 
     .circulo_chico{
         transform: translate(-50%);
+        -moz-transform: translate(-51%);
     }
 
     div.circulo_timeline figure img,
@@ -1471,26 +1477,27 @@ a.pdf_descarga{
 
     div.proyectos_grandes h4{
         font-size: 1.1em;
+        top: 12%;
     }
 
     div.proyectos_grandes h5{
-        top: 19%;
+        top: 20%;
         left: 3%;
         font-size: 0.9em;
     }
 
     div.proyectos_grandes h6{
-        bottom: 20%;
+        bottom: 21%;
         font-size: 0.8em;
     }
 
     div.proyectos_grandes p{
-        bottom: 14%;
+        bottom: 15%;
         font-size: 0.7em;
     }
 
     #datos_extra_tourette{
-        font-size: 0.85em;
+        font-size: 0.9em;
         left: 12%;
         top: 25%;
     }
@@ -1529,7 +1536,7 @@ a.pdf_descarga{
     }
 
     div.proyectos_medianos h7{
-        font-size: 0.75em;
+        font-size: 0.85em;
     }
 
 /* proyectos largos */
@@ -1549,7 +1556,7 @@ a.pdf_descarga{
 
     div.proyectos_largos h4{
         font-size: 1.1em;
-        top: 12%;
+        top: 13%;
     }
 
     div.proyectos_largos h5{
@@ -1817,14 +1824,17 @@ a.pdf_descarga{
 
     div.circulo_timeline figure{
         transform: translate(-18%);
+        -moz-transform: translate(-17%);
     }
 
     #primera_esfera{
         transform: translate(-82%);
+        -moz-transform: translate(-81%);
     }
 
     .circulo_chico{
         transform: translate(-50%);
+        -moz-transform: translate(-49%);
     }
 
     figcaption.fecha{
@@ -1945,15 +1955,16 @@ a.pdf_descarga{
     }
 
     div.proyectos_grandes h6{
-        bottom: 19%;
+        bottom: 20%;
     }
 
     div.proyectos_grandes p{
         font-size: 0.75em;
+        bottom: 14%;
     }
 
     #datos_extra_tourette{
-        font-size: 0.95em;
+        font-size: 1em;
         top: 30%;
     }
 
@@ -1979,6 +1990,10 @@ a.pdf_descarga{
         padding-top: 0.1em;
     }
 
+    div.proyectos_medianos h4{
+        top: 13%;
+    }
+
     div.proyectos_medianos h6{
         font-size: 0.85em;
         bottom: 25%;
@@ -1990,7 +2005,7 @@ a.pdf_descarga{
     }
 
     div.proyectos_medianos h7{
-        font-size: 0.85em;
+        font-size: 0.9em;
     }
 
 /* proyectos largos */
@@ -1999,16 +2014,16 @@ a.pdf_descarga{
     }
 
     img.etiqueta_der_largos{
-        height: 17%;
-        bottom: 9%;
+        height: 18%;
+        bottom: 8%;
     }
 
     div.proyectos_largos h4{
-        top: 11%;
+        top: 12%;
     }
 
     div.proyectos_largos h5{
-        top: 19%;
+        top: 20%;
     }
 
     div.proyectos_largos h6{
@@ -2017,19 +2032,19 @@ a.pdf_descarga{
     }
 
     div.proyectos_largos p{
-        bottom: 14%;
+        bottom: 13%;
         font-size: 0.75em;
     }
 
     #etiqueta_izq_hacerfuego{
         width: 90%;
         height: 41%;
-        left: -5.2%;
+        left: -5%;
     }
 
     #etiqueta_izq_virus{
         width: 56%;
-        left: -3.3%
+        left: -3.2%
     }
 
     #etiqueta_izq_tiempoausente{
@@ -2100,13 +2115,13 @@ a.pdf_descarga{
 
     #etiqueta_izq_enlalluvia{
         width: 70%;
-        left: -3.8%;
+        left: -3.9%;
     }
 
     #etiqueta_der_enlalluvia{
         width: 77%;
         height: 25%;
-        right: -4.4%;
+        right: -4.3%;
         bottom: 7%;
     }
 
@@ -2126,7 +2141,7 @@ a.pdf_descarga{
 
     #etiqueta_izq_cvonline{
         width: 63%;
-        left: -3.4%;
+        left: -3.3%;
     }
 
     #etiqueta_der_cvonline{
@@ -2211,6 +2226,14 @@ a.pdf_descarga{
 
     #footer nav ul li:last-child{
         padding-left: 3.5em;  
+    }
+}
+
+
+/* BOTÓN BEHANCE */
+@media screen and (min-width:900px) {
+    #portfolio_behance a{
+        margin: 26.4em auto 0em auto;
     }
 
 }
