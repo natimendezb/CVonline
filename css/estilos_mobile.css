@@ -539,7 +539,7 @@ div.proyectos_grandes h5{
     position: absolute;
     top: 19%;
     left: 3%;
-    font-family: 'Roboto-Ligh"', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 2em;
 }
 
@@ -547,7 +547,7 @@ div.proyectos_grandes h6{
     position: absolute;
     bottom: 16%;
     right: 3%;
-    font-family: 'Roboto-Ligh"', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 2em;
     margin-top: 5em;
 }
@@ -556,12 +556,12 @@ div.proyectos_grandes p{
     position: absolute;
     bottom: 10%;
     right: 3%;
-    font-family: 'Roboto-Ligh"', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 1.8em;
 }
 
 #datos_extra_tourette{
-    font-family: 'Roboto-Reguar"', sans-serif;
+    font-family: 'Roboto-Regular', sans-serif;
     font-size: 2.2em;
     position: absolute;
     margin: 1em;
@@ -609,7 +609,7 @@ div.proyectos_medianos{
 
 div.proyectos_medianos h4{
     color: #FF6633;
-    font-family: 'Roboto-Bold"',sans-serif;
+    font-family: 'Roboto-Bold',sans-serif;
     font-size: 2em;
     position: absolute;
     top: 12%;
@@ -619,7 +619,7 @@ div.proyectos_medianos h4{
 }
 
 div.proyectos_medianos h5{
-    font-family: 'Roboto-Light"' sans-serif;
+    font-family: 'Roboto-Light' sans-serif;
     font-size: 1.7em;
     position: absolute;
     top: 26%;
@@ -628,7 +628,7 @@ div.proyectos_medianos h5{
 }
 
 div.proyectos_medianos h6{
-    font-family: 'Roboto-Light"' sans-serif;
+    font-family: 'Roboto-Light' sans-serif;
     font-size: 1.7em;
     margin-top: 2em;
     position: absolute;
@@ -638,7 +638,7 @@ div.proyectos_medianos h6{
 }
 
 div.proyectos_medianos p{
-    font-family: 'Roboto-Light"' sans-serif;
+    font-family: 'Roboto-Light' sans-serif;
     font-size: 1.5em;
     position: absolute;
     bottom: 13%;
