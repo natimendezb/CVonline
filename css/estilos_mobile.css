@@ -933,10 +933,13 @@ h6.rol_dosrenglones{
 	transition: 0.6s;
 	transform-style: preserve-3d;
 	position: relative;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 /* hide back of pane during swap */
 .carta_adelante, .carta_atras, .carta_adelante_grande, .carta_atras_grande {
+	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	position: absolute;
 	top: 0;
