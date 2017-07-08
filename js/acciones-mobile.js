@@ -22,17 +22,18 @@ function configurarSlick(){
     head.appendChild(link);
 }
 
+var ejecutarOnScroll = true;
 function onScroll(){
-    // setTimeout(function(){
-    actualizarEstadoSeccion();
-    actualizarHeader();
-    // }, 100);
+    if(ejecutarOnScroll){   // Hack que mejora el rendimiento del ajuste de seccion
+        actualizarHeader();
+    }
+    ejecutarOnScroll = true;
 }
 
 function seccionActual(){
     var nombreSeccion = "";
     var pixelesScroll = document.body.scrollTop;
-    var pixelesFinPerfil, pixelesFinConocimientos, pixelesFinProyectos
+    var pixelesFinPerfil, pixelesFinConocimientos, pixelesFinProyectos;
     
     if (esPortrait()) {
         pixelesFinPerfil = 1200;
@@ -90,11 +91,6 @@ function actualizarHeader() {
     }
 }
 
-var estadoSeccion = null;
-function actualizarEstadoSeccion(){
-    estadoSeccion = seccionActual();
-}
-
 function scrollearASeccion(idSeccion){
     var positionY = $("#"+idSeccion).offset().top;
     window.scrollTo(0, positionY);
@@ -140,17 +136,16 @@ $(document).ready(function(){
 });
 
 $(window).on("orientationchange",function(){
+    ejecutarOnScroll = seccionActual() != "portfolio";  // Hack que mejora el rendimiento del ajuste de seccion
+    setTimeout(mantenerEnSeccionAlRotar, 100);  // Hack que mejora el rendimiento del ajuste de seccion
+
     if(esPortrait()) {
         configurarCarruselParaPortrait();
     } else {
         configurarCarruselParaLandscape();
     }
-
-    mantenerEnSeccionAlRotar();
 });
 
 function mantenerEnSeccionAlRotar() {
-    if(estadoSeccion){
-        scrollearASeccion(estadoSeccion);
-    }
+    scrollearASeccion(document.getElementById("titulo_seccion").innerHTML.toLowerCase());
 }
