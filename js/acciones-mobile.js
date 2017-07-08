@@ -25,7 +25,7 @@ function configurarSlick(){
 var ejecutarOnScroll = true;
 function onScroll(){
     if(ejecutarOnScroll){   // Hack que mejora el rendimiento del ajuste de seccion
-        acomodarEnSiguienteSeccion();
+        // acomodarEnSiguienteSeccion();
         actualizarHeader();
     }
     ejecutarOnScroll = true;
