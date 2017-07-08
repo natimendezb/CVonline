@@ -25,13 +25,14 @@ function configurarSlick(){
 var ejecutarOnScroll = true;
 function onScroll(){
     if(ejecutarOnScroll){   // Hack que mejora el rendimiento del ajuste de seccion
+        acomodarEnSiguienteSeccion();
         actualizarHeader();
     }
     ejecutarOnScroll = true;
 }
 
-function seccionActual(){
-    var nombreSeccion = "";
+var seccionActual;
+function obtenerYActualizarSeccionActual(){
     var pixelesScroll = document.body.scrollTop;
     var pixelesFinPerfil, pixelesFinConocimientos, pixelesFinProyectos;
     
@@ -47,19 +48,19 @@ function seccionActual(){
     }
     
     if (pixelesScroll <= pixelesFinPerfil) {
-        nombreSeccion = "perfil";
+        seccionActual = "perfil";
     }
     if (pixelesScroll > pixelesFinPerfil && pixelesScroll <= pixelesFinConocimientos) {
-        nombreSeccion = "conocimientos";
+        seccionActual = "conocimientos";
     }
     if (pixelesScroll > pixelesFinConocimientos && pixelesScroll <= pixelesFinProyectos) {
-        nombreSeccion = "proyectos";
+        seccionActual = "proyectos";
     }
     if (pixelesScroll > pixelesFinProyectos) {
-        nombreSeccion = "portfolio";
+        seccionActual = "portfolio";
     }
 
-    return nombreSeccion;
+    return seccionActual;
 }
 
 function actualizarHeader() {
@@ -72,7 +73,7 @@ function actualizarHeader() {
     var botonPortfolio = document.getElementById("boton_portfolio");
         botonPortfolio.style.opacity = "1";
     
-    var nombreSeccionActual = seccionActual();
+    var nombreSeccionActual = obtenerYActualizarSeccionActual();
     if (nombreSeccionActual == "perfil") {
         cambiarTitulo("PERFIL");
         botonPerfil.style.opacity = "0.5";
@@ -88,6 +89,16 @@ function actualizarHeader() {
     if (nombreSeccionActual == "portfolio") {
         cambiarTitulo("PORTFOLIO");
         botonPortfolio.style.opacity = "0.5";
+    }
+}
+
+function acomodarEnSiguienteSeccion(){
+    var seccionAnterior = seccionActual;
+    obtenerYActualizarSeccionActual();
+    if(seccionAnterior == "perfil" && seccionActual == "conocimientos" ||
+        seccionAnterior == "conocimientos" && seccionActual == "proyectos" ||
+        seccionAnterior == "proyectos" && seccionActual == "portfolio"){
+        adaptarANuevaSeccion(seccionActual);
     }
 }
 
@@ -136,7 +147,7 @@ $(document).ready(function(){
 });
 
 $(window).on("orientationchange",function(){
-    ejecutarOnScroll = seccionActual() != "portfolio";  // Hack que mejora el rendimiento del ajuste de seccion
+    ejecutarOnScroll = obtenerYActualizarSeccionActual() != "portfolio";  // Hack que mejora el rendimiento del ajuste de seccion
     setTimeout(mantenerEnSeccionAlRotar, 100);  // Hack que mejora el rendimiento del ajuste de seccion
 
     if(esPortrait()) {
