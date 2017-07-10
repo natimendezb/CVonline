@@ -124,7 +124,7 @@ li.header img:active {
 #presentacion h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 2.7em;
     color: #FF6633;
     margin: auto;
 }
@@ -145,7 +145,7 @@ li.header img:active {
 #presentacion figcaption p{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 /* Perfil - Datos */
