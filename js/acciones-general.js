@@ -1,9 +1,5 @@
 function esMobile(){
-    return /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
-function esIos(){
-    return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
 function configurarCssMobile(){
@@ -12,16 +8,6 @@ function configurarCssMobile(){
     link.rel  = 'stylesheet';
     link.type = 'text/css';
     link.href = 'css/estilos_mobile.css';
-    link.media = 'all';
-    head.appendChild(link);
-}
-
-function configurarCssMobileIos(){
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'css/estilos_mobile_ios.css';
     link.media = 'all';
     head.appendChild(link);
 }
@@ -39,11 +25,6 @@ function configurarCssDesktop(){
 if (esMobile()){
     configurarCssMobile();
 	document.write("<script language=\"javascript\" src=\"js/acciones-mobile.js\"></script>");
-}
-
-if (esIos()){
-    configurarCssMobileIos();
-    document.write("<script language=\"javascript\" src=\"js/acciones-mobile.js\"></script>");
 }
 
 if (!esMobile() && !esIos()) {
