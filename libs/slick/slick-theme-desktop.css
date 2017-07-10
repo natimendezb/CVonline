@@ -51,6 +51,7 @@
     color: #99CC66;
     outline: none;
     background: transparent;
+    cursor: pointer;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
