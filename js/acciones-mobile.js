@@ -33,7 +33,7 @@ function onScroll(){
 
 var seccionActual;
 function obtenerYActualizarSeccionActual(){
-    var pixelesScroll = window.pageYOffset || document.body.scrollTop || $(document).on('scroll');
+    var pixelesScroll = window.pageYOffset || document.body.scrollTop;
     var pixelesFinPerfil, pixelesFinConocimientos, pixelesFinProyectos;
     
     if (esPortrait()) {
