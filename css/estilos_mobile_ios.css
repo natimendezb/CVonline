@@ -917,6 +917,8 @@ h6.rol_dosrenglones{
 	transition: 0.6s;
 	transform-style: preserve-3d;
 	position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 /* hide back of pane during swap */
