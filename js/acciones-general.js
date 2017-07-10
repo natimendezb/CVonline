@@ -27,7 +27,7 @@ if (esMobile()){
 	document.write("<script language=\"javascript\" src=\"js/acciones-mobile.js\"></script>");
 }
 
-if (!esMobile() && !esIos()) {
+else {
     configurarCssDesktop();
 	document.write("<script language=\"javascript\" src=\"js/acciones-desktop.js\"></script>");
 }
