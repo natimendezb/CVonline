@@ -73,7 +73,7 @@ header nav ul{
 #titulo_seccion{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
-    font-size: 0.5em;
+    font-size: 3em;
 }
 
 p.titulo_menu{
@@ -124,7 +124,7 @@ li.header img:active {
 #presentacion h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 2.1em;
+    font-size: 2.5em;
     color: #FF6633;
     margin: auto;
 }
@@ -145,7 +145,7 @@ li.header img:active {
 #presentacion figcaption p{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 
 /* Perfil - Datos */
