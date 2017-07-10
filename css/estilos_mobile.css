@@ -295,7 +295,7 @@ hr.separador_subseccion{
     content: '';
     position: absolute;
     top: 9em;
-    height: 72%;
+    height: 74%;
     width: 0.2em;
     background: #99CC66;
     transform: translate(-50%);

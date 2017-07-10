@@ -194,17 +194,10 @@ li.header img:hover{
 
 
 /* Conocimientos */
-#conocimientos_y_formacion{
-    background-image: url(../img/fondo_conocimientosyformacion_desktop.png);
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-
 #conocimientos{
     padding-top: 5.5em;
     background-color: #f0f0f0;
-/*    background-image: url(../img/fondo_conocimientosyformacion_desktop.png);
+    background-image: url(../img/fondo_conocimientos_desktop.png);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;*/
@@ -276,10 +269,10 @@ hr.separador_subseccion{
 #formacion{
     position: relative;
     background-color: #f0f0f0;
-/*    background-image: url(../img/fondo_formacion_desktop.png);
+    background-image: url(../img/fondo_formacion_desktop.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     z-index: 3;
     padding-top: 3em;
     padding-bottom: 3em;
