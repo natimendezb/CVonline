@@ -44,7 +44,7 @@ function onScroll() {
     
     if (esResponsiveChico()) {
         pixelesFinPerfil = 450;
-        pixelesFinConocimientos = 1550;
+        pixelesFinConocimientos = 1400;
         pixelesFinProyectos = 3900;
     }
 
