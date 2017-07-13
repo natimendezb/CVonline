@@ -536,18 +536,27 @@ img.etiqueta_der_largos{
 }
 
 .etiqueta_izq_grandes_atras,
-.etiqueta_izq_medianos_atras{
+.etiqueta_izq_largas_atras{
     position: absolute;
     top: 10%;
     right: -2%;
+    height: 35%;
+}
+
+.etiqueta_izq_medianos_atras {
+    position: absolute;
+    transform: rotateY(180deg);
+    right: 92%;
+    top: 55%;
     height: 32%;
 }
 
-.etiqueta_der_grandes_atras{
+.etiqueta_der_grandes_atras,
+.etiqueta_der_largas_atras{
     position: absolute;
     bottom: 8%;
     left: -2%;
-    height: 27%;    
+    height: 30%;    
 }
 
 div.proyectos_grandes h4,
@@ -848,8 +857,9 @@ h6.rol_dosrenglones{
 /* Giro de cartas */
 /* entire container, keeps perspective */
 .contenedor_flip,
-.contenedor_flip_grande{
-	perspective: 1000px;
+.contenedor_flip_grande,
+.contenedor_flip_largo{
+    perspective: 1000px;
 }
 
 /* flip the pane when hovered */
@@ -858,46 +868,54 @@ h6.rol_dosrenglones{
     transform: rotateX(180deg);
 }
 
-.contenedor_flip_grande:hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
+.contenedor_flip_grande:hover .flipper_grande,
+.contenedor_flip_grande.hover .flipper_grande{
+    transform: rotateX(180deg);
+}
+
+.contenedor_flip_largo:hover .flipper_largo,
+.contenedor_flip_largo.hover .flipper_largo{
     transform: rotateX(180deg);
 }
 
 .contenedor_flip, .carta_adelante, .carta_atras,
-.contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande {
-	width: 100%;
-	height: 8em;
+.contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande,
+.contenedor_flip_largo, .carta_adelante_largo, .carta_atras_largo{
+    height: 8em;
+    width: 100%;
 }
 
 /* flip speed goes here */
-.flipper, .flipper_grande {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-	position: relative;
-	-webkit-backface-visibility: hidden;
-    	backface-visibility: hidden;
+.flipper, .flipper_grande, .flipper_largo {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 /* hide back of pane during swap */
-.carta_adelante, .carta_atras, .carta_adelante_grande, .carta_atras_grande {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
+.carta_adelante, .carta_atras,
+.carta_adelante_grande, .carta_atras_grande,
+.carta_adelante_largo, .carta_atras_largo {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* front pane, placed above back */
-.carta_adelante, .carta_adelante_grande {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateX(0deg);
+.carta_adelante, .carta_adelante_grande, .carta_adelante_largo {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateX(0deg);
 }
 
 /* back, initially hidden pane */
-.carta_atras, .carta_atras_grande {
-	transform: rotateX(180deg);
+.carta_atras, .carta_atras_grande, .carta_atras_largo{
+    transform: rotateX(180deg);
 }
-
 
 .carta_atras_hacerfuego{
     background-image: url(../img/hacerfuego_proyectos_landscape.jpg);
@@ -907,6 +925,16 @@ h6.rol_dosrenglones{
 .carta_atras_virus{
     background-image: url(../img/virus_proyectos_landscape.jpg);
     background-position: bottom;
+}
+
+.carta_atras_tiempoausente{
+    background-image: url(../img/tiempoausente_proyectos_landscape.jpg);
+    background-position: center;
+}
+
+.carta_atras_hacefelizaungato{
+    background-image: url(../img/hacefelizaungato_proyectos_landscape.jpg);
+    background-position: top;
 }
 
 .carta_atras_tourette{
@@ -924,6 +952,11 @@ h6.rol_dosrenglones{
     background-position: bottom;
 }
 
+.carta_atras_suenaluz{
+    background-image: url(../img/suenaluz_proyectos_landscape.jpg);
+    background-position: center;
+}
+
 .carta_atras_seminario{
     background-image: url(../img/seminario_proyectos_landscape.jpg);
     background-position: top;
@@ -931,6 +964,21 @@ h6.rol_dosrenglones{
 
 .carta_atras_yogui{
     background-image: url(../img/yogui_proyectos_landscape.jpg);
+    background-position: top;
+}
+
+.carta_atras_enlalluvia{
+    background-image: url(../img/enlalluvia_proyectos_landscape.jpg);
+    background-position: bottom;
+}
+
+.carta_atras_cactusenserie{
+    background-image: url(../img/cactusenserie_proyectos_landscape.jpg);
+    background-position: bottom;
+}
+
+.carta_atras_cvonline{
+    background-image: url(../img/cvonline_proyectos_landscape.jpg);
     background-position: top;
 }
 
@@ -942,6 +990,11 @@ h6.rol_dosrenglones{
 .carta_atras_dataentry{
     background-image: url(../img/dataentry_proyectos_landscape.jpg);
     background-position: bottom;
+}
+
+.carta_atras_paracaidas{
+    background-image: url(../img/paracaidas_proyectos_landscape.jpg);
+    background-position: top;
 }
 
 /* animación cartas clickeables */
@@ -1475,7 +1528,17 @@ a.pdf_descarga{
         position: absolute;
         bottom: 9%;
         left: -2%;
-        height: 17%;    
+        height: 20%;    
+    }
+
+    .etiqueta_izq_largas_atras{
+        right: -1.5%;
+        height: 42%;
+    }
+
+    .etiqueta_der_largas_atras{
+        left: -1.5%;
+        height: 36%;    
     }
 
     div.proyectos_grandes h4{
@@ -1511,9 +1574,13 @@ a.pdf_descarga{
         z-index: 1;
     }
 
-    .etiqueta_izq_medianos_atras{
-        z-index: 3;
+    .etiqueta_izq_medianos_atras {
+        position: absolute;
+        transform: rotateY(0deg);
+        right: -3%;
+        top: 10%;
         height: 36%;
+        z-index: 3;
     }
 
     .etiqueta_izq_medianos_atras_dosrenglones{
@@ -1717,7 +1784,8 @@ a.pdf_descarga{
         transform: rotateY(180deg);
     }
 
-    .contenedor_flip_grande:hover .flipper_grande, .contenedor_flip_grande.hover .flipper_grande{
+    .contenedor_flip_grande:hover .flipper_grande,
+    .contenedor_flip_grande.hover .flipper_grande{
         transform: rotateY(180deg);
     }
 
@@ -1745,6 +1813,14 @@ a.pdf_descarga{
     }
 
     .carta_atras_virus{
+        background-position: bottom;
+    }
+
+    .carta_atras_hacefelizaungato{
+        background-position: top;
+    }
+
+    .carta_atras_paracaidas{
         background-position: top;
     }
 
@@ -1957,6 +2033,16 @@ a.pdf_descarga{
         height: 15%;    
     }
 
+    .etiqueta_izq_largas_atras{
+        right: -1.5%;
+        height: 22%;
+    }
+
+    .etiqueta_der_largas_atras{
+        left: -1.5%;
+        height: 20%;    
+    }
+
     div.proyectos_grandes h6{
         bottom: 20%;
     }
@@ -2167,7 +2253,7 @@ a.pdf_descarga{
     }
 
     #etiqueta_izq_paracaidas{
-        width: 65%;
+        width: 50%;
         left: -3.7%;
     }
 
@@ -2178,12 +2264,35 @@ a.pdf_descarga{
 
 /* Giro de cartas */
 /* flip the pane when hovered */
+    .contenedor_flip_largo:hover .flipper_largo,
+    .contenedor_flip_largo.hover .flipper_largo{
+            transform: rotateY(180deg);
+    }
+
+/* flip the pane when hovered */
     .contenedor_flip, .carta_adelante, .carta_atras {
         height: 8.5em;
     }
 
     .contenedor_flip_grande, .carta_adelante_grande, .carta_atras_grande{
         height: 19em;
+    }
+
+    .contenedor_flip_largo, .carta_adelante_largo, .carta_atras_largo {
+        height: 19em;
+    }
+
+/* back, initially hidden pane */
+    .carta_atras_largo {
+        transform: rotateY(180deg);
+    }
+
+    .carta_atras_virus{
+        background-position: top;
+    }
+
+    .carta_atras_hacefelizaungato{
+        background-position: left;
     }
 
 /*portfolio*/
