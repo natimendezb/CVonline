@@ -51,9 +51,15 @@ function onScroll() {
     else {
         pixelesFinPerfil = 450;
         pixelesFinConocimientos = 1550;
-        pixelesFinProyectos = 3100;
+        pixelesFinProyectos = 3400;
     }
     
+    if (esReponsiveGrande()) {
+        pixelesFinPerfil = 450;
+        pixelesFinConocimientos = 1550;
+        pixelesFinProyectos = 3100;
+    }
+
     if (pixelesScroll <= pixelesFinPerfil) {
         $("#boton_perfil").unbind('mouseenter mouseleave');
         cambiarTitulo("PERFIL");
