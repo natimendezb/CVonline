@@ -536,24 +536,20 @@ img.etiqueta_der_largos{
 }
 
 .etiqueta_izq_grandes_atras,
-.etiqueta_izq_largas_atras,
-.etiqueta_izq_medianos_atras{
+.etiqueta_izq_largas_atras{
     position: absolute;
     top: 10%;
     right: -2%;
     height: 35%;
 }
 
-/*.etiqueta_izq_medianos_atras {
-    position: absolute;
-    transform: rotateY(180deg);
-    right: 92%;
-    top: 55%;
-    height: 32%;
-}*/
+.etiqueta_izq_medianos_atras {
+    visibility: hidden;
+}
 
 .etiqueta_der_grandes_atras,
-.etiqueta_der_largas_atras{
+.etiqueta_der_largas_atras,
+.etiqueta_der_medianos_atras{
     position: absolute;
     bottom: 8%;
     left: -2%;
@@ -1576,8 +1572,8 @@ a.pdf_descarga{
     }
 
     .etiqueta_izq_medianos_atras {
+        visibility: visible;
         position: absolute;
-        /*transform: rotateY(0deg);*/
         right: -3%;
         top: 10%;
         height: 36%;
@@ -1586,6 +1582,10 @@ a.pdf_descarga{
 
     .etiqueta_izq_medianos_atras_dosrenglones{
         height: 50%;
+    }
+
+    .etiqueta_der_medianos_atras {
+        visibility: hidden;
     }
 
     h4.titulo_dosrenglones{

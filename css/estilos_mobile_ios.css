@@ -552,11 +552,15 @@ img.etiqueta_izq_medianos{
     right: -2%;
     top: 10%;
     z-index: 3;
-    height: 39%;
+    height: 37%;
 }
 
 .etiqueta_izq_medianos_atras_dosrenglones{
     height: 48%;
+}
+
+.etiqueta_der_medianos_atras {
+    visibility: hidden;
 }
 
 h4.titulo_dosrenglones{
@@ -1479,24 +1483,25 @@ a.pdf_descarga{
         margin-right: 2.8%;
     }
 
-    .etiqueta_izq_grandes_atras,
-    .etiqueta_izq_largas_atras{
+    .etiqueta_izq_grandes_atras{
         height: 38%;
     }
 
-    .etiqueta_der_grandes_atras,
-    .etiqueta_der_largas_atras,
-    .etiqueta_izq_medianos_atras{
+    .etiqueta_der_grandes_atras{
         height: 43%;    
     }
 
-/*    .etiqueta_izq_medianos_atras {
+    .etiqueta_der_medianos_atras{
+        visibility: visible;
         position: absolute;
-        transform: rotateY(180deg);
         right: 96%;
         top: 50%;
-        height: 41%;
-    }*/
+        height: 38%;
+    }
+
+    .etiqueta_izq_medianos_atras {
+        visibility: hidden;
+    }
 
     div.proyectos_grandes h4,
     div.proyectos_medianos h4,
