@@ -1477,7 +1477,8 @@ a.pdf_descarga{
     }
 
     .etiqueta_izq_grandes_atras,
-    .etiqueta_izq_largas_atras{
+    .etiqueta_izq_largas_atras,
+    .etiqueta_izq_medianos_atras{
         height: 38%;
     }
 
@@ -1486,13 +1487,13 @@ a.pdf_descarga{
         height: 43%;    
     }
 
-    .etiqueta_izq_medianos_atras {
+/*    .etiqueta_izq_medianos_atras {
         position: absolute;
         transform: rotateY(180deg);
         right: 96%;
         top: 50%;
         height: 41%;
-    }
+    }*/
 
     div.proyectos_grandes h4,
     div.proyectos_medianos h4,
