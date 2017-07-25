@@ -1199,11 +1199,11 @@ a.pdf_descarga{
 #footer nav ul li:first-child{
     border-right-color: #333399;
     border-right-style: solid;
-    padding-right: 0.5em;
+    padding-right: 1em;
 }
 
 #footer nav ul li:last-child{
-    padding-left: 0.5em;  
+    padding-left: 1em;  
 }
     
 /* FOOTER */  
