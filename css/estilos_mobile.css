@@ -1,4 +1,3 @@
-
 @charset "utf-8";
 
 /* GENERAL */
@@ -856,17 +855,17 @@ h6.rol_dosrenglones{
     right: -3%;
 }
 
-#cvonline_proyectos{
-    background-image: url(../img/cvonline_proyectos.jpg);
+#bydeep_proyectos{
+    background-image: url(../img/bydeep_proyectos.jpg);
     background-position: right;
 }
 
-#etiqueta_izq_cvonline{
-    width: 68%;
-    left: -4%;
+#etiqueta_izq_bydeep{
+    width: 90%;
+    left: -4.7%;
 }
 
-#etiqueta_der_cvonline{
+#etiqueta_der_bydeep{
     width: 87%;
     right: -5.2%;
 }
@@ -881,12 +880,12 @@ h6.rol_dosrenglones{
     left: -4.8%;
 }
 
-#dataentry_proyectos{
-    background-image: url(../img/dataentry_proyectos.jpg);
+#cvonline_proyectos{
+    background-image: url(../img/cvonline_proyectos.jpg);
 }
 
-#etiqueta_izq_dataentry{
-    width: 75%;
+#etiqueta_izq_cvonline{
+    width: 60%;
     left: -4.3%;
 }
 
@@ -1681,12 +1680,12 @@ a.pdf_descarga{
         right: -5.2%;
     }
 
-    #etiqueta_izq_cvonline{
-        width: 27%;
-        left: -2.8%;
+    #etiqueta_izq_bydeep{
+        width: 37%;
+        left: -3.5%;
     }
 
-    #etiqueta_der_cvonline{
+    #etiqueta_der_bydeep{
         width: 34%;
         right: -4.6%;
     }
@@ -1700,8 +1699,8 @@ a.pdf_descarga{
         left: -3.7%;
     }
 
-    #etiqueta_izq_dataentry{
-        width: 33%;
+    #etiqueta_izq_cvonline{
+        width: 27%;
         left: -3.3%;
     }
 
@@ -1791,8 +1790,8 @@ a.pdf_descarga{
         background-position: bottom;
     }
 
-    .carta_atras_dataentry{
-        background-image: url(../img/dataentry_proyectos_landscape.jpg);
+    .carta_atras_bydeep{
+        background-image: url(../img/bydeep_proyectos_landscape.jpg);
         background-position: bottom;
     }
 

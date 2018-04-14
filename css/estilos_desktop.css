@@ -681,7 +681,7 @@ div.proyectos_medianos h7{
 
 #hacefeliz_proyectos{
     background-image: url(../img/hacefelizaungato_proyectos.jpg);
-    background-position: center;
+    background-position: top right;
 }
 
 #etiqueta_izq_hacefeliz{
@@ -711,7 +711,7 @@ div.proyectos_medianos h7{
 
 #paraiso_proyectos{
     background-image: url(../img/paraiso_proyectos.jpg);
-    background-position: right;
+    background-position: top;
 }
 
 #etiqueta_izq_paraiso{
@@ -788,7 +788,7 @@ h6.rol_dosrenglones{
 
 #cactusenserie_proyectos{
     background-image: url(../img/cactusenserie_proyectos.jpg);
-    background-position: center;
+    background-position: top;
 }
 
 #etiqueta_izq_cactus{
@@ -801,17 +801,17 @@ h6.rol_dosrenglones{
     right: -3.8%;
 }
 
-#cvonline_proyectos{
-    background-image: url(../img/cvonline_proyectos.jpg);
-    background-position: left;
+#bydeep_proyectos{
+    background-image: url(../img/bydeep_proyectos.jpg);
+    background-position: center;
 }
 
-#etiqueta_izq_cvonline{
-    width: 43%;
-    left: -2.3%;
+#etiqueta_izq_bydeep{
+    width: 65%;
+    left: -3.4%;
 }
 
-#etiqueta_der_cvonline{
+#etiqueta_der_bydeep{
     width: 55%;
     right: -3.3%;
 }
@@ -826,13 +826,13 @@ h6.rol_dosrenglones{
     left: -4%;
 }
 
-#dataentry_proyectos{
-    background-image: url(../img/dataentry_proyectos.jpg);
+#cvonline_proyectos{
+    background-image: url(../img/cvonline_proyectos.jpg);
     background-position: center;
 }
 
-#etiqueta_izq_dataentry{
-    width: 60%;
+#etiqueta_izq_cvonline{
+    width: 47%;
     left: -3.3%;
 }
 
@@ -931,7 +931,7 @@ h6.rol_dosrenglones{
 
 .carta_atras_hacefelizaungato{
     background-image: url(../img/hacefelizaungato_proyectos_landscape.jpg);
-    background-position: top;
+    background-position: bottom right;
 }
 
 .carta_atras_tourette{
@@ -941,7 +941,7 @@ h6.rol_dosrenglones{
 
 .carta_atras_paraiso{
     background-image: url(../img/paraiso_proyectos_landscape.jpg);
-    background-position: top;
+    background-position: bottom;
 }
 
 .carta_atras_doblefantasia{
@@ -956,7 +956,7 @@ h6.rol_dosrenglones{
 
 .carta_atras_seminario{
     background-image: url(../img/seminario_proyectos_landscape.jpg);
-    background-position: top;
+    background-position: bottom;
 }
 
 .carta_atras_yogui{
@@ -971,12 +971,12 @@ h6.rol_dosrenglones{
 
 .carta_atras_cactusenserie{
     background-image: url(../img/cactusenserie_proyectos_landscape.jpg);
-    background-position: bottom;
+    background-position: top;
 }
 
-.carta_atras_cvonline{
-    background-image: url(../img/cvonline_proyectos_landscape.jpg);
-    background-position: top;
+.carta_atras_bydeep{
+    background-image: url(../img/bydeep_proyectos_landscape.jpg);
+    background-position: bottom;
 }
 
 .carta_atras_voluntariado{
@@ -984,9 +984,9 @@ h6.rol_dosrenglones{
     background-position: bottom;
 }
 
-.carta_atras_dataentry{
-    background-image: url(../img/dataentry_proyectos_landscape.jpg);
-    background-position: bottom;
+.carta_atras_cvonline{
+    background-image: url(../img/cvonline_proyectos_landscape.jpg);
+    background-position: top;
 }
 
 .carta_atras_paracaidas{
@@ -1744,16 +1744,16 @@ a.pdf_descarga{
         right: -2.5%;
     }
 
-    #cvonline_proyectos{
+    #bydeep_proyectos{
         background-position: right;
     }
 
-    #etiqueta_izq_cvonline{
-        width: 63%;
-        left: -3.4%;
+    #etiqueta_izq_bydeep{
+        width: 83%;
+        left: -4.5%;
     }
 
-    #etiqueta_der_cvonline{
+    #etiqueta_der_bydeep{
         width: 70%;
         right: -4%;
     }
@@ -1763,9 +1763,13 @@ a.pdf_descarga{
         left: -4.8%;
     }
 
-    #etiqueta_izq_dataentry{
-        width: 71%;
-        left: -4%;
+    #cvonline_proyectos{
+        background-position: right;
+    }
+
+    #etiqueta_izq_cvonline{
+        width: 52%;
+        left: -3.4%;
     }
 
     #etiqueta_izq_paracaidas{
@@ -1817,8 +1821,16 @@ a.pdf_descarga{
         background-position: bottom;
     }
 
+    .carta_atras_tiempoausente{
+        background-position: bottom;
+    }
+
     .carta_atras_hacefelizaungato{
-        background-position: top;
+        background-position: right;
+    }
+
+    .carta_atras_cactusenserie{
+        background-position: bottom;
     }
 
     .carta_atras_paracaidas{
@@ -2225,17 +2237,17 @@ a.pdf_descarga{
         right: -3.5%;
     }
 
-    #cvonline_proyectos{
+    #bydeep_proyectos{
         background-position: right;
     }
 
-    #etiqueta_izq_cvonline{
-        width: 63%;
-        left: -3.3%;
+    #etiqueta_izq_bydeep{
+        width: 78%;
+        left: -4%;
     }
 
-    #etiqueta_der_cvonline{
-        width: 70%;
+    #etiqueta_der_bydeep{
+        width: 68%;
         right: -4%;
     }
 
@@ -2248,9 +2260,13 @@ a.pdf_descarga{
         left: -4.2%;
     }
 
-    #etiqueta_izq_dataentry{
-        width: 61%;
-        left: -3.1%;
+    #cvonline_proyectos{
+        background-position: right;
+    }
+
+    #etiqueta_izq_cvonline{
+        width: 50%;
+        left: -3.3%;
     }
 
     #etiqueta_izq_paracaidas{
@@ -2289,10 +2305,18 @@ a.pdf_descarga{
     }
 
     .carta_atras_virus{
-        background-position: top;
+        background-position: left;
     }
 
     .carta_atras_hacefelizaungato{
+        background-position: left;
+    }
+
+    .carta_atras_cactusenserie{
+        background-position: left;
+    }
+
+    .carta_atras_paracaidas{
         background-position: left;
     }
 
